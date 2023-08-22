@@ -6,9 +6,13 @@ Somos Nexus Nova, una empresa innovadora que busca revolucionar la forma en que 
 Nuestra visión es consolidarnos como la empresa número 1 en promover el desarrollo sostenible de las comunidades y aumentar las oportunidades laborales mediante el turismo en el interior del Perú. Creemos en el poder transformador del turismo para impulsar la economía local y enriquecer la vida de los habitantes de estas áreas. A través de la innovación constante y la colaboración con diversas comunidades, autoridades locales y entidades turísticas, estamos dando forma a un futuro en el que el turismo se convierte en un motor clave para el progreso social y económico en todo el país. 
 
 ### 1.1.2 Perfiles de integrantes del equipo
-
-
-
+<div style="display: flex; align-items: center;">
+    <img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+    <div>
+        <u><strong>Ivan Moran Moreno</strong></u><br>
+        Actualmente tengo 20 años y curso la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Siempre, desde más joven, he estado interesado en la tecnología, y es por eso por lo que decidí estudiar esta carrera. Me gusta aprender nuevos frameworks, tecnologías e inteligencia artificial, y participar en Hackatons y StartUps para ampliar mi conocimiento.
+    </div>
+</div>
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
