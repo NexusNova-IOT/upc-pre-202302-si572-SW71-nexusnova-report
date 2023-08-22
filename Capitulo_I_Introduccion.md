@@ -13,6 +13,13 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
         Actualmente tengo 20 años y curso la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Siempre, desde más joven, he estado interesado en la tecnología, y es por eso por lo que decidí estudiar esta carrera. Me gusta aprender nuevos frameworks, tecnologías e inteligencia artificial, y participar en Hackatons y StartUps para ampliar mi conocimiento.
     </div>
 </div>
+<div style="display: flex; align-items: center;">
+    <img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+    <div>
+        <u><strong>Nicole Areli Price Torrejón</strong></u><br>
+        Actualmente me encuentro en el séptimo ciclo en la carrera de Ingeniería de Software. He acumulado un año y medio de experiencia laboral en mi rol como Desarrolladora Full Stack en una empresa. Durante este periodo, he tenido la oportunidad de participar en proyectos de diversas escalas, lo que me ha brindado un conocimiento sólido en el desarrollo tanto de aplicaciones grandes como de soluciones más compactas. Asimismo, he participado en competencias de programación competitiva dentro de mi universidad por más de un año. Estas experiencias han fortalecido mis habilidades analíticas y de resolución de problemas, y me ha permitido aplicar mis conocimientos en situaciones desafiantes.
+    </div>
+</div>
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
