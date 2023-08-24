@@ -31,7 +31,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
     <img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
     <div>
         <u><strong>Edgar Alexander Malca Rojas - U202020371</strong></u><br>
-        
+        Actualmente,me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable, empático y eficiente. A través de los últimos años, he acumulado experiencia en diferentes herramientas de desarrollo de código y lenguajes de programación como Java o Python. Finalmente, estoy dispuesto a trabajar de forma conjunta con mis compañeros para desarrollar un buen trabajo. 
     </div>
 </div>
 
