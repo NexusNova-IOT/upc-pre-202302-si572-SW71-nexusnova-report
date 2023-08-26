@@ -119,4 +119,13 @@ Tripadvisor está disponible en 49 países, esta aplicación móvil te ofrece la
 </tbody>
 </table>
 
+### 2.1.2 Estrategias y tacticas frente a competidores
+Después de haber realizado el análisis SWOT, rescatamos las debilidades de nuestros competidores. La más resaltante es la de no contar con un buscador de paquetes de viajes, según preferencias del usuario. Por ello, nuestro startup ha analizado desarrollar funcionalidades para ambos segmentos objetivo
 
+#### Usuarios Viajeros
+* Los usuarios realizar seguimientos a los movimientos de su viaje para que vean los gastos realizados durante el viaje para que puedan ver cuánto pagan por lo que reciben.
+* Contaremos con un sistema de en qué los usuarios podrán armar su propio plan de viajes, y podrán subirlo a la aplicación para que otros usuarios puedan adquirirlos y comentar que tal les pareció, esto será una de las formas en las que el usuario creador y los que adquieran el plan ganen puntos que luego podrán ser canjeados por descuentos en su próximo viaje.
+
+  
+#### Agencias de Viaje
+* Por el lado de las agencias de viaje planteamos la posibilidad de que puedan armar los planes creados por la comunidad de usuarios, esto aparte de que las agencias pueden armar paquetes de manera individual.
