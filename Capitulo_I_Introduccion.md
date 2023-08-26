@@ -72,7 +72,7 @@ La plataforma LifeTravel integra sistemas IoT para abordar desafíos específico
 + La pulsera GPS permite a los turistas moverse con mayor libertad y confianza, ya que saben que su ubicación está siendo monitoreada y pueden ser encontrados rápidamente en caso de pérdida o emergencia.
 
 #### Monetización:
-LifeTravel ofrece un modelo de monetización a través de planes de suscripción para las agencias de viajes. Estos planes incluyen opciones como "Plan Tunki", que brinda servicios especializados y estadísticas mensuales de desempeño en el sector turístico. También se ofrece el "Plan Urpi", que proporciona beneficios adicionales. <br><br>
+LifeTravel ofrece un modelo de monetización a través de planes de suscripción para las agencias de viajes. Estos planes incluyen opciones como "Plan Urpi", que permite registrar como máximo 20 subcuentas para su agencia. También se ofrece el "Plan Tunki", que brinda servicios especializados y estadísticas mensuales de desempeño en el sector turístico con la diferencia que este podrá registrar de 20 a más subcuentas para su agencia. <br><br>
 Además, la plataforma ofrece un servicio de seguro al comprar paquetes turísticos, al adquirir un paquete turístico, los turistas tienen la opción de añadir un servicio de pulsera GPS. Es importante destacar que la pulsera GPS es opcional y se ofrece como un servicio adicional, proporcionando una capa adicional de seguridad y comodidad para aquellos turistas que deseen utilizarla. Al finalizar la experiencia, los turistas deben devolver la pulsera GPS, lo que garantiza su reutilización para futuros viajeros.
 
 #### Objetivos:
@@ -89,6 +89,16 @@ Se debe asegurar la integración fluida de los sistemas IoT para una experiencia
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
+
+
+#### Domain
+#### Customer Segments
+#### Pain Points
+#### Gap
+#### Vision/Strategy
+#### Initial Segment
+
+
 #### 1.2.2.2 Lean UX Assumptions
 #### 1.2.2.3 Lean UX Hyphotesis Statements
 #### 1.2.2.4 Lean UX Canvas
