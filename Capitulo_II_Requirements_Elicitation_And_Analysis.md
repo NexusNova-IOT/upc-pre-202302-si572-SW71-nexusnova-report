@@ -129,3 +129,59 @@ Después de haber realizado el análisis SWOT, rescatamos las debilidades de nue
   
 #### Agencias de Viaje
 * Por el lado de las agencias de viaje planteamos la posibilidad de que puedan armar los planes creados por la comunidad de usuarios, esto aparte de que las agencias pueden armar paquetes de manera individual.
+
+## 2.2 Entrevistas
+### 2.2.1 Diseño de entrevistas
+
+<strong>PREGUNTAS SOBRE INFORMACION PERSONAL</strong><br>
+* ¿Cuál es su nombre completo?
+* ¿Qué edad tienes?
+* ¿A qué te dedicas?
+* ¿Cuál es tu estado civil?
+* ¿En qué ciudad resides?
+* ¿Eres extrovertido o calmado?
+* ¿Eres una persona que toma decisiones analizando los hechos o te dejas llevar por tus sentimientos?
+* ¿Qué smartphone posee? ¿Android o IOS?
+* ¿Usas aplicaciones o programas en especial? ¿Cuáles?
+
+<strong>AGENCIA DE VIAJES</strong><br>
+Principales:
+* ¿Con qué frecuencia los suelen contratar para sus servicios?
+* ¿Cómo hacen los procesos de reserva de alojamiento y transporte?
+* ¿Han tenido algún percance con algún cliente? ¿Qué fue lo que ocurrió?
+* ¿Han tenido algún problema con aerolíneas o alojamientos? ¿Qué fue lo que ocurrió?
+* ¿Cómo generan sus ganancias?
+* ¿Cómo organizan las actividades de los destinos?
+* ¿Su empresa cuenta con redes sociales como medio de marketing?
+* ¿El marketing actual que tienen es efectivo?
+* ¿Colaboran con agencias online para mostrar sus servicios?
+* ¿Le sería útil una aplicación que le ayude a mostrar sus servicios, destinos y planes, con el fin de que los clientes tengan más opciones de elección?
+
+  Complementarias:
+* ¿Su empresa es conocida?
+* ¿Cuál es la razón del porqué los clientes los contactan?
+* ¿Cómo es la percepción de los clientes sobre sus servicios?
+* ¿Qué otros destinos piensan incorporar en sus servicios?
+* ¿Qué proyección tienen a futuro?
+
+<strong>USUARIOS VIAJEROS</strong><br>
+Principales:
+* ¿Con qué frecuencia suele realizar un viaje al interior del país?
+* ¿Tiene problemas para armar su itinerario? ¿ Si su respuesta es sí, qué tipo de problemas son?
+* ¿Qué características positivas debería tener una empresa para que usted pueda contratar su servicio?
+* ¿Qué tipo de información consideran importante previo a elegir su viaje?
+* ¿Cuáles son los servicios que contrata a menudo de las agencias de viaje?
+* ¿Cuál es su presupuesto promedio y cuáles son los principales rubros en los que realiza sus gastos?
+* ¿Cómo organiza sus viajes frecuentemente?
+* ¿Sigue algún influencer en redes sociales que haya influido en su elección de viaje?
+* ¿Utiliza alguna App que lo ayude en las reservas de viaje? ¿Si su respuesta es sí, que le brinda esta App?
+* ¿Le sería sería útil una Aplicación que lo ayude en la planificación y reserva de un viaje?
+
+Complementarias:
+* ¿Alguna vez fue partícipe de una estafa con su reserva de viaje?
+• ¿La opinión de su entorno social influye para la elección de una aerolínea de viaje? ¿Si es así, cuál fue la más comentada?
+• ¿Alguna vez sufrió un percance con la reserva de su viaje, por un factor externo a este?
+• ¿Se encuentran conformes con las atenciones que le brinda su actual agencia de viaje?
+• Frente a algún percance con alguna reserva, ¿la agencia actuó de inmediato?
+
+
