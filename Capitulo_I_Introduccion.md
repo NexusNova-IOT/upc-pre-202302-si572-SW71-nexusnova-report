@@ -89,15 +89,19 @@ Se debe asegurar la integración fluida de los sistemas IoT para una experiencia
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
+En la actualidad, la industria del turismo se enfrenta a un desafío significativo: la falta de una conexión efectiva entre las agencias de viajes y los turistas. Esta brecha de comunicación y personalización está afectando la calidad de las experiencias de viaje y la seguridad de los turistas. A pesar de los esfuerzos actuales, existe una desconexión palpable que dificulta tanto a las agencias como a los turistas lograr la satisfacción total en sus interacciones.
 
+Esta desconexión está teniendo un impacto negativo en ambos lados. Por un lado, las agencias de viajes luchan por proporcionar experiencias auténticas y seguras que se adapten a las preferencias de los turistas. Por otro lado, los turistas se sienten frustrados por la falta de comunicación clara y la falta de opciones verdaderamente personalizadas en sus viajes. Esta disonancia resulta en experiencias insatisfactorias y, en algunos casos, en problemas de seguridad.
 
-#### Domain
-#### Customer Segments
-#### Pain Points
-#### Gap
-#### Vision/Strategy
-#### Initial Segment
+Ante este panorama, surge la pregunta: ¿Cómo podríamos abordar este desafío de manera efectiva, creando una solución que permita a las agencias turísticas ofrecer experiencias seguras y confiables respaldadas por un sistema moderno que se adapte a las nuevas tecnologías y brinde seguridad y personalización a los turistas para que su experiencia sea satisfactoria? 
 
+#### Domain: Industria de turismo y viajes.
+#### Customer Segments: Agencias de viajes y turistas.
+#### Pain Points:
++ Las agencias de viajes informales tienen dificultades para garantizar la seguridad y satisfacción de los turistas debido a la falta de recursos y procedimientos formales.
++ Los turistas experimentan inseguridad y falta de personalización en sus experiencias debido a la falta de comunicación efectiva con las agencias.
+#### Gap: Existe una desconexión entre las agencias de viajes y los turistas en términos de comunicación, seguridad y personalización en la planificación de viajes.
+#### Vision/Strategy: Crear una plataforma (LifeTravel) que conecte de manera efectiva a las agencias de viajes con los turistas, proporcionando experiencias personalizadas y tecnología de seguimiento para mejorar la seguridad.
 
 #### 1.2.2.2 Lean UX Assumptions
 #### 1.2.2.3 Lean UX Hyphotesis Statements
