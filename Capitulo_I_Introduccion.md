@@ -38,6 +38,15 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
     </div>
 </div>
 <br>
+<div style="display: flex; align-items: center;">
+    <img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+    <div>
+        <u><strong>Ryan Robert Sweden Silva - U202011397
+</strong></u><br>
+        Actualmente soy un estudiante de Ingeniería de Software, mi enfoque es la aplicación práctica de la tecnología para abordar desafíos del mundo real. He desarrollado competencias en diversas áreas, incluyendo el desarrollo front-end utilizando frameworks como Angular y Vue, así como el desarrollo back-end con C# .Net. Esta combinación de habilidades me proporciona una sólida base para crear soluciones integrales y efectivas. Mi pasión por la tecnología se complementa con un enfoque ordenado y responsable, lo que garantiza que mis contribuciones estén respaldadas por una sólida ética de trabajo.
+    </div>
+</div>
+<br>
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
