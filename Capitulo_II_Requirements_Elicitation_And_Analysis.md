@@ -319,3 +319,144 @@ TEXTO
 ## 2.3 Needfinding
 ### 2.3.1 User Personas
 
+Después de realizar el análisis de las entrevistas del segmento objetivo, nos corresponde crear el usuario ideal con el que estamos tratando. Para la redacción de dichos usuarios se han considerado las personalidades y cualidades obtenidas en cada entrevista. A continuación, se muestra los user personas como resultado de la investigación:
+
+<strong>Usuario Agencia de Viajes</strong><br>
+
+<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+
+<br>
+
+<strong>Usuario Usuario</strong><br>
+
+<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+
+### 2.3.2 User Task Matrix
+
+Con el fin de elaborar un Task Matrix adecuado para el proyecto, se han considerado los dos segmentos objetivo, producto del análisis de entrevistas, es decir, Agencia y Cliente.
+
+<table>
+<thead>
+  <tr>
+    <th rowspan="2">Tareas de Usuario</th>
+    <th colspan="2">Segmento Agencias</th>
+  </tr>
+  <tr>
+    <th>Frecuencia </th>
+    <th>Importancia</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+  <tr>
+    <th rowspan="2">Tareas de Usuario</th>
+    <th colspan="2">Segmento Usuarios</th>
+  </tr>
+  <tr>
+    <th>Frecuencia </th>
+    <th>Importancia</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+### 2.3.3 Journey Mapping
+
+<strong>Segmento Agencias de Viaje</strong><br>
+
+Mediante este artefacto se explicará y comprenderá como los usuarios del segmento Cliente realizan sus actividades para alcanzar sus objetivos desde su perspectiva.
+
+<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+
+<br>
+
+<strong>Segmento Usuarios</strong><br>
+
+Mediante este artefacto se explicará y comprenderá como los usuarios del segmento Empresa realizan sus actividades para alcanzar sus objetivos desde su persepctiva.
+
+<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+
+
+Mediante este artefacto se explicará y comprenderá como los usuarios del segmento Empresa realizan sus actividades para alcanzar sus objetivos desde su persepctiva.
+
+### 2.3.4 Empathy Mapping
+
+Lo siguiente a evaluar como parte del needfinding es a nuestros segmentos objetivos a través de empathy maps, con el objetivo de conocer mejor a nuestros segmentos objetivos e identificar sus necesidades profundas.
+
+<strong>Segmento Agencias de Viaje</strong><br>
+
+<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+
+<br>
+
+<strong>Segmento Usuarios</strong><br>
+
+<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+
+
+### 2.3.5 As-Is Sccenario Maps
+
+<strong>Segmento Agencias de Viaje</strong><br>
+
+<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+
+<br>
+
+<strong>Segmento Usuarios</strong><br>
+
+<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
