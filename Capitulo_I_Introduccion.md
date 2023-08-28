@@ -15,7 +15,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+    <img src="./Resources/images/Nicole.png" alt="Imagen" width="100" height="25%" style="margin-right: 20px;">
     <div>
         <u><strong>Nicole Areli Price Torrejón - U201921559</strong></u><br>
         Actualmente me encuentro en el séptimo ciclo en la carrera de Ingeniería de Software. He acumulado un año y medio de experiencia laboral en mi rol como Desarrolladora Full Stack en una empresa. Durante este periodo, he tenido la oportunidad de participar en proyectos de diversas escalas, lo que me ha brindado un conocimiento sólido en el desarrollo tanto de aplicaciones grandes como de soluciones más compactas. Asimismo, he participado en competencias de programación competitiva dentro de mi universidad por más de un año. Estas experiencias han fortalecido mis habilidades analíticas y de resolución de problemas, y me ha permitido aplicar mis conocimientos en situaciones desafiantes.
@@ -23,7 +23,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+    <img src="./Resources/images/Dominik.jpg" alt="Imagen" width="100" height="25%" style="margin-right: 20px;">
     <div>
         <u><strong>Dominik Aldahir Alexis Mendoza Ramos - U20201B980</strong></u><br>
         Actualmente soy un estudiante de Ingeniería de Software altamente responsable, reflexivo y observador. He acumulado experiencia en los lenguajes de programación Java y C# con los frameworks Spring Boot y ASP.NET respectivamente, lo que me permite tener una comprensión sólida de los conceptos fundamentales de la programación. Además, tengo un nivel intermedio de inglés que me permite leer y entender la documentación técnica en este idioma. Mis principales habilidades incluyen la capacidad de aprender rápidamente nuevas tecnologías y la determinación para lograr mis objetivos.
@@ -31,7 +31,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+    <img src="./Resources/images/Edgar.jpg" alt="Imagen" width="100" height="25%" style="margin-right: 20px;">
     <div>
         <u><strong>Edgar Alexander Malca Rojas - U202020371</strong></u><br>
         Actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable, empático y eficiente. A través de los últimos años, he acumulado experiencia en diferentes herramientas de desarrollo de código y lenguajes de programación como Java o C++, así como con los frameworks Angular y Spring Boot. Finalmente, estoy dispuesto a trabajar de forma conjunta con mis compañeros para desarrollar un buen trabajo brindando mis habilidades de análisis y origranización. 
@@ -39,7 +39,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+    <img src="./Resources/images/Ray.png" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
     <div>
         <u><strong>Ryan Robert Sweden Silva - U202011397
 </strong></u><br>
