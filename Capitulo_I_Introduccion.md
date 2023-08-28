@@ -113,9 +113,48 @@ Ante este panorama, surge la pregunta: ¿Cómo podríamos abordar este desafío 
 #### Vision/Strategy: Crear una plataforma (LifeTravel) que conecte de manera efectiva a las agencias de viajes con los turistas, proporcionando experiencias personalizadas y tecnología de seguimiento para mejorar la seguridad.
 
 #### 1.2.2.2 Lean UX Assumptions
+ + Business Assumptions:
+    * Creo que mis clientes necesitan: Mejorar la comunicación y personalización en la planificación y ejecución de sus viajes.
+    
+    <br>
+
+   + Estas necesidades se pueden resolver con: Una plataforma que conecte a agencias de viajes y turistas, ofreciendo métodos de comunicación, recomendaciones personalizadas y funciones de seguridad.
+
+   + Mis clientes iniciales son (o serán): Agencias de viajes de tamaño mediano a pequeño y turistas que valoran experiencias personalizadas y seguras.
+
+    + El valor #1 que un cliente quiere obtener de mi servicio es: Experiencias de viaje personalizadas que se adapten a sus preferencias y seguridad mejorada durante sus viajes.
+
+    + Adquiriré la mayoría de mis clientes a través de: Colaboraciones con agencias de viajes, marketing digital y promoción de boca a boca.
+
+    + Ganaré dinero a través de: Ofreciendo planes de suscripción a agencias de viajes y las opciones de seguridad que se brindan a los turistas.
+
+    + Mi principal competencia en el mercado será: Agencias de viajes tradicionales y plataformas de viajes en línea que ofrecen experiencias estandarizadas.
+
+    + Mi mayor riesgo de producto es: La resistencia inicial de las agencias a adoptar una nueva plataforma y la necesidad de construir la confianza del usuario en la seguridad de los datos.
+
+ + User Assumptions:
+
+    + ¿Quién es el usuario? <br> El usuario es tanto las agencias de viajes como los turistas que buscan una experiencia de viaje personalizada y segura.
+    + ¿Dónde encaja nuestro producto en su trabajo o en su vida? <br> Nuestro producto se integra en la planificación, reserva y experiencia del viaje, mejorando la comunicación y la seguridad.
+    + ¿Qué problemas resuelve nuestro producto?<br> Nuestro producto resuelve la falta de comunicación eficiente entre las agencias de viajes y los turistas, al tiempo que proporciona recomendaciones personalizadas y mayor seguridad.
+    + ¿Cuándo y cómo se utiliza nuestro producto?<br> El producto se utiliza desde la etapa de planificación hasta el viaje mismo, a través de la interacción con la plataforma y el uso de dispositivos móviles.
+    + ¿Qué características son importantes?<br> Características clave incluyen comunicación en tiempo real, personalización, alertas de seguridad y recomendaciones basadas en preferencias.
+    + ¿Cómo debe verse y comportarse nuestro producto?<br> El producto debe tener una interfaz intuitiva, permitir un acceso fácil a información relevante y ofrecer una experiencia fluida para usuarios tanto en agencias de viajes como en turistas.
 #### 1.2.2.3 Lean UX Hyphotesis Statements
+<strong>Creemos que </strong>al proporcionar a las agencias de viajes informales una plataforma (LifeTravel) <strong>para</strong> publicar sus experiencias y acceder a socios operadores confiables, <strong>lograremos </strong>reducir los problemas de seguridad y mejorar la satisfacción del turista, a diferencia de depender de terceros de dudosa reputación.
+
+<strong>Creemos que</strong> al permitir a los turistas personalizar sus experiencias y acceder a información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta a través de la aplicación móvil, <strong>lograremos</strong> mejorar su satisfacción y garantizar que empacan de manera adecuada.
+
+<strong>Creemos que</strong> al ofrecer una pulsera GPS opcional para los turistas, <strong>lograremos</strong> aumentar su sensación de seguridad al proporcionar una forma confiable de seguimiento en caso de emergencias o pérdida.
+
+<strong>Creemos que</strong> al establecer una comunicación bidireccional fluida entre agencias y turistas a través de la plataforma, <strong>lograremos</strong> cerrar la brecha de comunicación y mejorar la personalización de las experiencias, llevando a un aumento en la satisfacción general.
+
 #### 1.2.2.4 Lean UX Canvas
 
+
 ## 1.3 Segmentos Objetivo
-
-
+| **Producto**             | **Segmento**           | **Tamaño del segmento** | **Segmentación geográfica**            | **Segmentación psicográfica**        | **Segmentación demográfica**        | **Tomadores de decisiones**                                                                                                                        |
+|--------------------------|------------------------|------------------------|----------------------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Viajeros | Viajeros               | 40 a 50 años           | Regiones del mundo: Mayormente de Perú o mundialmente Comunidades autónomas: Lima metropolitana Tamaño de la ciudad: 2,819 km² Clima: Neblina constante y frío notorio | Clase social: Clase media baja, media alta o clase alta económicamente activa Estilo de vida: Constante estudios y trabajo Personalidad: Estudioso y motivado| Edad: 18 a 50 Nivel de ingresos: Sueldo mínimo o el más alto de una empresa privada Tamaño familiar: Hijo/a o Padre de familia Profesión: Trabajo formal Educación: Secundaria completa Nacionalidad: Cualquier parte del mundo |El mismo usuario|
+|  Agencias de Viaje                         | Agentes de Viaje      | 5 a 10 Agentes de viajes      | Regiones del mundo: Mayormente de Perú o mundialmente Comunidades autónomas: Lima metropolitana | Clase social: Clase alta Estilo de vida: Constante trabajo y nula procrastinación Personalidad: confiable| Edad: 30 a 60 Nivel de ingresos: 6,000 soles mensuales o más. Tamaño familiar: Padre de familia Profesión: chofer o piloto |  El mismo usuario             |
+| 
