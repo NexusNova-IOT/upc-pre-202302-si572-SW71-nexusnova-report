@@ -1,3 +1,5 @@
+<div style="text-align: justify;">
+
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
 
@@ -158,3 +160,5 @@ Ante este panorama, surge la pregunta: ¿Cómo podríamos abordar este desafío 
 | Viajeros | Viajeros               | 40 a 50 años           | Regiones del mundo: Mayormente de Perú o mundialmente Comunidades autónomas: Lima metropolitana Tamaño de la ciudad: 2,819 km² Clima: Neblina constante y frío notorio | Clase social: Clase media baja, media alta o clase alta económicamente activa Estilo de vida: Constante estudios y trabajo Personalidad: Estudioso y motivado| Edad: 18 a 50 Nivel de ingresos: Sueldo mínimo o el más alto de una empresa privada Tamaño familiar: Hijo/a o Padre de familia Profesión: Trabajo formal Educación: Secundaria completa Nacionalidad: Cualquier parte del mundo |El mismo usuario|
 |  Agencias de Viaje                         | Agentes de Viaje      | 5 a 10 Agentes de viajes      | Regiones del mundo: Mayormente de Perú o mundialmente Comunidades autónomas: Lima metropolitana | Clase social: Clase alta Estilo de vida: Constante trabajo y nula procrastinación Personalidad: confiable| Edad: 30 a 60 Nivel de ingresos: 6,000 soles mensuales o más. Tamaño familiar: Padre de familia Profesión: chofer o piloto |  El mismo usuario             |
 | 
+
+<div>
