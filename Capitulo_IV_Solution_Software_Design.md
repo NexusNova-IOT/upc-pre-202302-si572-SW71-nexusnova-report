@@ -22,3 +22,86 @@ Se presentaron diversas perspectivas arquitectónicas que ayudaron a visualizar 
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
+
+
+## 4.2. Tactical-Level Domain-Driven Design
+### 4.2.1. Bounded Context: Profile management
+En esta sección, presentaremos la propuesta táctica para el diseño de la solución de software en el contexto de "Profile Management". Detallaremos las clases identificadas y explicaremos sus atributos, métodos y relaciones, siguiendo una estructura que abarca las diferentes capas de nuestra arquitectura.
+#### 4.2.1.1. Domain Layer.
+
+#### 4.2.1.2. Interface Layer.
+#### 4.2.1.3. Application Layer.
+#### 4.2.1.4. Infrastructure Layer.
+#### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.1.7.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.2. Bounded Context: Tour Experience
+#### 4.2.2.1. Domain Layer.
+#### 4.2.2.2. Interface Layer.
+#### 4.2.2.3. Application Layer.
+#### 4.2.2.4. Infrastructure Layer.
+#### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.2.7.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.3. Bounded Context: Transport management
+#### 4.2.3.1. Domain Layer.
+#### 4.2.3.2. Interface Layer.
+#### 4.2.3.3. Application Layer.
+#### 4.2.3.4. Infrastructure Layer.
+#### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.3.7.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.4. Bounded Context: Execution and tracking
+#### 4.2.4.1. Domain Layer.
+#### 4.2.4.2. Interface Layer.
+#### 4.2.4.3. Application Layer.
+#### 4.2.4.4. Infrastructure Layer.
+#### 4.2.4.6. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.2.7.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.5. Bounded Context: Subscription and payment
+#### 4.2.5.1. Domain Layer.
+En la capa de dominio de "Subscription and Payment", se definen clases esenciales para modelar las suscripciones y los pagos. Estas clases están organizadas en categorías clave:
+## Entities
+- **Subscription**: Representa una suscripción activa con detalles como duración y tipo de servicio. Puede incluir lógica para renovaciones.
+## Value Objects
+- **ServiceType**: Define categorías de servicios como "Plan Urpi" o "Plan Tunki".
+
+## Aggregates
+- **UserAggregate**: Agrupa entidades y objetos de valor para usuarios, incluyendo sus suscripciones y pagos.
+
+## Factories
+- **SubscriptionFactory**: Crea instancias de suscripciones con reglas específicas.
+- **PaymentFactory**: Crea pagos y asegura procesos adecuados.
+
+## Domain Services
+- **SubscriptionValidationService**: Valida suscripciones y condiciones.
+- **PaymentGatewayService**: Procesa transacciones financieras.
+
+## Repositories
+- **SubscriptionRepository**: Persiste y recupera información de suscripciones.
+- **PaymentRepository**: Maneja almacenamiento de pagos.
+
+## Interfaces 
+- **SubscriptionRepository**: Definición de métodos para acceder a las suscripciones.
+- **PaymentRepository**: Definición de métodos para acceder a los pagos.
+
+#### 4.2.5.2. Interface Layer.
+#### 4.2.5.3. Application Layer.
+#### 4.2.5.4. Infrastructure Layer.
+#### 4.2.5.6. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.5.7. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.5.7.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.5.7.2. Bounded Context Database Design Diagram.
