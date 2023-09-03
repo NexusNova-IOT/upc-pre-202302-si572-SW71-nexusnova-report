@@ -32,10 +32,18 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 #### 4.2.1.2. Interface Layer.
 #### 4.2.1.3. Application Layer.
 #### 4.2.1.4. Infrastructure Layer.
-#### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.1.7.2. Bounded Context Database Design Diagram.
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+
+<div style="display: flex; align-items: center;">
+    <img src="./resources/images/diagrams/../../diagrams/Profile BC Component Diagram.png"       width ="700px" alt="Imagen" style="margin-right: 20px;">
+
+</div>
+
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
 
 ### 4.2.2. Bounded Context: Tour Experience
@@ -43,21 +51,33 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 #### 4.2.2.2. Interface Layer.
 #### 4.2.2.3. Application Layer.
 #### 4.2.2.4. Infrastructure Layer.
-#### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.2.7.2. Bounded Context Database Design Diagram.
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+
+<div style="display: flex; align-items: center;">
+    <img src="./resources/images/diagrams/../../diagrams/Tour%20Experience%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+
+    
+</div>
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.3. Bounded Context: Transport management
+### 4.2.3. Bounded Context: Transportation
 #### 4.2.3.1. Domain Layer.
 #### 4.2.3.2. Interface Layer.
 #### 4.2.3.3. Application Layer.
 #### 4.2.3.4. Infrastructure Layer.
-#### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.3.7.2. Bounded Context Database Design Diagram.
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+<div style="display: flex; align-items: center;">
+    <img src="./resources/images/diagrams/../../diagrams/Transportation BC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+
+</div>
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
 
 ### 4.2.4. Bounded Context: Execution and tracking
@@ -65,43 +85,96 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 #### 4.2.4.2. Interface Layer.
 #### 4.2.4.3. Application Layer.
 #### 4.2.4.4. Infrastructure Layer.
-#### 4.2.4.6. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.2.7.2. Bounded Context Database Design Diagram.
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
 
 ### 4.2.5. Bounded Context: Subscription and payment
 #### 4.2.5.1. Domain Layer.
-En la capa de dominio de "Subscription and Payment", se definen clases esenciales para modelar las suscripciones y los pagos. Estas clases están organizadas en categorías clave:
-## Entities
-- **Subscription**: Representa una suscripción activa con detalles como duración y tipo de servicio. Puede incluir lógica para renovaciones.
-## Value Objects
-- **ServiceType**: Define categorías de servicios como "Plan Urpi" o "Plan Tunki".
 
-## Aggregates
-- **UserAggregate**: Agrupa entidades y objetos de valor para usuarios, incluyendo sus suscripciones y pagos.
-
-## Factories
-- **SubscriptionFactory**: Crea instancias de suscripciones con reglas específicas.
-- **PaymentFactory**: Crea pagos y asegura procesos adecuados.
-
-## Domain Services
-- **SubscriptionValidationService**: Valida suscripciones y condiciones.
-- **PaymentGatewayService**: Procesa transacciones financieras.
-
-## Repositories
-- **SubscriptionRepository**: Persiste y recupera información de suscripciones.
-- **PaymentRepository**: Maneja almacenamiento de pagos.
-
-## Interfaces 
-- **SubscriptionRepository**: Definición de métodos para acceder a las suscripciones.
-- **PaymentRepository**: Definición de métodos para acceder a los pagos.
 
 #### 4.2.5.2. Interface Layer.
 #### 4.2.5.3. Application Layer.
 #### 4.2.5.4. Infrastructure Layer.
-#### 4.2.5.6. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.5.7. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.5.7.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.5.7.2. Bounded Context Database Design Diagram.
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
+<div style="display: flex; align-items: center;">
+    <img src="./resources/images/diagrams/../../diagrams/Subscription and Payment BC Component Diagram.png"    width ="700px" alt="Imagen" style="margin-right: 20px;">
+
+</div>
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.5.6.2. Bounded Context Database Design Diagram.
+
+
+
+### 4.2.6. Bounded Context: Review
+#### 4.2.6.1. Domain Layer.
+
+#### 4.2.6.2. Interface Layer.
+#### 4.2.6.3. Application Layer.
+#### 4.2.6.4. Infrastructure Layer.
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+<div style="display: flex; align-items: center;">
+    <img src="./resources/images/diagrams/../../diagrams/Review DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+
+</div>
+
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.6.6.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.7. Bounded Context: Notification
+#### 4.2.7.1. Domain Layer.
+
+#### 4.2.7.2. Interface Layer.
+#### 4.2.7.3. Application Layer.
+#### 4.2.7.4. Infrastructure Layer.
+#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
+<div style="display: flex; align-items: center;">
+    <img src="./resources/images/diagrams/../../diagrams/Notification DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+
+</div>
+
+#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.7.6.2. Bounded Context Database Design Diagram.
+
+
+
+### 4.2.8. Bounded Context: Identity and Access
+#### 4.2.8.1. Domain Layer.
+
+#### 4.2.8.2. Interface Layer.
+#### 4.2.8.3. Application Layer.
+#### 4.2.8.4. Infrastructure Layer.
+#### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
+<div style="display: flex; align-items: center;">
+    <img src="./resources/images/diagrams/../../diagrams/Identity and Access DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+
+</div>
+
+#### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.8.6.2. Bounded Context Database Design Diagram.
+
+
+
+### 4.2.9. Bounded Context: Booking 
+#### 4.2.9.1. Domain Layer.
+
+#### 4.2.9.2. Interface Layer.
+#### 4.2.9.3. Application Layer.
+#### 4.2.9.4. Infrastructure Layer.
+#### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
+<div style="display: flex; align-items: center;">
+    <img src="./resources/images/diagrams/../../diagrams/Booking BC Component Diagram.png"
+    width ="700px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
+#### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.9.6.2. Bounded Context Database Design Diagram.
