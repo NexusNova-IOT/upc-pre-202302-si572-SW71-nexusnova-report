@@ -6,7 +6,55 @@ En el siguiente apartado, se detalla una serie de enfoques clave en el proceso d
 
 Se abordó un enfoque colaborativo y visual que permitió modelar el contexto del dominio. Se exploraron las etapas de Candidate Context Discovery, Domain Message Flows Modeling y la creación de Bounded Context Canvases.
 
+#### Unstructured Exploration
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/unstructured-exploration.png" width ="700px" alt="unstructured-exploration-step" style="margin-right: 20px;">
+</div>
+
+#### Pain points
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/pain-points.png" width ="700px" alt="pain-points-step" style="margin-right: 20px;">
+</div>
+
+#### Timelines
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/timelines.png" width ="700px" alt="timelines-step" style="margin-right: 20px;">
+</div>
+
+#### Pivotal points
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/pivotal-point.png" width ="700px" alt="pivotal-points-step" style="margin-right: 20px;">
+</div>
+
+#### Commands
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/commands.png" width ="700px" alt="commands-step" style="margin-right: 20px;">
+</div>
+
+#### Policies
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/policies.png" width ="700px" alt="policies-step" style="margin-right: 20px;">
+</div>
+
+#### Read Models
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/read-models.png" width ="700px" alt="read-models-step" style="margin-right: 20px;">
+</div>
+
+#### External Systems
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/external-systems.png" width ="700px" alt="external-systems-step" style="margin-right: 20px;">
+</div>
+
+#### Aggregates
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/raggregates.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+
 #### 4.1.1.1 Candidate Context Discovery.
+Empleando la metodología de eventstorming con enfoque en la técnica de "start-with-simple", utilizamos la línea de tiempo para identificar posibles candidatos para nuestro contexto delimitado, los cuales son Perfil, Creación y edición de diseños y Gestión de diseños.
+
 #### 4.1.1.2 Domain Message Flows Modeling.
 #### 4.1.1.3 Bounded Context Canvases.
 
