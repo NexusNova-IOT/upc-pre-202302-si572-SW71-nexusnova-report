@@ -1,3 +1,4 @@
+<div align="justify">
 ## 4.1. Strategic-Level Domain-Driven Design
 
 En el siguiente apartado, se detalla una serie de enfoques clave en el proceso de Diseño Dirigido por el Dominio a nivel estratégico (Strategic-Level Domain-Driven Design). Estos enfoques desempeñaron un papel fundamental en el establecimiento de una base sólida para la definición y modelado de dominios complejos. A través de técnicas como Event Storming, Context Mapping y la definición de la Arquitectura de Software, se logró obtener una comprensión profunda de los elementos esenciales necesarios para la creación de sistemas efectivos y bien estructurados. A continuación, se describen los puntos clave que se abordaron en esta sección.
@@ -239,11 +240,42 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 
 
 ### 4.2.7. Bounded Context: Notification
+Mediante el uso de este bounded context se abordan las clases y capas relacionadas con las notificaciones hacia los usuarios por parte del sistema. A continuación, se detallan los principales componentes de este Bounded:
 #### 4.2.7.1. Domain Layer.
+*  **Notification** : Esta clase representa la notificación  que se enviara al usuario final, dentro de esta clase se encuentran atributos tales como : 
+   - **message:** Este atributo representa el mensaje que será enviado al usuario
+   -  **isEnable:** Este atributo representa un booleano, con este se puede saber si el usuario cuenta con las notificaciones activadas.
+   -  **type:** Este atributo cuenta con los valores del enumerator **NotificationType**, representa que tipo de notificación  será enviada.
+   -  **receiver:** Este atributo cuenta con los valores de la entidad **NotificationReceiver**, conteniendo la información necesaria para enviar la notificación  al usuario.
+* **NotificationReceiver:** Esta clase representa el modelo que es necesario para poder obtener la información necesaria para enviar la notificación al usuario, como atributos tiene:
+    - **name:** Atributo que representa el nombre del usuario al que se le enviara la notificación.
+    - **email:** Correo al que se le enviara la notificación en caso sea necesario. 
+### **Enum**:
+* **NotificationType**: Representa el tipo de notificación  que será enviada. Los tipos de notificaciones son los siguientes : 
+    - **WEATHER :**     Representa las notificaciones de tipo **Alerta de clima** 
+    - **CLOTHING**      Representa las recomendaciones de vestimenta para el tour
+    - **RESERVATION:** Representa las notificaciones referentes a las reservas de los tours
+    - **REGISTRATION:** Son las notificaciones del registro, estas serán enviadas por email
 
 #### 4.2.7.2. Interface Layer.
+* **Notification Controller:** Este controlador maneja las solicitudes relacionadas con las notificaciones vía correo y notificaciones móviles. Además, recopila los datos para luego almacenarlos en la base de datos.
+  
 #### 4.2.7.3. Application Layer.
+
+
+- **WeatherNotificationCommandHandler:** Este CommandHandler se encarga de enviar notificaciones de alerta de clima **(NotificationType.WEATHER)** al usuario final.
+
+- **ClothingNotificationCommandHandler:** Este CommandHandler gestiona las notificaciones de recomendaciones de vestimenta **(NotificationType.CLOTHING)**.
+
+- **ReservationNotificationCommandHandler:** Este CommandHandler maneja las notificaciones relacionadas con las reservas de tours **(NotificationType.RESERVATION)**.
+
+- **RegistrationNotificationCommandHandler:** Este CommandHandler se encarga de enviar notificaciones por correo electrónico del registro **(NotificationType.REGISTRATION)** al usuario final.
+
 #### 4.2.7.4. Infrastructure Layer.
+- **Notification Service:** Este servicio se encarga de gestionar el envío de notificaciones a través de diferentes canales, como correo electrónico o notificaciones móviles. Implementa la lógica para entregar las notificaciones al usuario final según las preferencias y la elección del canal.
+- **Notification Repository** El repositorio de notificaciones almacena y gestiona las notificaciones enviadas. Esto incluye el seguimiento de qué notificaciones se han enviado, cuándo se enviaron y a quién se enviaron. Además, permite realizar consultas y búsquedas relacionadas con el historial de notificaciones.
+  
+  <hr>
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
     <img src="./resources/images/diagrams/../../diagrams/Notification DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
@@ -251,8 +283,33 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 </div>
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
+
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
+
+<div align="center">
+
+<img src="resources/diagrams/BC_Notification_class.png" width="500px">
+
+</div>
+
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
+
+Para este bounded context, definimos que la clase encargada sea la siguiente :
+
+<div align="center">
+    <img src="resources/diagrams/BC_Notificactions_DB.png" width="400px">
+</div>
+<hr>
+
+| Campo             | Tipo                  | Descripción                                      |
+|-------------------|-----------------------|--------------------------------------------------|
+| notification_id   | uniqueidentifier      | Identificador único de la notificación.         |
+| receiver_id       | uniqueidentifier, FK      | Identificador único del receptor.               |
+| message           | nvarchar(max)         | Mensaje de la notificación.                     |
+| is_enabled        | bit                   | Indica si las notificaciones están habilitadas.  |
+| type              | int                   | Tipo de notificación (WEATHER = 1, CLOTHING = 2, RESERVATION = 3, REGISTRATION = 4). |
+| sent_at           | datetime              | Fecha y hora de envío de la notificación.       |
+| delivery_method   | nvarchar(max)         | Medio de entrega de la notificación (EMAIL, MOBILE_APP, OTRO). |
 
 
 
@@ -281,7 +338,8 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 * **SignUp CommandHandler:** Se encarga de gestionar las solicitudes de creación de nuevas cuentas de usuario en la plataforma. Cuando recibe una solicitud de registro del SignUp Controller, utiliza Firebase Authentication para registrar al nuevo usuario y, si la operación tiene éxito, crea una cuenta de usuario en la base de datos.
 * **Account Reporting CommandHandler:** Este Command Handler se encarga de procesar las solicitudes de reporte de cuentas de usuario.
-<div style="display: flex; align-items: center; ">
+
+<div align="center" >
     <img src="./resources/images/diagrams/../../diagrams/hanlders.png"     width ="250px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
@@ -328,3 +386,6 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
+
+
+</div>
