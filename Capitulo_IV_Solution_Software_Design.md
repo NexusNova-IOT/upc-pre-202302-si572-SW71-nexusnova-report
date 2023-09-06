@@ -353,3 +353,44 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
+
+### 4.2.10. Bounded Context: IoT Asset Management  
+#### 4.2.10.1. Domain Layer.
+*  **IoTDevice** : Esta clase representa un dispositivo IoT genérico y actúa como una entidad padre para varios tipos de dispositivos IoT teniendo como atibutos IP  y MAC address.
+    * **Scale**: Clase hija que representa una balanza IoT utilizada en el negocio para poder gestionar el peso adecuado por unidad terrestre destinada a la experiencia turística.
+    * **WeatherSensor**: Esta clase representa un sensor IoT utilizado para medir datos climáticos con principales funciones como registrar y mantener información específica del sensor climático. Proporcionar métodos para tomar mediciones climáticas y obtener datos relacionados con el clima.
+    * **LocalizationWristband**: Esta clase representa una pulsera de localización IoT utilizada para rastrear la ubicación de los turistas. 
+
+#### 4.2.10.2. Interface Layer.
+* **Scale Controller**: es responsable de gestionar las solicitudes y las interacciones relacionadas con la balanza  como coordinar con la Application Layer para ejecutar operaciones específicas en las balanzas, como tomar mediciones de peso y registrar datos.
+
+* **Weather Sensor Controller** :  se encarga de gestionar las solicitudes y las operaciones relacionadas con los sensores climáticos IoT como validar los datos de entrada relacionados con los sensores climáticos y coordinar con la capa de aplicación para obtener datos climáticos específicos de los sensores.
+
+* **Localization Wristband Controller** :  se encarga de gestionar las solicitudes y las operaciones relacionadas con las pulseras de localización.
+
+
+#### 4.2.10.3. Application Layer.
+* **Scale CommandHandler:** Este command handler se encarga de procesar comandos relacionados con las balanzas IoT, como comandos para realizar mediciones de peso, calibración de balanzas, etc.
+
+* **WeatherSensor CommandHandler:** Este handler procesa comandos relacionados con los sensores climáticos IoT, como comandos para obtener mediciones de temperatura, humedad, etc. Cuando se recibe un comando relacionado con sensores climáticos, este handler toma las mediciones correspondientes, las valida y actualiza el estado de los sensores climáticos en la capa de dominio.
+
+* **LocalizationWristband CommandHandler:** se encarga de procesar comandos relacionados con las pulseras de localización IoT, como comandos para obtener la ubicación actual de una pulsera, actualizar configuraciones, etc.
+
+
+#### 4.2.10.4. Infrastructure Layer.
+* **IoT Asset Scale Application Service:** Este servicio de aplicación se encarga de coordinar las operaciones relacionadas con las balanzas IoT. Recibe las consultas de la capa de aplicacion y las valida para que pueda interactuar con el scale repository.
+* **IoT Asset Weather Sensor Application Service:**  Recibe solicitudes relacionadas con sensores climáticos desde la capa de interfaz o la capa de aplicación. Asimismo, valida y procesa estas solicitudes, garantizando que se cumplan las reglas de negocio y la lógica específica de los sensores climáticos.
+* **IoT Asset Tracking Application Service:** Coordina las operaciones relacionadas a las pulseras de localizacion que usan los turistas durante la experiencia. Nos brinda una conexion con el Repository para que se puede acceder y actualizar datos que las pulseras almacenan en la base de datos.
+* **Scale Repository:**  Almacena y recupera información sobre las balanzas IoT, incluyendo su estado, configuración y mediciones registradas.
+* **Weather Sensor Repository:** Almacena y recupera datos de los sensores climáticos, como mediciones de temperatura, humedad, etc.
+* **Localization Wristband Repository:** Es el repository, encargado de almacenar y recuperar datos relacionados con la localizacion de las pulseras, como la ubicacion, estado de la pulsera, donde esta asigna, etc. 
+
+#### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams.
+<div style="display: flex; align-items: center;">
+    <img src=""
+    width ="700px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
+#### 4.2.10.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.10.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.10.6.2. Bounded Context Database Design Diagram.
