@@ -107,11 +107,12 @@ Durante este procedimiento, se detectaron los participantes, mensajes que secomp
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-11.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
 </div>
+
 #### 4.1.1.3 Bounded Context Canvases.
 
 ### 4.1.2. Context Mapping
 
-Se analizó una técnica que resultó invaluable para gestionar las interacciones y límites entre diferentes contextos del dominio. Se exploró cómo mapear y definir relaciones entre contextos, lo que contribuyó a una comprensión clara de sus interconexiones.
+Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, el cual se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin, como Conformist, Customer/Supplier, Partnership o Shared Kernel. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen: 
 
 ### 4.1.3. Software Architecture
 
