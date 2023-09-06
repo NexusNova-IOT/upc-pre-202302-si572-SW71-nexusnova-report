@@ -303,7 +303,7 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
   <hr>
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="./resources/images/diagrams/../../diagrams/Notification DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/Notification%20DC%20Component%20Diagram.png?raw=true"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 
 </div>
 
@@ -313,7 +313,7 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 <div align="center">
 
-<img src="resources/diagrams/BC_Notification_class.png" width="500px">
+<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/BC_Notification_class.png?raw=true" width="500px">
 
 </div>
 
@@ -322,8 +322,11 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 Para este bounded context, definimos que la clase encargada sea la siguiente :
 
 <div align="center">
-    <img src="resources/diagrams/BC_Notificactions_DB.png" width="400px">
+    <img src= "https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/BC_Notificactions_DB.png?raw=true" width="400px">
 </div>
+
+
+
 <hr>
 
 | Campo             | Tipo                  | Descripción                                      |
@@ -347,9 +350,10 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 ### **Enum**:
 * **Rol**: Esta clase representaría los diferentes tipos de usuarios en el sistema.
 
-<div style="display: flex; align-items: center; ">
-    <img src="./resources/images/diagrams/../../diagrams/profile.png"     width ="250px" alt="Imagen" style="margin-right: 20px;">
+<div align="center" >
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/profile.png?raw=true"     width ="250px" alt="Imagen" style="margin-right: 20px;">
 </div>
+
 
 #### 4.2.8.2. Interface Layer.
 * **SignIn Controller**: Este controlador maneja las solicitudes relacionadas con la autenticación e inicio de sesión de los usuarios. Permite el inicio de sesión y la gestión de cuentas de usuario existentes en la plataforma. Utiliza Firebase Authentication para la autenticación de usuarios.
@@ -365,7 +369,7 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 * **Account Reporting CommandHandler:** Este Command Handler se encarga de procesar las solicitudes de reporte de cuentas de usuario.
 
 <div align="center" >
-    <img src="./resources/images/diagrams/../../diagrams/hanlders.png"     width ="250px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/hanlders.png?raw=true"     width ="250px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 #### 4.2.8.4. Infrastructure Layer.
@@ -379,7 +383,7 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="./resources/images/diagrams/../../diagrams/Identity and Access DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/Identity%20and%20Access%20DC%20Component%20Diagram.png?raw=true"    width ="700px" alt="Imagen" style="margin-right: 20px;">
 
 </div>
 
