@@ -224,10 +224,35 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 
 ### 4.2.6. Bounded Context: Review
 #### 4.2.6.1. Domain Layer.
+*  **Review** : representa una revisión o comentario que un turista deja sobre un paquete turístico ofrecido por una agencia de viajes.
+
+*  **TourPackage** : La entidad representa un paquete turístico ofrecido por una agencia de viajes. Puede contener detalles sobre el destino, la duración del viaje, el precio y otros atributos relacionados con el paquete
+
+*  **User** : Esta clase representa al usuario, teniendo como atributos el nombre de usuario, contraseña y un objeto de tipo Account.
+
+### **Enum**:
+* **Rol**: Esta clase representaría los diferentes tipos de usuarios en el sistema.
+    * **Tourist**: representa a un turista o usuario que utiliza tu aplicación para buscar y reservar paquetes turísticos, así como para dejar revisiones.
+    * **Agency**: son aquellos que ofrecen los paquetes turísticos o experiencias, tendrán privilegios y funcionalidades diferentes al user Tourist como la capacidad de crear y administrar paquetes turísticos, gestionar revisiones y otras acciones específicas de una agencia de viajes.
+ 
 
 #### 4.2.6.2. Interface Layer.
+* **Review Controller**: Este controlador es responsable de gestionar la interacción entre la interfaz de usuario y la lógica de negocio relacionada con las revisiones de paquetes turísticos en tu aplicación. Esto ayuda a mantener una separación clara de responsabilidades y a garantizar que la lógica de negocio se mantenga en la capa de aplicación, lo que facilita la escalabilidad y el mantenimiento de LifeTravel.
+
 #### 4.2.6.3. Application Layer.
+* **AddReview CommandHandler:** maneja el proceso de agregar una nueva revisión. Valida los datos del comando, realiza cálculos relacionados con la puntuación promedio y actualiza la base de datos con la nueva revisión.
+
+* **UpdateReview CommandHandler:** Responsable de procesar la actualización de una revisión existente. Valida los datos del comando y actualiza la revisión correspondiente en la base de datos.
+
+* **DeleteReview CommandHandler:** Maneja la eliminación de una revisión. Verifica que la revisión exista y la elimina de la base de datos.
+
 #### 4.2.6.4. Infrastructure Layer.
+* **Review Application Service:** actúa como un punto de entrada para las operaciones relacionadas con las revisiones de paquetes turísticos. Su función principal es coordinar las solicitudes desde la capa de aplicación y dirigirlas hacia los repositorios adecuados. Se comunica con los command Handler tanto para solicitudes de reviews como agregar o eliminar y autenticación y validación de roles.
+
+* **User Repository:** es responsable de interactuar con la capa de almacenamiento o base de datos para realizar operaciones relacionadas con los usuarios
+
+* **Review Repository:**  es responsable de interactuar con la capa de almacenamiento o base de datos para realizar operaciones relacionadas con las revisiones.
+
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
     <img src="./resources/images/diagrams/../../diagrams/Review DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
