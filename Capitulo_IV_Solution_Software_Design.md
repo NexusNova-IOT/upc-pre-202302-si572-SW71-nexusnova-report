@@ -231,8 +231,8 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 
 ### **Enum**:
 * **Rol**: Esta clase representaría los diferentes tipos de usuarios en el sistema.
-* **Tourist**: representa a un turista o usuario que utiliza tu aplicación para buscar y reservar paquetes turísticos, así como para dejar revisiones.
-* **Agency**: son aquellos que ofrecen los paquetes turísticos o experiencias, tendrán privilegios y funcionalidades diferentes al user Tourist como la capacidad de crear y administrar paquetes turísticos, gestionar revisiones y otras acciones específicas de una agencia de viajes.
+    * **Tourist**: representa a un turista o usuario que utiliza tu aplicación para buscar y reservar paquetes turísticos, así como para dejar revisiones.
+    * **Agency**: son aquellos que ofrecen los paquetes turísticos o experiencias, tendrán privilegios y funcionalidades diferentes al user Tourist como la capacidad de crear y administrar paquetes turísticos, gestionar revisiones y otras acciones específicas de una agencia de viajes.
  
 
 #### 4.2.6.2. Interface Layer.
