@@ -56,6 +56,57 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
 Empleando la metodología de eventstorming con enfoque en la técnica de "start-with-simple", utilizamos la línea de tiempo para identificar posibles candidatos para nuestro contexto delimitado, los cuales son Perfil, Creación y edición de diseños y Gestión de diseños.
 
 #### 4.1.1.2 Domain Message Flows Modeling.
+Durante este procedimiento, se detectaron los participantes, mensajes que secomparten y se delinean en las corrientes de información que enlazan estos componentes.
+
+##### 1. Scenario: Registering in the app
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-1.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+##### 2. Scenario: Registering in the app
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-2.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+##### 3. Scenario: Pay a Tour Package
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-3.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+##### 4. Scenario: Pay a Subscription
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-4.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+##### 5. Scenario: Register a Ground Transportation Vehicle
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-6.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+##### 6. Scenario: Assign a vehicle for a Tour Package
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-7.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+##### 7. Scenario: Reassign a vehicle for excess weight limit
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-8.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+##### 8. Scenario: Locate a Tourist
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-9.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+##### 9. Scenario: Alert the tourist about the weather of the place of the tour
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-10.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+##### 10. Scenario: Check purchased tour packages
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-11.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
 #### 4.1.1.3 Bounded Context Canvases.
 
 ### 4.1.2. Context Mapping
