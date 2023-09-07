@@ -1,3 +1,4 @@
+<div align="justify">
 ## 4.1. Strategic-Level Domain-Driven Design
 
 En el siguiente apartado, se detalla una serie de enfoques clave en el proceso de Diseño Dirigido por el Dominio a nivel estratégico (Strategic-Level Domain-Driven Design). Estos enfoques desempeñaron un papel fundamental en el establecimiento de una base sólida para la definición y modelado de dominios complejos. A través de técnicas como Event Storming, Context Mapping y la definición de la Arquitectura de Software, se logró obtener una comprensión profunda de los elementos esenciales necesarios para la creación de sistemas efectivos y bien estructurados. A continuación, se describen los puntos clave que se abordaron en esta sección.
@@ -268,20 +269,79 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 
 
 ### 4.2.7. Bounded Context: Notification
+Mediante el uso de este bounded context se abordan las clases y capas relacionadas con las notificaciones hacia los usuarios por parte del sistema. A continuación, se detallan los principales componentes de este Bounded:
 #### 4.2.7.1. Domain Layer.
+*  **Notification** : Esta clase representa la notificación  que se enviara al usuario final, dentro de esta clase se encuentran atributos tales como : 
+   - **message:** Este atributo representa el mensaje que será enviado al usuario
+   -  **isEnable:** Este atributo representa un booleano, con este se puede saber si el usuario cuenta con las notificaciones activadas.
+   -  **type:** Este atributo cuenta con los valores del enumerator **NotificationType**, representa que tipo de notificación  será enviada.
+   -  **receiver:** Este atributo cuenta con los valores de la entidad **NotificationReceiver**, conteniendo la información necesaria para enviar la notificación  al usuario.
+* **NotificationReceiver:** Esta clase representa el modelo que es necesario para poder obtener la información necesaria para enviar la notificación al usuario, como atributos tiene:
+    - **name:** Atributo que representa el nombre del usuario al que se le enviara la notificación.
+    - **email:** Correo al que se le enviara la notificación en caso sea necesario. 
+### **Enum**:
+* **NotificationType**: Representa el tipo de notificación  que será enviada. Los tipos de notificaciones son los siguientes : 
+    - **WEATHER :**     Representa las notificaciones de tipo **Alerta de clima** 
+    - **CLOTHING**      Representa las recomendaciones de vestimenta para el tour
+    - **RESERVATION:** Representa las notificaciones referentes a las reservas de los tours
+    - **REGISTRATION:** Son las notificaciones del registro, estas serán enviadas por email
 
 #### 4.2.7.2. Interface Layer.
+* **Notification Controller:** Este controlador maneja las solicitudes relacionadas con las notificaciones vía correo y notificaciones móviles. Además, recopila los datos para luego almacenarlos en la base de datos.
+  
 #### 4.2.7.3. Application Layer.
+
+
+- **WeatherNotificationCommandHandler:** Este CommandHandler se encarga de enviar notificaciones de alerta de clima **(NotificationType.WEATHER)** al usuario final.
+
+- **ClothingNotificationCommandHandler:** Este CommandHandler gestiona las notificaciones de recomendaciones de vestimenta **(NotificationType.CLOTHING)**.
+
+- **ReservationNotificationCommandHandler:** Este CommandHandler maneja las notificaciones relacionadas con las reservas de tours **(NotificationType.RESERVATION)**.
+
+- **RegistrationNotificationCommandHandler:** Este CommandHandler se encarga de enviar notificaciones por correo electrónico del registro **(NotificationType.REGISTRATION)** al usuario final.
+
 #### 4.2.7.4. Infrastructure Layer.
+- **Notification Service:** Este servicio se encarga de gestionar el envío de notificaciones a través de diferentes canales, como correo electrónico o notificaciones móviles. Implementa la lógica para entregar las notificaciones al usuario final según las preferencias y la elección del canal.
+- **Notification Repository** El repositorio de notificaciones almacena y gestiona las notificaciones enviadas. Esto incluye el seguimiento de qué notificaciones se han enviado, cuándo se enviaron y a quién se enviaron. Además, permite realizar consultas y búsquedas relacionadas con el historial de notificaciones.
+  
+  <hr>
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="./resources/images/diagrams/../../diagrams/Notification DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/Notification%20DC%20Component%20Diagram.png?raw=true"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 
 </div>
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
+
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
+
+<div align="center">
+
+<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/BC_Notification_class.png?raw=true" width="500px">
+
+</div>
+
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
+
+Para este bounded context, definimos que la clase encargada sea la siguiente :
+
+<div align="center">
+    <img src= "https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/BC_Notificactions_DB.png?raw=true" width="400px">
+</div>
+
+
+
+<hr>
+
+| Campo             | Tipo                  | Descripción                                      |
+|-------------------|-----------------------|--------------------------------------------------|
+| notification_id   | uniqueidentifier      | Identificador único de la notificación.         |
+| receiver_id       | uniqueidentifier, FK      | Identificador único del receptor.               |
+| message           | nvarchar(max)         | Mensaje de la notificación.                     |
+| is_enabled        | bit                   | Indica si las notificaciones están habilitadas.  |
+| type              | int                   | Tipo de notificación (WEATHER = 1, CLOTHING = 2, RESERVATION = 3, REGISTRATION = 4). |
+| sent_at           | datetime              | Fecha y hora de envío de la notificación.       |
+| delivery_method   | nvarchar(max)         | Medio de entrega de la notificación (EMAIL, MOBILE_APP, OTRO). |
 
 
 
@@ -294,9 +354,10 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 ### **Enum**:
 * **Rol**: Esta clase representaría los diferentes tipos de usuarios en el sistema.
 
-<div style="display: flex; align-items: center; ">
-    <img src="./resources/images/diagrams/../../diagrams/profile.png"     width ="250px" alt="Imagen" style="margin-right: 20px;">
+<div align="center" >
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/profile.png?raw=true"     width ="250px" alt="Imagen" style="margin-right: 20px;">
 </div>
+
 
 #### 4.2.8.2. Interface Layer.
 * **SignIn Controller**: Este controlador maneja las solicitudes relacionadas con la autenticación e inicio de sesión de los usuarios. Permite el inicio de sesión y la gestión de cuentas de usuario existentes en la plataforma. Utiliza Firebase Authentication para la autenticación de usuarios.
@@ -310,8 +371,9 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 * **SignUp CommandHandler:** Se encarga de gestionar las solicitudes de creación de nuevas cuentas de usuario en la plataforma. Cuando recibe una solicitud de registro del SignUp Controller, utiliza Firebase Authentication para registrar al nuevo usuario y, si la operación tiene éxito, crea una cuenta de usuario en la base de datos.
 * **Account Reporting CommandHandler:** Este Command Handler se encarga de procesar las solicitudes de reporte de cuentas de usuario.
-<div style="display: flex; align-items: center; ">
-    <img src="./resources/images/diagrams/../../diagrams/hanlders.png"     width ="250px" alt="Imagen" style="margin-right: 20px;">
+
+<div align="center" >
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/hanlders.png?raw=true"     width ="250px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 #### 4.2.8.4. Infrastructure Layer.
@@ -325,7 +387,7 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="./resources/images/diagrams/../../diagrams/Identity and Access DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/Identity%20and%20Access%20DC%20Component%20Diagram.png?raw=true"    width ="700px" alt="Imagen" style="margin-right: 20px;">
 
 </div>
 
@@ -357,3 +419,47 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
+
+
+</div>
+
+### 4.2.10. Bounded Context: IoT Asset Management  
+#### 4.2.10.1. Domain Layer.
+*  **IoTDevice** : Esta clase representa un dispositivo IoT genérico y actúa como una entidad padre para varios tipos de dispositivos IoT teniendo como atibutos IP  y MAC address.
+    * **Scale**: Clase hija que representa una balanza IoT utilizada en el negocio para poder gestionar el peso adecuado por unidad terrestre destinada a la experiencia turística.
+    * **WeatherSensor**: Esta clase representa un sensor IoT utilizado para medir datos climáticos con principales funciones como registrar y mantener información específica del sensor climático. Proporcionar métodos para tomar mediciones climáticas y obtener datos relacionados con el clima.
+    * **LocalizationWristband**: Esta clase representa una pulsera de localización IoT utilizada para rastrear la ubicación de los turistas. 
+
+#### 4.2.10.2. Interface Layer.
+* **Scale Controller**: es responsable de gestionar las solicitudes y las interacciones relacionadas con la balanza  como coordinar con la Application Layer para ejecutar operaciones específicas en las balanzas, como tomar mediciones de peso y registrar datos.
+
+* **Weather Sensor Controller** :  se encarga de gestionar las solicitudes y las operaciones relacionadas con los sensores climáticos IoT como validar los datos de entrada relacionados con los sensores climáticos y coordinar con la capa de aplicación para obtener datos climáticos específicos de los sensores.
+
+* **Localization Wristband Controller** :  se encarga de gestionar las solicitudes y las operaciones relacionadas con las pulseras de localización.
+
+
+#### 4.2.10.3. Application Layer.
+* **Scale CommandHandler:** Este command handler se encarga de procesar comandos relacionados con las balanzas IoT, como comandos para realizar mediciones de peso, calibración de balanzas, etc.
+
+* **WeatherSensor CommandHandler:** Este handler procesa comandos relacionados con los sensores climáticos IoT, como comandos para obtener mediciones de temperatura, humedad, etc. Cuando se recibe un comando relacionado con sensores climáticos, este handler toma las mediciones correspondientes, las valida y actualiza el estado de los sensores climáticos en la capa de dominio.
+
+* **LocalizationWristband CommandHandler:** se encarga de procesar comandos relacionados con las pulseras de localización IoT, como comandos para obtener la ubicación actual de una pulsera, actualizar configuraciones, etc.
+
+
+#### 4.2.10.4. Infrastructure Layer.
+* **IoT Asset Scale Application Service:** Este servicio de aplicación se encarga de coordinar las operaciones relacionadas con las balanzas IoT. Recibe las consultas de la capa de aplicacion y las valida para que pueda interactuar con el scale repository.
+* **IoT Asset Weather Sensor Application Service:**  Recibe solicitudes relacionadas con sensores climáticos desde la capa de interfaz o la capa de aplicación. Asimismo, valida y procesa estas solicitudes, garantizando que se cumplan las reglas de negocio y la lógica específica de los sensores climáticos.
+* **IoT Asset Tracking Application Service:** Coordina las operaciones relacionadas a las pulseras de localizacion que usan los turistas durante la experiencia. Nos brinda una conexion con el Repository para que se puede acceder y actualizar datos que las pulseras almacenan en la base de datos.
+* **Scale Repository:**  Almacena y recupera información sobre las balanzas IoT, incluyendo su estado, configuración y mediciones registradas.
+* **Weather Sensor Repository:** Almacena y recupera datos de los sensores climáticos, como mediciones de temperatura, humedad, etc.
+* **Localization Wristband Repository:** Es el repository, encargado de almacenar y recuperar datos relacionados con la localizacion de las pulseras, como la ubicacion, estado de la pulsera, donde esta asigna, etc. 
+
+#### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams.
+<div style="display: flex; align-items: center;">
+    <img src=""
+    width ="700px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
+#### 4.2.10.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.10.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.10.6.2. Bounded Context Database Design Diagram.
