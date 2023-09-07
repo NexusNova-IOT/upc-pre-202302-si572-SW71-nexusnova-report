@@ -265,7 +265,14 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
+<div align="center">
+
+<img src="./resources/images/diagrams/../../diagrams/BC_Review_class.png" width="500px">
+
+</div>
+
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
+
 
 
 ### 4.2.7. Bounded Context: Notification
