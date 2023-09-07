@@ -342,7 +342,21 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 </div>
 
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
+<div align="center">
 
+<img src="./resources/images/diagrams/../../diagrams/BC_Reviews_DB.png" width="500px">
+
+
+| Campo             | Tipo                  | Descripción                                      |
+|-------------------|-----------------------|--------------------------------------------------|
+| review_id   | uniqueidentifier      | Identificador único de la reseña.         |
+| tourist_id       | uniqueidentifier, FK      | Identificador único del turista.               |
+| comment           | text         | Mensaje o descripción de la reseña.                     |
+| tourPackage_id         | uniqueidentifier, FK                   | Identificador único del paquete turístico.  |
+| stars              | int                   | cantidad de estrellas. |
+| review_date           | datetime              | Fecha y hora de envío de la reseña.       |
+
+</div>
 
 
 ### 4.2.7. Bounded Context: Notification
