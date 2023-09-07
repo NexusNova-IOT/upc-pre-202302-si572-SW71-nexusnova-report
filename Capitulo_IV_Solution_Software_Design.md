@@ -131,28 +131,35 @@ Se presentaron diversas perspectivas arquitectónicas que ayudaron a visualizar 
 
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: Profile management
-En esta sección, presentaremos la propuesta táctica para el diseño de la solución de software en el contexto de "Profile Management". Detallaremos las clases identificadas y explicaremos sus atributos, métodos y relaciones, siguiendo una estructura que abarca las diferentes capas de nuestra arquitectura.
+Este bounded context se centra en las clases y capas relacionadas con la gestión de perfiles de usuario, permitiendo a los usuarios ver y actualizar su información de perfil. A continuación, se detallan las principales componentes de este contexto:
 #### 4.2.1.1. Domain Layer.
-###   Entity:
+- **UserProfile:** Esta clase representa el perfil del usuario y contiene atributos como nombre, apellidos, dirección de correo electrónico, número de teléfono, foto de perfil, y otros detalles personales. También puede incluir métodos para actualizar la información del perfil.
+- **ProfilePrivacySettings:** Esta clase define la configuración de privacidad del perfil, que permite a los usuarios controlar quién puede ver ciertos elementos de su perfil.
+- **ProfileActivity:** Esta clase registra la actividad del usuario en su perfil, como cambios de foto de perfil, actualizaciones de información, etc. Esto puede ayudar a rastrear el historial de actividad del perfil.
 
 
+*Enum:*
+- **PrivacyLevel:** Este enum define los niveles de privacidad posibles para elementos del perfil, como público, privado, solo amigos, etc.
 #### 4.2.1.2. Interface Layer.
+- **ProfileViewController:** Este controlador maneja las solicitudes relacionadas con la visualización del perfil del usuario. Permite a los usuarios ver su información de perfil y configurar la privacidad de sus datos.
+- **ProfileUpdateController:** Este controlador se encarga de las solicitudes de actualización de información de perfil. Facilita a los usuarios la capacidad de modificar su información personal, incluyendo la foto de perfil.
+
 
 
 
 #### 4.2.1.3. Application Layer.
-
-
-
+- **ProfileViewService:** Este servicio de aplicación se encarga de procesar las solicitudes de visualización de perfiles de usuario. Accede a la base de datos para recuperar la información del perfil y aplica las configuraciones de privacidad antes de mostrarla al usuario.
+- **ProfileUpdateService:** Se encarga de procesar las solicitudes de actualización de información de perfil. Valida los cambios propuestos por el usuario, actualiza los datos en la base de datos y registra la actividad correspondiente en el perfil.
 
 
 #### 4.2.1.4. Infrastructure Layer.
+- **ProfileRepository:** Su principal función es interactuar con la base de datos para realizar operaciones de lectura y escritura de información de perfiles de usuario. Almacena y recupera datos de perfil, configuraciones de privacidad y actividad.
+- **ImageStorageService:** Este servicio se encarga de almacenar y recuperar imágenes de perfil de usuario, como las fotos de perfil. Puede estar conectado a un sistema de almacenamiento de objetos para gestionar eficazmente las imágenes.
+- **PrivacySettingsRepository:** Almacena y recupera la configuración de privacidad de los perfiles de usuario.
+- **ActivityLogRepository:** Registra y recupera la actividad del perfil de usuario.
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
-
-
 <div style="display: flex; align-items: center;">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/Profile%20BC%20Component%20Diagram.png"       width ="700px" alt="Imagen" style="margin-right: 20px;">
-
+   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/Profile%20BC%20Component%20Diagram.png"       width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
