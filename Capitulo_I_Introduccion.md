@@ -148,13 +148,14 @@ Crear una plataforma que conecte de manera efectiva a las agencias de viajes con
     + ¿Cómo debe verse y comportarse nuestro producto?<br> El producto debe tener una interfaz intuitiva, permitir un acceso fácil a información relevante y ofrecer una experiencia fluida para usuarios tanto en agencias de viajes como en turistas.
 #### 1.2.2.3 Lean UX Hyphotesis Statements
 <strong>Creemos que </strong>al proporcionar a las agencias de viajes
-una plataforma <strong>para</strong> publicar sus experiencias y acceder a socios operadores confiables, <strong>lograremos </strong>reducir los problemas de seguridad y mejorar la satisfacción del turista, a diferencia de depender de terceros de dudosa reputación.
+una plataforma <strong>para</strong> publicar sus experiencias y acceder a socios operadores confiables, aumentarán sus ventas y nivel de satisfacción de los turistas.
+<strong>Sabremos que es cierto </strong>al percibir un mayor número de reservas y que el 25% de los usuarios recomiendan la experiencia.
 
-<strong>Creemos que</strong> al permitir a los turistas acceder a experiencias personalizadas y acceder a información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta a través de la aplicación móvil, <strong>lograremos</strong> mejorar su satisfacción y garantizar que empacan de manera adecuada.
+<strong>Creemos que</strong> al permitir a los turistas acceder a experiencias personalizadas y acceder a información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta a través de la aplicación móvil, mejoraremos el nivel de satisfacción <strong>sabremos que lo habremos logrado </strong> cuando verifiquemos que el 25% de los usuarios que han viajado con nosotros, recomienden nuestro servicio.
 
-<strong>Creemos que</strong> al ofrecer una pulsera GPS opcional para los turistas, <strong>lograremos</strong> aumentar su sensación de seguridad al proporcionar una forma confiable de seguimiento en caso de emergencias o pérdida.
+<strong>Creemos que</strong> al ofrecer una pulsera GPS opcional para los turistas,  aumentará su sensación de seguridad al proporcionar una forma confiable de seguimiento en caso de emergencias o pérdida.<strong>Sabremos que esto es cierto</strong> cuando el 50% de nuestros usuarios viajeros contraten nuestro servicio opcional de pulseras gps.
 
-<strong>Creemos que</strong> al establecer una comunicación bidireccional entre agencias y turistas a través de la plataforma, <strong>lograremos</strong> cerrar la brecha de comunicación y mejorar la personalización de las experiencias, llevando a un aumento en la satisfacción general.
+<strong>Creemos que</strong> al establecer una comunicación bidireccional entre agencias y turistas a través de la plataforma, <strong>lograremos</strong> cerrar la brecha de comunicación y mejorar la personalización de las experiencias, llevando a un aumento en la satisfacción general. <strong>Sabremos que esto es cierto</strong> cuando registremos una cantidad de experiencias no menor al 50% de usuarios registrados en nuestra plataforma.
 
 #### 1.2.2.4 Lean UX Canvas
 
@@ -184,14 +185,17 @@ población económicamente activa (PEA).
     + Acceder a un servicio seguro que ofrezca funcionalidades innovadoras que mejoren la experiencia de viaje.
 
 * **Hypothesis:**
-<strong>Creemos que </strong>al proporcionar a las agencias de viajes
-una plataforma <strong>para</strong> publicar sus experiencias y acceder a socios operadores confiables, <strong>lograremos </strong>reducir los problemas de seguridad y mejorar la satisfacción del turista, a diferencia de depender de terceros de dudosa reputación.
 
-<strong>Creemos que</strong> al permitir a los turistas acceder a experiencias personalizadas y acceder a información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta a través de la aplicación móvil, <strong>lograremos</strong> mejorar su satisfacción y garantizar que empacan de manera adecuada.
+    <strong>Creemos que </strong>al proporcionar a las agencias de viajes
+    una plataforma <strong>para</strong> publicar sus experiencias y acceder a socios operadores confiables, aumentarán sus ventas y nivel de satisfacción de los turistas.
+    <strong>Sabremos que es cierto </strong>al percibir un mayor número de reservas y que el 25% de los usuarios recomiendan la experiencia.
 
-<strong>Creemos que</strong> al ofrecer una pulsera GPS opcional para los turistas, <strong>lograremos</strong> aumentar su sensación de seguridad al proporcionar una forma confiable de seguimiento en caso de emergencias o pérdida.
+    <strong>Creemos que</strong> al permitir a los turistas acceder a experiencias personalizadas y acceder a información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta a través de la aplicación móvil, mejoraremos el nivel de satisfacción.
+    <strong>Sabremos que lo habremos logrado </strong> cuando verifiquemos que el 25% de los usuarios que han viajado con nosotros, recomienden nuestro servicio.
 
-<strong>Creemos que</strong> al establecer una comunicación bidireccional entre agencias y turistas a través de la plataforma, <strong>lograremos</strong> cerrar la brecha de comunicación y mejorar la personalización de las experiencias, llevando a un aumento en la satisfacción general.
+    <strong>Creemos que</strong> al ofrecer una pulsera GPS opcional para los turistas,  aumentará su sensación de seguridad al proporcionar una forma confiable de seguimiento en caso de emergencias o pérdida. <strong>Sabremos que esto es cierto</strong> cuando el 50% de nuestros usuarios viajeros contraten nuestro servicio opcional de pulseras gps.
+
+    <strong>Creemos que</strong> al establecer una comunicación bidireccional entre agencias y turistas a través de la plataforma, <strong>lograremos</strong> cerrar la brecha de comunicación y mejorar la personalización de las experiencias, llevando a un aumento en la satisfacción general. <strong>Sabremos que esto es cierto</strong> cuando registremos una cantidad de experiencias no menor al 50% de usuarios registrados en nuestra plataforma.
 
 * **What is the most important thing we need to learn first?**
 Necesitamos conocer el flujo y cómo se organizan las agencias de viaje con sus clientes y proveedores para poder simularlo en un entorno digital. Debemos buscar a las agencias de viajes que cuenten con una cartera de clientes fija para poder hacer las pruebas en los primeros prototipos de la aplicación.
