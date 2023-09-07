@@ -412,23 +412,38 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 
 ### 4.2.9. Bounded Context: Booking 
+### 4.2.9. Bounded Context: Booking
+Este bounded context se enfoca en las clases y capas relacionadas con la gestión de reservas de tours por parte de los usuarios viajeros y la administración de estas reservas por parte de las agencias de viaje. A continuación, se detallan las principales componentes de este contexto:
 #### 4.2.9.1. Domain Layer.
+- **Tour:** Esta clase representa un tour que los usuarios pueden reservar. Contiene atributos como nombre del tour, descripción, precio, fecha y ubicación. Puede incluir métodos para verificar la disponibilidad de fechas y gestionar las reservas.
+- **Booking:** Esta clase representa una reserva de un usuario para un tour específico. Contiene información sobre el usuario que realiza la reserva, el tour reservado, la fecha de la reserva y otros detalles relevantes.
+- **Agency:** Esta clase representa una agencia de viaje que ofrece tours. Contiene información sobre la agencia, como nombre, dirección, y lista de tours que ofrece.
 
 
-
+*Enum:*
+- **BookingStatus:** Este enum define los posibles estados de una reserva, como pendiente, confirmada o cancelada.
+- **PaymentStatus:** Este enum define los posibles estados de pago para una reserva, como pagado o pendiente de pago.
 #### 4.2.9.2. Interface Layer.
+- **BookingController:** Este controlador maneja las solicitudes relacionadas con la reserva de tours por parte de los usuarios viajeros. Permite a los usuarios buscar tours disponibles, seleccionar fechas y realizar reservas.
+
 
 
 
 #### 4.2.9.3. Application Layer.
+- **BookingApplicationService:** Este servicio de aplicación se encarga de procesar las solicitudes de reserva de tours por parte de los usuarios viajeros. Verifica la disponibilidad de fechas, crea las reservas y gestiona los pagos.
 
 
 #### 4.2.9.4. Infrastructure Layer.
+- **TourPackageRepository:** Su función principal es interactuar con la base de datos para realizar operaciones de lectura y escritura de información sobre tours. Almacena y recupera datos de tours, fechas disponibles y detalles de reserva.
+- **BookingRepository:** Almacena y recupera información sobre las reservas realizadas por los usuarios viajeros, incluyendo detalles de usuario, tour, fechas y estados de reserva.
+- **EmailService:** Puede ser responsable de enviar confirmaciones de reserva y notificaciones relacionadas con las reservas a los usuarios y las agencias de viaje.
+- **VehicleRepository:**  Interactúa con la base de datos para realizar operaciones de lectura y escritura de información sobre vehículos utilizados en los tours. Almacena y recupera datos sobre los vehículos disponibles para los tours.
+- **Notification Repository:** Almacena y recupera información sobre las notificaciones relacionadas con las reservas, como confirmaciones, cambios de estado y recordatorios de tours.
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="./resources/images/diagrams/../../diagrams/Booking BC Component Diagram.png"
-    width ="700px" alt="Imagen" style="margin-right: 20px;">
+   <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/Booking%20BC%20Component%20Diagram.png?raw=true"    width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
+
 
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
