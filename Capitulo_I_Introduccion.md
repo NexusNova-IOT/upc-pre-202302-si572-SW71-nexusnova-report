@@ -74,7 +74,7 @@ Según la asociación Peruana de Agencias de Viajes y Turismo (Apavit), en Perú
 En la industria turística actual, existe una brecha entre las agencias de viajes y los turistas en términos de comunicación y personalización de experiencias. Las agencias de viajes necesitan una forma moderna y efectiva de llegar a sus clientes, mientras que los turistas desean experiencias más ajustadas a sus preferencias y necesidades individuales. Además, cuestiones como el exceso de equipaje, la falta de información sobre el clima durante los tours, la seguridad de los turistas y la informalidad son desafíos recurrentes que afectan la satisfacción del cliente y la calidad del servicio.
 
 #### Solución:
-LifeTravel presenta una solución innovadora que aborda la brecha entre las agencias de viajes y los turistas al proporcionar una plataforma integral y moderna. La plataforma se compone de dos tipos de acceso: uno para los turistas y otro para los representantes de agencias turísticas. Los turistas pueden explorar y adquirir experiencias turísticas personalizadas que se adapten a su presupuesto, estilo de vida y personalidad con un respaldo de seguridad asegurando formalidad y confianza. Por otro lado, las agencias de viajes pueden utilizar la aplicación web para publicar sus experiencias turísticas. De la misma manera, se presentarán aplicaciones móviles desarrolladas en lenguaje nativo para que los dependiendo del tipo de usuario se muestre información relevante durante el transcurso de la experiencia turística. Finalmente, para diferenciarse en el mercado, LifeTravel incorpora tecnología IoT (Internet de las cosas).
+LifeTravel presenta una solución innovadora que aborda la brecha entre las agencias de viajes y los turistas al proporcionar una plataforma integral y moderna. La plataforma se compone de dos tipos de acceso: uno para los turistas y otro para los representantes de agencias turísticas. Los turistas pueden explorar y adquirir experiencias turísticas personalizadas que se adapten a su presupuesto, estilo de vida y personalidad con un respaldo de seguridad asegurando formalidad y confianza. Por otro lado, las agencias de viajes pueden utilizar la aplicación web para publicar sus experiencias turísticas. De la misma manera, se presentarán aplicaciones móviles desarrolladas en lenguaje nativo para que dependiendo del tipo de usuario se muestre información relevante durante el transcurso de la experiencia turística. Finalmente, para diferenciarse en el mercado, LifeTravel incorpora tecnología IoT (Internet de las cosas).
 
 #### Integración de sistemas IoT:
 La plataforma LifeTravel integra sistemas IoT para abordar desafíos específicos en el sector turístico. 
@@ -106,13 +106,17 @@ Esta desconexión está teniendo un impacto negativo en ambos lados. Por un lado
 
 Ante este panorama, surge la pregunta: ¿Cómo podríamos abordar este desafío de manera efectiva, creando una solución que permita a las agencias turísticas ofrecer experiencias seguras y confiables respaldadas por un sistema moderno que se adapte a las nuevas tecnologías y brinde seguridad y personalización a los turistas para que su experiencia sea satisfactoria? 
 
-#### Domain: Industria de turismo y viajes.
-#### Customer Segments: Agencias de viajes y turistas.
+#### Domain: 
+Industria de turismo y viajes.
+#### Customer Segments: 
+Agencias de viajes y turistas.
 #### Pain Points:
 + Las agencias de viajes informales tienen dificultades para garantizar la seguridad y satisfacción de los turistas debido a la falta de recursos y procedimientos formales.
 + Los turistas experimentan inseguridad y falta de personalización en sus experiencias debido a la falta de comunicación efectiva con las agencias.
-#### Gap: Existe una desconexión entre las agencias de viajes y los turistas en términos de comunicación, seguridad y personalización en la planificación de viajes.
-#### Vision/Strategy: Crear una plataforma (LifeTravel) que conecte de manera efectiva a las agencias de viajes con los turistas, proporcionando experiencias personalizadas y tecnología de seguimiento para mejorar la seguridad.
+#### Gap: 
+Existe una desconexión entre las agencias de viajes y los turistas en términos de comunicación, seguridad y personalización en la planificación de viajes.
+#### Vision/Strategy: 
+Crear una plataforma que conecte de manera efectiva a las agencias de viajes con los turistas, proporcionando experiencias personalizadas y tecnología de seguimiento para mejorar la seguridad.
 
 #### 1.2.2.2 Lean UX Assumptions
  + Business Assumptions:
@@ -140,19 +144,62 @@ Ante este panorama, surge la pregunta: ¿Cómo podríamos abordar este desafío 
     + ¿Dónde encaja nuestro producto en su trabajo o en su vida? <br> Nuestro producto se integra en la planificación, reserva y experiencia del viaje, mejorando la comunicación y la seguridad.
     + ¿Qué problemas resuelve nuestro producto?<br> Nuestro producto resuelve la falta de comunicación eficiente entre las agencias de viajes y los turistas, al tiempo que proporciona recomendaciones personalizadas y mayor seguridad.
     + ¿Cuándo y cómo se utiliza nuestro producto?<br> El producto se utiliza desde la etapa de planificación hasta el viaje mismo, a través de la interacción con la plataforma y el uso de dispositivos móviles.
-    + ¿Qué características son importantes?<br> Características clave incluyen comunicación en tiempo real, personalización, alertas de seguridad y recomendaciones basadas en preferencias.
+    + ¿Qué características son importantes?<br> Características clave incluyen comunicación, personalización, alertas de seguridad y recomendaciones basadas en preferencias.
     + ¿Cómo debe verse y comportarse nuestro producto?<br> El producto debe tener una interfaz intuitiva, permitir un acceso fácil a información relevante y ofrecer una experiencia fluida para usuarios tanto en agencias de viajes como en turistas.
 #### 1.2.2.3 Lean UX Hyphotesis Statements
-<strong>Creemos que </strong>al proporcionar a las agencias de viajes informales una plataforma (LifeTravel) <strong>para</strong> publicar sus experiencias y acceder a socios operadores confiables, <strong>lograremos </strong>reducir los problemas de seguridad y mejorar la satisfacción del turista, a diferencia de depender de terceros de dudosa reputación.
+<strong>Creemos que </strong>al proporcionar a las agencias de viajes
+una plataforma <strong>para</strong> publicar sus experiencias y acceder a socios operadores confiables, <strong>lograremos </strong>reducir los problemas de seguridad y mejorar la satisfacción del turista, a diferencia de depender de terceros de dudosa reputación.
 
-<strong>Creemos que</strong> al permitir a los turistas personalizar sus experiencias y acceder a información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta a través de la aplicación móvil, <strong>lograremos</strong> mejorar su satisfacción y garantizar que empacan de manera adecuada.
+<strong>Creemos que</strong> al permitir a los turistas acceder a experiencias personalizadas y acceder a información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta a través de la aplicación móvil, <strong>lograremos</strong> mejorar su satisfacción y garantizar que empacan de manera adecuada.
 
 <strong>Creemos que</strong> al ofrecer una pulsera GPS opcional para los turistas, <strong>lograremos</strong> aumentar su sensación de seguridad al proporcionar una forma confiable de seguimiento en caso de emergencias o pérdida.
 
-<strong>Creemos que</strong> al establecer una comunicación bidireccional fluida entre agencias y turistas a través de la plataforma, <strong>lograremos</strong> cerrar la brecha de comunicación y mejorar la personalización de las experiencias, llevando a un aumento en la satisfacción general.
+<strong>Creemos que</strong> al establecer una comunicación bidireccional entre agencias y turistas a través de la plataforma, <strong>lograremos</strong> cerrar la brecha de comunicación y mejorar la personalización de las experiencias, llevando a un aumento en la satisfacción general.
 
 #### 1.2.2.4 Lean UX Canvas
 
+* **Business Problem:**
+Falta de una herramienta que les ayude a mejorar su experiencia antes y durante el viaje. En otras palabras, desde la planificación del viaje  hasta cuando el cliente se encuentre en su destino. Asimismo, una herramienta que priorice su seguridad y brinde experiencias adaptables y únicas.
+
+* **User & Customers:**
+Nuestros usuarios son personas mayores de edad, que están dentro de la
+población económicamente activa (PEA).
+
+* **Solution Ideas:**
+    + Portabilidad y sincronización de datos en tiempo real para una mayor seguridad de los datos de viajes.
+    + Permitir a los usuarios acceder a un plan de viaje especializado en satisfacer al turista con experiencias pre-definidas para asegurar la seguridad y brindar recuerdos únicos e inigualables.
+    + Integrar dispositivos IoT para optimizar el antes y después del viaje tanto para los usuarios turistas como agencias. Brindando información real y sustentable para que la experiencia sea la mejor posible.
+
+
+* **Business Outcomes:**
+    + Una mejora de la experiencia de viaje de varios usuarios.
+    + Un aumento de viajes con respecto al impacto de la disminución en el sector turismo debido a los problemas socioecnómicos.
+    + Un aumento estadístico en viajes seguros y con mejores horarios gracias a las funciones que ofrece nuestro producto para los viajeros.
+    + Aumentar la satisfacción del viajero brindando seguridad y confiabilidad.
+
+* **User Benefits:**
+    + Lograr una experiencia de viaje más gratificante en un nuevo método de buscar agencias de viaje con el fin de reforzar ineficiencias y cumplir con los requisitos mencionados por los usuarios entrevistados.
+    + Obtener un mayor alcance de viajeros que deseen conocer el Perú y el mundo por tema de trabajo o simplemente distracción, así cumplir con una demanda de un servicio de viajes seguro y de calidad.
+    + Reducir el tiempo de espera de viajeros para que estos logren cumplir con su agenda de viajes previamente establecida.
+    + Acceder a un servicio seguro que ofrezca funcionalidades innovadoras que mejoren la experiencia de viaje.
+
+* **Hypothesis:**
+<strong>Creemos que </strong>al proporcionar a las agencias de viajes
+una plataforma <strong>para</strong> publicar sus experiencias y acceder a socios operadores confiables, <strong>lograremos </strong>reducir los problemas de seguridad y mejorar la satisfacción del turista, a diferencia de depender de terceros de dudosa reputación.
+
+<strong>Creemos que</strong> al permitir a los turistas acceder a experiencias personalizadas y acceder a información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta a través de la aplicación móvil, <strong>lograremos</strong> mejorar su satisfacción y garantizar que empacan de manera adecuada.
+
+<strong>Creemos que</strong> al ofrecer una pulsera GPS opcional para los turistas, <strong>lograremos</strong> aumentar su sensación de seguridad al proporcionar una forma confiable de seguimiento en caso de emergencias o pérdida.
+
+<strong>Creemos que</strong> al establecer una comunicación bidireccional entre agencias y turistas a través de la plataforma, <strong>lograremos</strong> cerrar la brecha de comunicación y mejorar la personalización de las experiencias, llevando a un aumento en la satisfacción general.
+
+* **What is the most important thing we need to learn first?**
+Necesitamos conocer el flujo y cómo se organizan las agencias de viaje con sus clientes y proveedores para poder simularlo en un entorno digital. Debemos buscar a las agencias de viajes que cuenten con una cartera de clientes fija para poder hacer las pruebas en los primeros prototipos de la aplicación.
+
+* **What is the least amount of work we need to do to learn the most important thing?**
+    + Realizar entrevistas para adquirir mayor conocimiento sobre las necesidades de nuestros usuarios.
+    + Analizar a la competencia para hallar una manera de diferenciarnos de ellos y sobresalir.
+    + Analizar nuestros segmentos objetivo para saber cuáles son las    características más importantes que debe brindar nuestra solución.
 
 ## 1.3 Segmentos Objetivo
 | **Producto**             | **Segmento**           | **Tamaño del segmento** | **Segmentación geográfica**            | **Segmentación psicográfica**        | **Segmentación demográfica**        | **Tomadores de decisiones**                                                                                                                        |
