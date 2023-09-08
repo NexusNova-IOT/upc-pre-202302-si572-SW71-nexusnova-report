@@ -52,13 +52,73 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/raggregates.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
 </div>
 
+#### Aggregates
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/raggregates.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+</div>
+
+#### Bounded Contexts
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/bounded-context.png" width ="700px" alt="bounded-context-step" style="margin-right: 20px;">
+</div>
+
 
 #### 4.1.1.1 Candidate Context Discovery.
 Empleando la metodología de eventstorming con enfoque en la técnica de "start-with-simple", utilizamos la línea de tiempo para identificar posibles candidatos para nuestro contexto delimitado, los cuales son los siguientes:
 
 ##### Profile management
 <div align="center">
-    <img src="" width="700px">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/profile.png" width="700px" alt="profile">
+</div>
+
+##### Identity and Access Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/identity.png" width="700px" alt="identity">
+</div>
+
+##### Booking Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/booking.png" width="700px" alt="booking">
+</div>
+
+##### Execution and Tracking
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/exec-track.jpg" width="700px" alt="exec-track">
+</div>
+
+##### Iot Asset management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/iot.png" width="700px" alt="iot">
+</div>
+
+##### Notification management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/noti.jpg" width="700px" alt="noti">
+</div>
+
+##### Review management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/review.png" width="700px" alt="review">
+</div>
+
+##### Subscription and payments
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/sub.png" width="700px" alt="sub">
+</div>
+
+##### Tour Experience
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/tour-ex.png" width="700px" alt="tour-experience">
+</div>
+
+##### Transportation Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/trans.png" width="700px" alt="transportation">
+</div>
+
+##### Data report and analytics
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/data.jpg" width="700px" alt="data-report-analytics">
 </div>
 
 #### 4.1.1.2 Domain Message Flows Modeling.
