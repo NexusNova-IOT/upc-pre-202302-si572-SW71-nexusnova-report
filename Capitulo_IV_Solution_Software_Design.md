@@ -316,12 +316,20 @@ Este bounded context se centra en las clases y capas relacionadas con la gestió
 
 
 ### 4.2.2. Bounded Context: Tour Experience
-En esta sección, presentaremos la propuesta táctica para el diseño de la solución de software en el contexto de "Profile Management". Detallaremos las clases identificadas y explicaremos sus atributos, métodos y relaciones, siguiendo una estructura que abarca las diferentes capas de nuestra arquitectura.
+Este bounded context se centra en almacenar la informacion de las experiencias turisticas seran usados. 
 
 #### 4.2.2.1. Domain Layer.
+- **TourExperience:** Esta clase representa el paquete turistico ingresado por el segmento de agencia y contiene atributos como inicio, destino, precio, paradas, agencia ID, medios de pago.
+
+ 
 #### 4.2.2.2. Interface Layer.
+- **TourExperienceController:** Este controlador se encarga de las solicitudes de actualización de información de paquetes turisticos. Facilita a las agencias un listado de las disponibles segun sus filtros indicados. Permite a las agencias crear, modificar o eliminar sus paquetes turisticos propios.
+  
 #### 4.2.2.3. Application Layer.
+- **TourExperienceService:** Se encarga de procesar las solicitudes de actualización de paquetes turisticos. Valida los cambios propuestos por el usuario, actualiza los datos en la base de datos y registra la actividad correspondiente en el perfil.
+
 #### 4.2.2.4. Infrastructure Layer.
+- **TourExperienceRepository:** Almacena y recupera la configuración de privacidad de los paquetes turisticos.
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <div style="display: flex; align-items: center;">
@@ -332,34 +340,27 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_TourExperince_DB_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
-
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_TourExperince_Class_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 
 ### 4.2.3. Bounded Context: Transportation
 #### 4.2.3.1. Domain Layer.
+- **Vehicle:** Esta clase representa el el vehiculo contiene el peso minimo, recomnedado, marca, asientos, tamaño, conductor.
+
 #### 4.2.3.2. Interface Layer.
+- **VehicleController:** Este controlador se encarga de las solicitudes de administrar los vehiculos usados para los paquetes turisticos, controlaran el peso del equipaje.
 #### 4.2.3.3. Application Layer.
+- **VehicleService:** Se encarga de procesar las solicitudes de actualización de vehiculos, añadir gps, añadir usuarios, modificar peso.
 #### 4.2.3.4. Infrastructure Layer.
+- **VehicleRepository:** Almacena y recupera la configuración de todos los vehiculos usados en la actualidad y posteriormente por las agencias.
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
     <img src="./resources/images/diagrams/../../diagrams/Transportation BC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 
 </div>
-
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.3.6.2. Bounded Context Database Design Diagram.
-
-
-### 4.2.4. Bounded Context: Execution and tracking
-#### 4.2.4.1. Domain Layer.
-#### 4.2.4.2. Interface Layer.
-#### 4.2.4.3. Application Layer.
-#### 4.2.4.4. Infrastructure Layer.
-#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
 
 ### 4.2.5. Bounded Context: Subscription and payment
@@ -670,11 +671,6 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
 <div style="display: flex; align-items: center;">
    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/Booking%20BC%20Component%20Diagram.png?raw=true"    width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
-
-
-#### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.9.6.2. Bounded Context Database Design Diagram.
 
 
 </div>
