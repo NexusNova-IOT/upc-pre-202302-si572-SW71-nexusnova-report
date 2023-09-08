@@ -639,7 +639,6 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 
 
-### 4.2.9. Bounded Context: Booking 
 ### 4.2.9. Bounded Context: Booking
 Este bounded context se enfoca en las clases y capas relacionadas con la gestión de reservas de tours por parte de los usuarios viajeros y la administración de estas reservas por parte de las agencias de viaje. A continuación, se detallan las principales componentes de este contexto:
 #### 4.2.9.1. Domain Layer.
@@ -713,20 +712,19 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
 
 #### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Resources/diagrams/BC_Iot_Management_Diagram.png"
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_Iot_Management_Diagram.png"
     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 #### 4.2.10.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.10.6.1. Bounded Context Domain Layer Class Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Resources/diagrams/BC_Iot_Management_Class.png"
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_Iot_Management_Class.png"
     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ##### 4.2.10.6.2. Bounded Context Database Design Diagram.
 
 <div style="display: flex; align-items: center;">
-    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Resources/diagrams/BC_IOT_Management_DB_Diagram.png"
-    width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_IOT_Management_DB_Diagram.png"  width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
