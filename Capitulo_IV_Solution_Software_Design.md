@@ -310,10 +310,6 @@ Este bounded context se centra en las clases y capas relacionadas con la gestió
    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/Profile%20BC%20Component%20Diagram.png"       width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
-#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.1.6.2. Bounded Context Database Design Diagram.
-
 
 ### 4.2.2. Bounded Context: Tour Experience
 Este bounded context se centra en almacenar la informacion de las experiencias turisticas seran usados. 
@@ -333,7 +329,7 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <div style="display: flex; align-items: center;">
-    <img src="./resources/images/diagrams/../../diagrams/Tour%20Experience%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/Tour%20Experience%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 
     
 </div>
@@ -358,7 +354,7 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 - **VehicleRepository:** Almacena y recupera la configuración de todos los vehiculos usados en la actualidad y posteriormente por las agencias.
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="./resources/images/diagrams/../../diagrams/Transportation BC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/Transportation%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 
 </div>
 
@@ -423,7 +419,7 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="./resources/images/diagrams/../../diagrams/Subscription and Payment BC Component Diagram.png"    width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/Subscription%20and%20Payment%20BC%20Component%20Diagram.png"    width ="700px" alt="Imagen" style="margin-right: 20px;">
 
 </div>
 
@@ -433,14 +429,14 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
 
-<img src="/Resources/diagrams/subscriptionPayment.png" width="500px">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/subscriptionPayment.png" width="500px">
 
 </div>
 
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 <div align="center">
 
-<img src="/Resources/diagrams/subscriptionPaymnetDB.png" width="500px">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/subscriptionPaymnetDB.png" width="500px">
 
 </div>
 
@@ -478,7 +474,7 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src="./resources/images/diagrams/../../diagrams/Review DC Component Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/Profile%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 
 </div>
 
@@ -486,14 +482,14 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
 
-<img src="./resources/images/diagrams/../../diagrams/BC_Review_class.png" width="500px">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/BC_Review_class.png" width="500px">
 
 </div>
 
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 <div align="center">
 
-<img src="./resources/images/diagrams/../../diagrams/BC_Reviews_DB.png" width="500px">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/BC_Reviews_DB.png" width="500px">
 
 
 | Campo             | Tipo                  | Descripción                                      |
