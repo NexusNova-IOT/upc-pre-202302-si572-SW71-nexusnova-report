@@ -713,14 +713,14 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
 
 #### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src=""
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Resources/diagrams/BC_Iot_Management_Diagram.png"
     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 #### 4.2.10.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.10.6.1. Bounded Context Domain Layer Class Diagrams.
 <div style="display: flex; align-items: center;">
-    <img src=""
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Resources/diagrams/BC_Iot_Management_Class.png"
     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 ##### 4.2.10.6.2. Bounded Context Database Design Diagram.
