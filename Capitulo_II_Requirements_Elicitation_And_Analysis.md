@@ -265,7 +265,7 @@ LLENAR RESUMEN
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
+				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
@@ -338,7 +338,7 @@ LLENAR RESUMEN
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/entrevista-2.png" alt="Entrevista Evidencia">
+				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/entrevista-2.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
@@ -412,7 +412,7 @@ LLENAR RESUMEN
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/entrevista-3.png" alt="Entrevista Evidencia">
+				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/entrevista-3.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
@@ -486,7 +486,7 @@ LLENAR RESUMEN
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/entrevista-4.png" alt="Entrevista Evidencia">
+				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/entrevista-4.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
@@ -523,10 +523,10 @@ En la sección de análisis se registra la información de las entrevistas de fo
 <thead>
   <tr>
     <th><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/analisis-viajero-1.png" alt="Entrevista Evidencia">
+	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-viajero-1.png" alt="Entrevista Evidencia">
 </div></th>
     <th><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/analisis-viajero-2.png" alt="Entrevista Evidencia">
+	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-viajero-2.png" alt="Entrevista Evidencia">
 </div></th>
   </tr>
 </thead>
@@ -534,10 +534,10 @@ En la sección de análisis se registra la información de las entrevistas de fo
   <tr>
     <td>
 <div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/analisis-viajero-3.png" alt="Entrevista Evidencia">
+	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-viajero-3.png" alt="Entrevista Evidencia">
 </div></td>
     <td><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/analisis-viajero-4.png" alt="Entrevista Evidencia">
+	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-viajero-4.png" alt="Entrevista Evidencia">
 </div></td>
   </tr>
 </tbody>
@@ -555,10 +555,10 @@ De acuerdo con los gráficos estadísticos que hemos realizado con los datos obt
 <thead>
   <tr>
     <th><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/analisis-agencia-1.png" alt="Entrevista Evidencia">
+	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-agencia-1.png" alt="Entrevista Evidencia">
 </div></th>
     <th><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/analisis-agencia-2.png" alt="Entrevista Evidencia">
+	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-agencia-2.png" alt="Entrevista Evidencia">
 </div></th>
   </tr>
 </thead>
@@ -566,10 +566,10 @@ De acuerdo con los gráficos estadísticos que hemos realizado con los datos obt
   <tr>
     <td>
 <div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/analisis-agencia-3.png" alt="Entrevista Evidencia">
+	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-agencia-3.png" alt="Entrevista Evidencia">
 </div></td>
     <td><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/interviews/analisis-agencia-4.png" alt="Entrevista Evidencia">
+	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-agencia-4.png" alt="Entrevista Evidencia">
 </div></td>
   </tr>
 </tbody>
