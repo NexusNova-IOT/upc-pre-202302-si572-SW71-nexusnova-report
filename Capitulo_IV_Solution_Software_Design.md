@@ -79,7 +79,7 @@ Durante este procedimiento, se detectaron los participantes, mensajes que secomp
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-4.png" width ="700px" alt="flow-4" style="margin-right: 20px;">
 </div>
 
-##### 5. Scenario: Register a Ground Transportation Vehicle
+##### 5. Scenario: Register a Vehicle
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-5.png" width ="700px" alt="flow-5" style="margin-right: 20px;">
 </div>
@@ -130,20 +130,27 @@ Se realizó un System Landscape Diagram con el objetivo de visualizar una relaci
 </div>
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
-Se realizó el primer nivel de Software Architecture, System Context en la herramienta Structuriz como se muestra en la siguiente imagen. 
+Se realizó el primer nivel de Software Architecture, System Context en la herramienta Structurizr como se muestra en la siguiente imagen. 
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/context.png" width ="700px" alt="context-diagram" style="margin-right: 20px;">
 </div>
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
-Se realizó el segundo nivel de Software Architecture, Container, en la herramienta Structuriz como se muestra en la siguiente imagen. 
+Se realizó el segundo nivel de Software Architecture, Container, en la herramienta Structurizr como se muestra en la siguiente imagen. 
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/container.png" width ="700px" alt="context-mapping" style="margin-right: 20px;">
 </div>
 
+Link de Structurizr: https://structurizr.com/share/85681 
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
+Los diagramas de despliegue de software representan cómo los componentes de un sistema interactúan con la infraestructura. Son esenciales para la planificación y la gestión de sistemas de software. Por ello, se elaboró este diagrama como muestra la siguiente imagen.
 
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/software-architecture-deployment-diagram.png" width ="700px" alt="software-architecture-deployment-diagram" style="margin-right: 20px;">
+</div>
 
+Link de Structurizr: https://structurizr.com/share/85955
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: Profile management
 Este bounded context se centra en las clases y capas relacionadas con la gestión de perfiles de usuario, permitiendo a los usuarios ver y actualizar su información de perfil. A continuación, se detallan las principales componentes de este contexto:
