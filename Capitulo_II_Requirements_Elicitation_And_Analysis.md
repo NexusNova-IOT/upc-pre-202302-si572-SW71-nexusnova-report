@@ -16,14 +16,14 @@ Tripadvisor está disponible en 49 países, esta aplicación móvil te ofrece la
 
 En esta sección se realizará el análisis competitivo de los competidores identificados en la sección inicial con el objetivo de tener una idea más clara sobre nuestro producto frente a los competidores y aprender para mejorar nuestro producto.
 
-<table style="undefined;table-layout: fixed; width: 1560px">
+<table style="undefined;table-layout: fixed; width: 900px">
 <colgroup>
 <col style="width: 74px">
-<col style="width: 282px">
-<col style="width: 301px">
-<col style="width: 301px">
-<col style="width: 301px">
-<col style="width: 301px">
+<col style="width: 150px">
+<col style="width: 190px">
+<col style="width: 190px">
+<col style="width: 190px">
+<col style="width: 190px">
 </colgroup>
 <thead>
   <tr>
@@ -265,7 +265,7 @@ LLENAR RESUMEN
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
@@ -338,7 +338,7 @@ LLENAR RESUMEN
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/entrevista-2.png" alt="Entrevista Evidencia">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-2.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
@@ -412,7 +412,7 @@ LLENAR RESUMEN
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/entrevista-3.png" alt="Entrevista Evidencia">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-3.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
@@ -486,7 +486,7 @@ LLENAR RESUMEN
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/entrevista-4.png" alt="Entrevista Evidencia">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-4.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
@@ -523,10 +523,10 @@ En la sección de análisis se registra la información de las entrevistas de fo
 <thead>
   <tr>
     <th><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-viajero-1.png" alt="Entrevista Evidencia">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/analisis-viajero-1.png" alt="Entrevista Evidencia">
 </div></th>
     <th><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-viajero-2.png" alt="Entrevista Evidencia">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/analisis-viajero-2.png" alt="Entrevista Evidencia">
 </div></th>
   </tr>
 </thead>
@@ -534,10 +534,10 @@ En la sección de análisis se registra la información de las entrevistas de fo
   <tr>
     <td>
 <div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-viajero-3.png" alt="Entrevista Evidencia">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/analisis-viajero-3.png" alt="Entrevista Evidencia">
 </div></td>
     <td><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-viajero-4.png" alt="Entrevista Evidencia">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/analisis-viajero-4.png" alt="Entrevista Evidencia">
 </div></td>
   </tr>
 </tbody>
@@ -555,10 +555,10 @@ De acuerdo con los gráficos estadísticos que hemos realizado con los datos obt
 <thead>
   <tr>
     <th><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-agencia-1.png" alt="Entrevista Evidencia">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/analisis-agencia-1.png" alt="Entrevista Evidencia">
 </div></th>
     <th><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-agencia-2.png" alt="Entrevista Evidencia">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/analisis-agencia-2.png" alt="Entrevista Evidencia">
 </div></th>
   </tr>
 </thead>
@@ -566,10 +566,10 @@ De acuerdo con los gráficos estadísticos que hemos realizado con los datos obt
   <tr>
     <td>
 <div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-agencia-3.png" alt="Entrevista Evidencia">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/analisis-agencia-3.png" alt="Entrevista Evidencia">
 </div></td>
     <td><div align="center">
-	<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/interviews/analisis-agencia-4.png" alt="Entrevista Evidencia">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/analisis-agencia-4.png" alt="Entrevista Evidencia">
 </div></td>
   </tr>
 </tbody>
@@ -589,13 +589,13 @@ Después de realizar el análisis de las entrevistas del segmento objetivo, nos 
 
 <strong>Usuario Usuario</strong><br>
 
-[![User Persona.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/UserPersonaUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/UserPersonaUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 <br>
 
 <strong>Usuario Agencia de Viajes</strong><br>
 
-[![User Persona.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/UserPersonaAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/UserPersonaAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 ### 2.3.2 User Task Matrix
 
@@ -697,7 +697,7 @@ Con el fin de elaborar un Task Matrix adecuado para el proyecto, se han consider
 
 Mediante este artefacto se explicará y comprenderá como los usuarios del segmento Cliente realizan sus actividades para alcanzar sus objetivos desde su perspectiva.
 
-[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/JourneyMapUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![Journey Map.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/JourneyMapUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 <br>
 
@@ -705,7 +705,7 @@ Mediante este artefacto se explicará y comprenderá como los usuarios del segme
 
 Mediante este artefacto se explicará y comprenderá como los usuarios del segmento Empresa realizan sus actividades para alcanzar sus objetivos desde su persepctiva.
 
-[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/JourneyMapAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![Journey Map.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/JourneyMapAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 
 Mediante este artefacto se explicará y comprenderá como los usuarios del segmento Empresa realizan sus actividades para alcanzar sus objetivos desde su persepctiva.
@@ -716,13 +716,13 @@ Lo siguiente a evaluar como parte del needfinding es a nuestros segmentos objeti
 
 <strong>Segmento Agencias de Viaje</strong><br>
 
-[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/EmpathyMapAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![Journey Map.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/EmpathyMapAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 <br>
 
 <strong>Segmento Usuarios</strong><br>
 
-[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/EmpathyMapUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![Journey Map.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/EmpathyMapUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 
 ### 2.3.5 As-Is Sccenario Maps
