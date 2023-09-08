@@ -716,23 +716,22 @@ Lo siguiente a evaluar como parte del needfinding es a nuestros segmentos objeti
 
 <strong>Segmento Agencias de Viaje</strong><br>
 
-<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/JourneyMapAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 <br>
 
 <strong>Segmento Usuarios</strong><br>
 
-<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/JourneyMapUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 
 ### 2.3.5 As-Is Sccenario Maps
 
 <strong>Segmento Agencias de Viaje</strong><br>
 
-<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
-
+[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/As-IsScenarioMappingAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 <br>
 
 <strong>Segmento Usuarios</strong><br>
 
-<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/As-IsScenarioMappinguser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
