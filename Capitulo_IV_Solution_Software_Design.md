@@ -338,6 +338,7 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_TourExperince_DB_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_TourExperince_Class_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
