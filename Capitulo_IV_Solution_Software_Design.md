@@ -62,6 +62,9 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/bounded-context.jpg" width ="700px" alt="bounded-context-step" style="margin-right: 20px;">
 </div>
+<br>
+
+Link de Event Storming: https://miro.com/app/board/uXjVMnLi1r4=/?share_link_id=930933388252 
 
 
 #### 4.1.1.1 Candidate Context Discovery.
@@ -261,6 +264,7 @@ Se realizó el segundo nivel de Software Architecture, Container, en la herramie
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/container.png" width ="700px" alt="context-mapping" style="margin-right: 20px;">
 </div>
+<br>
 
 Link de Structurizr: https://structurizr.com/share/85681 
 
@@ -270,6 +274,7 @@ Los diagramas de despliegue de software representan cómo los componentes de un 
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/software-architecture-deployment-diagram.png" width ="700px" alt="software-architecture-deployment-diagram" style="margin-right: 20px;">
 </div>
+<br>
 
 Link de Structurizr: https://structurizr.com/share/85955
 ## 4.2. Tactical-Level Domain-Driven Design
