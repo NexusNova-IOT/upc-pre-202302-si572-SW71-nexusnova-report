@@ -587,99 +587,109 @@ De acuerdo con los gráficos estadísticos, la mitad de las agencias de viajes e
 
 Después de realizar el análisis de las entrevistas del segmento objetivo, nos corresponde crear el usuario ideal con el que estamos tratando. Para la redacción de dichos usuarios se han considerado las personalidades y cualidades obtenidas en cada entrevista. A continuación, se muestra los user personas como resultado de la investigación:
 
-<strong>Usuario Agencia de Viajes</strong><br>
+<strong>Usuario Usuario</strong><br>
 
-<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+[![User Persona.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/UserPersonaUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 <br>
 
-<strong>Usuario Usuario</strong><br>
+<strong>Usuario Agencia de Viajes</strong><br>
 
-<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+[![User Persona.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/UserPersonaAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 ### 2.3.2 User Task Matrix
 
 Con el fin de elaborar un Task Matrix adecuado para el proyecto, se han considerado los dos segmentos objetivo, producto del análisis de entrevistas, es decir, Agencia y Cliente.
 
-<table>
+<div align="center">
+<table style="undefined;table-layout: fixed; width: 636px">
+<colgroup>
+<col style="width: 263px">
+<col style="width: 67px">
+<col style="width: 90px">
+<col style="width: 89px">
+<col style="width: 127px">
+</colgroup>
 <thead>
   <tr>
-    <th rowspan="2">Tareas de Usuario</th>
-    <th colspan="2">Segmento Agencias</th>
+    <th rowspan="2">USER TASK<br></th>
+    <th colspan="2">Viajero <br> Andre Perez<br></th>
+    <th colspan="2">Agencia deviajes <br> Ricardo Ruiz<br></th>
   </tr>
   <tr>
-    <th>Frecuencia </th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
     <th>Importancia</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Busquedade paquetes de viaje<br><br></td>
+    <td>Media</td>
+    <td>Mucha</td>
+    <td>Poco usual<br></td>
+    <td>Poca</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Seleccion de paquete de viaje<br></td>
+    <td>Mucha</td>
+    <td>Mucha</td>
+    <td>Media <br></td>
+    <td>Media</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Administrar peso equipaje<br></td>
+    <td>Mucha</td>
+    <td>Mucha</td>
+    <td>Media <br></td>
+    <td>Media</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Reserva de paquete de viaje<br></td>
+    <td>Mucha</td>
+    <td>Mucha</td>
+    <td>Poco usual<br></td>
+    <td>Poco usual<br></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Pago de paquete de viaje<br></td>
+    <td>Mucha</td>
+    <td>Mucha</td>
+    <td>Mucha</td>
+    <td>Mucha</td>
+  </tr>
+  <tr>
+    <td>Seguimiento de turistas<br></td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Mucha</td>
+    <td>Mucha</td>
+  </tr>
+  <tr>
+    <td>Actualizacion de informacion del viaje<br></td>
+    <td>Poco usual<br></td>
+    <td>Poco usual<br></td>
+    <td>Mucha <br></td>
+    <td>Mucha</td>
+  </tr>
+  <tr>
+    <td>Soporte al cliente<br></td>
+    <td>Media <br></td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Resolucion de problemas durante el viaje<br></td>
+    <td>Mucha</td>
+    <td>Mucha<br></td>
+    <td>Media</td>
+    <td>Media</td>
   </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-  <tr>
-    <th rowspan="2">Tareas de Usuario</th>
-    <th colspan="2">Segmento Usuarios</th>
-  </tr>
-  <tr>
-    <th>Frecuencia </th>
-    <th>Importancia</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</tbody>
-</table>
+</div>
 
 ### 2.3.3 Journey Mapping
 
@@ -687,7 +697,7 @@ Con el fin de elaborar un Task Matrix adecuado para el proyecto, se han consider
 
 Mediante este artefacto se explicará y comprenderá como los usuarios del segmento Cliente realizan sus actividades para alcanzar sus objetivos desde su perspectiva.
 
-<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/JourneyMapUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 <br>
 
@@ -695,7 +705,7 @@ Mediante este artefacto se explicará y comprenderá como los usuarios del segme
 
 Mediante este artefacto se explicará y comprenderá como los usuarios del segmento Empresa realizan sus actividades para alcanzar sus objetivos desde su persepctiva.
 
-<img src="URL_DE_LA_IMAGEN" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+[![Journey Map.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/JourneyMapAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 
 Mediante este artefacto se explicará y comprenderá como los usuarios del segmento Empresa realizan sus actividades para alcanzar sus objetivos desde su persepctiva.

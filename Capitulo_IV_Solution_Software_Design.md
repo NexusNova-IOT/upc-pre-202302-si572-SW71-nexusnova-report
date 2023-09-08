@@ -62,6 +62,9 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/bounded-context.jpg" width ="700px" alt="bounded-context-step" style="margin-right: 20px;">
 </div>
+<br>
+
+Link de Event Storming: https://miro.com/app/board/uXjVMnLi1r4=/?share_link_id=930933388252 
 
 
 #### 4.1.1.1 Candidate Context Discovery.
@@ -177,6 +180,61 @@ Durante este procedimiento, se detectaron los participantes, mensajes que secomp
 
 #### 4.1.1.3 Bounded Context Canvases.
 
+##### Booking Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/booking-management-canvas.png" width="700px" alt="booking-management-canvas">
+</div>
+
+##### Data Report and Analytics
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/data-report-and-analytics-canvas.png" width="700px" alt="data-report-and-analytics-canvas">
+</div>
+
+##### Execution and Tracking
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/execution-and-tracking-canvas.png" width="700px" alt="execution-and-tracking-canvas">
+</div>
+
+##### Identity And Access Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/identity-and-access-management-canvas.png" width="700px" alt="identity-and-access-management-canvas">
+</div>
+
+##### IoT Asset Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/ioT-asset-management-canvas.png" width="700px" alt="ioT-asset-management-canvas">
+</div>
+
+##### Notification Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/notification-management-canvas.png" width="700px" alt="notification-management-canvas">
+</div>
+
+##### Profile Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/profile-management-canvas.png" width="700px" alt="profile-management-canvas">
+</div>
+
+##### Review Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/review-management-canvas.png" width="700px" alt="review-management-canvas">
+</div>
+
+##### Subscription and payments
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/subscription-and-payments-canvas.png" width="700px" alt="subscription-and-payments-canvas">
+</div>
+
+##### Tour Experience
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/tour-experience-canvas.png" width="700px" alt="tour-experience-canvas">
+</div>
+
+##### Transport Management
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/transport-management-canvas.png" width="700px" alt="transport-management-canvas">
+</div>
+
 ### 4.1.2. Context Mapping
 
 Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, el cual se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin, como Conformist, Customer/Supplier, Partnership o Shared Kernel. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen: 
@@ -206,6 +264,7 @@ Se realizó el segundo nivel de Software Architecture, Container, en la herramie
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/container.png" width ="700px" alt="context-mapping" style="margin-right: 20px;">
 </div>
+<br>
 
 Link de Structurizr: https://structurizr.com/share/85681 
 
@@ -215,6 +274,7 @@ Los diagramas de despliegue de software representan cómo los componentes de un 
 <div style="display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/software-architecture-deployment-diagram.png" width ="700px" alt="software-architecture-deployment-diagram" style="margin-right: 20px;">
 </div>
+<br>
 
 Link de Structurizr: https://structurizr.com/share/85955
 ## 4.2. Tactical-Level Domain-Driven Design
