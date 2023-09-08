@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/resources/images/UPC.png" alt="UPC">
+  <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Resources/images/UPC.png" alt="UPC">
 </div>
 
 **Universidad Peruana de Ciencias Aplicadas**
@@ -30,3 +30,4 @@ Ciclo: 2023-2
 
 
 <div align="right">Agosto 2023</div>
+<p align="right">(<a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Tabla_de_Contenidos.md">Tabla de contenidos</a>)</p>
