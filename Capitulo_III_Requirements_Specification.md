@@ -81,6 +81,9 @@ Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/Tq
 
 Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
 ## 3.4. Product Backlog.
+
+En el Product Backlog presentaremos una lista priorizada de nuestras user stories según el nivel de prioridad que acordamos en el equipo, esencial para el *enfoque ágil*.
+
 | Orden | User Story Id | Título | Descripción | Story Points |
 |:-----:|:-------------:|--------|-------------|:------------:|
 | 1     | US01           | Buscar especificaciones según tipo de viaje | Como usuario turista quiero buscar destino según el tipo de viaje que deseo para tener una mejor experiencia en mi viaje. | 3 |
@@ -122,3 +125,9 @@ Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7
 | 37    | TS10           | Diseño de Interfaz de Usuario para Detalles de Reserva | Como Developer, necesito diseñar la interfaz de usuario en el frontend para mostrar los detalles completos de una reserva. |5 |
 | 38    | TS11           | Implementación de Autenticación de API | Como Developer, necesito implementar mecanismos de autenticación para asegurar que solo las solicitudes autenticadas tengan acceso a los endpoints de la API. |5 |
 | 39    | TS12           | Optimización de Consultas de Base de Datos | Como Developer, necesito optimizar las consultas de base de datos en la API para mejorar el rendimiento y la velocidad de respuesta. |3 |
+
+A continuación se presenta el Product Backlog en la plataforma Pivotal Tracker:
+
+[![Product Backlog.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/ProductBacklog.png)](https://www.pivotaltracker.com/n/projects/2675473)
+
+Enlace: [Product Backlog en PivotalTracker](https://www.pivotaltracker.com/n/projects/2675473)
