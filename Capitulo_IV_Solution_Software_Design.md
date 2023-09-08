@@ -125,6 +125,8 @@ Se presentaron diversas perspectivas arquitectónicas que ayudaron a visualizar 
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
+Se realizó el primer nivel de Software Architecture, System Context en la herramienta Structuriz como se muestra en la siguiente imagen. 
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
 
