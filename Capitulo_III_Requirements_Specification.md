@@ -71,5 +71,13 @@ Enlace: [Documento en Miro](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_
 | TS12 | Optimización de Consultas de Base de Datos  | Como Developer, necesito optimizar las consultas de base de datos en la API para mejorar el rendimiento y la velocidad de respuesta. | **Scenario 1:** Mejora en el rendimiento de la API después de la optimización de consultas <br><br>**DADO QUE** se realizan consultas de búsqueda <br><br>**CUANDO** se analizan las métricas de rendimiento <br><br>**ENTONCES** se observa una mejora en los tiempos de respuesta de la API. | EP13 |
 
 ## 3.3. Impact Mapping.
+En el Impact Mapping, se puede apreciar cómo el desarrollo de la aplicación provocará transformaciones significativas en el estilo de vida de los usuarios. En última instancia, se podrá constatar que todos estos cambios se materializan a través de las historias de usuario.
 
+[![Impact mapping de las agencias turísticas.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/maps/ImpactMapping-AgenciaDeViajes.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+
+Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+
+[![Impact mapping de las agencias turísticas.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/resources/maps/ImpactMapping-AgenciaDeViajes-v2.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
+
+Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
 ## 3.4. Product Backlog.
