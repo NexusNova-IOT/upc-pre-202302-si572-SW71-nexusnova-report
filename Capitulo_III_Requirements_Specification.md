@@ -77,7 +77,48 @@ En el Impact Mapping, se puede apreciar cómo el desarrollo de la aplicación pr
 
 Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
-[![Impact mapping de las agencias turísticas.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/ImpactMapping-AgenciaDeViajes-v2.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
+[![Impact mapping de las agencias turísticas.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/ImpactMapping-AgenciaDeViajes-2.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
 
 Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
 ## 3.4. Product Backlog.
+| Orden | User Story Id | Título | Descripción | Story Points |
+|:-----:|:-------------:|--------|-------------|:------------:|
+| 1     | US01           | Buscar especificaciones según tipo de viaje | Como usuario viajero quiero buscar destino según el tipo de viaje que deseo para tener una mejor experiencia en mi viaje. | 3 |
+| 2     | US02           | Búsqueda por Duración de Viaje | Como usuario viajero, quiero buscar destinos según la duración de mi viaje para una mejor organización. | 5 |
+| 3     | US03           | Búsqueda por Clima del Destino | Como usuario viajero, quiero buscar destinos según el clima para tener una mejor experiencia en mi viaje. | 3 |
+| 4     | US04           | Obtener Información Detallada del Viaje | Como usuario viajero, quiero obtener información detallada sobre un viaje para conocer las escalas y tiempos de espera. | 5 |
+| 5     | US05           | Selección del Tipo de Servicio | Como usuario viajero, quiero especificar el tipo de servicio que necesito para encontrar opciones que se adapten a mis necesidades. | 5 |
+| 6     | US06           | Publicación de Promociones | Como agencia de viajes, quiero publicar promociones en la aplicación para ofrecer descuentos a los usuarios interesados. | 5 |
+| 7     | US07           | Subida de Destinos Disponibles | Como agencia de viajes, quiero subir los destinos disponibles para que los usuarios vean los servicios que ofrecemos en cada destino. | 5 |
+| 8     | US08           | Subida de Servicios Ofrecidos | Como agencia de viajes, quiero subir los servicios que ofrecemos para mostrar a los clientes nuestras ofertas. | 8 |
+| 9     | US09           | Selección de Hotel | Como usuario viajero, quiero elegir un hotel que se adapte a mis necesidades para tener una mejor experiencia en mi viaje. | 3 |
+| 10    | US10           | Selección de Vuelo | Como usuario viajero quiero elegir un vuelo de una lista para adaptarlo a mi itinerario. | 3 |
+| 11    | US11           | Creación de Código de Descuento | Como usuario agencia de viajes quiero crear un código de descuento con límites de cantidad y período para promocionarlos en redes sociales o campañas de publicidad. | 5 |
+| 12    | US12           | Visualización de Reportes de Ventas | Como usuario agencia de viajes quiero ver un reporte de las ventas registradas en un período específico para mantener un registro y hacer seguimiento. | 2 |
+| 13    | US13           | Visualización de Preguntas de Usuarios | Como usuario agencia de viajes quiero ver las preguntas que hacen los usuarios en mis publicaciones y promociones para gestionarlas adecuadamente. | 5 |
+| 14    | US14           | Visualización de Reservas de Viaje | Como usuario viajero quiero poder ver mis reservas de viaje para verificar fechas y horarios. | 3 |
+| 15    | US15           | Pago de Reservas | Como usuario viajero quiero pagar mis reservas para obtener confirmaciones de viaje. | 5 |
+| 16    | US16           | Asociación de Medios de Pago | Como usuario quiero asociar mis medios de pago para realizar pagos de reservas de manera más rápida. | 8 |
+| 17    | US17           | Búsqueda de Información de la Agencia de Viaje | Como usuario quiero buscar información de una agencia de viaje para evaluar su calidad antes de viajar con ellos. | 1 |
+| 18    | US18           | Búsqueda de Información de un Hotel | Como usuario quiero buscar información de un hotel para seleccionar un lugar de hospedaje que se ajuste a mi presupuesto. | 5 |
+| 19    | US19           | Búsqueda de Recomendaciones sobre una Agencia | Como usuario quiero buscar recomendaciones sobre una agencia de viaje para conocer las opiniones de otros usuarios. | 3 |
+| 20    | US20           | Búsqueda de Información del Viajero | Como agencia de viaje quiero buscar información del viajero para conocer su situación económica y ofrecer recomendaciones de viajes con diferentes comodidades. | 5 |
+| 21    | US21           | Visualizar oferta de valor de la aplicación | Como usuario huésped quiero ver la oferta de valor de la aplicación en el landing page para poder hacerme una idea del potencial de la aplicación. | 5 |
+| 22    | US22           | Call to Action | Como visitante, quiero ver botones al principio y al final de la página de inicio para conectarme con la Web App. | 1 |
+| 23    | US23           | Gestión de Usuarios Viajeros | Como administrador, quiero dar de alta, modificar y eliminar usuarios del rol de viajero para administrar eficientemente. | 3 |
+| 24    | US24           | Gestión de Planes | Como agencia de viajes, quiero tener control sobre los planes que publico para que los viajeros estén informados de los nuevos planes y no adquieran planes agotados. | 1 |
+| 25    | US25           | Visualización de Agencias | Como usuario, quiero poder ver información de las agencias para conocer su nombre y otros detalles. | 8 |
+| 26    | US26           | Gestión de Agencias | Como administrador, quiero tener control sobre las agencias para brindar información adicional a los viajeros. | 8 |
+| 27    | US27           | Gestión de Pagos | Como administrador, quiero tener control sobre los pagos de mis planes para un mejor seguimiento y control. | 1 |
+| 28    | TS01           | Configuración de Entorno de Desarrollo | Como Developer, necesito configurar un entorno de desarrollo local con las herramientas y dependencias necesarias para trabajar en el proyecto. |3 |
+| 29    | TS02           | Diseño de Base de Datos para Destinos | Como Developer, necesito diseñar la estructura de la base de datos para almacenar la información de los destinos turísticos. |5 |
+| 30    | TS03           | Implementación de Autenticación en el Frontend | Como Developer, necesito implementar un sistema de autenticación en el frontend para que los usuarios puedan crear cuentas e iniciar sesión. |3 |
+| 31    | TS04           | Diseño de Interfaz de Usuario para Lista de Destinos | Como Developer, necesito diseñar la interfaz de usuario en el frontend para mostrar una lista de destinos disponibles. |5 |
+| 32    | TS05           | Implementación de Lógica de Negocios para Reservas | Como Developer, necesito implementar la lógica de negocios en el backend para manejar la creación y gestión de reservas de servicios turísticos. |3 |
+| 33    | TS06           | Implementación de Endpoints de API para Listar Destinos | Como Developer, necesito implementar endpoints en la API REST para permitir la obtención de una lista de destinos disponibles en el sistema. |5 |
+| 34    | TS07           | Diseño de Base de Datos para Reservas | Como Developer, necesito diseñar la estructura de la base de datos para almacenar la información relacionada con las reservas de servicios de viaje. |5 |
+| 35    | TS08           | Integración de Mapas Interactivos en el Frontend | Como Developer, necesito integrar un componente de mapas interactivos en el frontend para que los usuarios visualicen la ubicación de los destinos y puntos de interés. |3 |
+| 36    | TS09           | Implementación de Endpoint de API para Crear Reservas | Como Developer, necesito implementar un endpoint en la API REST para permitir la creación de nuevas reservas por parte de los usuarios. |3 |
+| 37    | TS10           | Diseño de Interfaz de Usuario para Detalles de Reserva | Como Developer, necesito diseñar la interfaz de usuario en el frontend para mostrar los detalles completos de una reserva. |5 |
+| 38    | TS11           | Implementación de Autenticación de API | Como Developer, necesito implementar mecanismos de autenticación para asegurar que solo las solicitudes autenticadas tengan acceso a los endpoints de la API. |5 |
+| 39    | TS12           | Optimización de Consultas de Base de Datos | Como Developer, necesito optimizar las consultas de base de datos en la API para mejorar el rendimiento y la velocidad de respuesta. |3 |
