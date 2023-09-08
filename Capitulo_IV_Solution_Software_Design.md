@@ -445,9 +445,7 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 ### **Enum**:
 * **Rol**: Esta clase representaría los diferentes tipos de usuarios en el sistema.
 
-<div align="center" >
-    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/profile.png?raw=true"     width ="250px" alt="Imagen" style="margin-right: 20px;">
-</div>
+
 
 
 #### 4.2.8.2. Interface Layer.
@@ -484,6 +482,11 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
+
+<div align="center" >
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/profile.png?raw=true"     width ="250px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
 
