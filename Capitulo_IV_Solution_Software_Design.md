@@ -54,7 +54,12 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
 
 
 #### 4.1.1.1 Candidate Context Discovery.
-Empleando la metodología de eventstorming con enfoque en la técnica de "start-with-simple", utilizamos la línea de tiempo para identificar posibles candidatos para nuestro contexto delimitado, los cuales son Perfil, Creación y edición de diseños y Gestión de diseños.
+Empleando la metodología de eventstorming con enfoque en la técnica de "start-with-simple", utilizamos la línea de tiempo para identificar posibles candidatos para nuestro contexto delimitado, los cuales son los siguientes:
+
+##### Profile management
+<div align="center">
+    <img src="" width="700px">
+</div>
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 Durante este procedimiento, se detectaron los participantes, mensajes que secomparten y se delinean en las corrientes de información que enlazan estos componentes.
