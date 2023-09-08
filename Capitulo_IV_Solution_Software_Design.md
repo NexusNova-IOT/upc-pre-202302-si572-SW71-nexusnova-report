@@ -723,4 +723,10 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
     <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Resources/diagrams/BC_Iot_Management_Class.png"
     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
+
 ##### 4.2.10.6.2. Bounded Context Database Design Diagram.
+
+<div style="display: flex; align-items: center;">
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Resources/diagrams/BC_IOT_Management_DB_Diagram.png"
+    width ="700px" alt="Imagen" style="margin-right: 20px;">
+</div>
