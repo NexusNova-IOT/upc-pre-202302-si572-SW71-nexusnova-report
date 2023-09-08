@@ -589,13 +589,13 @@ Después de realizar el análisis de las entrevistas del segmento objetivo, nos 
 
 <strong>Usuario Usuario</strong><br>
 
-<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/UserPersonaUser.png" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+[![User Persona.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/UserPersonaUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 <br>
 
 <strong>Usuario Agencia de Viajes</strong><br>
 
-<img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/UserPersonaAgency.png" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
+[![User Persona.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/UserPersonaAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 ### 2.3.2 User Task Matrix
 
