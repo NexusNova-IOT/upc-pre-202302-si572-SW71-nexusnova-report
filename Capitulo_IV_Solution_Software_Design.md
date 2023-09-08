@@ -124,10 +124,23 @@ Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la el
 Se presentaron diversas perspectivas arquitectónicas que ayudaron a visualizar y estructurar sistemas de software. Se exploraron diagramas a nivel de Paisaje del Sistema, Nivel de Contexto y Nivel de Contenedor, así como Diagramas de Despliegue que arrojaron luz sobre la infraestructura en la que operaría el sistema.
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
+Se realizó un System Landscape Diagram con el objetivo de visualizar una relación general entre el sistema interno, externos y los usuarios.
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/landscape.png" width ="700px" alt="landscape-diagram" style="margin-right: 20px;">
+</div>
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 Se realizó el primer nivel de Software Architecture, System Context en la herramienta Structuriz como se muestra en la siguiente imagen. 
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/context.png" width ="700px" alt="context-diagram" style="margin-right: 20px;">
+</div>
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
+Se realizó el segundo nivel de Software Architecture, Container, en la herramienta Structuriz como se muestra en la siguiente imagen. 
+<div style="display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/container.png" width ="700px" alt="context-mapping" style="margin-right: 20px;">
+</div>
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
 
 
@@ -542,11 +555,11 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
     * **LocalizationWristband**: Esta clase representa una pulsera de localización IoT utilizada para rastrear la ubicación de los turistas. 
 
 #### 4.2.10.2. Interface Layer.
-* **Scale Controller**: es responsable de gestionar las solicitudes y las interacciones relacionadas con la balanza  como coordinar con la Application Layer para ejecutar operaciones específicas en las balanzas, como tomar mediciones de peso y registrar datos.
+* **Scale Controller**: Es responsable de gestionar las solicitudes y las interacciones relacionadas con la balanza  como coordinar con la Application Layer para ejecutar operaciones específicas en las balanzas, como tomar mediciones de peso y registrar datos.
 
-* **Weather Sensor Controller** :  se encarga de gestionar las solicitudes y las operaciones relacionadas con los sensores climáticos IoT como validar los datos de entrada relacionados con los sensores climáticos y coordinar con la capa de aplicación para obtener datos climáticos específicos de los sensores.
+* **Weather Sensor Controller** :  Se encarga de gestionar las solicitudes y las operaciones relacionadas con los sensores climáticos IoT como validar los datos de entrada relacionados con los sensores climáticos y coordinar con la capa de aplicación para obtener datos climáticos específicos de los sensores.
 
-* **Localization Wristband Controller** :  se encarga de gestionar las solicitudes y las operaciones relacionadas con las pulseras de localización.
+* **Localization Wristband Controller** :  Se encarga de gestionar las solicitudes y las operaciones relacionadas con las pulseras de localización.
 
 
 #### 4.2.10.3. Application Layer.
