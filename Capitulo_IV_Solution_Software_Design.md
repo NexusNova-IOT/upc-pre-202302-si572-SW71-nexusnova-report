@@ -216,11 +216,62 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 
 ### 4.2.5. Bounded Context: Subscription and payment
 #### 4.2.5.1. Domain Layer.
+#### Entities:
 
+* **Subscription**: Esta entidad representa una suscripción en el sistema. Tiene atributos como ID de suscripción, fecha de inicio, fecha de vencimiento y métodos para gestionar la suscripción, como renovarla o cancelarla.
+
+* **Payment**: La entidad Payment modela los pagos realizados en el sistema. Contiene información sobre el ID de pago, el monto, la fecha y otros detalles relevantes. También incluye métodos para registrar y procesar pagos.
+
+* **Insurance**: La entidad Insurance representa las pólizas de seguro disponibles en el sistema. Incluye atributos como el tipo de seguro, la cobertura y métodos para adquirir o administrar pólizas de seguro.
+
+#### Object Values:
+
+* **PaymentHistory**: Este object value almacena el historial de pagos asociado a una suscripción. Contiene detalles como las fechas de los pagos anteriores, el estado de los pagos y otros datos relacionados con el historial de pagos.
+
+#### Aggregates:
+
+* **SubscriptionAggregate**: Este aggregate agrupa la entidad de Suscripción (Subscription) y el historial de pagos (PaymentHistory) relacionado. Define las reglas de negocio que garantizan la consistencia entre suscripciones y pagos.
+
+#### Enumeraciones:
+
+* **PaymentStatus**: Esta enumeración representa el estado de un pago, incluyendo valores como "Procesado" o "Fallido". Se utiliza para rastrear el estado de los pagos en el sistema.
+
+* **InsuranceType**: Enumeración que define los diferentes tipos de seguros disponibles.
 
 #### 4.2.5.2. Interface Layer.
+
+* **Payment Controller**: El controlador Payment maneja las solicitudes relacionadas con los pagos. Proporciona endpoints,registrar historiales de pagos y gestionar la interacción con los usuarios en términos de suscripciones y pagos.
+
+* **Subscription Controller**: El controlador Subscription se encarga de las solicitudes relacionadas con las suscripciones. Ofrece endpoints para crear, renovar y cancelar suscripciones, así como para administrar el estado de las suscripciones de los usuarios.
+
+* **Insurance Controller**: El controlador Insurance gestiona las interacciones relacionadas con las pólizas de seguro. Proporciona endpoints para adquirir, modificar y consultar información sobre las pólizas de seguro disponibles.
+
+
 #### 4.2.5.3. Application Layer.
+
+
+* **Purchase Subscription Command Handler**: Este Command Handler se encarga de procesar las solicitudes de compra de suscripciones. Recibe comandos de compra de suscripción desde el Interface Layer y coordina la creación y activación de las suscripciones en el Domain Layer. Además, gestiona la facturación y los registros de pagos relacionados con las suscripciones adquiridas.
+
+* **Renew Subscription Command Handler**: El Command Handler de renovación de suscripciones maneja las solicitudes para extender la duración de una suscripción existente. Al recibir un comando de renovación de suscripción, este handler interactúa con el Domain Layer para actualizar las fechas de vencimiento y gestionar los pagos asociados a la renovación.
+
+* **Adquire Insurance Command Handler**: Este Command Handler se encarga de procesar las solicitudes de adquisición de seguro. Cuando recibe un comando para adquirir un seguro, coordina la creación y configuración del seguro en el Domain Layer.
+
+* **Payment Process Command Handler**: El Command Handler de procesamiento de pagos administra las solicitudes relacionadas con el procesamiento de pagos. Recibe comandos para procesar pagos y se comunica con el Domain Layer para registrar los pagos exitosos y gestionar los casos de pagos fallidos.
+
+
 #### 4.2.5.4. Infrastructure Layer.
+
+* **Subscription Repository**: Este repositorio se encarga de la persistencia de datos relacionados con las suscripciones de usuarios. Almacena información sobre las suscripciones activas, su estado y fechas de vencimiento. Facilita la consulta y actualización de datos de suscripciones.
+
+* **Payment Gateway Adapter**: Este adaptador se conecta con un servicio externo de pasarela de pago mediante nuestro payment gateway.
+
+* **Insurance Policy Repository**: Este repositorio maneja la persistencia de datos relacionados con los seguros adquiridos por los usuarios. Almacena información sobre los seguros activas, su cobertura y detalles relacionados con las pólizas.
+
+* **Logging Service**: Proporciona registros para auditoría, seguimiento y resolución de problemas. Captura información sobre pagos procesados, interacciones de usuarios y eventos críticos.
+
+
+
+
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 <div style="display: flex; align-items: center;">
     <img src="./resources/images/diagrams/../../diagrams/Subscription and Payment BC Component Diagram.png"    width ="700px" alt="Imagen" style="margin-right: 20px;">
@@ -228,9 +279,21 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 </div>
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
+
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
+<div align="center">
+
+<img src="/Resources/diagrams/subscriptionPayment.png" width="500px">
+
+</div>
+
+##### 4.2.5.6.2. Bounded Context Database Design Diagram.
+<div align="center">
+
+<img src="/Resources/diagrams/subscriptionPaymnetDB.png" width="500px">
+
+</div>
 
 
 ### 4.2.6. Bounded Context: Review
@@ -279,7 +342,21 @@ En esta sección, presentaremos la propuesta táctica para el diseño de la solu
 </div>
 
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
+<div align="center">
 
+<img src="./resources/images/diagrams/../../diagrams/BC_Reviews_DB.png" width="500px">
+
+
+| Campo             | Tipo                  | Descripción                                      |
+|-------------------|-----------------------|--------------------------------------------------|
+| review_id   | uniqueidentifier      | Identificador único de la reseña.         |
+| tourist_id       | uniqueidentifier, FK      | Identificador único del turista.               |
+| comment           | text         | Mensaje o descripción de la reseña.                     |
+| tourPackage_id         | uniqueidentifier, FK                   | Identificador único del paquete turístico.  |
+| stars              | int                   | cantidad de estrellas. |
+| review_date           | datetime              | Fecha y hora de envío de la reseña.       |
+
+</div>
 
 
 ### 4.2.7. Bounded Context: Notification
@@ -368,9 +445,7 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 ### **Enum**:
 * **Rol**: Esta clase representaría los diferentes tipos de usuarios en el sistema.
 
-<div align="center" >
-    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/profile.png?raw=true"     width ="250px" alt="Imagen" style="margin-right: 20px;">
-</div>
+
 
 
 #### 4.2.8.2. Interface Layer.
@@ -407,6 +482,11 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
+
+<div align="center" >
+    <img src="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/diagrams/profile.png?raw=true"     width ="250px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
 
