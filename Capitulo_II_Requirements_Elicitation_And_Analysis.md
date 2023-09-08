@@ -149,64 +149,63 @@ En esta sección se abordará la investigación en base a la información que se
 
 ### 2.2.1 Diseño de entrevistas
 
-En esta sección se diseñará las entrevistas para los segmentos objetivos identificados, tomando en cuenta preguntas que nos permitirán validad nuestras suposiciones e hipótesis que tenemos acerca de los problemas hemos identificado.
+<strong>Preguntas sobre información personal</strong>
 
-<strong>PREGUNTAS SOBRE INFORMACION PERSONAL</strong><br>
-* ¿Cuál es su nombre completo?
-* ¿Qué edad tienes?
-* ¿A qué te dedicas?
-* ¿Cuál es tu estado civil?
-* ¿En qué ciudad resides?
-* ¿Que redes sociales usas usualmente?
-* ¿Eres una persona que toma decisiones analizando los hechos o te dejas llevar por tus sentimientos?
-* ¿Qué smartphone posee? ¿Android o IOS?
-* ¿Usas aplicaciones o programas en especial? ¿Cuáles?
+*	¿Cuál es su nombre completo?
+*	¿Qué edad tienes?
+*	¿A qué te dedicas?
+*	¿Cuál es tu estado civil?
+*	¿En qué ciudad resides?
+*	¿Eres extrovertido o calmado?
+*	¿Eres una persona que toma decisiones analizando los hechos o te dejas llevar por tus sentimientos?
+*	¿Qué smartphone posee? ¿Android o IOS?
+*	¿Usas aplicaciones o programas en especial? ¿Cuáles?
+*	Preguntas principales y secundarias para entrevistas (Usuarios VIajeros)
 
-<strong>AGENCIA DE VIAJES</strong><br>
+<strong>Principales: </strong>
 
-  Principales:
-* ¿Con qué frecuencia los suelen contratar para sus servicios?
-* ¿Cómo hacen los procesos de reserva de alojamiento y transporte?
-* ¿Han tenido algún percance con la ubicacion de algún cliente? ¿Qué fue lo que ocurrió?
-* ¿Han tenido algún problema con aerolíneas o alojamientos? ¿Qué fue lo que ocurrió?
-* ¿Cómo generan sus ganancias?
-* ¿Cómo organizan las actividades de los destinos?
-* ¿Su empresa cuenta con redes sociales como medio de marketing?
-* ¿Colaboran con agencias online para mostrar sus servicios?
-* ¿Le sería útil una aplicación que le ayude a administrar y obtener informacion sobre cada tour y sus turistas?
-  
-<br>
+*	¿Con qué frecuencia suele realizar un viaje al interior del país? 
+*	¿Tiene problemas para armar su itinerario?¿ Si su respuesta es sí, qué tipo de problemas son?
+*	¿ Qué características positivas debería tener una empresa para que usted pueda contratar su servicio?
+*	¿Qué tipo de información consideran importante previo a elegir su viaje?
+*	¿Cuáles son los servicios que contrata a menudo de las agencias de viaje?
+*	¿Cuál es su presupuesto promedio y cuáles son los principales rubros en los que realiza sus gastos?
+*	¿Cómo organiza sus viajes frecuentemente?
+*	¿ Sigue algún influencer en redes sociales que haya influido en su elección de viaje?
+*	¿ Utiliza alguna App que lo ayude en las reservas de viaje?¿Si su respuesta es sí, que le brinda esta App?
+*	¿ Le sería útil una Aplicación que lo ayude en la planificación y reserva de un viaje?
 
-  Complementarias:
-* ¿Su empresa es conocida?
-* ¿Cuál es la razón del porqué los clientes los contactan?
-* ¿Cómo es la percepción de los clientes sobre sus servicios?
-* ¿Qué otros destinos piensan incorporar en sus servicios?
-* ¿Tienen mucha variedad de destinos turisticos?
-* ¿Qué proyección tienen a futuro?
-  
-<br>
 
-<strong>USUARIOS VIAJEROS</strong><br>
 
-Principales:
-* ¿Con qué frecuencia suele realizar un viaje al interior del país?
-* ¿Tiene problemas para armar su itinerario? ¿ Si su respuesta es sí, qué tipo de problemas son?
-* ¿Qué características positivas debería tener una empresa para que usted pueda contratar su servicio?
-* ¿Qué tipo de información consideran importante previo a elegir su viaje?
-* ¿Cuáles son los servicios que contrata a menudo de las agencias de viaje?
-* ¿Cuál es su presupuesto promedio y cuáles son los principales rubros en los que realiza sus gastos?
-* ¿Cómo organiza sus viajes frecuentemente?
-* ¿Sigue algún influencer en redes sociales que haya influido en su elección de viaje?
-* ¿Le sería sería útil una Aplicación que lo ayude en la planificación de su viaje?
+<strong>Complementarias:</strong>
 
-Complementarias:
-* ¿Alguna vez fue partícipe de una estafa con su reserva de viaje?
-* ¿La opinión de su entorno social influye para la elección de una aerolínea de viaje? ¿Si es así, cuál fue la más comentada?
-* ¿Alguna vez sufrió un percance con la reserva de su viaje, por un factor externo a este?
-* ¿Se encuentran conformes con las atenciones que le brinda su actual agencia de viaje?
-* Frente a algún percance con alguna reserva, ¿la agencia actuó de inmediato?
+*	¿ Alguna vez fue partícipe de una estafa con su reserva de viaje?
+*	¿ La opinión de su entorno social influye para la elección de una aerolínea de viaje?¿ Si es así, cuál fue la más comentada?
+*	¿Alguna vez sufrió un percance con la reserva de su viaje, por un factor externo a este?
+*	¿Se encuentran conformes con las atenciones que le brinda su actual agencia de viaje?
+*	Frente a algún percance con alguna reserva, ¿la agencia actuó de inmediato?
 
+<strong>Preguntas principales y secundarias para entrevistas (Agencias de viajes)</strong>
+<strong>Principales:</strong>
+
+*	¿Con qué frecuencia los suelen contratar para sus servicios?
+*	¿Cómo hacen los procesos de reserva de alojamiento y transporte?
+*	¿Han tenido algún percance con algún cliente? ¿Qué fue lo que ocurrió?
+*	¿Han tenido algún problema con aerolíneas o alojamientos? ¿Qué fue lo que ocurrió?
+*	¿Cómo generan sus ganancias?
+*	¿Cómo organizan las actividades de los destinos?
+*	¿Su empresa cuenta con redes sociales como medio de marketing?
+*	¿El marketing actual que tienen es efectivo?
+*	¿Colaboran con agencias online para mostrar sus servicios?
+*	¿Le sería útil una aplicación que le ayude a mostrar sus servicios, destinos y planes, con el fin de que los clientes tengan más opciones de elección?
+
+<strong>Complementarias:</strong>
+
+*	¿Su empresa es conocida?
+*	¿Cuál es la razón del porqué los clientes los contactan?
+*	¿Cómo es la percepción de los clientes sobre sus servicios?
+*	¿Qué otros destinos piensan incorporar en sus servicios?
+*	¿Qué proyección tienen a futuro?
 
 ### 2.2.2 Registro de entrevistas
 
@@ -220,10 +219,10 @@ LLENAR RESUMEN
 
 <strong>Segmento Cliente</strong><br>
 
-<table style="undefined;table-layout: fixed; width: 882px">
+<table style="undefined;table-layout: fixed; width: 910px">
 <colgroup>
-<col style="width: 407px">
-<col style="width: 475px">
+<col style="width: 220px">
+<col style="width: 700px">
 </colgroup>
 <thead>
   <tr>
@@ -233,88 +232,355 @@ LLENAR RESUMEN
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td></td>
+    <td>Anderson</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td></td>
+    <td>Gamarra</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td><br></td>
+    <td>20 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td><br></td>
+    <td>Los Olivos</td>
   </tr>
   <tr>
     <td>Aplicaciones Usadas</td>
-    <td><br></td>
+    <td>Google Chrome, Zoom</td>
   </tr>
   <tr>
     <td>Motivacion</td>
-    <td></td>
+    <td>Viajes familiares divertidos</td>
   </tr>
   <tr>
     <td>Frustracion</td>
-    <td></td>
+    <td>Demandante de tiempo la planificacion</td>
   </tr>
   <tr>
-    <td>Habilidades</td>
-    <td></td>
+    <td>Tecnologias</td>
+    <td>Laptop, Computadora de Escritorio, Smartphone</td>
   </tr>
   <tr>
-    <td>Redes Sociales<br></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Browsers Usados<br></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td colspan="2">Evidencia<br><br></td>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
   </tr>
   <tr>
     <td>Link</td>
-    <td></td>
+    <td>
+		<p><a target="_blank"  href="https://web.microsoftstream.com/video/867ba12e-8fc9-486b-9662-b3b580bbecc2/" title="Title">https://web.microsoftstream.com/video/867ba12e-8fc9-486b-9662-b3b580bbecc2</p>
+		</td>
   </tr>
   <tr>
     <td>Duracion<br></td>
-    <td><br></td>
+    <td>
+		9:53 min
+		</td>
   </tr>
   <tr>
     <td>Resumen</td>
-    <td></td>
+    <td>Se realizó una entrevista a Anderson Gamarra, estudiante universitario de 20 años que actualmente reside en Lima, Perú. Él nos comenta que la frecuencia con la que viaja es durante sus vacaciones a mitad de año junto a su familia, por lo que busca en internet todo lo relacionado desde el destino hasta las actividades que harán durante su viaje. Además, nos menciona que le toma días, incluso meses realizar esta tarea, ya que no tiene un medio que se lo facilite, y que por lo general la mayoría de las veces que busca en internet solo encuentra los vuelos para el destino elegido, pero no las actividades para dicho destino. Los servicios que suele contratar a menudo en internet son el hospedaje y una guía con las actividades, pero le desagrada que las guías de las actividades a realizar se lo entreguen cuando llega a su destino y no con antelación.
+		<br>
+		Por último, considera importante la posibilidad de tener el horario de todas las actividades desde el inicio hasta el final del viaje de forma detallada y que permita a todos los involucrados en el viaje la posibilidad de ver el itinerario y las actividades de la reserva en su dispositivo con su propia cuenta.
+</td>
+  </tr>
+</tbody>
+</table>
+
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Diego Fabian</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Cabrera Zelada</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Cajamarca</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Zoom, Discord</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Aprovechar las pocas vacaciones que tiene</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Dificil encontrar paquetes de viaje economicos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Computadora de Escritorio, Smartphone, Tablet</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/entrevista-2.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://web.microsoftstream.com/video/29f68fc1-dafb-43cf-94b1-1722e7037d9b/" title="Title">https://web.microsoftstream.com/video/29f68fc1-dafb-43cf-94b1-1722e7037d9b</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		8:48 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		Diego Cabrera Zelada es un estudiante de ingeniería industrial que suele viajar mucho dentro del país por los proyectos que posee con la empresa con la que trabaja, pero suele vacacionar 2 veces al año con su familia. Se le complica viajar en familia. Para él una empresa de viajes debería ofrecer transporte puntual y buenos precios con gente capacitada en el turismo.
+		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciones que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
+		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciones anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
+
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Jose</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Rondan Perez</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>22 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Word, Google Meet</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Sobresalir y ayudar a su familia</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Cada dia disminuyen la cantidad de clientes potenciales.</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Smartphone, Tablet, Laptop</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/entrevista-3.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://youtu.be/3o3b5o-gmwI/" title="Title">https://youtu.be/3o3b5o-gmwI</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		8:48 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+				Diego Cabrera Zelada es un estudiante de ingeniería industrial que suele viajar mucho dentro del país por los proyectos que posee con la empresa con la que trabaja, pero suele vacacionar 2 veces al año con su familia. Se le complica viajar en familia. Para él una empresa de viajes debería ofrecer transporte puntual y buenos precios con gente capacitada en el turismo.
+		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciones que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
+		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciones anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
+
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #4<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Roxana</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Melgranejo</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>58 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Word, Google Meet</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Hacer crecer el negocio y expandirse</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Los clientes tienen problemas con los vuelos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Computadora Escritorio</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/entrevista-4.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://web.microsoftstream.com/video/867ba12e-8fc9-486b-9662-b3b580bbecc2/" title="Title">https://web.microsoftstream.com/video/867ba12e-8fc9-486b-9662-b3b580bbecc2</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		9:53 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		La entrevistada, Roxana Melgarejo, de 58 años, es administradora de empresas y trabaja en una agencia de viajes en Lima, Perú. Se considera una persona extrovertida y toma decisiones de acuerdo con los hechos en su vida personal y profesional. Usa un smartphone Android y un programa de reservas de boletos y autos llamado Amadeus. <br> En cuanto a la contratación de servicios, los clientes pueden contratar diferentes servicios como venta de aéreos, paquetes turísticos, seguros de viaje y alquileres de auto, y lo hacen a través de la agencia por diferentes formas, incluso por WhatsApp y con frecuencia hasta en los fines de semana. En cuanto a los procesos de reserva de alojamiento y transporte en los tours, Roxana comenta que los pasajeros solicitan programas a través de WhatsApp y ella cotiza con sus operadores de extranjero y les manda opciones de acuerdo con las solicitudes de cada pasajero. La entrevistada menciona que tuvo un percance con un pasajero que reservó un hotel en Barcelona, ya que el cliente quería algo económico y no se había informado sobre las restricciones de edad del hotel.<br> La reserva se tuvo que cancelar y se le tuvo que devolver el dinero al cliente. Respecto a las aerolíneas, Roxana comenta que antes daban todo incluido, pero ahora los clientes pueden escoger diferentes opciones que varían en cuanto al equipaje que pueden llevar. También menciona que ha tenido problemas con retrasos y cancelaciones de vuelos, pero que ha logrado solucionarlos con los clientes y las aerolíneas. En general, la entrevista proporciona información útil sobre cómo funciona la industria del turismo y cómo los clientes pueden contratar servicios a través de una agencia de viajes. También se destacan los posibles percances que pueden ocurrir en el proceso de reserva y cómo se pueden solucionar. 
+
+</td>
   </tr>
 </tbody>
 </table>
 
 ### 2.2.3 Análisis de entrevistas
 
-Después de realizar las entrevistas se realizará el análisis por segmento. De esta manera se buscará saber las opiniones de puntos importantes y también saber cómo afrontan estas situaciones los diferentes usuarios. A continuación, se describen los puntos a evaluar:
+En la sección de análisis se registra la información de las entrevistas de forma gráfica para sacar las tendencias de los usuarios.
 
-<strong>Para clientes:</strong><br>
+<strong>Segmento usuario viajero:</strong><br>
 
-*  Frecuencia de Realizacion de viajes al interior del pais
-*  Problemas para armar su itinerario para un viaje
-*  Principal servicio por la que contratan un paquete turistico
-*  Cantidad de viajeros sin mucho tiempo para disfutar paisajes o actividades
-*  Cantidad de equipaje de reserva de viaje
+<div align="center">
+<table>
+<thead>
+  <tr>
+    <th><div align="center">
+	<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/analisis-viajero-1.png" alt="Entrevista Evidencia">
+</div></th>
+    <th><div align="center">
+	<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/analisis-viajero-2.png" alt="Entrevista Evidencia">
+</div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+<div align="center">
+	<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/analisis-viajero-3.png" alt="Entrevista Evidencia">
+</div></td>
+    <td><div align="center">
+	<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/analisis-viajero-4.png" alt="Entrevista Evidencia">
+</div></td>
+  </tr>
+</tbody>
+</table>
+</div>
 
-<strong>Para agencias de viaje:</strong><br>
-
-*	Frecuencia de contratacion de servicio en dia comun
-* Uso de tecnologia en tours
-  
-<strong>Analisis del segmento clientes</strong><br>
-
-TEXTO
-
-<strong>Analisis del segmento agencias de viaje</strong><br>
-
-TEXTO
 
 <br>
+De acuerdo con los gráficos estadísticos que hemos realizado con los datos obtenidos de las entrevistas, hemos concluido que los viajeros frecuentemente tienen como destino el interior del Perú.  Otro dato que hemos resaltado son los problemas para armar un itinerario, un 50% tiene problemas para armarlos, por los factores de tiempo y disponibilidad de las agencias de viaje.  Con respecto a las agencias de viajes, el principal servicio por la que el cliente compran paquetes turísticos, son los vuelos, debido al precio de estos, ya que suelen ser lo más caro de un viaje. Siguiendo con el análisis, tenemos que la mayoría de los entrevistados contratan servicios de viajes por medio de la referencia, por el hecho, de saber cuál empresa te brinda un mejor servicio. Por último, todos los entrevistados mencionaron que sería de gran utilidad una aplicación que ayude a obtener mejores paquetes turísticos, ajustados a tu presupuesto y tiempo.
+<br>
+
+<strong>Para agencias de viaje:</strong><br>
+<div align="center">
+<table>
+<thead>
+  <tr>
+    <th><div align="center">
+	<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/analisis-agencia-1.png" alt="Entrevista Evidencia">
+</div></th>
+    <th><div align="center">
+	<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/analisis-agencia-2.png" alt="Entrevista Evidencia">
+</div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+<div align="center">
+	<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/analisis-agencia-3.png" alt="Entrevista Evidencia">
+</div></td>
+    <td><div align="center">
+	<img src="https://github.com/WX82-06-Arquitectura-de-Swe-Emergentes/upc-pre-202302-si572-SW71-adventurahub-report/blob/tb1/resources/interviews/analisis-agencia-4.png" alt="Entrevista Evidencia">
+</div></td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+
+<br>
+De acuerdo con los gráficos estadísticos, la mitad de las agencias de viajes entrevistadas presentan poca frecuencia respecto a la contratación de sus servicios, mientras que la otra mitad presenta una frecuencia alta. De la misma manera, el 50% de los procesos de reserva realizados se dan a través de una solicitud personalizada por parte de los clientes y, el otro 50% a través de la elección de paquetes ya armados. Asimismo, la mitad de los percances que han tenido con los clientes se han debido a la desinformación de estos últimos al momento de elegir su estadía, transporte, recorrido, entre otros; la otra mitad se debió a causa de un incumplimiento del pago para finalizar la compra. Finalmente, los ingresos percibidos provienen de la venta de los programas ofrecidos y los paquetes personalizados para los clientes, cada uno representando un 50% de los ingresos totales. 
+<br>
+
 
 ## 2.3 Needfinding
 ### 2.3.1 User Personas
