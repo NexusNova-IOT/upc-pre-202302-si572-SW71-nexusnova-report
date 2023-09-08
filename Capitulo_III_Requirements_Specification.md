@@ -1,11 +1,11 @@
 ## 3.1. To-Be Scenario Mapping.
 #### To-Be Scenario Map de las agencias turísticas.
-[![To-Be Scenario Map de las agencias turísticas.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/To-BeScenarioMapping-AgenciaTuristica.png)](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
+[![To-Be Scenario Map de las agencias turísticas.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/To-BeScenarioMapping-AgenciaTuristica.png)](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
 
 Enlace: [Documento en Miro](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
 
 #### To-Be Scenario Map del usuario turista.
-[![To-Be Scenario Map del usuario turista.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/To-BeScenarioMapping-Turista.png)](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
+[![To-Be Scenario Map del usuario turista.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/To-BeScenarioMapping-Turista.png)](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
 
 Enlace: [Documento en Miro](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
 
@@ -73,11 +73,11 @@ Enlace: [Documento en Miro](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_
 ## 3.3. Impact Mapping.
 En el Impact Mapping, se puede apreciar cómo el desarrollo de la aplicación provocará transformaciones significativas en el estilo de vida de los usuarios. En última instancia, se podrá constatar que todos estos cambios se materializan a través de las historias de usuario.
 
-[![Impact mapping de las agencias turísticas.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/ImpactMapping-AgenciaDeViajes.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![Impact mapping de las agencias turísticas.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/ImpactMapping-AgenciaDeViajes.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
-[![Impact mapping de las agencias turísticas.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/ImpactMapping-AgenciaDeViajes-2.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
+[![Impact mapping de las agencias turísticas.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/ImpactMapping-AgenciaDeViajes-2.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
 
 Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
 ## 3.4. Product Backlog.
@@ -128,6 +128,6 @@ En el Product Backlog presentaremos una lista priorizada de nuestras user storie
 
 A continuación se presenta el Product Backlog en la plataforma Pivotal Tracker:
 
-[![Product Backlog.](https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/tb1/Resources/maps/ProductBacklog.png)](https://www.pivotaltracker.com/n/projects/2675473)
+[![Product Backlog.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/ProductBacklog.png)](https://www.pivotaltracker.com/n/projects/2675473)
 
 Enlace: [Product Backlog en PivotalTracker](https://www.pivotaltracker.com/n/projects/2675473)
