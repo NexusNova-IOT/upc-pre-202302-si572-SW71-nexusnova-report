@@ -280,7 +280,11 @@ LLENAR RESUMEN
   </tr>
   <tr>
     <td>Tecnologias</td>
-    <td>Laptop, Computadora de Escritorio, Smartphone</td>
+    <td>Laptop Windows, Smartphone Android</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
   </tr>
   <tr>
     <td colspan="2">Evidencia
@@ -353,7 +357,11 @@ LLENAR RESUMEN
   </tr>
   <tr>
     <td>Tecnologias</td>
-    <td>Computadora de Escritorio, Smartphone, Tablet</td>
+    <td>Mac, iPhone</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Safari, Chrome</td>
   </tr>
   <tr>
     <td colspan="2">Evidencia
@@ -427,7 +435,11 @@ LLENAR RESUMEN
   </tr>
   <tr>
     <td>Tecnologias</td>
-    <td>Smartphone, Tablet, Laptop</td>
+    <td>iPhone, Laptop Windows</td>
+  </tr>
+	<tr>
+    <td>Tecnologias</td>
+    <td>iPhone, Laptop Windows</td>
   </tr>
   <tr>
     <td colspan="2">Evidencia
@@ -501,7 +513,11 @@ LLENAR RESUMEN
   </tr>
   <tr>
     <td>Tecnologias</td>
-    <td>Computadora Escritorio</td>
+    <td>Computadora de Escritorio Windows, Smartphone Android</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome, Edge</td>
   </tr>
   <tr>
     <td colspan="2">Evidencia
