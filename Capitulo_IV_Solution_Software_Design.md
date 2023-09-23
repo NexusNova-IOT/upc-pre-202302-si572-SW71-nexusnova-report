@@ -145,51 +145,64 @@ El Bounded Context "Data Report and Analytics" desempeña un papel fundamental e
 Durante este procedimiento, se detectaron los participantes, mensajes que se comparten y se delinean en las corrientes de información que enlazan estos componentes.
 
 ##### 1. Scenario: Registering in the app
+En el siguiente flujo se muestra cómo nuestros usuarios, tanto turistas como agencias, pueden registrarse en nuestra aplicación. Primero, pasarán por nuestro aplicación web, que registrará los datos requeridos en un sistema externo, respectivamente. Finalmente, recibirán una notificación a través del correo electrónico.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-1.png" width ="700px" alt="flow-1" style="margin-right: 20px;">
 </div>
 
-##### 2. Scenario: Registering in the app
+##### 2. Scenario: Register a tour package
+En esta escenario, la agencia registra un paquete turístico, y nuestro sistema se encarga de almacenarlo en la base de datos con un ID para facilitar su identificación en el futuro de manera sencilla.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-2.png" width ="700px" alt="flow-2" style="margin-right: 20px;">
 </div>
 
 ##### 3. Scenario: Pay a Tour Package
+En este escenario,  los turistas utilizan nuestra aplicación web para buscar paquetes turísticos. Cuando desean pagar uno, nuestro sistema consulta el estado del pago a través de un sistema externo. Una vez confirmado el pago, se crea una reserva. Además, se notificará al turista en caso de que se produzca algún error en la creación de la reserva o si todo se ejecutó correctamente.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-3.png" width ="700px" alt="flow-3" style="margin-right: 20px;">
 </div>
 
 ##### 4. Scenario: Pay a Subscription
+En este escenario, las agencias utilizan nuestra aplicación web para suscribirse a uno de nuestros planes. Cuando desean realizar el pago, nuestro sistema consulta el estado del mismo a través de un sistema externo. Una vez confirmado el pago, se asigna la suscripción a su cuenta. Además, se notificará a la agencia sobre el estado final de la compra.
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-4.png" width ="700px" alt="flow-4" style="margin-right: 20px;">
 </div>
 
 ##### 5. Scenario: Register a Vehicle
+En este escenario, las agencias registran un medio de transporte utilizando nuestra aplicación web. El sistema se encarga de realizar las asignaciones correspondientes, lo que permite una gestión eficiente de los recursos de transporte disponibles para satisfacer las necesidades de los viajes turísticos.
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-5.png" width ="700px" alt="flow-5" style="margin-right: 20px;">
 </div>
 
 ##### 6. Scenario: Assign a vehicle for a Tour Package
+En este escenario, se describe el proceso en el cual las agencias de viaje, utilizando nuestra aplicación web, asignan un medio de transporte, previamente registrado, a un paquete turístico. Esta asignación facilita la planificación y organización de los viajes, garantizando que los turistas cuenten con los medios de transporte necesarios para disfrutar de sus experiencias turísticas de manera cómoda y eficiente.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-6.png" width ="700px" alt="flow-6" style="margin-right: 20px;">
 </div>
 
 ##### 7. Scenario: Reassign a vehicle for excess weight limit
+En este escenario, se muestra el flujo cuando a través de nuestros dispositivos IoT se detecta un exceso de peso que supera el límite permitido para el vehículo asignado. Después de esta detección, se notifica a la agencia mediante nuestra aplicación web, y finalmente se procede a la reasignación de un vehículo de transporte para ese paquete turístico.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-7.png" width ="700px" alt="flow-7" style="margin-right: 20px;">
 </div>
 
 ##### 8. Scenario: Locate a Tourist
+Este escenario describe la secuencia de interacciones entre nuestros bounded contexts que permite que un guía turístico pueda localizar a un turista específico en un paquete turístico en curso. Esta ubicación se logra mediante el uso de nuestros dispositivos IoT para la geolocalización, que envían datos de coordenadas para rastrear la ubicación del turista.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-9.png" width ="700px" alt="flow-9" style="margin-right: 20px;">
 </div>
 
 ##### 9. Scenario: Alert the tourist about the weather of the place of the tour
+En este escenario, se ilustra cómo la información recopilada por los sensores IoT para el monitoreo del clima se utiliza para enviar notificaciones a través de la aplicación móvil a todos los turistas que se encuentren en un paquete turístico.
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-10.png" width ="700px" alt="flow-10" style="margin-right: 20px;">
 </div>
 
 ##### 10. Scenario: Check purchased tour packages
+En este escenario, se presenta cómo un turista puede consultar los detalles de una reserva pendiente a través de nuestra aplicación móvil.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-11.png" width ="700px" alt="flow-11" style="margin-right: 20px;">
 </div>
