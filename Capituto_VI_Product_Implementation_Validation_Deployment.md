@@ -267,4 +267,728 @@ Cualquier información sobre cambios importantes. Es opcional, puede incluir ref
 * 5.	feat ! : send an-email to the costumer when product is shipped
 * 6.	feat: remove ticket list endpoint
 
+<br>
 
+### 1.1.3 Source Code Style Guide & Conventions
+
+En esta sección se mostrarán las pautas, convenciones, estilos y
+principios que se utilizarán para cada uno de los lenguajes que se
+emplearán en la creación de nuestra aplicación, DocSeeker. La práctica
+de este conjunto de reglas es de suma importancia, ya que estas tienen
+el propósito de conservar la calidad estructural del software, dar una
+mayor legibilidad al código fuente y facilitar el mantenimiento del
+código.
+
+Dado que en este proyecto se utilizarán HTML, CSS y JavaScript para la
+codificación de la plataforma web y Gherkins para el proceso de prueba
+del programa; a continuación, se nombrarán y describirán las reglas y
+recomendaciones generales que tomaremos en cuenta al momento de usarlos.
+
+**Nomenclatura General**
+
+A los nombres de las variables, objetos, elementos y funciones que se
+utilicen, se les designarán términos en inglés que estén relacionados y
+puedan describir a lo que están representando. No se usarán mayúsculas
+porque de acuerdo con W3Schools (s.f.), la mezcla de estas con las
+letras minúsculas luce mal y, además, el uso exclusivo de minúsculas
+otorga mayor legibilidad al código.
+
+Ejemplo de nomenclatura estándar según Google (s.f.):
+
+.gallery {}
+
+.video {}
+
+.login {}
+
+**Sangría**
+
+En el momento de utilizar HTML, CSS y/o JavaScript se aplicará un
+espaciado antes de cada línea que se encuentre dentro de un bloque. Este
+espacio debe ser de dos y según W3Schools (s.f.) no se debe hacer uso de
+la tecla "Tabulación".
+
+Ejemplo de nomenclatura estándar de la sangría en HTML según W3Schools
+(s.f.):
+
+> \<table\>\
+>   \<tr\>\
+>     \<th\>Name\</th\>\
+>     \<th\>Description\</th\>
+>
+> \</tr\>\
+> \</table\>
+
+Ejemplo de nomenclatura estándar de la sangría en CSS según W3Schools
+(s.f.):
+
+> html {\
+>   background: #fff;\
+>   color: #404;\
+> }
+
+Ejemplo de nomenclatura estándar de la sangría en JavaScript según
+W3Schools (s.f.):
+
+> function toCelsius(fahrenheit) {\
+>   return (5 / 9) \* (fahrenheit - 32);\
+> }
+
+Seguidamente, explicaremos las reglas específicas que se necesitan en
+cada lenguaje para entender el código de nuestro programa, DocSeeker.
+
+**HTML**
+
+Llamado así por las siglas del nombre en inglés HyperText Markup
+Language. HTML es un lenguaje de marcado que define la estructura de una
+página web. Además, cuenta con funciones capaces de determinar el
+comportamiento de distintas partes del contenido de la página, tales
+como el cambiar el tamaño del texto, aplicar cursiva, entre otros.
+Nosotros emplearemos HTML5, y las características y pautas a seguir para
+hacer uso de este lenguaje son las siguientes:
+
+-   **Declare Document Type**
+
+> El tipo de documento debe declararse en la primera línea de código. De
+> acuerdo con Google (s.f.) HTML5 es de preferencia la mejor sintaxis
+> para todo documento HTML, para declararla sólo es necesario copiar lo
+> siguiente:
+>
+> \<!DOCTYPE html\>
+
+-   **Blank Lines**
+
+> Cada vez que, luego de un bloque, lista o tabla de gran longitud se
+> inicie uno nuevo, se debe saltar la siguiente línea y dejarla en
+> blanco para brindar mayor legibilidad y amenidad, así manifiesta
+> W3Schools (s.f.).
+>
+> Ejemplo:
+>
+> \<body\>\
+> \
+> \<h1\>Famous Cities\</h1\>\
+> \
+> \<h2\>Tokyo\</h2\>\
+> \<p\>Tokyo is the capital of Japan, the center of the Greater Tokyo
+> Area, and the most populous metropolitan area in the world.\</p\>\
+> \
+> \<h2\>London\</h2\>\
+> \<p\>London is the capital city of England. It is the most populous
+> city in the United Kingdom.\</p\>\
+> \
+> \<h2\>Paris\</h2\>\
+> \<p\>Paris is the capital of France. The Paris area is one of the
+> largest population centers in Europe.\</p\>\
+> \
+> \</body\>
+
+-   **Quote Attribute Values**
+
+> Para los valores de los atributos se utilizan comillas dobles
+> alrededor. De acuerdo con W3Schools (s.f.) Aunque esta característica
+> no sea obligatoria, le da más legibilidad al código y es muy frecuente
+> entre los desarrolladores.
+>
+> Ejemplo:\
+> \<table class=\"striped\"\>
+
+-   **Multimedia Fallback**
+
+> Asegurar un acceso alterno a los objetos multimedia por si este
+> fallara al cargar. De la misma forma, según la W3Schools (s.f.), es
+> recomendable añadir las dimensiones del elemento porque así los
+> navegadores guardan el espacio que utilizará antes de comenzar a
+> cargarlo.
+>
+> Ejemplo:
+>
+> \<img src=\"html5.gif\" alt=\"HTML5\" style=\"width:128px;height:128px\"\>
+
+-   **Never Skip the \<tittle\> Element**
+
+> El elemento \<tittle\> permite que las páginas aparezcan en la lista
+> de resultados al momento de buscar en un navegador web. Asimismo, esta
+> es la que da el nombre de la página si se la añade a favoritos.
+>
+> Ejemplo:
+>
+> \<title\>HTML Style Guide and Coding Conventions\</title\>
+
+-   **HTML Line-Wrapping**
+
+> El hecho de que en un documento HTML no haya un límite de palabras por
+> línea, no quiere decir que sea recomendable generar líneas muy
+> extensas de código. Al contrario, esto dificulta la lectura del
+> código. Para pasar a la siguiente línea es necesario utilizar al menos
+> cuatro espacios para diferenciar de elementos hijos.
+>
+> Ejemplo según Google (s.f.):
+>
+> \<button mat-icon-button color=\"primary\" class=\"menu-button\"
+>
+> (click)= \"openMenu()\"\>
+>
+> \<mat-icon\>menu\</mat-icon\>
+>
+> \</button\>
+
+**CSS**
+
+Llamado así por las siglas del nombre en inglés Cascading Style Sheets.
+CSS es un lenguaje de marcado que se centra en definir y mejorar la
+presentación de un documento que se basa en HTML. Las pautas que a
+seguir al momento de usar CSS son las siguientes:
+
+-   **Shorthand Properties**
+
+> Hay que utilizar abreviación de propiedades, declarar los campos de
+> los elementos en la menor cantidad de líneas posibles. De acuerdo con
+> Google (s.f.), esto aumenta la eficacia del código y lo hace más
+> entendible. De la misma manera, debemos evitar el colocar las unidades
+> luego del valor cero.
+>
+> Ejemplo:
+>
+> border-top: 0;
+>
+> font: 100%/1.6 palatino, georgia, serif;
+>
+> padding: 0 1em 2em;
+
+-   **Declaration Stops**
+
+> Hay que colocar un punto y coma luego de cada declaración al igual que
+> gran parte de lenguajes de programación. Según Google (s.f.). esta
+> característica ayuda a que haya más consistencia en el código
+>
+> Ejemplo:
+>
+> html {\
+>   background: #fff;\
+>   color: #404;\
+> }
+
+-   **Property Name Stops**
+
+> Debe existir un espacio entre los dos puntos que están luego del
+> nombre de una propiedad y el valor ingresado. Siempre solo un espacio
+> luego de los dos puntos, mas no antes.
+>
+> Ejemplo estándar según Google (s.f.):
+>
+> html {\
+>   background: #fff;\
+>   color: #404;\
+> }
+
+-   **Declaration Block Separation**
+
+> El uso de un separador de un espacio es necesario luego del nombre de
+> un elemento seleccionado y la llave que inicia un bloque. Además, esta
+> llave tiene que estar en la misma línea.
+>
+> Ejemplo estándar según Google (s.f.):
+>
+> html {\
+>   background: #fff;\
+>   color: #404;\
+> }
+
+-   **CSS Quotation Marks**
+
+> No se deben emplear las comillas dobles (""), solo están permitidas
+> las simples ('') para el uso exclusivo de selectores de atributos y
+> valores de propiedades.
+>
+> Ejemplo estándar según Google (s.f.):
+>
+> html {\
+>   font-family: 'open sans', arial, sans-serif;\
+> }
+
+**JavaScript**
+
+Es un lenguaje de programación que otorga la posibilidad de indicar
+exactamente las acciones que debe ejecutar el navegador, indicando el
+orden de las tareas y el número de veces que se realizarán. Las
+indicaciones para usar JavaScript en nuestro proyecto son las
+siguientes:
+
+-   **Spaces around operators**
+
+> Se debe colocar un espacio alrededor de cada operador matemático que
+> se introduzca en el código. Esto también aplica a las comas.
+>
+> Ejemplo estándar según W3Schools (s.f.):
+>
+> let x = y + z;\
+> const myArray = \[\"Volvo\", \"Saab\", \"Fiat\"\];
+
+-   **Simple Statement's End**
+
+> Una indicación simple debe terminar en un punto y coma, esto se cumple
+> también en muchos otros lenguajes de programación.
+>
+> Ejemplo estándar según W3Schools (s.f.):
+>
+> let x = y + z;\
+> const myArray = \[\"Volvo\", \"Saab\", \"Fiat\"\];
+
+-   **Beginning and End of a Function**
+
+> Un bloque de función debe contar con una llave al final de la primera
+> línea, para que el cierre de esta se encuentre sola en la última. Una
+> función termina en llave y no en punto y coma. Lo mismo aplica para
+> condicionales o bucles.
+>
+> Ejemplo estándar según W3Schhol (s.f):
+>
+> function toCelsius(fahrenheit) {\
+>   return (5 / 9) \* (fahrenheit - 32);\
+> }
+
+-   **Object Rules**
+
+> Para la construcción de un objeto, al igual que en una función, se
+> comienza con una llave al final de la primera línea, pero, esta vez,
+> la llave de cierre debe estar acompañada de un punto y coma. Para las
+> propiedades, se colocan dos puntos y un espacio para indicar su valor,
+> el cual debe estar entre comillas dobles si este es un *string*.
+>
+> Ejemplo estándar según W3School (s.f.):
+>
+> const person = {\
+>   firstName: \"John\",\
+>   lastName: \"Doe\",\
+>   age: 50,\
+>   eyeColor: \"blue\"\
+> };
+
+**Gherkin**
+
+Es un Lenguaje Específico de Dominio (DSL por sus siglas en inglés) que
+tiene como objetivo la resolución de un problema en específico. Para
+ello, se generan casos para la validación de la característica en
+distintos escenarios. Gherkin cuenta con múltiples elementos, de los
+cuales, los más famosos y, además, más utilizados
+son *Feature, Scenario, Example, Scenario, Given, When* y *Then.* Las
+indicaciones para tomar en cuenta en el uso de Gherkin en nuestro código
+son las siguientes.
+
+-   **Discernible Given-When-Then Blocks**
+
+> Aplicar sangría para los elementos que indiquen pasos a seguir del
+> escenario. En el caso de *And*, aplicar dos veces. De acuerdo con
+> Keiblinger (2021), Esto ayuda a detectar rápidamente las partes que
+> forman un escenario.
+>
+> Ejemplo:
+>
+> Scenario: Ingreso los requisitos con claridad
+>
+> Given que en el formulario de ingreso de oferta laboral
+>
+> When escribo claramente los requisitos
+>
+> Then se mostrará el mensaje
+>
+> And mi oferta solo aparecerá a quienes cumplan con estos
+>
+> And se habilita la opción
+
+-   **Step with Tables**
+
+> Según Keiblinger (2021), para las partes del escenario que necesiten
+> la introducción de valores, hay que agregar una tabla o crear un
+> propio formulario que recree esa parte del escenario. Antes de esta
+> representación se deben colocar dos puntos.
+>
+> Ejemplo:
+>
+> Then se mostrará el mensaje:
+>
+> \| mensaje \|
+>
+> \| Se completaron los requisitos adecuadamente \|
+
+-   **Reducing Noise**
+
+> Con el fin de reducir la acumulación de demasiadas líneas de código en
+> un escenario, se deben colocar valores por defecto dentro de los pasos
+> para los campos que no sean muy relevantes para este. Los valores
+> "estándar" que coloquemos, deben ir entre comillas simples. De acuerdo
+> con Keiblinger (2021), esta acción reduce considerablemente el tamaño
+> del código.
+>
+> Ejemplo:
+>
+> When escribo claramente los requisitos 'dominio en C'
+
+-   **Scenarios Separator**
+
+> Para la separación de dos escenarios, se debe insertar un salto de
+> línea y, según Keiblinger (2021), de ser posible, hay que agregar una
+> línea de comentario para facilitar la visualización de estos. De esta
+> forma se halla rápidamente el inicio y fin de un escenario.
+>
+> Ejemplo:
+>
+> #\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+>
+> Scenario: Ingreso los requisitos con claridad
+>
+> Given que en el formulario de ingreso de oferta laboral
+>
+> When escribo claramente los requisitos
+>
+> Then se mostrará el mensaje
+>
+> And mi oferta solo aparecerá a quienes cumplan con estos
+>
+> And se habilita la opción
+>
+> #\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+>
+> Scenario: Ingreso los requisitos con claridad
+>
+> Given que en el formulario de ingreso de oferta laboral
+>
+> When escribo claramente los requisitos
+>
+> Then se mostrará el mensaje
+>
+> And mi oferta solo aparecerá a quienes cumplan con estos
+>
+> And se habilita la opción
+
+**TypeScript**
+
+El equipo usara los siguientes estilos para determinadas categorías:
+
+**UpperCamelCase:** clase/interfaz/tipo/enum/decorador/parámetros de
+tipo
+
+**lowerCamelCase**: variable / parámetro / función / método / propiedad
+/ alias de módulo
+
+**CONSTANT_CASE:** valores constantes globales, incluidos los valores de
+enumeración
+
+\*Nunca se utilizan identificadores privados.
+
+-   [Variables y Funciones]{.underline}
+
+> **Mala Nomenclatura:**
+
+-   let RandomName: string = 'Juan';
+
+-   function RandomFunction() {}
+
+> **Buena Nomenclatura:**
+
+-   let randomName: string = 'Juan';
+
+-   function randomFunction() {}
+
+```{=html}
+<!-- -->
+```
+-   [Clases]{.underline}
+
+> **Mala Nomenclatura:**
+
+-   class view{}
+
+> **Buena Nomenclatura:**
+
+-   class View{}
+
+> [Propiedades y métodos de la clase]{.underline}
+>
+> **Mala Nomenclatura:**
+
+-   class test{
+
+> Name: string;
+>
+> GetFullName(){}
+>
+> }
+>
+> **Buena Nomenclatura:**
+
+-   class test{
+
+> name: string;
+>
+> getFullName(){}
+>
+> }
+
+-   [Interfaces]{.underline}
+
+> No emplear el prefijo I para nombrar interfaces
+>
+> **Mala Nomenclatura:**
+
+-   interface IPerson{
+
+> Name:string;
+>
+> }
+>
+> **Buena Nomenclatura:**
+
+-   interface Person{
+
+> name:string;
+>
+> }
+
+-   [Enums]{.underline}
+
+> No emplear el prefijo I para nombrar interfaces
+>
+> **Mala Nomenclatura:**
+
+-   enum clientType{
+
+> person = "p";
+>
+> business = "b";
+>
+> }
+>
+> **Buena Nomenclatura:**
+
+-   enum ClientType{
+
+> Person = "P";
+>
+> Age = "A";
+>
+> }
+
+-   [Visibility]{.underline}
+
+> Restringir la visibilidad de propiedades, métodos y tipos ayudaran a
+> mantener el código desacoplado.
+>
+> **Mala Nomenclatura:**
+
+-   enum clientType{
+
+> person = "p";
+>
+> business = "b";
+>
+> }
+>
+> **Buena Nomenclatura:**
+
+-   enum ClientType{
+
+> Person = "P";
+>
+> Age = "A";
+>
+> }
+
+-   [Getters and Setters]{.underline}
+
+> Se pueden utilizar los getters y setters para los miembros de la
+> clase. También son útiles como medio para restringir la visibilidad de
+> los detalles de implementación internos, aplicando la Programación
+> Orientada a Objetos;
+>
+> **Nomenclatura:**
+
+-   Class Foo {
+
+> constructor(private readonly someService:SomeService) {}
+>
+> get someMember():string{
+>
+> return this.someService.someVariable;
+>
+> }
+>
+> set someMember(newValue:string){
+>
+> this.someService.someVariable = newValue;
+>
+> }
+
+-   [Variables]{.underline}
+
+> Uso de const o let para declarar variables. Utilice const de forma
+> predeterminada, a menos que sea necesario reasignar una variable.
+>
+> No usar var para declarar variables.
+>
+> **Nomenclatura:**
+
+-   const foo = otherValue; // Use if \"foo\" never changes.
+
+-   let bar = someValue; // Use if \"bar\" is ever assigned into later
+    on.
+
+```{=html}
+<!-- -->
+```
+-   [Imports Nomenclatura]{.underline}
+
+> **Module**: import \* as foo from \'\...\';
+>
+> **Destructuring**: import {SomeThing} from \'\...\';
+>
+> **Default**: import SomeThing from \'\...\';
+>
+> **Side-effect:** import \'\...\'; Only to import libraries for their
+> side-effects on load (such as custom elements)
+
+**Java**
+
+-   [Identificadores]{.underline}
+
+Con este nombre, se identifica una variable, método, función o clase.
+Para color un nombre, este debe ser significativo, de modo que el código
+sea lo más legible posible.
+
+<br>
+
+
+| Tipo de identificador     | Convención             | Ejemplo            |
+|--------------------------|------------------------|--------------------|
+| Nombre de una clase      | Comienza por letra mayúscula | String, Rectángulo, CinematicaApplet |
+| Nombre de función        | Comienza con letra minúscula | calcularArea, getValue, setColor |
+| Nombre de variable       | Comienza por letra minúscula | area, color, appletSize |
+| Nombre de constante      | En letras mayúsculas    | PI, MAX_ANCHO       |
+
+
+-   [Comentarios]{.underline}
+
+Con los comentarios, se añade al código cierta explicación de la
+funcionalidad, para que el trabajo en equipo sea más entendible y
+eficiente.
+
+Una sola línea: //This is a function to get the fullname of the person.
+
+Varias lines de código: /\* ....... \*/
+
+-   [Variables]{.underline}
+
+Es un nombre en la que se guarda el valor asignado en la memoria del
+ordenador.
+
+Todas las variables se deben declarar antes de usarlas.
+
+Tipos: De instancia.
+
+De clase.
+
+Locales.
+
+> Ejemplo 1:
+>
+> class Circulo{
+>
+> static final double PI=3.1416; //variable de clase
+>
+> double radio; //variable de instancia
+>
+> }
+>
+> Ejemplo 2:
+>
+> class Circulo{
+>
+> double calcularArea(){
+>
+> double area=PI\*radio\*radio; //area es una variable local para la
+> presente función de la clase Circulo.
+>
+> return area;
+>
+> }
+>
+> }
+
+Delante de cada variable, puede haber un tipo de variable los cuales
+pueden ser los siguientes:
+
+-   Un tipo de dato primitivo
+
+-   El nombre de una clase
+
+-   Un array
+
+> Ejemplo: int x=0;
+>
+> int\[\] datos;
+>
+> Cabe resaltar, que también usaremos valores constantes. Cuando
+> declaremos una variable de tipo final, se inicializa y si se intenta
+> modificarla mostrara error.
+>
+> Ejemplo: final double PI=3.141592653589793;
+
+-   [Palabras reservadas]{.underline}
+
+    -   **Tipos de datos**: boolean, float, double, int, char
+
+    -   **Sentencias condicionales**: if, else, switch
+
+    -   **Sentencias iterativas**: for, do, while continue
+
+    -   **Tratamiento de las excepciones**: try, catch, finally, throw
+
+    -   **Estructura de datos**: class, interface, implements, extends
+
+    -   **Modificadores y control de acceso**: public, private,
+        protected.
+
+    -   **Otra**s: super, null, this.
+
+-   [Override]{.underline}
+
+Siempre usado, se marca con la anotación \@Override, siempre que sea
+legal. Esto incluye un método de clase que anula un método de
+superclase. Se da cuando implementamos un método de interfaz.
+
+-   [Método Static]{.underline}
+
+Un método **static** en Java es un método que pertenece a la clase y no
+al objeto. Un método static solo puede acceder a variables o tipos de
+datos declarados como static.
+
+> public class SingletonTest {
+>
+>  
+>
+>     private static SingletonTest instance = null;
+>
+>  
+>
+>     protected SingletonTest() {
+>
+>     }
+>
+>  
+>
+>     public static SingletonTest getInstance() {
+>
+>         if (instance == null) {
+>
+>             instance = new SingletonTest();
+>
+>         }
+>
+>  
+>
+>         return instance;
+>
+>     }
+>
+> }
