@@ -1,3 +1,5 @@
+<p align="left"><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Tabla_de_Contenidos.md">Volver a tabla de contenidos</a></p>
+
 ## 2.1 Competidores
 
 En esta sección se identificarán los mejores referentes para posteriormente realizar un análisis competitivo que nos ayudará a saber nuestro posicionamiento y el valor agregado que ofreceremos en el mercado. A continuación, se mostrará a modo de lista los principales competidores para nuestro startup.

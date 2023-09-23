@@ -24,7 +24,7 @@ eficiencia y objetividad, en el
 marco de un proyecto en
 soluciones de ingeniería de
 software.</td>
-    <td><strong>Ryan Robert Sweden Silva<br>TB1</strong><br> Aplique comunicación efectiva y plificación de tareas al participar activamente en el desarrollo del trabajo como el Event Storming y Tactical DDD.
+    <td><strong>Ryan Robert Sweden Silva<br>TB1</strong><br> Aplique comunicación efectiva y planificación de tareas al participar activamente en el desarrollo del trabajo como el Event Storming y Tactical DDD.
     <br><strong>Nicole Areli Price Torrejon<br>TB1</strong><br>Demostré habilidades de comunicación efectiva al involucrarme activamente en el desarrollo de tareas, como el Event Storming y Tactical DDD, y cumplí con los plazos establecidos de manera efectiva.
     <br><strong>Ivan Moran Moreno<br>TB1</strong><br>Exhibí mi capacidad de resolver conflictos al involucrarme activamente en la ejecución de tareas, como el proceso de búsqueda de necesidades (needfinding) y la creación de perfiles de usuarios, y conseguí cumplir con los plazos establecidos de forma exitosa
     <br><strong>Edgar Malca Rojas<br>TB1</strong><br>Mostré mis habilidades de resolución de conflictos al participar activamente en el desarrollo de tareas, como el proceso Lean UX, y logré cumplir con los plazos establecidos de manera efectiva.

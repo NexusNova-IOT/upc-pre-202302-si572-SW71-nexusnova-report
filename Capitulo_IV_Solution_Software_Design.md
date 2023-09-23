@@ -1,5 +1,7 @@
 <div align="justify">
 
+<p align="left"><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Tabla_de_Contenidos.md">Volver a tabla de contenido</a></p>
+
 ## 4.1. Strategic-Level Domain-Driven Design
 
 En el siguiente apartado, se detalla una serie de enfoques clave en el proceso de Diseño Dirigido por el Dominio a nivel estratégico (Strategic-Level Domain-Driven Design). Estos enfoques desempeñaron un papel fundamental en el establecimiento de una base sólida para la definición y modelado de dominios complejos. A través de técnicas como Event Storming, Context Mapping y la definición de la Arquitectura de Software, se logró obtener una comprensión profunda de los elementos esenciales necesarios para la creación de sistemas efectivos y bien estructurados. A continuación, se describen los puntos clave que se abordaron en esta sección.

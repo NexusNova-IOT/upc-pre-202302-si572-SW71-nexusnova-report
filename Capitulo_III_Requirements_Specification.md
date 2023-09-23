@@ -1,3 +1,6 @@
+<p align="left"><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Tabla_de_Contenidos.md">Volver a tabla de contenidos</a></p>
+
+
 ## 3.1. To-Be Scenario Mapping.
 #### To-Be Scenario Map de las agencias turísticas.
 [![To-Be Scenario Map de las agencias turísticas.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/To-BeScenarioMapping-AgenciaTuristica.png)](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
