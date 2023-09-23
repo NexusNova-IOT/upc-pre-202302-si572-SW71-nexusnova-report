@@ -197,11 +197,13 @@ Durante este procedimiento, se detectaron los participantes, mensajes que se com
 #### 4.1.1.3 Bounded Context Canvases.
 
 ##### Booking Management
+En este Bounded Context de Reservas, se puede visualizar la comunicación con los Bounded Context de Subscription and Payments, Transport Management y Notification Management.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/booking-management-canvas.png" width="700px" alt="booking-management-canvas">
 </div>
 
 ##### Data Report and Analytics
+E
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/data-report-and-analytics-canvas.png" width="700px" alt="data-report-and-analytics-canvas">
 </div>
