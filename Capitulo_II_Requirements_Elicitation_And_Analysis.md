@@ -623,15 +623,15 @@ De acuerdo con los gráficos estadísticos, la mitad de las agencias de viajes e
 
 Después de realizar el análisis de las entrevistas del segmento objetivo, nos corresponde crear el usuario ideal con el que estamos tratando. Para la redacción de dichos usuarios se han considerado las personalidades y cualidades obtenidas en cada entrevista. A continuación, se muestra los user personas como resultado de la investigación:
 
-<strong>Usuario Usuario</strong><br>
+<strong>Usuario Turista</strong><br>
 
-[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/UserPersonaUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/maps/UserPersonaUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 <br>
 
 <strong>Usuario Agencia de Viajes</strong><br>
 
-[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/UserPersonaAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/maps/UserPersonaAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 ### 2.3.2 User Task Matrix
 
