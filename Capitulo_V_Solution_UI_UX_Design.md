@@ -8,6 +8,9 @@
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
 ## 5.2. Information Architecture.
 ### 5.2.1. Organization Systems.
+
+
+### 5.2.2. Labeling Systems.
 En esta sección, vamos a presentar el sistema de etiquetado que proporcionará una descripción concisa y clara de la información presentada en cada uno de nuestras aplicaciones. Comenzaremos detallando los encabezados que estarán disponibles en nuestra landing page.
 
   - **Inicio/Home:** Esta sección preseleccionada por defecto ofrecerá una breve descripción que representará la aplicación y proporcionará una idea del objetivo principal de esta.
@@ -21,7 +24,6 @@ En esta sección, vamos a presentar el sistema de etiquetado que proporcionará 
 - **Contáctanos/Contact Us:** Esta sección mostrará nuestros canales de comunicación y mostrará una forma sencilla de ponerse en contacto con el equipo.
 
 
-### 5.2.2. Labeling Systems.
 ### 5.2.3. SEO Tags and Meta Tags
 ### 5.2.4. Searching Systems.
 ### 5.2.5. Navigation Systems.
