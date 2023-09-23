@@ -76,56 +76,67 @@ Link de Event Storming: https://miro.com/app/board/uXjVMnLi1r4=/?share_link_id=9
 Empleando la metodología de eventstorming con enfoque en la técnica de "start-with-simple", utilizamos la línea de tiempo para identificar posibles candidatos para nuestro contexto delimitado, los cuales son los siguientes:
 
 ##### Profile management
+En este Bounded Context están los eventos y comandos relacionados a la gestión del perfil de nuestros dos tipos de usuarios: agencias de viajes y turistas. Asismismo, se encuentran los eventos de configuraciones generales de nuestras aplicaciones.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/profile.png" width="700px" alt="profile">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/profile.png" width="700px" alt="profile-management-bounded-context">
 </div>
 
 ##### Identity and Access Management
+En el presente Bounded Context están los comandos que están relacionados a la gestión de la autenticación de los usuarios en nuestras aplicaciones web y móvil. En este se detalla que usaremos un sistema externo llamado Firebase Authentication para nuestras dos aplicaciones.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/identity.png" width="700px" alt="identity">
 </div>
 
 ##### Booking Management
+Los eventos de este Bounded Context se relacionan a las reservas creadas después de que el usuario turista haya realizado el pago del paquete turístico elegido. Asismismo, estos eventos se relacionan a la gestión de los estados de estas reservas creadas.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/booking.png" width="700px" alt="booking">
 </div>
 
 ##### Execution and Tracking
+Este Bounded Context contiene a los eventos y comandos que relacionan la información de varios Bounded Context: Notification Management, Iot Asset management y Booking Management. Este se encarga de reunir la información de la ubicación del turista y enviar notificaciones a los guías turísticos en caso, los turistas, se encuentren fuera del rango permitido determinado por el guía turístico y evitar un posible extravío.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/exec-track.jpg" width="700px" alt="exec-track">
 </div>
 
 ##### Iot Asset management
+Para este Bounded Context, nos enfocamos en crear los comandos que serán útiles para el mantenimiento de nuestros dispositivos Iot, tales como: Localization-Wristband, Scale and Weather Sensors.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/iot.png" width="700px" alt="iot">
 </div>
 
 ##### Notification management
+En este Bounded Context están esencialmente los eventos y comandos para la gestión de notificaciones, ya sea por correo o a los dispositivos móviles de nuestros usuarios.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/noti.jpg" width="700px" alt="noti">
 </div>
 
 ##### Review management
+Los usuarios de tipo turista ejecutarán los comandos de este Bounded Context en general. Esto se debe a que después de un tour finalizado, ellos tienen la opción de calificar la experiencia del paquete turístico comprado.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/review.png" width="700px" alt="review">
 </div>
 
 ##### Subscription and payments
+En este Bounded Context, se empleará un sistema externo de Pasarela de Pagos para realizar los pagos de las suscripciones y los paquetes turísticos seleccionados que deben abonarse. También, están los comandos para el mantenimientos de las subscripciones que los usuarios agencias de viaje adquerirán.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/sub.png" width="700px" alt="sub">
 </div>
 
 ##### Tour Experience
+En el presente Bounded Context, los usuarios agencias de viaje podrán crear, modificar y eliminar los paquetes turísticos que publiquen en la aplicación web. De igual manera, podrán visualizar las reservas relacionadas al paquete turístico y los estados de estas.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/tour-ex.png" width="700px" alt="tour-experience">
 </div>
 
 ##### Transportation Management
+En el presente Bounded Context, los usuarios agencias de viaje podrán crear, modificar y eliminar vehículos y asignarlos para cada tour registrado en la aplicación web. De igual manera, podrán visualizar la información de los transportes relacionadas al tour.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/trans.png" width="700px" alt="transportation">
 </div>
 
 ##### Data report and analytics
+El Bounded Context "Data Report and Analytics" desempeña un papel fundamental en el análisis y la interpretación de datos tales como las reasignaciones de vehículos por exceso de peso de equipaje, satisfacción de los turistas a los paquetes turísticos, reportes sobre la cantidad de anomalías del clima de los lugares de los tours, entre otros.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/data.jpg" width="700px" alt="data-report-analytics">
 </div>
@@ -483,15 +494,12 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/Profile%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
-
 </div>
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/BC_Review_class.png" width="500px">
-
 </div>
 
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
@@ -655,9 +663,6 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
 - **PaymentStatus:** Este enum define los posibles estados de pago para una reserva, como pagado o pendiente de pago.
 #### 4.2.9.2. Interface Layer.
 - **BookingController:** Este controlador maneja las solicitudes relacionadas con la reserva de tours por parte de los usuarios viajeros. Permite a los usuarios buscar tours disponibles, seleccionar fechas y realizar reservas.
-
-
-
 
 #### 4.2.9.3. Application Layer.
 - **BookingApplicationService:** Este servicio de aplicación se encarga de procesar las solicitudes de reserva de tours por parte de los usuarios viajeros. Verifica la disponibilidad de fechas, crea las reservas y gestiona los pagos.
