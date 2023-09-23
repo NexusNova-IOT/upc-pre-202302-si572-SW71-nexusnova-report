@@ -144,7 +144,10 @@ A diferencia de las ramas principales, estas branches tienen un tiempo de vida l
 
 	Se emplean para desarrollar las nuevas funciones que se integraran en una versión siguiente. Cabe resaltar, que esta rama existe mientras este en proceso de desarrollo. Sin embargo, cuando el desarrollador culmine con esa función, se fusionará nuevamente a develop. 
 
-	![GitFLow.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/maps/ImpactMapping-AgenciaDeViajes.png)
+<div align="center">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/source-code-management/gitflow.png" alt="GitFLow.">
+</div>
+
 
   * <strong>Release:</strong>  <br>	
     * Se ramifica de: develop
@@ -152,75 +155,116 @@ A diferencia de las ramas principales, estas branches tienen un tiempo de vida l
   
 	 Son aquellas que admiten la preparación de una nueva versión de producción. A través de esta rama, se permite corregir errores menores que surgieron en la etapa de desarrollo y preparar metadatos para su lanzamiento. Esto último genera que la develop Branch se autoriza para recibir nuevas funciones para la próxima versión, pues se generara cuando se acerque una fecha de publicación determinada. 
 
- ![Branches.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/maps/ImpactMapping-AgenciaDeViajes.png)
- 
-o	Hotfix
-	Se ramifica de: master
-	Debe fusionarse de nuevo en: develop y master
-Estas ramas son muy similares a las reléase branches, ya que también están destinadas para una nueva versión de producción, pero con la diferencia que se ramifican de master y no de develop. Son llamadas como ramas de mantenimiento, corrección o hotfix. Su principal función, es reparar rápidamente las publicaciones de producción. Al terminar la corrección, debe fusionarse con master y esta debe etiquetarse con un nuevo número de versión. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/source-code-management/branches.png" alt="Branches.">
+</div>
+
+  * <strong>Hotfix</strong> <br>
+    * Se ramifica de: master
+    * Debe fusionarse de nuevo en: develop y master
+	
+	Estas ramas son muy similares a las reléase branches, ya que también están destinadas para una nueva versión de producción, pero con la diferencia que se ramifican de master y no de develop. Son llamadas como ramas de mantenimiento, corrección o hotfix. Su principal función, es reparar rápidamente las publicaciones de producción. Al terminar la corrección, debe fusionarse con master y esta debe etiquetarse con un nuevo número de versión. 
 
 
-Principales motivos por los que el equipo empleara GitFlow.
-•	Este flujo de trabajo es ideal para el equipo, puesto que nuestro proyecto se basa en publicaciones en un determinado sprint.
-•	Esta centralizado como subversión (SVN) y descentralizado, que permite que el equipo trabaje individualmente. Pues no todos tienen el mismo horario. Sin embargo, todos deben mantener las actualizaciones en el repositorio central en GitHub.
+<strong>Principales motivos por los que el equipo empleara GitFlow.</strong>
+
+*	Este flujo de trabajo es ideal para el equipo, puesto que nuestro proyecto se basa en publicaciones en un determinado sprint.
+
+*	Esta centralizado como subversión (SVN) y descentralizado, que permite que el equipo trabaje individualmente. Pues no todos tienen el mismo horario. Sin embargo, todos deben mantener las actualizaciones en el repositorio central en GitHub.
  
-Convenciones para nombrar los Features, reléase y hotfix branches:
-Feature Branch: feature/name
-Example: 
-1.	feature/welcome, 
-2.	feature/about, 
-3.	feature/myfeature
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/source-code-management/support-branches.png" alt="Branches.">
+</div>
+
+<strong>Convenciones para nombrar los Features, reléase y hotfix branches:</strong>
+
+<strong>Feature Branch:</strong> feature/name
+
+<strong>Example: </strong>
+
+* 1.	feature/welcome, 
+* 2.	feature/about, 
+* 3.	feature/myfeature
+  
 Antes de mostrar las convenciones para nombrar los reléase and hotfix branches. We have to mostrar cómo es que funciona el Semantic Versioning Specification. 
+
 Este es un sistema de versiones, cuyo uso ha ido aumentando con el transcurso del tiempo por los desarrolladores. Con ello, developers pueden visualizar la extensión de los cambios en el código fuente del proyecto.
+
 Inicialmente, la versión se basa de MAJOR.MINOR.PATCH (X.Y.Z). Asimismo, para comenzar a usar este sistema de versiones debemos declarar una API publica precisa y comprensible. Esta forma debe aumentar numéricamente según lo desarrollado por el equipo de software. 
+
 El proyecto inicia su desarrollo con la versión 0.y.z, luego pasara a ser 1.0.0 cuando se defina la API pública. Siguientemente, se seguirán los criterios mostrados a continuación para incrementar la versión. 
+
 Patch version (Z), debe incrementarse si solo se introducen correcciones de errores compatibles con versiones anteriores.
+
 Minor version (Y), debe incrementarse si el equipo integra una nueva funcionalidad compatible con versiones anteriores en la API pública. Si alguna funcionalidad es obsoleta o si se introducen nuevas funcionalidades en el código privado. 
+
 *Si se incrementa, la version del parche debe volver a 0.
 Major version (X), debe incrementarse si se generan cambios deslindados a versiones anteriores en la API pública. 
+
 *Si se incrementa, Patch version y la minor version debe volver a 0.
 Existen etiquetas adicionales para los metadatos de compilación. 
-Ejemplo:  MAJOR.MINOR. PATCH (X.Y.Z)
-1.	1.9.0
-2.	1.10.0
-3.	2.0.0
-4.	1.0.0-alfa
-Release Branch:  release-* (* se cambia por la versión semántica).
-Ejemplo: release-1.2.0
-Hotfix Branch:  hotfix-* (* se cambia por la versión semántica).
-Ejemplo: hotfix-1.2.1
-Conventional Commits
+
+<strong>Ejemplo:  MAJOR.MINOR. PATCH (X.Y.Z)</strong>
+
+* 1.	1.9.0
+* 2.	1.10.0
+* 3.	2.0.0
+* 4.	1.0.0-alfa
+  
+	<strong>Release Branch:</strong>  release-* (* se cambia por la versión semántica).
+
+	<strong>Ejemplo:</strong> release-1.2.0
+
+	<strong>Hotfix Branch: </strong> hotfix-* (* se cambia por la versión semántica).
+
+	<strong>Ejemplo:</strong> hotfix-1.2.1
+	<br><br>
+
+<strong>Conventional Commits</strong><br>
+
 El commit debe estructurarse de la siguiente manera:
-<type>[optional scope]: <description>
-[optional body]
-[optional footer(s)]
+
+	<type> [optional scope]: <description>
+	[optional body]
+	[optional footer(s)]
+
 Cabe recalcar que debe estar en “lower case”.
-Type: 
-feat: Cuando se agrega un nuevo feature.
-fix: cuando corriges un error.
-build: cuando afectan los componentes de compilación como la herramienta de compilación, las dependencias o la version del proyecto.
-chore: modificaciones privadas del código.
-docs: commits que afectan solo a la documentación.
+
+<strong>Type: </strong>
+
+* feat: Cuando se agrega un nuevo feature.
+
+* fix: cuando corriges un error.
+
+* build: cuando afectan los componentes de compilación como la herramienta de compilación, las dependencias o la version del proyecto.
+
+* chore: modificaciones privadas del código.
+
+* docs: commits que afectan solo a la documentación.
 refractor: commits que reescriben o reestructura el código, pero no cambia el comportamiento.
 perf: commits especiales que mejoran el rendimiento. 
-style: commits que no afectan el programa. (espacios en blanco, formato, puntos o comas faltantes).
+
+* style: commits que no afectan el programa. (espacios en blanco, formato, puntos o comas faltantes).
 test: commits que agregan pruebas.
-Scope
+
+<br><strong>Scope</strong><br>
 Proporciona información contextual adicional, si bien es opcional, es bueno colocarlo para que el desarrollador lea un commit más específico. 
-<description>
+
+<br><strong>Description</strong><br>
 Es una parte obligatoria del formato de los commits, siempre debemos usar imperativo y no escribir en mayúsculas. 
-[optional body]
+
+	[optional body]
 Debe incluirse la motivación para el cambio y contrastarse con el comportamiento anterior. Es opcional y si lo usa debe usar el imperativo y es ideal para mencionar los identificadores de problemas y sus relaciones.
-[optional footer(s)]
+
+	[optional footer(s)]
 Cualquier información sobre cambios importantes. Es opcional, puede incluir referencia al problema por su id y en esta sección se incluyen los BREAKING CHANGES: seguido de un espacio o dos satos de línea. 
- Ejemplos:
-1.	feat(welcome): add welcome section
-2.	build(release): bump version to 1.0.0
-3.	style: remove empty line
-4.	feat(sign up): add the button to sign up
-5.	feat ! : send an-email to the costumer when product is shipped
-6.	feat: remove ticket list endpoint
-refers to JIRA-1337
-BREAKING CHANGES: ticket enpoints no longer supports list all entites.
- 
+
+<strong> Ejemplos: </strong>
+* 1.	feat(welcome): add welcome section
+* 2.	build(release): bump version to 1.0.0
+* 3.	style: remove empty line
+* 4.	feat(sign up): add the button to sign up
+* 5.	feat ! : send an-email to the costumer when product is shipped
+* 6.	feat: remove ticket list endpoint
+
 
