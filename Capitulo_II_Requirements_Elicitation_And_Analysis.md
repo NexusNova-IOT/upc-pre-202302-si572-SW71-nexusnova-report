@@ -38,14 +38,29 @@ En esta sección se realizará el análisis competitivo de los competidores iden
   <tr>
     <td colspan="2"></td>
     <td>
-		LifeTravel
 			<div align="center">
-				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
+    		Google Travel
+				<img style="max-width: 50%; height: auto;" src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/images/competidores/logo.jpg" alt="lifetravel">
 			</div>
 		</td>
-    <td>Google Travel</td>
-    <td>Despegar.com</td>
-    <td>TripAdvisor</td>
+    <td>
+			<div align="center">
+    		Google Travel
+				<img style="max-width: 40%; height: auto;" src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/images/competidores/google_travel.png" alt="lifetravel">
+			</div>
+		</td>
+    <td>
+			<div align="center">
+    		Despegar.com
+				<img style="max-width: 40%; height: auto;" src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/images/competidores/despegar.png" alt="lifetravel">
+			</div>
+		</td>
+    <td>
+			<div align="center">
+    		TripAdvisor
+				<img style="max-width: 50%; height: auto;" src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/images/competidores/tripadvisor.png" alt="lifetravel">
+			</div>
+		</td>
   </tr>
   <tr>
     <td rowspan="2">Perfil</td>
