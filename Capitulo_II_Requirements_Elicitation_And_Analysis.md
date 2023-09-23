@@ -39,10 +39,30 @@ En esta sección se realizará el análisis competitivo de los competidores iden
   </tr>
   <tr>
     <td colspan="2"></td>
-    <td>LifeTravel</td>
-    <td>Google Travel</td>
-    <td>Despegar.com</td>
-    <td>TripAdvisor</td>
+    <td>
+			<div align="center">
+    		Google Travel
+				<img style="max-width: 50%; height: auto;" src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/images/competidores/logo.jpg" alt="lifetravel">
+			</div>
+		</td>
+    <td>
+			<div align="center">
+    		Google Travel
+				<img style="max-width: 40%; height: auto;" src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/images/competidores/google_travel.png" alt="lifetravel">
+			</div>
+		</td>
+    <td>
+			<div align="center">
+    		Despegar.com
+				<img style="max-width: 40%; height: auto;" src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/images/competidores/despegar.png" alt="lifetravel">
+			</div>
+		</td>
+    <td>
+			<div align="center">
+    		TripAdvisor
+				<img style="max-width: 50%; height: auto;" src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/images/competidores/tripadvisor.png" alt="lifetravel">
+			</div>
+		</td>
   </tr>
   <tr>
     <td rowspan="2">Perfil</td>
@@ -262,7 +282,11 @@ LLENAR RESUMEN
   </tr>
   <tr>
     <td>Tecnologias</td>
-    <td>Laptop, Computadora de Escritorio, Smartphone</td>
+    <td>Laptop Windows, Smartphone Android</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
   </tr>
   <tr>
     <td colspan="2">Evidencia
@@ -335,7 +359,11 @@ LLENAR RESUMEN
   </tr>
   <tr>
     <td>Tecnologias</td>
-    <td>Computadora de Escritorio, Smartphone, Tablet</td>
+    <td>Mac, iPhone</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Safari, Chrome</td>
   </tr>
   <tr>
     <td colspan="2">Evidencia
@@ -409,7 +437,11 @@ LLENAR RESUMEN
   </tr>
   <tr>
     <td>Tecnologias</td>
-    <td>Smartphone, Tablet, Laptop</td>
+    <td>iPhone, Laptop Windows</td>
+  </tr>
+	<tr>
+    <td>Tecnologias</td>
+    <td>iPhone, Laptop Windows</td>
   </tr>
   <tr>
     <td colspan="2">Evidencia
@@ -483,7 +515,11 @@ LLENAR RESUMEN
   </tr>
   <tr>
     <td>Tecnologias</td>
-    <td>Computadora Escritorio</td>
+    <td>Computadora de Escritorio Windows, Smartphone Android</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome, Edge</td>
   </tr>
   <tr>
     <td colspan="2">Evidencia
@@ -589,15 +625,15 @@ De acuerdo con los gráficos estadísticos, la mitad de las agencias de viajes e
 
 Después de realizar el análisis de las entrevistas del segmento objetivo, nos corresponde crear el usuario ideal con el que estamos tratando. Para la redacción de dichos usuarios se han considerado las personalidades y cualidades obtenidas en cada entrevista. A continuación, se muestra los user personas como resultado de la investigación:
 
-<strong>Usuario Usuario</strong><br>
+<strong>Usuario Turista</strong><br>
 
-[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/UserPersonaUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/maps/UserPersonaUser.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 <br>
 
 <strong>Usuario Agencia de Viajes</strong><br>
 
-[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/UserPersonaAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![User Persona.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-2/Resources/maps/UserPersonaAgency.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
 
 ### 2.3.2 User Task Matrix
 
