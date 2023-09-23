@@ -76,62 +76,73 @@ Link de Event Storming: https://miro.com/app/board/uXjVMnLi1r4=/?share_link_id=9
 Empleando la metodología de eventstorming con enfoque en la técnica de "start-with-simple", utilizamos la línea de tiempo para identificar posibles candidatos para nuestro contexto delimitado, los cuales son los siguientes:
 
 ##### Profile management
+En este Bounded Context están los eventos y comandos relacionados a la gestión del perfil de nuestros dos tipos de usuarios: agencias de viajes y turistas. Asismismo, se encuentran los eventos de configuraciones generales de nuestras aplicaciones.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/profile.png" width="700px" alt="profile">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/profile.png" width="700px" alt="profile-management-bounded-context">
 </div>
 
 ##### Identity and Access Management
+En el presente Bounded Context están los comandos que están relacionados a la gestión de la autenticación de los usuarios en nuestras aplicaciones web y móvil. En este se detalla que usaremos un sistema externo llamado Firebase Authentication para nuestras dos aplicaciones.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/identity.png" width="700px" alt="identity">
 </div>
 
 ##### Booking Management
+Los eventos de este Bounded Context se relacionan a las reservas creadas después de que el usuario turista haya realizado el pago del paquete turístico elegido. Asismismo, estos eventos se relacionan a la gestión de los estados de estas reservas creadas.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/booking.png" width="700px" alt="booking">
 </div>
 
 ##### Execution and Tracking
+Este Bounded Context contiene a los eventos y comandos que relacionan la información de varios Bounded Context: Notification Management, Iot Asset management y Booking Management. Este se encarga de reunir la información de la ubicación del turista y enviar notificaciones a los guías turísticos en caso, los turistas, se encuentren fuera del rango permitido determinado por el guía turístico y evitar un posible extravío.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/exec-track.jpg" width="700px" alt="exec-track">
 </div>
 
 ##### Iot Asset management
+Para este Bounded Context, nos enfocamos en crear los comandos que serán útiles para el mantenimiento de nuestros dispositivos Iot, tales como: Localization-Wristband, Scale and Weather Sensors.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/iot.png" width="700px" alt="iot">
 </div>
 
 ##### Notification management
+En este Bounded Context están esencialmente los eventos y comandos para la gestión de notificaciones, ya sea por correo o a los dispositivos móviles de nuestros usuarios.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/noti.jpg" width="700px" alt="noti">
 </div>
 
 ##### Review management
+Los usuarios de tipo turista ejecutarán los comandos de este Bounded Context en general. Esto se debe a que después de un tour finalizado, ellos tienen la opción de calificar la experiencia del paquete turístico comprado.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/review.png" width="700px" alt="review">
 </div>
 
 ##### Subscription and payments
+En este Bounded Context, se empleará un sistema externo de Pasarela de Pagos para realizar los pagos de las suscripciones y los paquetes turísticos seleccionados que deben abonarse. También, están los comandos para el mantenimiento de las subscripciones que los usuarios agencias de viaje adquirirán.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/sub.png" width="700px" alt="sub">
 </div>
 
 ##### Tour Experience
+En el presente Bounded Context, los usuarios agencias de viaje podrán crear, modificar y eliminar los paquetes turísticos que publiquen en la aplicación web. De igual manera, podrán visualizar las reservas relacionadas con el paquete turístico y los estados de estas.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/tour-ex.png" width="700px" alt="tour-experience">
 </div>
 
 ##### Transportation Management
+En el presente Bounded Context, los usuarios agencias de viaje podrán crear, modificar y eliminar vehículos y asignarlos para cada tour registrado en la aplicación web. De igual manera, podrán visualizar la información de los transportes relacionada con el tour.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/trans.png" width="700px" alt="transportation">
 </div>
 
 ##### Data report and analytics
+El Bounded Context "Data Report and Analytics" desempeña un papel fundamental en el análisis y la interpretación de datos tales como las reasignaciones de vehículos por exceso de peso de equipaje, satisfacción de los turistas a los paquetes turísticos, reportes sobre la cantidad de anomalías del clima de los lugares de los tours, entre otros.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/data.jpg" width="700px" alt="data-report-analytics">
 </div>
 
 #### 4.1.1.2 Domain Message Flows Modeling.
-Durante este procedimiento, se detectaron los participantes, mensajes que secomparten y se delinean en las corrientes de información que enlazan estos componentes.
+Durante este procedimiento, se detectaron los participantes, mensajes que se comparten y se delinean en las corrientes de información que enlazan estos componentes.
 
 ##### 1. Scenario: Registering in the app
 En el siguiente flujo se muestra cómo nuestros usuarios, tanto turistas como agencias, pueden registrarse en nuestra aplicación. Primero, pasarán por nuestro aplicación web, que registrará los datos requeridos en un sistema externo, respectivamente. Finalmente, recibirán una notificación a través del correo electrónico.
@@ -337,13 +348,13 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 
  
 #### 4.2.2.2. Interface Layer.
-- **TourExperienceController:** Este controlador se encarga de las solicitudes de actualización de información de paquetes turisticos. Facilita a las agencias un listado de las disponibles segun sus filtros indicados. Permite a las agencias crear, modificar o eliminar sus paquetes turisticos propios.
+- **TourExperienceController:** Este controlador se encarga de las solicitudes de actualización de información de paquetes turísticos. Facilita a las agencias un listado de las disponibles segun sus filtros indicados. Permite a las agencias crear, modificar o eliminar sus paquetes turísticos propios.
   
 #### 4.2.2.3. Application Layer.
-- **TourExperienceService:** Se encarga de procesar las solicitudes de actualización de paquetes turisticos. Valida los cambios propuestos por el usuario, actualiza los datos en la base de datos y registra la actividad correspondiente en el perfil.
+- **TourExperienceService:** Se encarga de procesar las solicitudes de actualización de paquetes turísticos. Valida los cambios propuestos por el usuario, actualiza los datos en la base de datos y registra la actividad correspondiente en el perfil.
 
 #### 4.2.2.4. Infrastructure Layer.
-- **TourExperienceRepository:** Almacena y recupera la configuración de privacidad de los paquetes turisticos.
+- **TourExperienceRepository:** Almacena y recupera la configuración de privacidad de los paquetes turísticos.
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <div align="center">
@@ -368,11 +379,11 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 - **Vehicle:** Esta clase representa el el vehiculo contiene el peso minimo, recomnedado, marca, asientos, tamaño, conductor.
 
 #### 4.2.3.2. Interface Layer.
-- **VehicleController:** Este controlador se encarga de las solicitudes de administrar los vehiculos usados para los paquetes turisticos, controlaran el peso del equipaje.
+- **VehicleController:** Este controlador se encarga de las solicitudes de administrar los vehículos usados para los paquetes turísticos, controlarán el peso del equipaje.
 #### 4.2.3.3. Application Layer.
-- **VehicleService:** Se encarga de procesar las solicitudes de actualización de vehiculos, añadir gps, añadir usuarios, modificar peso.
+- **VehicleService:** Se encarga de procesar las solicitudes de actualización de vehículos, añadir gps, añadir usuarios, modificar peso.
 #### 4.2.3.4. Infrastructure Layer.
-- **VehicleRepository:** Almacena y recupera la configuración de todos los vehiculos usados en la actualidad y posteriormente por las agencias.
+- **VehicleRepository:** Almacena y recupera la configuración de todos los vehículos usados en la actualidad y posteriormente por las agencias.
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/Transportation%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
@@ -496,15 +507,12 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/Profile%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
-
 </div>
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/BC_Review_class.png" width="500px">
-
 </div>
 
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
@@ -528,7 +536,7 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 ### 4.2.7. Bounded Context: Notification
 Mediante el uso de este bounded context se abordan las clases y capas relacionadas con las notificaciones hacia los usuarios por parte del sistema. A continuación, se detallan los principales componentes de este Bounded:
 #### 4.2.7.1. Domain Layer.
-*  **Notification** : Esta clase representa la notificación  que se enviara al usuario final, dentro de esta clase se encuentran atributos tales como : 
+*  **Notification** : Esta clase representa la notificación que se enviara al usuario final, dentro de esta clase se encuentran atributos tales como : 
    - **message:** Este atributo representa el mensaje que será enviado al usuario
    -  **isEnable:** Este atributo representa un booleano, con este se puede saber si el usuario cuenta con las notificaciones activadas.
    -  **type:** Este atributo cuenta con los valores del enumerator **NotificationType**, representa que tipo de notificación  será enviada.
@@ -537,7 +545,7 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
     - **name:** Atributo que representa el nombre del usuario al que se le enviara la notificación.
     - **email:** Correo al que se le enviara la notificación en caso sea necesario. 
 ### **Enum**:
-* **NotificationType**: Representa el tipo de notificación  que será enviada. Los tipos de notificaciones son los siguientes : 
+* **NotificationType**: Representa el tipo de notificación que será enviada. Los tipos de notificaciones son los siguientes: 
     - **WEATHER :**     Representa las notificaciones de tipo **Alerta de clima** 
     - **CLOTHING**      Representa las recomendaciones de vestimenta para el tour
     - **RESERVATION:** Representa las notificaciones referentes a las reservas de los tours
@@ -580,7 +588,7 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
 
-Para este bounded context, definimos que la clase encargada sea la siguiente :
+Para este bounded context, definimos que la clase encargada sea la siguiente:
 
 <div align="center">
     <img src= "https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_Notificactions_DB.png" width="400px">
@@ -669,9 +677,6 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
 #### 4.2.9.2. Interface Layer.
 - **BookingController:** Este controlador maneja las solicitudes relacionadas con la reserva de tours por parte de los usuarios viajeros. Permite a los usuarios buscar tours disponibles, seleccionar fechas y realizar reservas.
 
-
-
-
 #### 4.2.9.3. Application Layer.
 - **BookingApplicationService:** Este servicio de aplicación se encarga de procesar las solicitudes de reserva de tours por parte de los usuarios viajeros. Verifica la disponibilidad de fechas, crea las reservas y gestiona los pagos.
 
@@ -692,13 +697,13 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
 
 ### 4.2.10. Bounded Context: IoT Asset Management  
 #### 4.2.10.1. Domain Layer.
-*  **IoTDevice** : Esta clase representa un dispositivo IoT genérico y actúa como una entidad padre para varios tipos de dispositivos IoT teniendo como atibutos IP  y MAC address.
+*  **IoTDevice** : Esta clase representa un dispositivo IoT genérico y actúa como una entidad padre para varios tipos de dispositivos IoT teniendo como atibutos IP y MAC address.
     * **Scale**: Clase hija que representa una balanza IoT utilizada en el negocio para poder gestionar el peso adecuado por unidad terrestre destinada a la experiencia turística.
     * **WeatherSensor**: Esta clase representa un sensor IoT utilizado para medir datos climáticos con principales funciones como registrar y mantener información específica del sensor climático. Proporcionar métodos para tomar mediciones climáticas y obtener datos relacionados con el clima.
     * **LocalizationWristband**: Esta clase representa una pulsera de localización IoT utilizada para rastrear la ubicación de los turistas. 
 
 #### 4.2.10.2. Interface Layer.
-* **Scale Controller**: Es responsable de gestionar las solicitudes y las interacciones relacionadas con la balanza  como coordinar con la Application Layer para ejecutar operaciones específicas en las balanzas, como tomar mediciones de peso y registrar datos.
+* **Scale Controller**: Es responsable de gestionar las solicitudes y las interacciones relacionadas con la balanza como coordinar con la Application Layer para ejecutar operaciones específicas en las balanzas, como tomar mediciones de peso y registrar datos.
 
 * **Weather Sensor Controller** :  Se encarga de gestionar las solicitudes y las operaciones relacionadas con los sensores climáticos IoT como validar los datos de entrada relacionados con los sensores climáticos y coordinar con la capa de aplicación para obtener datos climáticos específicos de los sensores.
 
