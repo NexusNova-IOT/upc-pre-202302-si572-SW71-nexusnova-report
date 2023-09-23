@@ -37,7 +37,12 @@ En esta sección se realizará el análisis competitivo de los competidores iden
   </tr>
   <tr>
     <td colspan="2"></td>
-    <td>LifeTravel</td>
+    <td>
+		LifeTravel
+			<div align="center">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
     <td>Google Travel</td>
     <td>Despegar.com</td>
     <td>TripAdvisor</td>
