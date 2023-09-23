@@ -109,7 +109,7 @@ Es un tipo de texto escrito o ilustración que acompaña al software de computad
 * <strong>OpenAPI Specification vía Swagger:</strong><br> Es una especificación para archivos de interfaz legibles por máquina para describir, producir y visualizar servicios web RESTful. <br>
 https://swagger.io/specification/ 
  
-### 6.1.1 Source Code Management
+### 6.1.2 Source Code Management
 
 A continuación, se presenta la gestión de código fuente o como es conocido por sus siglas en ingles SCM (Source Code Management). Su función principal es realizar un seguimiento de las modificaciones que el equipo realizara a lo largo del desarrollo de sus proyectos en los repositorios de código fuente. Se empleará como un sistema de control de versiones que permite dar seguimiento a los cambios que cada integrante o desarrollador realice en el proyecto. Asimismo, cabe resaltar que para el sistema de control de versiones emplearemos GitHub.
 
@@ -269,7 +269,7 @@ Cualquier información sobre cambios importantes. Es opcional, puede incluir ref
 
 <br>
 
-### 1.1.3 Source Code Style Guide & Conventions
+### 6.1.3 Source Code Style Guide & Conventions
 
 En esta sección se mostrarán las pautas, convenciones, estilos y
 principios que se utilizarán para cada uno de los lenguajes que se
