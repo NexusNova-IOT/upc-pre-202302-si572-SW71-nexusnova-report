@@ -112,7 +112,8 @@ Ante este panorama, surge la pregunta: ¿Cómo podríamos abordar este desafío 
 #### Domain: 
 Industria de turismo y viajes.
 #### Customer Segments: 
-Agencias de viajes y turistas.
+    + Agencias de viajes
+    + Turistas.
 #### Pain Points:
 + Las agencias de viajes informales tienen dificultades para garantizar la seguridad y satisfacción de los turistas debido a la falta de recursos y procedimientos formales.
 + Los turistas experimentan inseguridad y falta de personalización en sus experiencias debido a la falta de comunicación efectiva con las agencias.
@@ -122,10 +123,22 @@ Existe una desconexión entre las agencias de viajes y los turistas en términos
 Crear una plataforma que conecte de manera efectiva a las agencias de viajes con los turistas, proporcionando experiencias personalizadas y tecnología de seguimiento para mejorar la seguridad.
 
 #### 1.2.2.2 Lean UX Assumptions
+ + Business Outcomes:
+    
+    +
+
+ + Users:
+    
+    + 
+
+ + User Outcomes:
+    
+    + 
+
+
  + Business Assumptions:
     * Creo que mis clientes necesitan: Mejorar la comunicación y personalización en la planificación y ejecución de sus viajes.
     
-    <br>
 
    + Estas necesidades se pueden resolver con: Una plataforma que conecte a agencias de viajes y turistas, ofreciendo métodos de comunicación, recomendaciones personalizadas y funciones de seguridad.
 
