@@ -147,51 +147,64 @@ El Bounded Context "Data Report and Analytics" desempeña un papel fundamental e
 Durante este procedimiento, se detectaron los participantes, mensajes que se comparten y se delinean en las corrientes de información que enlazan estos componentes.
 
 ##### 1. Scenario: Registering in the app
+En el siguiente flujo se muestra cómo nuestros usuarios, tanto turistas como agencias, pueden registrarse en nuestra aplicación. Primero, pasarán por nuestro aplicación web, que registrará los datos requeridos en un sistema externo, respectivamente. Finalmente, recibirán una notificación a través del correo electrónico.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-1.png" width ="700px" alt="flow-1" style="margin-right: 20px;">
 </div>
 
-##### 2. Scenario: Registering in the app
+##### 2. Scenario: Register a tour package
+En esta escenario, la agencia registra un paquete turístico, y nuestro sistema se encarga de almacenarlo en la base de datos con un ID para facilitar su identificación en el futuro de manera sencilla.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-2.png" width ="700px" alt="flow-2" style="margin-right: 20px;">
 </div>
 
 ##### 3. Scenario: Pay a Tour Package
+En este escenario,  los turistas utilizan nuestra aplicación web para buscar paquetes turísticos. Cuando desean pagar uno, nuestro sistema consulta el estado del pago a través de un sistema externo. Una vez confirmado el pago, se crea una reserva. Además, se notificará al turista en caso de que se produzca algún error en la creación de la reserva o si todo se ejecutó correctamente.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-3.png" width ="700px" alt="flow-3" style="margin-right: 20px;">
 </div>
 
 ##### 4. Scenario: Pay a Subscription
+En este escenario, las agencias utilizan nuestra aplicación web para suscribirse a uno de nuestros planes. Cuando desean realizar el pago, nuestro sistema consulta el estado del mismo a través de un sistema externo. Una vez confirmado el pago, se asigna la suscripción a su cuenta. Además, se notificará a la agencia sobre el estado final de la compra.
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-4.png" width ="700px" alt="flow-4" style="margin-right: 20px;">
 </div>
 
 ##### 5. Scenario: Register a Vehicle
+En este escenario, las agencias registran un medio de transporte utilizando nuestra aplicación web. El sistema se encarga de realizar las asignaciones correspondientes, lo que permite una gestión eficiente de los recursos de transporte disponibles para satisfacer las necesidades de los viajes turísticos.
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-5.png" width ="700px" alt="flow-5" style="margin-right: 20px;">
 </div>
 
 ##### 6. Scenario: Assign a vehicle for a Tour Package
+En este escenario, se describe el proceso en el cual las agencias de viaje, utilizando nuestra aplicación web, asignan un medio de transporte, previamente registrado, a un paquete turístico. Esta asignación facilita la planificación y organización de los viajes, garantizando que los turistas cuenten con los medios de transporte necesarios para disfrutar de sus experiencias turísticas de manera cómoda y eficiente.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-6.png" width ="700px" alt="flow-6" style="margin-right: 20px;">
 </div>
 
 ##### 7. Scenario: Reassign a vehicle for excess weight limit
+En este escenario, se muestra el flujo cuando a través de nuestros dispositivos IoT se detecta un exceso de peso que supera el límite permitido para el vehículo asignado. Después de esta detección, se notifica a la agencia mediante nuestra aplicación web, y finalmente se procede a la reasignación de un vehículo de transporte para ese paquete turístico.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-7.png" width ="700px" alt="flow-7" style="margin-right: 20px;">
 </div>
 
 ##### 8. Scenario: Locate a Tourist
+Este escenario describe la secuencia de interacciones entre nuestros bounded contexts que permite que un guía turístico pueda localizar a un turista específico en un paquete turístico en curso. Esta ubicación se logra mediante el uso de nuestros dispositivos IoT para la geolocalización, que envían datos de coordenadas para rastrear la ubicación del turista.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-9.png" width ="700px" alt="flow-9" style="margin-right: 20px;">
 </div>
 
 ##### 9. Scenario: Alert the tourist about the weather of the place of the tour
+En este escenario, se ilustra cómo la información recopilada por los sensores IoT para el monitoreo del clima se utiliza para enviar notificaciones a través de la aplicación móvil a todos los turistas que se encuentren en un paquete turístico.
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-10.png" width ="700px" alt="flow-10" style="margin-right: 20px;">
 </div>
 
 ##### 10. Scenario: Check purchased tour packages
+En este escenario, se presenta cómo un turista puede consultar los detalles de una reserva pendiente a través de nuestra aplicación móvil.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-11.png" width ="700px" alt="flow-11" style="margin-right: 20px;">
 </div>
@@ -199,56 +212,67 @@ Durante este procedimiento, se detectaron los participantes, mensajes que se com
 #### 4.1.1.3 Bounded Context Canvases.
 
 ##### Booking Management
+En este Bounded Context de Reservas, se puede visualizar la comunicación con los Bounded Context de Subscription and Payments, Transport Management y Notification Management. También, este gestiona la información y estados de las reservaciones dentro las aplicaciones web y móvil.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/booking-management-canvas.png" width="700px" alt="booking-management-canvas">
 </div>
 
 ##### Data Report and Analytics
+En este Canvas se obtendrá y analizará la información que devuelva los dispositivos Iot, ya sean las balanzas inteligentes, sensores climáticos y brazaletes geolocalizadores. Este Bounded Context estará relacionado con los Bounded Context Iot Asset Management y Notification Management.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/data-report-and-analytics-canvas.png" width="700px" alt="data-report-and-analytics-canvas">
 </div>
 
 ##### Execution and Tracking
+En este Bounded Context Canvas de Execution and Tracking, se puede visualizar que estará en constante comunicación con el Bounded Context de Iot Asset Management. Esto se debe a que necesitará la información de la ubicación que proporciona los brazaletes geolocalizadores que portarán los turistas durante los tours.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/execution-and-tracking-canvas.png" width="700px" alt="execution-and-tracking-canvas">
 </div>
 
 ##### Identity And Access Management
+En el siguiente Canvas, describe la comunicación que usaremos con los sistemas externos de autenticación para el registro e ingreso de los usuarios a nuestras aplicaciones web y móvil. Este Bounded Context estará relacionado con los Bounded Context Profile Management y Notification Management.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/identity-and-access-management-canvas.png" width="700px" alt="identity-and-access-management-canvas">
 </div>
 
 ##### IoT Asset Management
+La siguiente imagen corresponde al IoT Asset Management Bounded Context Canvas. Se puede observar que la información proporcionada de los dispositivos Iot se envía al Bounded Context de Notification Management.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/ioT-asset-management-canvas.png" width="700px" alt="ioT-asset-management-canvas">
 </div>
 
 ##### Notification Management
+En este Bounded Context Canvas, se puede visualizar la comunicación que tendrá con la mayoría de Bounded Context. Este estará encargado de enviar mensajes de alertas, correos, notificaciones a los usuarios sobre los cambios de estados de reservas, paquetes turísticos, recomendaciones climáticas, entre otros. 
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/notification-management-canvas.png" width="700px" alt="notification-management-canvas">
 </div>
 
 ##### Profile Management
+El siguiente Profile Management Bounded Context Canvas describe la gestión de información de perfil de los usuarios. Esto no solamente abarca los datos comunes de la cuenta, sino también las configuraciones de preferencias relacionadas con las notificaciones de las aplicaciones.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/profile-management-canvas.png" width="700px" alt="profile-management-canvas">
 </div>
 
 ##### Review Management
+En este Bounded Context Canvas, se puede observar que la ingormación gestionada proviene de la aplicación web, ya que en esta los turistas podrán escribir las reseñas de su experiencia del paquete turístico comprado.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/review-management-canvas.png" width="700px" alt="review-management-canvas">
 </div>
 
 ##### Subscription and payments
+La siguiente imagen corresponde al Subscription and payments Context Canvas. Este gestiona la información de los pagos realizados por parte de los turistas y la información de la compra de las subscripciones de las agencias en la aplicaciñon web.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/subscription-and-payments-canvas.png" width="700px" alt="subscription-and-payments-canvas">
 </div>
 
 ##### Tour Experience
+La siguiente imagen corresponde al Tour Experience Bounded Context Canvas. Se puede observar a través de la aplicación web, las agencias de viaje podrán publicar los paquetes turísticos y gestionar su información en su ciclo de vida del paquete.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/tour-experience-canvas.png" width="700px" alt="tour-experience-canvas">
 </div>
 
 ##### Transport Management
+La siguiente imagen corresponde al Tour Experience Bounded Context Canvas. Se puede observar a través de la aplicación web, las agencias de viaje podrán publicar los vehículos y gestionar su información al asignarlos a cada paquete turístico.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/transport-management-canvas.png" width="700px" alt="transport-management-canvas">
 </div>
