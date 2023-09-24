@@ -1,3 +1,6 @@
+<div align="justify">
+
+
 <table>
 <thead>
   <tr>
@@ -32,5 +35,13 @@
     <td>Dominik Mendoza<br>Ivan Moran<br>Edgar Malca<br>Ryan Sweden<br>Nicole Price</td>
     <td>Se culminó de agregar las partes faltantes a todos los capítulos y mejorando la estructura del informe. Se agrego principalmente, todo lo relacionado a los Bounded Contexts.</td>
   </tr>
+  <tr>
+    <td>1.4</td>
+    <td>08/09/2023</td>
+    <td><br>Ryan Sweden<br></td>
+    <td>Se agregó contenido relacionado con el capítulo 5 referentes al planteamiento de la propuesta de UX/UI Design</td>
+  </tr>
 </tbody>
 </table>
+
+</div>
