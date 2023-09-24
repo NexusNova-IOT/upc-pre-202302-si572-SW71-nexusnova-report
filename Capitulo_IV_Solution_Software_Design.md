@@ -210,58 +210,67 @@ En este escenario, se presenta cómo un turista puede consultar los detalles de 
 #### 4.1.1.3 Bounded Context Canvases.
 
 ##### Booking Management
-En este Bounded Context de Reservas, se puede visualizar la comunicación con los Bounded Context de Subscription and Payments, Transport Management y Notification Management.
+En este Bounded Context de Reservas, se puede visualizar la comunicación con los Bounded Context de Subscription and Payments, Transport Management y Notification Management. También, este gestiona la información y estados de las reservaciones dentro las aplicaciones web y móvil.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/booking-management-canvas.png" width="700px" alt="booking-management-canvas">
 </div>
 
 ##### Data Report and Analytics
-E
+En este Canvas se obtendrá y analizará la información que devuelva los dispositivos Iot, ya sean las balanzas inteligentes, sensores climáticos y brazaletes geolocalizadores. Este Bounded Context estará relacionado con los Bounded Context Iot Asset Management y Notification Management.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/data-report-and-analytics-canvas.png" width="700px" alt="data-report-and-analytics-canvas">
 </div>
 
 ##### Execution and Tracking
+En este Bounded Context Canvas de Execution and Tracking, se puede visualizar que estará en constante comunicación con el Bounded Context de Iot Asset Management. Esto se debe a que necesitará la información de la ubicación que proporciona los brazaletes geolocalizadores que portarán los turistas durante los tours.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/execution-and-tracking-canvas.png" width="700px" alt="execution-and-tracking-canvas">
 </div>
 
 ##### Identity And Access Management
+En el siguiente Canvas, describe la comunicación que usaremos con los sistemas externos de autenticación para el registro e ingreso de los usuarios a nuestras aplicaciones web y móvil. Este Bounded Context estará relacionado con los Bounded Context Profile Management y Notification Management.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/identity-and-access-management-canvas.png" width="700px" alt="identity-and-access-management-canvas">
 </div>
 
 ##### IoT Asset Management
+La siguiente imagen corresponde al IoT Asset Management Bounded Context Canvas. Se puede observar que la información proporcionada de los dispositivos Iot se envía al Bounded Context de Notification Management.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/ioT-asset-management-canvas.png" width="700px" alt="ioT-asset-management-canvas">
 </div>
 
 ##### Notification Management
+En este Bounded Context Canvas, se puede visualizar la comunicación que tendrá con la mayoría de Bounded Context. Este estará encargado de enviar mensajes de alertas, correos, notificaciones a los usuarios sobre los cambios de estados de reservas, paquetes turísticos, recomendaciones climáticas, entre otros. 
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/notification-management-canvas.png" width="700px" alt="notification-management-canvas">
 </div>
 
 ##### Profile Management
+El siguiente Profile Management Bounded Context Canvas describe la gestión de información de perfil de los usuarios. Esto no solamente abarca los datos comunes de la cuenta, sino también las configuraciones de preferencias relacionadas con las notificaciones de las aplicaciones.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/profile-management-canvas.png" width="700px" alt="profile-management-canvas">
 </div>
 
 ##### Review Management
+En este Bounded Context Canvas, se puede observar que la ingormación gestionada proviene de la aplicación web, ya que en esta los turistas podrán escribir las reseñas de su experiencia del paquete turístico comprado.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/review-management-canvas.png" width="700px" alt="review-management-canvas">
 </div>
 
 ##### Subscription and payments
+La siguiente imagen corresponde al Subscription and payments Context Canvas. Este gestiona la información de los pagos realizados por parte de los turistas y la información de la compra de las subscripciones de las agencias en la aplicaciñon web.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/subscription-and-payments-canvas.png" width="700px" alt="subscription-and-payments-canvas">
 </div>
 
 ##### Tour Experience
+La siguiente imagen corresponde al Tour Experience Bounded Context Canvas. Se puede observar a través de la aplicación web, las agencias de viaje podrán publicar los paquetes turísticos y gestionar su información en su ciclo de vida del paquete.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/tour-experience-canvas.png" width="700px" alt="tour-experience-canvas">
 </div>
 
 ##### Transport Management
+La siguiente imagen corresponde al Tour Experience Bounded Context Canvas. Se puede observar a través de la aplicación web, las agencias de viaje podrán publicar los vehículos y gestionar su información al asignarlos a cada paquete turístico.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/transport-management-canvas.png" width="700px" alt="transport-management-canvas">
 </div>
