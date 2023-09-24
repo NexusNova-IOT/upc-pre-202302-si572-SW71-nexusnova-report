@@ -3,6 +3,9 @@
 URL de Organización de GITHUB del equipo NEXUS NOVA:
 https://github.com/NexusNova-IOT
 
+URL de Repositorio del Project Report:
+https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tree/main
+
 <strong>*Entrega TB1:*</strong>
 
 + Desarrollo de Actividades
