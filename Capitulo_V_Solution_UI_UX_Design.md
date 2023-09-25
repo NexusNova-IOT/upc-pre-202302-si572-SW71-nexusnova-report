@@ -90,6 +90,39 @@ Nuestras pautas de estilo para dispositivos IoT, como la balanza inteligente con
 
 ## 5.2. Information Architecture.
 ### 5.2.1. Organization Systems.
+Establecer una jerarquía visual clara es fundamental para la creación de una página web altamente optimizada. Esto se debe a la forma en que nuestros sistemas visuales están interconectados; tenemos la tendencia natural de escanear y procesar rápidamente diversos elementos visuales, como bordes, contrastes, tamaños y movimientos, para evaluar y comprender nuestro entorno. Esta dinámica es aplicable tanto si estamos contemplando un paisaje natural como si estamos navegando por una página web. A continuación, se presentarán algunos ejemplos de la jerarquía visual que está previsto implementar en nuestra aplicaciones.
+
+
+El flujo que deseamos que los usuarios experimenten al ingresar a la aplicación se describe de la siguiente manera:
+
+- En primer lugar, el usuario será recibido con una lista de paquetes de viajes, cada uno representado en una tarjeta individual.
+
+- A continuación, el usuario tendrá acceso a una barra superior donde encontrará una serie de opciones adicionales, como la posibilidad de filtrado por región, busqueda, etc.
+
+- Asimismo, se proporcionará al usuario la opción de ordenar los paquetes de viajes según varios criterios, como precio, calificación, orden alfabético, entre otros.
+
+Por último, el usuario podrá seleccionar una región, mostrando sus detalles  y sus departamentos.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/mock-ups/Organization-Systems.png" width="500px" alt="organizationSystemPicture">
+</div>
+
+El flujo que buscamos que los usuarios sigan al revisar los detalles de un paquete de viajes se puede describir de la siguiente manera:
+
+En primer lugar, el usuario examina la información más relevante del paquete, que incluye detalles como la ubicación, la duración, la capacidad mínima y máxima de personas y la disponibilidad de la agencia de viajes.
+
+Luego, el usuario profundiza en los detalles específicos del paquete de viajes.
+
+Después, el usuario utiliza la navegación para seleccionar entre diferentes secciones de detalles, como información sobre el paquete turistico, las actividades disponibles, etc.
+
+A continuación, el usuario visualiza el precio del paquete y accede a un calendario donde puede seleccionar la fecha de su preferencia, así como la cantidad de adultos y niños que viajarán.
+
+Por último, el usuario tomará su decisión final y elegirá el paquete que desee adquirir al hacer clic en el botón "Comprar" ("Buy").
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/mock-ups/Organization-Systems-2.png" width="500px" alt="organizationSystemPicture">
+</div>
+
 
 
 ### 5.2.2. Labeling Systems.
@@ -105,6 +138,53 @@ En esta sección, vamos a presentar el sistema de etiquetado que proporcionará 
 
 
 ### 5.2.3. SEO Tags and Meta Tags
+Los meta tags que serán incorporados son los siguientes:
+
+Encabezado: Estrictamente hablando, esto no es un meta-tag, sino una etiqueta independiente de HTML. Sin embargo, es válido considerarlo como parte de la información metadatos. Esta etiqueta debe tratarse como un elemento esencial en el encabezado del documento HTML, ya que se encarga de proporcionar el título de la página web. Su importancia radica en que los motores de búsqueda más prominentes utilizan esta etiqueta para titular las entradas en sus resultados.
+
+Descripción: En este campo, podemos ofrecer una descripción breve y concisa del contenido del sitio web. Esta información es la que se muestra como un fragmento (síntesis que aparece debajo de la URL) en los motores de búsqueda más comunes, como Google.
+
+Keywords: Aquí tenemos la opción de definir Keywords para el motor de búsqueda. En su momento de mayor auge, esta etiqueta meta se utilizaba en los motores de búsqueda primitivos para el posicionamiento de resultados de búsqueda. Por lo tanto, se consideró uno de los factores de SEO más relevantes.
+
+Autor y Derechos de Autor: Estas dos etiquetas meta hacen referencia al diseñador de una página web y al propietario de los derechos de autor del código fuente de la página HTML.
+
+
+Landing Page:
+• Título:
+- **Título:**
+```html
+<title>
+DreamTrip | Conoce la mejor aplicación para viajes
+</title>
+```
+
+- Descripción:
+```
+  
+ <meta name="description" content="Viaja sin preocupaciones, viaja con nosotros"/>
+
+```
+
+- Palabras clave:
+```
+
+<meta name="keywords" content="Viajes, Paquetes de viajes, Tours, Tour Packages, precios, tarifas"/>
+```
+
+• Autor:
+```
+
+<meta name="author" content="Nexus Nova Startup" />
+
+```
+
+- Copyright:
+```
+
+<meta name="copyright" content="© Nexus Nova, 2023" />
+
+```
+
 ### 5.2.4. Searching Systems.
 ### 5.2.5. Navigation Systems.
 ## 5.3. Landing Page UI Design.
