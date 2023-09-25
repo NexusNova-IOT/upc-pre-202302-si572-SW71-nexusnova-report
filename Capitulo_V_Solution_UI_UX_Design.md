@@ -198,7 +198,7 @@ Los Searching Systems se han diseñado utilizando un lenguaje claro y formal, qu
 Nuestros sistemas de navegación brindarán a los usuarios la capacidad de buscar paquetes turísticos de varias formas, incluyendo la búsqueda por nombres, regiones geográficas y utilizando diversos filtros relacionados con las opciones de viaje disponibles. Estamos convencidos de que esta funcionalidad facilitará a los usuarios encontrar los paquetes que mejor se ajusten a sus preferencias y gustos personales, mejorando así su experiencia de búsqueda y selección de viajes
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/landing-page/Navigation-Systems.png" width="500px" alt="sub">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/mock-ups/Navigation-Systems.png" width="500px" alt="sub">
 </div>
 
 ## 5.3. Landing Page UI Design.
