@@ -992,3 +992,77 @@ datos declarados como static.
 >     }
 >
 > }
+
+### 6.1.4 Software Deployment Configuration
+
+## 6.2 Landing Page, Services & Applications Implementation
+### 6.2.1 Sprint 1
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint n. Incluye como secciones internas: Sprint Planning n, Sprint Backlog n, Development Evidence for Sprint Review, Execution Evidence for 22/37 V1.0 Sprint Review, Services Documentation Evidence for Sprint Review, junto con Team Collaboration Insights during Sprint.
+#### 6.2.1.1 Sprint Planning 1
+En esta sección se especifica los aspectos principales del Sprint Planning Meeting. Se inicia la sección con una introducción y a continuación se coloca el cuadro de resumen del sprint planning meeting. La estructura a utilizar se presenta a continuación.
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 1</th>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2020-09-24</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>09:00 AM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión virtual mediante Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Mendoza Ramos, Dominik Mendoza</td>
+  </tr>
+  <tr>
+    <td>Attendees</td>
+    <td>Malca Rojas, Edgar Alexander / Mendoza Ramos, Dominik Aldahir / Moran Moreno, Ivan / Price Torrejón, Nicole Areli / Sweden Silva, Ryan Robert</td>
+  </tr>
+  <tr>
+    <td>Sprint n -1 Review Summary</td>
+    <td>No aplica</td>
+  </tr>
+  <tr>
+    <td>Sprint n -1 Retrospective Summary</td>
+    <td>No aplica</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint 1 Goal</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Goal</td>
+    <td>Desarrollar una versión inicial de la landing page y la web application que permita atraer visitantes a nuestro sitio web y brinde funcionalidades básicas para los usuarios. <br>
+      Métrica de Cumplimiento: Para evaluar el cumplimiento de este sprint, utilizaremos las siguientes métricas:<br>
+      1. Número de visitantes a la landing page: Mediremos cuántos visitantes llegan a nuestra landing page durante el período del sprint. El objetivo será atraer al menos 15 visitantes nuevos.<br>
+      2. Funcionalidades implementadas en la web application: Realizaremos un seguimiento de las funcionalidades clave implementadas en la web application y estableceremos un objetivo de cuántas de estas funcionalidades deben estar listas al final del sprint. Por ejemplo, podríamos tener como objetivo tener implementadas al menos 3 funcionalidades esenciales.<br>
+      3. Retroalimentación de los usuarios: Recopilaremos retroalimentación de los usuarios para evaluar su satisfacción con la funcionalidad inicial de la web application y su percepción de la landing page.</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Velocity</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>17</td>
+  </tr>
+</table>
+
+#### 6.2.1.2 Sprint Backlog 1
+Una sección de Sprint Backlog debe iniciar con una introducción que resuma el objetivo principal del Sprint y a continuación presente un screenshot del Board para el Sprint en la herramienta de control indicada (por ejemplo Trello), junto con el URL público del Board. A continuación, debe incluir una tabla donde se especifique los User Stories asignados al Sprint, junto con los Work-items/Tasks resultantes de la descomposición de los User Stories o Tasks adicionales que no dependen de un User Story en particular (por ejemplo, un task que debe realizarse para satisfacer un constraint general)
+
+#### 6.2.1.3. Development Evidence for Sprint Review.
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.1.5. Execution Evidence for Sprint Review.
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.1.8. Team Collaboration Insights during Sprint

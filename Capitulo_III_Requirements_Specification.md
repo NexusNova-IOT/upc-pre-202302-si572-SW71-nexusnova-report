@@ -68,7 +68,7 @@ En el Product Backlog presentaremos una lista priorizada de nuestras user storie
 |   3    | US05 | Visualización al equipo de desarrollo | Como usuario visitante, quiero conocer al equipo de desarrollo detrás de la solución para sentir mayor confianza en el servicio. | 2 |
 |   4    | US07 | Contacto con los representantes de la solución IoT | Como usuario visitante, quiero encontrar fácilmente la información de contacto de la startup para comunicarme con ellos si es necesario. | 2 |
 |   5    | US12 | Promoción de viajes turísticos | Como agencia de viajes, quiero publicar mis ofertas de viajes turísticos en línea para llegar a un público más amplio y aumentar mi visibilidad en línea. | 3 |
-|   6    | US09 | Filtrado de destinos turísticos | Como usuario turista, quiero la capacidad de filtrar los destinos turísticos disponibles para encontrar la opción que mejor se adapte a mis preferencias de viaje. | 3 |
+|   6    | US09 | Filtrado de destinos turísticos | Como usuario turista, quiero la capacidad de filtrar los destinos turísticos disponibles para encontrar la opción que mejor se adapte a mis preferencias de viaje. | 4 |
 |   7    | US10 | Control del peso de equipaje | Como usuario turista, deseo conocer las restricciones de peso para mi equipaje antes de mi viaje para evitar problemas durante mi viaje. | 3 |
 |   8    | US01 | Clima del viaje | Como usuario turista, quiero saber qué clima habrá durante el viaje para poder llevar vestimenta adecuada. | 3 |
 |   9    | US02 | Geolocalización como medida de seguridad | Como agencia de viajes, quiero brindar seguridad mediante geolocalización a mis usuarios para que no se pierdan durante sus viajes. | 5 |
