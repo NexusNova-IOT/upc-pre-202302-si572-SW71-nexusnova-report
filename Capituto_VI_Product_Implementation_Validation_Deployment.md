@@ -997,9 +997,9 @@ datos declarados como static.
 
 ## 6.2 Landing Page, Services & Applications Implementation
 ### 6.2.1 Sprint 1
-En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint n. Incluye como secciones internas: Sprint Planning n, Sprint Backlog n, Development Evidence for Sprint Review, Execution Evidence for 22/37 V1.0 Sprint Review, Services Documentation Evidence for Sprint Review, junto con Team Collaboration Insights during Sprint.
+En esta sección, documentaremos y explicaremos el progreso del Sprint 1 en términos de desarrollo del producto y colaboración del equipo. Abordaremos varios aspectos clave, incluyendo la planificación del sprint, el backlog del sprint, la evidencia de desarrollo para la Revisión del Sprint.
 #### 6.2.1.1 Sprint Planning 1
-En esta sección se especifica los aspectos principales del Sprint Planning Meeting. Se inicia la sección con una introducción y a continuación se coloca el cuadro de resumen del sprint planning meeting. La estructura a utilizar se presenta a continuación.
+En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 1. Comenzaremos con una introducción que establecerá el contexto y la importancia de esta reunión. Luego, exploraremos los elementos clave de la reunión, incluyendo la agenda, los objetivos, y cómo se prepara el equipo para el sprint.
 <table>
   <tr>
     <th>Sprint #</th>
@@ -1058,7 +1058,87 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 </table>
 
 #### 6.2.1.2 Sprint Backlog 1
-Una sección de Sprint Backlog debe iniciar con una introducción que resuma el objetivo principal del Sprint y a continuación presente un screenshot del Board para el Sprint en la herramienta de control indicada (por ejemplo Trello), junto con el URL público del Board. A continuación, debe incluir una tabla donde se especifique los User Stories asignados al Sprint, junto con los Work-items/Tasks resultantes de la descomposición de los User Stories o Tasks adicionales que no dependen de un User Story en particular (por ejemplo, un task que debe realizarse para satisfacer un constraint general)
+En esta sección, nos sumergiremos en el Sprint Backlog 1, que es una parte esencial de la planificación y ejecución del sprint. Comenzaremos con una introducción que destacará el propósito y la importancia del backlog del sprint en el contexto del Sprint 1.
+<table>
+<thead>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned to</td>
+    <td>Status (To-do / InProcess / ToReview / Done)</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Navegación en la landing page (3)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Visualización de planes y precios (3)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Dominik Mendoza</td>
+    <td>To - do</td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Visualización al equipo de desarrollo (2)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Contacto con los representantes de la solución IoT (2)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td>Promoción de viajes turísticos (3)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Filtrado de destinos turísticos (4)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
