@@ -111,22 +111,18 @@ En esta sección, vamos a presentar el sistema de etiquetado que proporcionará 
 ### 5.3.1. Landing Page Wireframe.
 Para la creación del esquema inicial de nuestra página de inicio (landing page), se empleó la plataforma Figma en conjunto con una variedad de complementos que simplificaron considerablemente el proceso de diseño y desarrollo. Esta combinación de herramientas permitió una producción eficiente y efectiva del wireframe.
 
-<div style="display: flex; align-items: center;">
-
-![LandingPage WireFrame](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/landing-page/landing-page-wireframes.png)
-
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/landing-page/landing-page-wireframes.png" width="500px" alt="sub">
 </div>
 
 ### 5.3.2. Landing Page Mock-up.
 Hemos completado con éxito la creación del mock-up de la página de inicio, lo que nos ha permitido destacar y aplicar los principios y elementos de diseño que hemos establecido. Estos principios y pautas heurísticas desempeñan un papel fundamental al hacer que la experiencia para los usuarios finales de nuestra plataforma sea más sencilla e intuitiva.
 
 
-<div style="display: flex; align-items: center;">
 
-![LandingPage Mock-up](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/landing-page/landing-page-mockup.png)
-
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/landing-page/landing-page-mockup.png" width="500px" alt="sub">
 </div>
-
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
