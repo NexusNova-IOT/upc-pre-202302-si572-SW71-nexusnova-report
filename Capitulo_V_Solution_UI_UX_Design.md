@@ -90,14 +90,14 @@ Nuestras pautas de estilo para dispositivos IoT, como la balanza inteligente con
 
 ## 5.2. Information Architecture.
 ### 5.2.1. Organization Systems.
-Establecer una jerarquía visual clara es fundamental para la creación de una página web altamente optimizada. Esto se debe a la forma en que nuestros sistemas visuales están interconectados; tenemos la tendencia natural de escanear y procesar rápidamente diversos elementos visuales, como bordes, contrastes, tamaños y movimientos, para evaluar y comprender nuestro entorno. Esta dinámica es aplicable tanto si estamos contemplando un paisaje natural como si estamos navegando por una página web. A continuación, se presentarán algunos ejemplos de la jerarquía visual que está previsto implementar en nuestra aplicaciones.
+Establecer una jerarquía visual clara es fundamental para la creación de una página web altamente optimizada. Esto se debe a la forma en que nuestros sistemas visuales están interconectados; tenemos la tendencia natural de escanear y procesar rápidamente diversos elementos visuales, como bordes, contrastes, tamaños y movimientos, para evaluar y comprender nuestro entorno. Esta dinámica es aplicable tanto si estamos contemplando un paisaje natural como si estamos navegando por una página web. A continuación, se presentarán algunos ejemplos de la jerarquía visual que está previsto implementar en nuestras aplicaciones.
 
 
 El flujo que deseamos que los usuarios experimenten al ingresar a la aplicación se describe de la siguiente manera:
 
 - En primer lugar, el usuario será recibido con una lista de paquetes de viajes, cada uno representado en una tarjeta individual.
 
-- A continuación, el usuario tendrá acceso a una barra superior donde encontrará una serie de opciones adicionales, como la posibilidad de filtrado por región, busqueda, etc.
+- A continuación, el usuario tendrá acceso a una barra superior donde encontrará una serie de opciones adicionales, como la posibilidad de filtrado por región, búsqueda, etc.
 
 - Asimismo, se proporcionará al usuario la opción de ordenar los paquetes de viajes según varios criterios, como precio, calificación, orden alfabético, entre otros.
 
@@ -113,7 +113,7 @@ En primer lugar, el usuario examina la información más relevante del paquete, 
 
 Luego, el usuario profundiza en los detalles específicos del paquete de viajes.
 
-Después, el usuario utiliza la navegación para seleccionar entre diferentes secciones de detalles, como información sobre el paquete turistico, las actividades disponibles, etc.
+Después, el usuario utiliza la navegación para seleccionar entre diferentes secciones de detalles, como información sobre el paquete turístico, las actividades disponibles, etc.
 
 A continuación, el usuario visualiza el precio del paquete y accede a un calendario donde puede seleccionar la fecha de su preferencia, así como la cantidad de adultos y niños que viajarán.
 
@@ -126,13 +126,13 @@ Por último, el usuario tomará su decisión final y elegirá el paquete que des
 
 
 ### 5.2.2. Labeling Systems.
-En esta sección, vamos a presentar el sistema de etiquetado que proporcionará una descripción concisa y clara de la información presentada en cada uno de nuestras aplicaciones. Comenzaremos detallando los encabezados que estarán disponibles en nuestra landing page.
+En esta sección, vamos a presentar el sistema de etiquetado que proporcionará una descripción concisa y clara de la información presentada en cada una de nuestras aplicaciones. Comenzaremos detallando los encabezados que estarán disponibles en nuestra landing page.
 
   - **Inicio/Home:** Esta sección preseleccionada por defecto ofrecerá una breve descripción que representará la aplicación y proporcionará una idea del objetivo principal de esta.
 
 - **Conócenos/About Us:** En esta sección, los clientes podrán obtener información sobre nuestro equipo, ver nuestra misión, visión, conocer quiénes somos y qué hacemos.
 
-- **Servicios/Services:** La sección de Servicios se encuentra dividida en segmentos objetivos, donde mostraremos los beneficios que nuestro sistema ofrece para cada uno de ellos.
+- **Servicios/Services:** La sección de caracteristicas se encuentra dividida en segmentos objetivos, donde mostraremos los beneficios que nuestro sistema ofrece para cada uno de ellos.
 
 - **Planes**: Aquí se presentarán los montos promedio a pagar por cada segmento objetivo.
 
@@ -186,7 +186,21 @@ DreamTrip | Conoce la mejor aplicación para viajes
 ```
 
 ### 5.2.4. Searching Systems.
+
+Los Searching Systems se han diseñado utilizando un lenguaje claro y formal, que al mismo tiempo es fácil de comprender. Aquí se enumeran las funciones clave:
+
+| Icono complementario de  filtros | En esta sección encontraras los diferentes filtros que están  relacionados a los paquetes de viajes, como precio, fecha publicación, etc.                                    |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Barra de filtrado  por región    | Esta funcionalidad te permite ordenar los paquetes de viaje según la región (costa, sierra o selva), facilitando así la búsqueda de destinos específicos. |
+
 ### 5.2.5. Navigation Systems.
+
+Nuestros sistemas de navegación brindarán a los usuarios la capacidad de buscar paquetes turísticos de varias formas, incluyendo la búsqueda por nombres, regiones geográficas y utilizando diversos filtros relacionados con las opciones de viaje disponibles. Estamos convencidos de que esta funcionalidad facilitará a los usuarios encontrar los paquetes que mejor se ajusten a sus preferencias y gustos personales, mejorando así su experiencia de búsqueda y selección de viajes
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/landing-page/Navigation-Systems.png" width="500px" alt="sub">
+</div>
+
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
 Para la creación del esquema inicial de nuestra página de inicio (landing page), se empleó la plataforma Figma en conjunto con una variedad de complementos que simplificaron considerablemente el proceso de diseño y desarrollo. Esta combinación de herramientas permitió una producción eficiente y efectiva del wireframe.
