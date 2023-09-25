@@ -1,17 +1,24 @@
+<div align="justify">
+
 ## 3.1. To-Be Scenario Mapping.
-#### To-Be Scenario Map de las agencias turísticas.
+En esta sección, abordaremos el To-Be Scenario Mapping para ambos segmentos, donde describiremos cómo deben configurarse las experiencias durante cada fase.
+### To-Be Scenario Mapping de las agencias turísticas.
+En el siguiente apartado, presentaremos el Mapeo de Escenarios Futuros específicamente diseñado para las agencias turísticas. Este mapa representa una visión de cómo deberían evolucionar las experiencias relacionadas con el sector turístico a medida que se implementan cambios y mejoras en los procesos y sistemas. A continuación, se incluye una representación gráfica del mismo:
+
 [![To-Be Scenario Map de las agencias turísticas.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/To-BeScenarioMapping-AgenciaTuristica.png)](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
 
 Enlace: [Documento en Miro](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
 
-#### To-Be Scenario Map del usuario turista.
+### To-Be Scenario Mapping del usuario turista.
+A continuación, se presenta el To-Be Scenario Mapping diseñado específicamente para los usuarios turistas. Este mapa visualiza la transformación de las experiencias desde la perspectiva de los viajeros a medida que interactúan con las agencias turísticas y los servicios relacionados. A continuación, se incluye una representación gráfica del mismo:
+
 [![To-Be Scenario Map del usuario turista.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/To-BeScenarioMapping-Turista.png)](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
 
 Enlace: [Documento en Miro](https://miro.com/app/board/uXjVMqvH6k0=/?share_link_id=745419928805)
 
 ## 3.2. User Stories.
 En esta sección, profundizaremos en la definición y elaboración de las User Stories relacionadas con nuestro proyecto. Las User Stories son una herramienta fundamental en el desarrollo de software y proyectos de diseño centrados en el usuario.
-
+### User Stories
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | :---: | --- | --- | --- | :---: |
 | EP01 | Información y Navegación en la Landing Page | Como usuario visitante, quiero acceder a una landing page para informarme sobre la solución IoT que brinda la startup. | Scenario 1: Visualización de Planes y Precios <br><br>**DADO QUE** el usuario visitante se encuentra en la landing page de la startup. <br><br>**CUANDO** accede a la sección de "Planes y Precios". <br><br>**ENTONCES** el sitio web presenta los diferentes planes ofrecidos junto con sus descripciones y precios. <br><br>Scenario 2: Conocer al Equipo de Desarrollo <br><br>**DADO QUE** el usuario visitante se encuentra en la landing page de la startup. <br><br>**CUANDO** accede a la sección de "Equipo de Desarrollo" o "Sobre Nosotros". <br><br>**ENTONCES** el sitio web muestra perfiles e información relevante sobre los miembros del equipo de desarrollo. <br>Y la información transmite confianza en la experiencia y habilidades del equipo. <br><br> Scenario 3: Navegación en la Página Principal <br><br>**DADO QUE** el usuario visitante se encuentra en la landing page. <br><br>**CUANDO** navega por la página principal. <br><br>**ENTONCES** encuentra un menú de navegación claramente visible y fácil de usar que le permite desplazarse cómodamente por el sitio web. <br>Y el menú incluye enlaces a secciones importantes como "Inicio", "Planes y Precios", "Equipo de Desarrollo" y "Contacto". <br><br> Scenario 4: Acceso a Información de Contacto <br><br>**DADO QUE** el usuario visitante está interesado en la solución IoT. <br><br>**CUANDO** desea encontrar información de contacto de la startup. <br><br>**ENTONCES** encuentra fácilmente información de contacto, como dirección de correo electrónico, número de teléfono o un formulario de contacto en la página principal. <br>Y la información de contacto es clara y accesible. | EP01 |
@@ -44,15 +51,12 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 | US20 | Eliminación de cuenta | Como usuario turista, quiero tener la opción de eliminar permanentemente mi cuenta para evitar que mi información persista en caso de que ya no desee utilizar la aplicación | Scenario 1: Eliminación de Cuenta <br><br>**DADO QUE** el usuario está registrado en la aplicación <br><br>**CUANDO** desea eliminar permanentemente su cuenta <br><br>**ENTONCES** la aplicación proporciona una opción para eliminar la cuenta. <br><br>Scenario 2: Confirmación de Eliminación <br><br>**DADO QUE** el usuario selecciona la opción de eliminar mi cuenta <br><br>**CUANDO** confirma la eliminación <br><br>**ENTONCES** la aplicación elimina todos sus datos de la plataforma y cierra su cuenta de forma permanente. | EP04 |
 
 ## 3.3. Impact Mapping.
-En el Impact Mapping, se puede apreciar cómo el desarrollo de la aplicación provocará transformaciones significativas en el estilo de vida de los usuarios. En última instancia, se podrá constatar que todos estos cambios se materializan a través de las historias de usuario.
+En esta sección, nuestro equipo presenta el Impact Mapping, el cual es una herramienta visual y colaborativa que ayuda a los equipos a alinear sus objetivos con los resultados deseados.
 
-[![Impact mapping de las agencias turísticas.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/ImpactMapping-AgenciaDeViajes.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+[![Impact mapping](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-3/Resources/maps/ImpactMapping.png)](https://uxpressia.com/w/MLSwR/i/TqqtE)
 
-Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/TqqtE)
+Enlace: [Impact map en UXPRESSIA](https://uxpressia.com/w/MLSwR/i/TqqtE)
 
-[![Impact mapping de las agencias turísticas.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/ImpactMapping-AgenciaDeViajes-2.png)](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
-
-Enlace: [Impact mapping en UXPRESSIA](https://uxpressia.com/w/MLSwR/p/LQfbI/i/X7ELy)
 ## 3.4. Product Backlog.
 
 En el Product Backlog presentaremos una lista priorizada de nuestras user stories según el nivel de prioridad que acordamos en el equipo, esencial para el *enfoque ágil*.
@@ -99,8 +103,10 @@ En el Product Backlog presentaremos una lista priorizada de nuestras user storie
 | 38    | TS11           | Implementación de Autenticación de API | Como Developer, necesito implementar mecanismos de autenticación para asegurar que solo las solicitudes autenticadas tengan acceso a los endpoints de la API. |5 |
 | 39    | TS12           | Optimización de Consultas de Base de Datos | Como Developer, necesito optimizar las consultas de base de datos en la API para mejorar el rendimiento y la velocidad de respuesta. |3 |
 
-A continuación se presenta el Product Backlog en la plataforma Pivotal Tracker:
+A continuación se presenta una representación gráfica del mismo en la plataforma Pivotal Tracker:
 
 [![Product Backlog.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/ProductBacklog.png)](https://www.pivotaltracker.com/n/projects/2675473)
 
 Enlace: [Product Backlog en PivotalTracker](https://www.pivotaltracker.com/n/projects/2675473)
+
+</div>
