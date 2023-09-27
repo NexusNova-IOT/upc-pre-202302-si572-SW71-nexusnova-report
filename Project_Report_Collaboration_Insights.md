@@ -78,41 +78,46 @@ https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tree
 
         + Pulse Image of Github Insights
         <div style="display: flex; align-items: center;">
-        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/Pulse_Image.png" style="margin-right: 20px; border: 2px solid lightblue;">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/TP1/Pulse_Evidence_TP1.png" style="margin-right: 20px; border: 2px solid lightblue;">
         </div><br>
 
         + Code Frequency Image of Github Insights
         <div style="display: flex; align-items: center;">
-        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/Code_Frequency_Image.png" style="margin-right: 20px; border: 2px solid lightblue;">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/TP1/Code_Evidence_TP1.png" style="margin-right: 20px; border: 2px solid lightblue;">
         </div>
         <br>
 
         + Contributors Image of Github Insights
         <div style="display: flex; align-items: center;">
-        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/Contributors_Image.png" style="margin-right: 20px; border: 2px solid lightblue;">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/TP1/Contributors_Insight_TP1.png" style="margin-right: 20px; border: 2px solid lightblue;">
+            </div>
+        
+        + Network Image of Github Insights
+        <div style="display: flex; align-items: center;">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/TP1/Network_TP1.png" style="margin-right: 20px; border: 2px solid lightblue;">
             </div>
 
     * Commits
 
         + Dominik Mendoza
             <div style="display: flex; align-items: center;">
-            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/evidences_commit_Dominik.png" style="margin-right: 20px; border: 2px solid lightblue;">
+            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/TP1/Commit_Dominik_TP1.png" style="margin-right: 20px; border: 2px solid lightblue;">
             </div>
         + Nicole Price
             <div style="display: flex; align-items: center;">
-            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/evidences_commit_Nicole.png" style="margin-right: 20px; border: 2px solid lightblue;">
+            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/TP1/Commit_Nicole_TP1.png" style="margin-right: 20px; border: 2px solid lightblue;">
             </div>
         + Ivan Moran
             <div style="display: flex; align-items: center;">
-            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/evidences_commit_Ivan.png" style="margin-right: 20px; border: 2px solid lightblue;">
+            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/TP1/Commit_Ivan_TP1.png" style="margin-right: 20px; border: 2px solid lightblue;">
             </div>
         + Ryan Sweden
             <div style="display: flex; align-items: center;">
-            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/evidences_commit_Ryan.png" style="margin-right: 20px; border: 2px solid lightblue;">
+            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/TP1/Commit_Ryan_TP1.png" style="margin-right: 20px; border: 2px solid lightblue;">
             </div>
         + Edgar Malca
             <div style="display: flex; align-items: center;">
-            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/evidences_commit_Edgar.png" style="margin-right: 20px; border: 2px solid lightblue;">
+            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-1/Resources/evidences-insights/TP1/Commit_Edgar_TP1.png" style="margin-right: 20px; border: 2px solid lightblue;">
             </div>
 
 + Evidencias de colaboración - otras herramientas: 
