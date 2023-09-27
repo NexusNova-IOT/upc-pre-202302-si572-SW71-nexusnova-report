@@ -109,19 +109,19 @@ Es un tipo de texto escrito o ilustración que acompaña al software de computad
 * <strong>OpenAPI Specification vía Swagger:</strong><br> Es una especificación para archivos de interfaz legibles por máquina para describir, producir y visualizar servicios web RESTful. <br>
 https://swagger.io/specification/ 
  
-### 6.1.1 Source Code Management
+### 6.1.2 Source Code Management
 
 A continuación, se presenta la gestión de código fuente o como es conocido por sus siglas en ingles SCM (Source Code Management). Su función principal es realizar un seguimiento de las modificaciones que el equipo realizara a lo largo del desarrollo de sus proyectos en los repositorios de código fuente. Se empleará como un sistema de control de versiones que permite dar seguimiento a los cambios que cada integrante o desarrollador realice en el proyecto. Asimismo, cabe resaltar que para el sistema de control de versiones emplearemos GitHub.
 
-* <strong>URL de la Organización:</strong> https://github.com/MIRAI-Open-Source-SW52-Grupo-3 
+* <strong>URL de la Organización:</strong> https://github.com/NexusNova-IOT
   
-* <strong>URL del Repositorio del Landing Page:</strong> https://github.com/Open-Source-SW52-Grupo-3/Landing-Page-Import-It 
+* <strong>URL del Repositorio del Landing Page:</strong> https://github.com/NexusNova-IOT/landing-page
   
 * <strong>URL del Repositorio de Web Services:</strong> Por el momento el equipo no ha creado un repositorio, puesto que no comenzamos con la implementación
   
-* <strong>URL del Repositorio de Frontend Web Applications:</strong>  https://github.com/MIRAI-Open-Source-SW52-Grupo-3/Import_It_Web_Application
+* <strong>URL del Repositorio de Frontend Web Applications:</strong>  https://github.com/NexusNova-IOT/LifeTravel-App
   
-* <strong>URL del Repositorio de las pruebas de aceptación:</strong>  https://github.com/MIRAI-Open-Source-SW52-Grupo-3/Acceptance-Tests 
+* <strong>URL del WebApp Hosteado en Firebase:</strong>  https://lifetravel-app.web.app/
 
 <strong>GitFlow</strong><br>
 Es el modelo alternativo de creación de ramas en Git que en los últimos años se ha vuelto una herramienta indispensable para muchos desarrolladores. Este flujo de trabajo de control de versiones utiliza ramas y fue publicado y popularizado por Vincent Driessen. Su principal función es ayudar en la organización de la versión de un código, permitiendo la creación de nuevos Features y Hotfixes de manera organizada. 
@@ -144,7 +144,10 @@ A diferencia de las ramas principales, estas branches tienen un tiempo de vida l
 
 	Se emplean para desarrollar las nuevas funciones que se integraran en una versión siguiente. Cabe resaltar, que esta rama existe mientras este en proceso de desarrollo. Sin embargo, cuando el desarrollador culmine con esa función, se fusionará nuevamente a develop. 
 
-	![GitFLow.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/maps/ImpactMapping-AgenciaDeViajes.png)
+<div align="center">
+	<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/source-code-management/gitflow.png" alt="GitFLow.">
+</div>
+
 
   * <strong>Release:</strong>  <br>	
     * Se ramifica de: develop
@@ -152,75 +155,1589 @@ A diferencia de las ramas principales, estas branches tienen un tiempo de vida l
   
 	 Son aquellas que admiten la preparación de una nueva versión de producción. A través de esta rama, se permite corregir errores menores que surgieron en la etapa de desarrollo y preparar metadatos para su lanzamiento. Esto último genera que la develop Branch se autoriza para recibir nuevas funciones para la próxima versión, pues se generara cuando se acerque una fecha de publicación determinada. 
 
- ![Branches.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/maps/ImpactMapping-AgenciaDeViajes.png)
- 
-o	Hotfix
-	Se ramifica de: master
-	Debe fusionarse de nuevo en: develop y master
-Estas ramas son muy similares a las reléase branches, ya que también están destinadas para una nueva versión de producción, pero con la diferencia que se ramifican de master y no de develop. Son llamadas como ramas de mantenimiento, corrección o hotfix. Su principal función, es reparar rápidamente las publicaciones de producción. Al terminar la corrección, debe fusionarse con master y esta debe etiquetarse con un nuevo número de versión. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/source-code-management/branches.png" alt="Branches.">
+</div>
+
+  * <strong>Hotfix</strong> <br>
+    * Se ramifica de: master
+    * Debe fusionarse de nuevo en: develop y master
+	
+	Estas ramas son muy similares a las reléase branches, ya que también están destinadas para una nueva versión de producción, pero con la diferencia que se ramifican de master y no de develop. Son llamadas como ramas de mantenimiento, corrección o hotfix. Su principal función, es reparar rápidamente las publicaciones de producción. Al terminar la corrección, debe fusionarse con master y esta debe etiquetarse con un nuevo número de versión. 
 
 
-Principales motivos por los que el equipo empleara GitFlow.
-•	Este flujo de trabajo es ideal para el equipo, puesto que nuestro proyecto se basa en publicaciones en un determinado sprint.
-•	Esta centralizado como subversión (SVN) y descentralizado, que permite que el equipo trabaje individualmente. Pues no todos tienen el mismo horario. Sin embargo, todos deben mantener las actualizaciones en el repositorio central en GitHub.
+<strong>Principales motivos por los que el equipo empleara GitFlow.</strong>
+
+*	Este flujo de trabajo es ideal para el equipo, puesto que nuestro proyecto se basa en publicaciones en un determinado sprint.
+
+*	Esta centralizado como subversión (SVN) y descentralizado, que permite que el equipo trabaje individualmente. Pues no todos tienen el mismo horario. Sin embargo, todos deben mantener las actualizaciones en el repositorio central en GitHub.
  
-Convenciones para nombrar los Features, reléase y hotfix branches:
-Feature Branch: feature/name
-Example: 
-1.	feature/welcome, 
-2.	feature/about, 
-3.	feature/myfeature
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/source-code-management/support-branches.png" alt="Branches.">
+</div>
+
+<strong>Convenciones para nombrar los Features, reléase y hotfix branches:</strong>
+
+<strong>Feature Branch:</strong> feature/name
+
+<strong>Example: </strong>
+
+* 1.	feature/welcome, 
+* 2.	feature/about, 
+* 3.	feature/myfeature
+  
 Antes de mostrar las convenciones para nombrar los reléase and hotfix branches. We have to mostrar cómo es que funciona el Semantic Versioning Specification. 
+
 Este es un sistema de versiones, cuyo uso ha ido aumentando con el transcurso del tiempo por los desarrolladores. Con ello, developers pueden visualizar la extensión de los cambios en el código fuente del proyecto.
+
 Inicialmente, la versión se basa de MAJOR.MINOR.PATCH (X.Y.Z). Asimismo, para comenzar a usar este sistema de versiones debemos declarar una API publica precisa y comprensible. Esta forma debe aumentar numéricamente según lo desarrollado por el equipo de software. 
+
 El proyecto inicia su desarrollo con la versión 0.y.z, luego pasara a ser 1.0.0 cuando se defina la API pública. Siguientemente, se seguirán los criterios mostrados a continuación para incrementar la versión. 
+
 Patch version (Z), debe incrementarse si solo se introducen correcciones de errores compatibles con versiones anteriores.
+
 Minor version (Y), debe incrementarse si el equipo integra una nueva funcionalidad compatible con versiones anteriores en la API pública. Si alguna funcionalidad es obsoleta o si se introducen nuevas funcionalidades en el código privado. 
+
 *Si se incrementa, la version del parche debe volver a 0.
 Major version (X), debe incrementarse si se generan cambios deslindados a versiones anteriores en la API pública. 
+
 *Si se incrementa, Patch version y la minor version debe volver a 0.
 Existen etiquetas adicionales para los metadatos de compilación. 
-Ejemplo:  MAJOR.MINOR. PATCH (X.Y.Z)
-1.	1.9.0
-2.	1.10.0
-3.	2.0.0
-4.	1.0.0-alfa
-Release Branch:  release-* (* se cambia por la versión semántica).
-Ejemplo: release-1.2.0
-Hotfix Branch:  hotfix-* (* se cambia por la versión semántica).
-Ejemplo: hotfix-1.2.1
-Conventional Commits
+
+<strong>Ejemplo:  MAJOR.MINOR. PATCH (X.Y.Z)</strong>
+
+* 1.	1.9.0
+* 2.	1.10.0
+* 3.	2.0.0
+* 4.	1.0.0-alfa
+  
+	<strong>Release Branch:</strong>  release-* (* se cambia por la versión semántica).
+
+	<strong>Ejemplo:</strong> release-1.2.0
+
+	<strong>Hotfix Branch: </strong> hotfix-* (* se cambia por la versión semántica).
+
+	<strong>Ejemplo:</strong> hotfix-1.2.1
+	<br><br>
+
+<strong>Conventional Commits</strong><br>
+
 El commit debe estructurarse de la siguiente manera:
-<type>[optional scope]: <description>
-[optional body]
-[optional footer(s)]
+
+	<type> [optional scope]: <description>
+	[optional body]
+	[optional footer(s)]
+
 Cabe recalcar que debe estar en “lower case”.
-Type: 
-feat: Cuando se agrega un nuevo feature.
-fix: cuando corriges un error.
-build: cuando afectan los componentes de compilación como la herramienta de compilación, las dependencias o la version del proyecto.
-chore: modificaciones privadas del código.
-docs: commits que afectan solo a la documentación.
+
+<strong>Type: </strong>
+
+* feat: Cuando se agrega un nuevo feature.
+
+* fix: cuando corriges un error.
+
+* build: cuando afectan los componentes de compilación como la herramienta de compilación, las dependencias o la version del proyecto.
+
+* chore: modificaciones privadas del código.
+
+* docs: commits que afectan solo a la documentación.
 refractor: commits que reescriben o reestructura el código, pero no cambia el comportamiento.
 perf: commits especiales que mejoran el rendimiento. 
-style: commits que no afectan el programa. (espacios en blanco, formato, puntos o comas faltantes).
-test: commits que agregan pruebas.
-Scope
-Proporciona información contextual adicional, si bien es opcional, es bueno colocarlo para que el desarrollador lea un commit más específico. 
-<description>
-Es una parte obligatoria del formato de los commits, siempre debemos usar imperativo y no escribir en mayúsculas. 
-[optional body]
-Debe incluirse la motivación para el cambio y contrastarse con el comportamiento anterior. Es opcional y si lo usa debe usar el imperativo y es ideal para mencionar los identificadores de problemas y sus relaciones.
-[optional footer(s)]
-Cualquier información sobre cambios importantes. Es opcional, puede incluir referencia al problema por su id y en esta sección se incluyen los BREAKING CHANGES: seguido de un espacio o dos satos de línea. 
- Ejemplos:
-1.	feat(welcome): add welcome section
-2.	build(release): bump version to 1.0.0
-3.	style: remove empty line
-4.	feat(sign up): add the button to sign up
-5.	feat ! : send an-email to the costumer when product is shipped
-6.	feat: remove ticket list endpoint
-refers to JIRA-1337
-BREAKING CHANGES: ticket enpoints no longer supports list all entites.
- 
 
+* style: commits que no afectan el programa. (espacios en blanco, formato, puntos o comas faltantes).
+test: commits que agregan pruebas.
+
+<br><strong>Scope</strong><br>
+Proporciona información contextual adicional, si bien es opcional, es bueno colocarlo para que el desarrollador lea un commit más específico. 
+
+<br><strong>Description</strong><br>
+Es una parte obligatoria del formato de los commits, siempre debemos usar imperativo y no escribir en mayúsculas. 
+
+	[optional body]
+Debe incluirse la motivación para el cambio y contrastarse con el comportamiento anterior. Es opcional y si lo usa debe usar el imperativo y es ideal para mencionar los identificadores de problemas y sus relaciones.
+
+	[optional footer(s)]
+Cualquier información sobre cambios importantes. Es opcional, puede incluir referencia al problema por su id y en esta sección se incluyen los BREAKING CHANGES: seguido de un espacio o dos satos de línea. 
+
+<strong> Ejemplos: </strong>
+* 1.	feat(welcome): add welcome section
+* 2.	build(release): bump version to 1.0.0
+* 3.	style: remove empty line
+* 4.	feat(sign up): add the button to sign up
+* 5.	feat ! : send an-email to the costumer when product is shipped
+* 6.	feat: remove ticket list endpoint
+
+<br>
+
+### 6.1.3 Source Code Style Guide & Conventions
+
+En esta sección se mostrarán las pautas, convenciones, estilos y
+principios que se utilizarán para cada uno de los lenguajes que se
+emplearán en la creación de nuestra aplicación, LifeTravel. La práctica
+de este conjunto de reglas es de suma importancia, ya que estas tienen
+el propósito de conservar la calidad estructural del software, dar una
+mayor legibilidad al código fuente y facilitar el mantenimiento del
+código.
+
+Dado que en este proyecto se utilizarán HTML, CSS y JavaScript para la
+codificación de la plataforma web y Gherkins para el proceso de prueba
+del programa; a continuación, se nombrarán y describirán las reglas y
+recomendaciones generales que tomaremos en cuenta al momento de usarlos.
+
+**Nomenclatura General**
+
+A los nombres de las variables, objetos, elementos y funciones que se
+utilicen, se les designarán términos en inglés que estén relacionados y
+puedan describir a lo que están representando. No se usarán mayúsculas
+porque de acuerdo con W3Schools (s.f.), la mezcla de estas con las
+letras minúsculas luce mal y, además, el uso exclusivo de minúsculas
+otorga mayor legibilidad al código.
+
+Ejemplo de nomenclatura estándar según Google (s.f.):
+
+.gallery {}
+
+.video {}
+
+.login {}
+
+**Sangría**
+
+En el momento de utilizar HTML, CSS y/o JavaScript se aplicará un
+espaciado antes de cada línea que se encuentre dentro de un bloque. Este
+espacio debe ser de dos y según W3Schools (s.f.) no se debe hacer uso de
+la tecla "Tabulación".
+
+Ejemplo de nomenclatura estándar de la sangría en HTML según W3Schools
+(s.f.):
+
+> \<table\>\
+>   \<tr\>\
+>     \<th\>Name\</th\>\
+>     \<th\>Description\</th\>
+>
+> \</tr\>\
+> \</table\>
+
+Ejemplo de nomenclatura estándar de la sangría en CSS según W3Schools
+(s.f.):
+
+> html {\
+>   background: #fff;\
+>   color: #404;\
+> }
+
+Ejemplo de nomenclatura estándar de la sangría en JavaScript según
+W3Schools (s.f.):
+
+> function toCelsius(fahrenheit) {\
+>   return (5 / 9) \* (fahrenheit - 32);\
+> }
+
+Seguidamente, explicaremos las reglas específicas que se necesitan en
+cada lenguaje para entender el código de nuestro programa, LifeTravel.
+
+**HTML**
+
+Llamado así por las siglas del nombre en inglés HyperText Markup
+Language. HTML es un lenguaje de marcado que define la estructura de una
+página web. Además, cuenta con funciones capaces de determinar el
+comportamiento de distintas partes del contenido de la página, tales
+como el cambiar el tamaño del texto, aplicar cursiva, entre otros.
+Nosotros emplearemos HTML5, y las características y pautas a seguir para
+hacer uso de este lenguaje son las siguientes:
+
+-   **Declare Document Type**
+
+> El tipo de documento debe declararse en la primera línea de código. De
+> acuerdo con Google (s.f.) HTML5 es de preferencia la mejor sintaxis
+> para todo documento HTML, para declararla sólo es necesario copiar lo
+> siguiente:
+>
+> \<!DOCTYPE html\>
+
+-   **Blank Lines**
+
+> Cada vez que, luego de un bloque, lista o tabla de gran longitud se
+> inicie uno nuevo, se debe saltar la siguiente línea y dejarla en
+> blanco para brindar mayor legibilidad y amenidad, así manifiesta
+> W3Schools (s.f.).
+>
+> Ejemplo:
+>
+> \<body\>\
+> \
+> \<h1\>Famous Cities\</h1\>\
+> \
+> \<h2\>Tokyo\</h2\>\
+> \<p\>Tokyo is the capital of Japan, the center of the Greater Tokyo
+> Area, and the most populous metropolitan area in the world.\</p\>\
+> \
+> \<h2\>London\</h2\>\
+> \<p\>London is the capital city of England. It is the most populous
+> city in the United Kingdom.\</p\>\
+> \
+> \<h2\>Paris\</h2\>\
+> \<p\>Paris is the capital of France. The Paris area is one of the
+> largest population centers in Europe.\</p\>\
+> \
+> \</body\>
+
+-   **Quote Attribute Values**
+
+> Para los valores de los atributos se utilizan comillas dobles
+> alrededor. De acuerdo con W3Schools (s.f.) Aunque esta característica
+> no sea obligatoria, le da más legibilidad al código y es muy frecuente
+> entre los desarrolladores.
+>
+> Ejemplo:\
+> \<table class=\"striped\"\>
+
+-   **Multimedia Fallback**
+
+> Asegurar un acceso alterno a los objetos multimedia por si este
+> fallara al cargar. De la misma forma, según la W3Schools (s.f.), es
+> recomendable añadir las dimensiones del elemento porque así los
+> navegadores guardan el espacio que utilizará antes de comenzar a
+> cargarlo.
+>
+> Ejemplo:
+>
+> \<img src=\"html5.gif\" alt=\"HTML5\" style=\"width:128px;height:128px\"\>
+
+-   **Never Skip the \<tittle\> Element**
+
+> El elemento \<tittle\> permite que las páginas aparezcan en la lista
+> de resultados al momento de buscar en un navegador web. Asimismo, esta
+> es la que da el nombre de la página si se la añade a favoritos.
+>
+> Ejemplo:
+>
+> \<title\>HTML Style Guide and Coding Conventions\</title\>
+
+-   **HTML Line-Wrapping**
+
+> El hecho de que en un documento HTML no haya un límite de palabras por
+> línea, no quiere decir que sea recomendable generar líneas muy
+> extensas de código. Al contrario, esto dificulta la lectura del
+> código. Para pasar a la siguiente línea es necesario utilizar al menos
+> cuatro espacios para diferenciar de elementos hijos.
+>
+> Ejemplo según Google (s.f.):
+>
+> \<button mat-icon-button color=\"primary\" class=\"menu-button\"
+>
+> (click)= \"openMenu()\"\>
+>
+> \<mat-icon\>menu\</mat-icon\>
+>
+> \</button\>
+
+**CSS**
+
+Llamado así por las siglas del nombre en inglés Cascading Style Sheets.
+CSS es un lenguaje de marcado que se centra en definir y mejorar la
+presentación de un documento que se basa en HTML. Las pautas que a
+seguir al momento de usar CSS son las siguientes:
+
+-   **Shorthand Properties**
+
+> Hay que utilizar abreviación de propiedades, declarar los campos de
+> los elementos en la menor cantidad de líneas posibles. De acuerdo con
+> Google (s.f.), esto aumenta la eficacia del código y lo hace más
+> entendible. De la misma manera, debemos evitar el colocar las unidades
+> luego del valor cero.
+>
+> Ejemplo:
+>
+> border-top: 0;
+>
+> font: 100%/1.6 palatino, georgia, serif;
+>
+> padding: 0 1em 2em;
+
+-   **Declaration Stops**
+
+> Hay que colocar un punto y coma luego de cada declaración al igual que
+> gran parte de lenguajes de programación. Según Google (s.f.). esta
+> característica ayuda a que haya más consistencia en el código
+>
+> Ejemplo:
+>
+> html {\
+>   background: #fff;\
+>   color: #404;\
+> }
+
+-   **Property Name Stops**
+
+> Debe existir un espacio entre los dos puntos que están luego del
+> nombre de una propiedad y el valor ingresado. Siempre solo un espacio
+> luego de los dos puntos, mas no antes.
+>
+> Ejemplo estándar según Google (s.f.):
+>
+> html {\
+>   background: #fff;\
+>   color: #404;\
+> }
+
+-   **Declaration Block Separation**
+
+> El uso de un separador de un espacio es necesario luego del nombre de
+> un elemento seleccionado y la llave que inicia un bloque. Además, esta
+> llave tiene que estar en la misma línea.
+>
+> Ejemplo estándar según Google (s.f.):
+>
+> html {\
+>   background: #fff;\
+>   color: #404;\
+> }
+
+-   **CSS Quotation Marks**
+
+> No se deben emplear las comillas dobles (""), solo están permitidas
+> las simples ('') para el uso exclusivo de selectores de atributos y
+> valores de propiedades.
+>
+> Ejemplo estándar según Google (s.f.):
+>
+> html {\
+>   font-family: 'open sans', arial, sans-serif;\
+> }
+
+**JavaScript**
+
+Es un lenguaje de programación que otorga la posibilidad de indicar
+exactamente las acciones que debe ejecutar el navegador, indicando el
+orden de las tareas y el número de veces que se realizarán. Las
+indicaciones para usar JavaScript en nuestro proyecto son las
+siguientes:
+
+-   **Spaces around operators**
+
+> Se debe colocar un espacio alrededor de cada operador matemático que
+> se introduzca en el código. Esto también aplica a las comas.
+>
+> Ejemplo estándar según W3Schools (s.f.):
+>
+> let x = y + z;\
+> const myArray = \[\"Volvo\", \"Saab\", \"Fiat\"\];
+
+-   **Simple Statement's End**
+
+> Una indicación simple debe terminar en un punto y coma, esto se cumple
+> también en muchos otros lenguajes de programación.
+>
+> Ejemplo estándar según W3Schools (s.f.):
+>
+> let x = y + z;\
+> const myArray = \[\"Volvo\", \"Saab\", \"Fiat\"\];
+
+-   **Beginning and End of a Function**
+
+> Un bloque de función debe contar con una llave al final de la primera
+> línea, para que el cierre de esta se encuentre sola en la última. Una
+> función termina en llave y no en punto y coma. Lo mismo aplica para
+> condicionales o bucles.
+>
+> Ejemplo estándar según W3Schhol (s.f):
+>
+> function toCelsius(fahrenheit) {\
+>   return (5 / 9) \* (fahrenheit - 32);\
+> }
+
+-   **Object Rules**
+
+> Para la construcción de un objeto, al igual que en una función, se
+> comienza con una llave al final de la primera línea, pero, esta vez,
+> la llave de cierre debe estar acompañada de un punto y coma. Para las
+> propiedades, se colocan dos puntos y un espacio para indicar su valor,
+> el cual debe estar entre comillas dobles si este es un *string*.
+>
+> Ejemplo estándar según W3School (s.f.):
+>
+> const person = {\
+>   firstName: \"John\",\
+>   lastName: \"Doe\",\
+>   age: 50,\
+>   eyeColor: \"blue\"\
+> };
+
+**Gherkin**
+
+Es un Lenguaje Específico de Dominio (DSL por sus siglas en inglés) que
+tiene como objetivo la resolución de un problema en específico. Para
+ello, se generan casos para la validación de la característica en
+distintos escenarios. Gherkin cuenta con múltiples elementos, de los
+cuales, los más famosos y, además, más utilizados
+son *Feature, Scenario, Example, Scenario, Given, When* y *Then.* Las
+indicaciones para tomar en cuenta en el uso de Gherkin en nuestro código
+son las siguientes.
+
+-   **Discernible Given-When-Then Blocks**
+
+> Aplicar sangría para los elementos que indiquen pasos a seguir del
+> escenario. En el caso de *And*, aplicar dos veces. De acuerdo con
+> Keiblinger (2021), Esto ayuda a detectar rápidamente las partes que
+> forman un escenario.
+>
+> Ejemplo:
+>
+> Scenario: Ingreso los requisitos con claridad
+>
+> Given que en el formulario de ingreso de oferta laboral
+>
+> When escribo claramente los requisitos
+>
+> Then se mostrará el mensaje
+>
+> And mi oferta solo aparecerá a quienes cumplan con estos
+>
+> And se habilita la opción
+
+-   **Step with Tables**
+
+> Según Keiblinger (2021), para las partes del escenario que necesiten
+> la introducción de valores, hay que agregar una tabla o crear un
+> propio formulario que recree esa parte del escenario. Antes de esta
+> representación se deben colocar dos puntos.
+>
+> Ejemplo:
+>
+> Then se mostrará el mensaje:
+>
+> \| mensaje \|
+>
+> \| Se completaron los requisitos adecuadamente \|
+
+-   **Reducing Noise**
+
+> Con el fin de reducir la acumulación de demasiadas líneas de código en
+> un escenario, se deben colocar valores por defecto dentro de los pasos
+> para los campos que no sean muy relevantes para este. Los valores
+> "estándar" que coloquemos, deben ir entre comillas simples. De acuerdo
+> con Keiblinger (2021), esta acción reduce considerablemente el tamaño
+> del código.
+>
+> Ejemplo:
+>
+> When escribo claramente los requisitos 'dominio en C'
+
+-   **Scenarios Separator**
+
+> Para la separación de dos escenarios, se debe insertar un salto de
+> línea y, según Keiblinger (2021), de ser posible, hay que agregar una
+> línea de comentario para facilitar la visualización de estos. De esta
+> forma se halla rápidamente el inicio y fin de un escenario.
+>
+> Ejemplo:
+>
+> #\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+>
+> Scenario: Ingreso los requisitos con claridad
+>
+> Given que en el formulario de ingreso de oferta laboral
+>
+> When escribo claramente los requisitos
+>
+> Then se mostrará el mensaje
+>
+> And mi oferta solo aparecerá a quienes cumplan con estos
+>
+> And se habilita la opción
+>
+> #\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+>
+> Scenario: Ingreso los requisitos con claridad
+>
+> Given que en el formulario de ingreso de oferta laboral
+>
+> When escribo claramente los requisitos
+>
+> Then se mostrará el mensaje
+>
+> And mi oferta solo aparecerá a quienes cumplan con estos
+>
+> And se habilita la opción
+
+**TypeScript**
+
+El equipo usara los siguientes estilos para determinadas categorías:
+
+**UpperCamelCase:** clase/interfaz/tipo/enum/decorador/parámetros de
+tipo
+
+**lowerCamelCase**: variable / parámetro / función / método / propiedad
+/ alias de módulo
+
+**CONSTANT_CASE:** valores constantes globales, incluidos los valores de
+enumeración
+
+\*Nunca se utilizan identificadores privados.
+
+-   [Variables y Funciones]{.underline}
+
+> **Mala Nomenclatura:**
+
+-   let RandomName: string = 'Juan';
+
+-   function RandomFunction() {}
+
+> **Buena Nomenclatura:**
+
+-   let randomName: string = 'Juan';
+
+-   function randomFunction() {}
+
+```{=html}
+<!-- -->
+```
+-   [Clases]{.underline}
+
+> **Mala Nomenclatura:**
+
+-   class view{}
+
+> **Buena Nomenclatura:**
+
+-   class View{}
+
+> [Propiedades y métodos de la clase]{.underline}
+>
+> **Mala Nomenclatura:**
+
+-   class test{
+
+> Name: string;
+>
+> GetFullName(){}
+>
+> }
+>
+> **Buena Nomenclatura:**
+
+-   class test{
+
+> name: string;
+>
+> getFullName(){}
+>
+> }
+
+-   [Interfaces]{.underline}
+
+> No emplear el prefijo I para nombrar interfaces
+>
+> **Mala Nomenclatura:**
+
+-   interface IPerson{
+
+> Name:string;
+>
+> }
+>
+> **Buena Nomenclatura:**
+
+-   interface Person{
+
+> name:string;
+>
+> }
+
+-   [Enums]{.underline}
+
+> No emplear el prefijo I para nombrar interfaces
+>
+> **Mala Nomenclatura:**
+
+-   enum clientType{
+
+> person = "p";
+>
+> business = "b";
+>
+> }
+>
+> **Buena Nomenclatura:**
+
+-   enum ClientType{
+
+> Person = "P";
+>
+> Age = "A";
+>
+> }
+
+-   [Visibility]{.underline}
+
+> Restringir la visibilidad de propiedades, métodos y tipos ayudaran a
+> mantener el código desacoplado.
+>
+> **Mala Nomenclatura:**
+
+-   enum clientType{
+
+> person = "p";
+>
+> business = "b";
+>
+> }
+>
+> **Buena Nomenclatura:**
+
+-   enum ClientType{
+
+> Person = "P";
+>
+> Age = "A";
+>
+> }
+
+-   [Getters and Setters]{.underline}
+
+> Se pueden utilizar los getters y setters para los miembros de la
+> clase. También son útiles como medio para restringir la visibilidad de
+> los detalles de implementación internos, aplicando la Programación
+> Orientada a Objetos;
+>
+> **Nomenclatura:**
+
+-   Class Foo {
+
+> constructor(private readonly someService:SomeService) {}
+>
+> get someMember():string{
+>
+> return this.someService.someVariable;
+>
+> }
+>
+> set someMember(newValue:string){
+>
+> this.someService.someVariable = newValue;
+>
+> }
+
+-   [Variables]{.underline}
+
+> Uso de const o let para declarar variables. Utilice const de forma
+> predeterminada, a menos que sea necesario reasignar una variable.
+>
+> No usar var para declarar variables.
+>
+> **Nomenclatura:**
+
+-   const foo = otherValue; // Use if \"foo\" never changes.
+
+-   let bar = someValue; // Use if \"bar\" is ever assigned into later
+    on.
+
+```{=html}
+<!-- -->
+```
+-   [Imports Nomenclatura]{.underline}
+
+> **Module**: import \* as foo from \'\...\';
+>
+> **Destructuring**: import {SomeThing} from \'\...\';
+>
+> **Default**: import SomeThing from \'\...\';
+>
+> **Side-effect:** import \'\...\'; Only to import libraries for their
+> side-effects on load (such as custom elements)
+
+**Java**
+
+-   [Identificadores]{.underline}
+
+Con este nombre, se identifica una variable, método, función o clase.
+Para color un nombre, este debe ser significativo, de modo que el código
+sea lo más legible posible.
+
+<br>
+
+
+| Tipo de identificador     | Convención             | Ejemplo            |
+|--------------------------|------------------------|--------------------|
+| Nombre de una clase      | Comienza por letra mayúscula | String, Rectángulo, CinematicaApplet |
+| Nombre de función        | Comienza con letra minúscula | calcularArea, getValue, setColor |
+| Nombre de variable       | Comienza por letra minúscula | area, color, appletSize |
+| Nombre de constante      | En letras mayúsculas    | PI, MAX_ANCHO       |
+
+
+-   [Comentarios]{.underline}
+
+Con los comentarios, se añade al código cierta explicación de la
+funcionalidad, para que el trabajo en equipo sea más entendible y
+eficiente.
+
+Una sola línea: //This is a function to get the fullname of the person.
+
+Varias lines de código: /\* ....... \*/
+
+-   [Variables]{.underline}
+
+Es un nombre en la que se guarda el valor asignado en la memoria del
+ordenador.
+
+Todas las variables se deben declarar antes de usarlas.
+
+Tipos: De instancia.
+
+De clase.
+
+Locales.
+
+> Ejemplo 1:
+>
+> class Circulo{
+>
+> static final double PI=3.1416; //variable de clase
+>
+> double radio; //variable de instancia
+>
+> }
+>
+> Ejemplo 2:
+>
+> class Circulo{
+>
+> double calcularArea(){
+>
+> double area=PI\*radio\*radio; //area es una variable local para la
+> presente función de la clase Circulo.
+>
+> return area;
+>
+> }
+>
+> }
+
+Delante de cada variable, puede haber un tipo de variable los cuales
+pueden ser los siguientes:
+
+-   Un tipo de dato primitivo
+
+-   El nombre de una clase
+
+-   Un array
+
+> Ejemplo: int x=0;
+>
+> int\[\] datos;
+>
+> Cabe resaltar, que también usaremos valores constantes. Cuando
+> declaremos una variable de tipo final, se inicializa y si se intenta
+> modificarla mostrara error.
+>
+> Ejemplo: final double PI=3.141592653589793;
+
+-   [Palabras reservadas]{.underline}
+
+    -   **Tipos de datos**: boolean, float, double, int, char
+
+    -   **Sentencias condicionales**: if, else, switch
+
+    -   **Sentencias iterativas**: for, do, while continue
+
+    -   **Tratamiento de las excepciones**: try, catch, finally, throw
+
+    -   **Estructura de datos**: class, interface, implements, extends
+
+    -   **Modificadores y control de acceso**: public, private,
+        protected.
+
+    -   **Otra**s: super, null, this.
+
+-   [Override]{.underline}
+
+Siempre usado, se marca con la anotación \@Override, siempre que sea
+legal. Esto incluye un método de clase que anula un método de
+superclase. Se da cuando implementamos un método de interfaz.
+
+-   [Método Static]{.underline}
+
+Un método **static** en Java es un método que pertenece a la clase y no
+al objeto. Un método static solo puede acceder a variables o tipos de
+datos declarados como static.
+
+> public class SingletonTest {
+>
+>  
+>
+>     private static SingletonTest instance = null;
+>
+>  
+>
+>     protected SingletonTest() {
+>
+>     }
+>
+>  
+>
+>     public static SingletonTest getInstance() {
+>
+>         if (instance == null) {
+>
+>             instance = new SingletonTest();
+>
+>         }
+>
+>  
+>
+>         return instance;
+>
+>     }
+>
+> }
+
+### 6.1.4 Software Deployment Configuration
+
+En esta sección se explicará los pasos realizados para el despliegue de cada unos de nuestros proyectos realizados.
+
+**Landing Page**
+
+Para el despliegue de la landing page se usara GitHub Pages, ya que es una herramienta que nos permite alojar sitios web estáticos de forma gratuita. Para ello, se debe seguir los siguientes pasos:
+
+**1.  Ingresar al repositorio de GitHub de la landing page.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-repo.png" alt="Branches.">
+</div>
+
+<br>
+
+**2.  Ir a la sección de Settings.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-settings.png" alt="Branches.">
+</div>
+
+<br>
+
+**3.  Bajar hasta la sección de GitHub Pages.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-pages.png" alt="Branches.">
+</div>
+
+<br>
+
+**4.  En la opción de Source, seleccionar la rama de gh-pages.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-branch.png" alt="Branches.">
+</div>
+
+<br>
+
+**5.  Esperar unos minutos y listo.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-action.png" alt="Branches.">
+</div>
+
+Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Landing Page con cada commit generado a la rama *develop* con GitHub Pages.
+
+<br><br>
+
+**Front-End:**
+
+**1.  Crear el proyecto en Firebase.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-add.png" alt="Branches.">
+</div>
+
+<br>
+
+**2.  Configurar el proyecto.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-setup.png" alt="Branches.">
+</div>
+
+<br>
+
+**3.  Activar Hosting.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-hosting.png" alt="Branches.">
+</div>
+
+<br>
+
+**4.  Configurar Hosting en proyecto.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-setup-hosting.png" alt="Branches.">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-setup-web.png" alt="Branches.">
+</div>
+
+<br>
+
+**5.  Compilar el proyecto localmente.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-build.png" alt="Branches.">
+</div>
+
+<br>
+
+**6.  Mediante consola hacer *deploy* del build.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-deploy.png" alt="Branches.">
+</div>
+
+<br><br>
+
+**Back-End:**
+
+Aun no se ha configurado el sistema de despliegue para el back-end. Sin embargo, en las próximas versiones cuando el equipo concluya sobre la herramienta a usar se estará agregando en una nueva versión del documento.
+
+## 6.2 Landing Page, Services & Applications Implementation
+### 6.2.1 Sprint 1
+En esta sección, documentaremos y explicaremos el progreso del Sprint 1 en términos de desarrollo del producto y colaboración del equipo. Abordaremos varios aspectos clave, incluyendo la planificación del sprint, el backlog del sprint, la evidencia de desarrollo para la Revisión del Sprint.
+#### 6.2.1.1 Sprint Planning 1
+En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 1. Comenzaremos con una introducción que establecerá el contexto y la importancia de esta reunión. Luego, exploraremos los elementos clave de la reunión, incluyendo la agenda, los objetivos, y cómo se prepara el equipo para el sprint.
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 1</th>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2023-09-24</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>09:00 AM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión virtual mediante Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Mendoza Ramos, Dominik Mendoza</td>
+  </tr>
+  <tr>
+    <td>Attendees</td>
+    <td>Malca Rojas, Edgar Alexander / Mendoza Ramos, Dominik Aldahir / Moran Moreno, Ivan / Price Torrejón, Nicole Areli / Sweden Silva, Ryan Robert</td>
+  </tr>
+  <tr>
+    <td>Sprint n -1 Review Summary</td>
+    <td>No aplica</td>
+  </tr>
+  <tr>
+    <td>Sprint n -1 Retrospective Summary</td>
+    <td>No aplica</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint 1 Goal</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Goal</td>
+    <td>Desarrollar una versión inicial de la landing page y la web application que permita atraer visitantes a nuestro sitio web y brinde funcionalidades básicas para los usuarios, incluyendo el filtrado de destinos turísticos y la promoción de viajes turísticos.<br>
+      Métrica de Cumplimiento: Para evaluar el cumplimiento de este sprint, utilizaremos las siguientes métricas:<br>
+      1. Número de visitantes a la landing page: Mediremos cuántos visitantes llegan a nuestra landing page durante el período del sprint. El objetivo será atraer al menos 15 visitantes nuevos.<br>
+      2. Funcionalidades implementadas en la web application: Realizaremos un seguimiento de las funcionalidades clave implementadas en la web application y estableceremos un objetivo de cuántas de estas funcionalidades deben estar listas al final del sprint. Por ejemplo, podríamos tener como objetivo tener implementadas al menos 3 funcionalidades esenciales, incluyendo el filtrado de destinos turísticos y la promoción de viajes turísticos.
+</tr>
+
+  <tr>
+    <td>Sprint 1 Velocity</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>17</td>
+  </tr>
+</table>
+
+#### 6.2.1.2 Sprint Backlog 1
+En esta sección, nos sumergiremos en el Sprint Backlog 1, que es una parte esencial de la planificación y ejecución del sprint. Comenzaremos con una introducción que destacará el propósito y la importancia del backlog del sprint en el contexto del Sprint 1.
+<table>
+<thead>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned to</td>
+    <td>Status (To-do / InProcess / ToReview / Done)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US06</td>
+    <td rowspan="3">Navegación en la landing page (3)<br></td>
+    <td>US06-1</td>
+    <td>Diseño de la navegación</td>
+    <td>Implementar el diseño de la navegación</td>
+    <td>1</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06-2</td>
+    <td>Implementar botones de navegación</td>
+    <td>Agregar botones de navegación y establecer sus rutas</td>
+    <td>1</td>
+    <td>Ryan Sweden</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06-3</td>
+    <td>Pruebas de navegación</td>
+    <td>Realizar pruebas de navegación para garantizar la funcionalidad correcta</td>
+    <td>1</td>
+    <td>Ivan Moran</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US04</td>
+    <td rowspan="3">Visualización de planes y precios (3)</td>
+    <td>US04-1</td>
+    <td>Diseño de la página de planes</td>
+    <td>Diseño de la página de planes</td>
+    <td>1</td>
+    <td>Dominik Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04-2</td>
+    <td>Integrar datos de precios</td>
+    <td>Integrar datos de precios</td>
+    <td>1</td>
+    <td>Edgar Malca</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04-3</td>
+    <td>Pruebas de visualización de precios</td>
+    <td>Pruebas de visualización de precios</td>
+    <td>1</td>
+    <td>Ryan Sweden</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US05</td>
+    <td rowspan="2">Visualización al equipo de desarrollo (2)</td>
+    <td>US05-1</td>
+    <td>Diseño de la sección de equipo</td>
+    <td>Diseñar la sección que muestra al equipo</td>
+    <td>1</td>
+    <td>Ivan Moreno</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US05-2</td>
+    <td>Integrar información del equipo</td>
+    <td>Conectar la página con la base de datos para mostrar los precios</td>
+    <td>4</td>
+    <td>Edgar Malca</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US07</td>
+    <td rowspan="2">Contacto con los representantes de la solución IoT (2)</td>
+    <td>US07-1</td>
+    <td>Diseño de la sección de contacto</td>
+    <td>Diseñar la sección que permite el contacto con los representantes</td>
+    <td>1</td>
+    <td>Nicole Price</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US07-2</td>
+    <td>Implementar formulario de contacto</td>
+    <td>Crear un formulario funcional para permitir el contacto</td>
+    <td>2</td>
+    <td>Dominik Mendoza</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US12</td>
+    <td rowspan="3">Promoción de viajes turísticos (3)</td>
+    <td>US12-1</td>
+    <td>Diseño de la sección de promoción</td>
+    <td>Diseñar la sección que promociona los viajes turísticos</td>
+    <td>2</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US12-2</td>
+    <td>Integrar información de promoción</td>
+    <td>Conectar la página con la base de datos para mostrar la información de promoción</td>
+    <td>4</td>
+    <td>Ryan Sweden</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US12-3</td>
+    <td>Pruebas de promoción de viajes</td>
+    <td>Verificar que la sección de promoción se muestre correctamente</td>
+    <td>2</td>
+    <td>Edgar Malcar</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US09</td>
+    <td rowspan="2">Filtrado de destinos turísticos (4)</td>
+    <td>US09-1</td>
+    <td>Diseño de la sección de filtrado</td>
+    <td>Diseñar la sección que permite filtrar destinos turísticos</td>
+    <td>2</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09-2</td>
+    <td>Implementar opciones de filtrado</td>
+    <td>Agregar opciones de filtrado y conectarlas con la base de datos</td>
+    <td>4</td>
+    <td>Dominik Mendoza</td>
+    <td>To-do</td>
+  </tr>
+</tbody>
+</table>
+
+#### 6.2.1.3. Development Evidence for Sprint Review.
+A continuación, se brinda una visión general de las contribuciones realizadas en dos repositorios del proyecto, incluyendo detalles como la rama empleada, el identificador del commit, el mensaje del commit y su cuerpo, además de la fecha en que se llevaron dichos commits. 
+
+<table>
+<thead>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/search-experience</td>
+    <td>68f554f78fb3864b2fdae982e98e897c632625bf</td>
+    <td>style: Modified tour-packages components and menu options</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/firebase-hosting</td>
+    <td>5499c39054f078d2a92aa49c1b97979c84115ccf</td>
+    <td>feat: Firebase Hosting Implemented</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>7367f43439297b60d2999af689f20206209ddd20</td>
+    <td>refactor(toolbar-header): Modified order of toolbar components</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>33f18b80879d63cb26e585a9b1e0c98a98acf7ff</td>
+    <td>feat(sidebar): Modified SideMenu component</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/search-experience</td>
+    <td>34f0109f7f74e21c2263992b8e278943341e7ea4</td>
+    <td>feat(search): Added module for search packages</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/packages</td>
+    <td>0afeb0aa9a39a0a3414e5c1efb5e03038cd41b29</td>
+    <td>feat(packages): added component to show packages</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>2fdadd2fb4b04cbc3ba342a62f31c3f8cbea5ec3</td>
+    <td>style(toolbar-header): Modified font-family</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>60d6ecbe7af2306ea1246aad91e5cdeadf2cb202</td>
+    <td>feat(toolbar-header): Added search input in header</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-app</td>
+    <td>8161229bc843d6a1c0bec900bf34bd3e232fd6e9</td>
+    <td>feat: added contributors section</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/subscriptions</td>
+    <td>8358724fe23f863481abc9e3d4e7a8b40b0c3141</td>
+    <td>chore: Changes before merge</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/subscriptions</td>
+    <td>c9c761c6610a921d25cb9ef7dc0acd50c783df52</td>
+    <td>feat(subscriptions): Updated subscriptions</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/brands</td>
+    <td>998ce7600aa3e81168c5cd3b22a5f8f8612938e9</td>
+    <td>feat(brands): Added main collaborators</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/subscriptions</td>
+    <td>11aedddd7fd311ffab6c13412cb90c1d691837ad</td>
+    <td>feat(subscriptions): Added subscriptions section and feature benefits</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-us</td>
+    <td>0506701e17fa980ac7eb4a945a4aead361c2450c</td>
+    <td>feat(about-us): Added about us section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/header</td>
+    <td>5e6abdc2a78b9a91ce545c734dc254bfbb727832</td>
+    <td>feat(header): Added header of general information of LifeTravel</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/characteristics</td>
+    <td>ceb358a219173719387d351ad77dc2c80c2a9d06</td>
+    <td>feat(characteristics): added characteristics section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-us</td>
+    <td>513610d38acf7418166232bd7f5e3bc4b964b520</td>
+    <td>fix(about-us): changed language</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-app</td>
+    <td>7365a1e28aab28883a0b7d7abc727ef6c2c4fc5b</td>
+    <td>feat: added about app section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/video</td>
+    <td>1f6470d9262bdf9039e7505e9f331314f7f5938f</td>
+    <td>feat: added css styles to video section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/footer</td>
+    <td>4872c656320b941d7284bd1f582dbbb8cfb9887d</td>
+    <td>feat: added footer section</td>
+    <td></td>
+    <td>23/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/header</td>
+    <td>4e0a4f00e357d80e941a7c7d39a181e4b34a73fd</td>
+    <td>fix: change structure</td>
+    <td></td>
+    <td>23/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/video</td>
+    <td>165dc23c5a7d9042180ed90a711900c6a6ed08a1</td>
+    <td>feat(video):added video section</td>
+    <td></td>
+    <td>23/09/2023</td>
+  </tr>
+</tbody>
+</table>
+
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+
+Para este sprint, no se han realizado las actividades requeridas en la sección de pruebas. Es decir, no se han creado archivos .feature ni se ha identificado la relación con User Stories o clases.
+
+#### 6.2.1.5. Execution Evidence for Sprint Review.
+
+##### Landing Page
+
+Para este Sprint 1, se realizó la versión final del Landing Page que contiene las siguientes vistas:
+
+###### VISTA GENERAL
+Cuando el visitante ingrese a nuestro landing page, se mostrará lo siguiente:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/first.png" alt="first-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/firstES.png" alt="first-landing-page-spanish">
+</div>
+
+###### ABOUT US
+En esta sección los visitantes podrán conocer en términos generales sobre LifeTravel.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/about-us.png" alt="about-us-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/about-usES.png" alt="about-us-landing-page-spanish">
+</div>
+
+###### CHARACTERISTICS
+En esta sección los visitantes podrán conocer las características de nuestra plataforma LifeTravel. Se presentan las características de la aplicación web, móvil.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristics.png" alt="characteristics-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristicsES.png" alt="characteristics-landing-page-spanish">
+</div>
+
+Asimismo, se muestran unos ejemplos de las características de la aplicación web.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristics2.png" alt="characteristics-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristics2ES.png" alt="characteristics-landing-page-spanish">
+</div>
+
+De igual manera, se introducirá la información sobre los brazaletes geolocalizadores, productos exclusivos para los usuarios de nuestra aplicación.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/gps.png" alt="gps-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/gpsES.png" alt="gps-landing-page-spanish">
+</div>
+
+###### SUBSCRIPTIONS
+En esta sección los visitantes podrán conocer la información de las subscripciones de nuestra plataforma LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/subscriptions.png" alt="subscriptions-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/subscriptionsES.png" alt="subscriptions-landing-page-spanish">
+</div>
+
+###### OUR TEAM
+En esta sección los visitantes podrán conocer la información del equipo desarrollador de nuestra plataforma LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/team.png" alt="team-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/teamES.png" alt="team-landing-page-spanish">
+</div>
+
+###### CONTACT US
+En esta sección los visitantes podrán conocer la información necesaria para contactar al equipo desarrollador de LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/contact-us.png" alt="contact-us-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/contact-usES.png" alt="contact-us-landing-page-spanish">
+</div>
+
+##### Web Application
+
+Para este Sprint 1, se realizó la primera versión de nuestro Frontend Web App que contiene las siguientes vistas:
+
+###### VISTA GENERAL
+En esta sección los visitantes podrán conocer la información del equipo desarrollador de nuestra plataforma LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/home.png" alt="home-web-app">
+</div>
+
+###### BÚSQUEDA POR REGIONES
+
+Cuando el usuario le de clic al search bar, la aplicación web mostrará un dialog con tres opciones a elegir.
+
++ <strong> BÚSQUEDA POR REGIÓN COSTA </strong>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-costa.png" alt="search-costa-web-app">
+</div>
+
+Al darle clic a la región Costa, se mostrará un listado de los paquetes turísticos que correspondan a la región Costa.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-result-costa.png" alt="search-result-costa-web-app">
+</div>
+
+
++ <strong> BÚSQUEDA POR REGIÓN SIERRA </strong>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-sierra.png" alt="search-sierra-web-app">
+</div>
+
+Al darle clic a la región Sierra, se mostrará un listado de los paquetes turísticos que correspondan a la región Sierra.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-result-sierra.png" alt="search-result-sierra-web-app">
+</div>
+
++ <strong> BÚSQUEDA POR REGIÓN SELVA </strong>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-selva.png" alt="search-selva-web-app">
+</div>
+
+Al darle clic a la región Selva, se mostrará un listado de los paquetes turísticos que correspondan a la región Selva.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-result-selva.png" alt="search-result-selva-web-app">
+</div>
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+  Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados así como los respectivos HTTP methods.
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+  En este Sprint, se llevaron a cabo una serie de actividades relacionadas con el despliegue de Landing Page y Web Application. Estas actividades abarcaron la creación de la página a la cuál pueden acceder los visitantes para que pueden conocer Life Travel y luego si desean convertirse en usuarios. Por otro lado, se desarrolló la primera versión del Web Application, que por el momento obtiene data de un json web server o fake api. Ahora, continuamos con la evidencia de despliegue. 
+
+  <strong>Evidence Deployment Landing Page</strong>
+  
+  En este sprint, se puede evidenciar el cuadro de acciones en nuestro repositorio de Landing Page en GitHub. Esto está relacionado a GitHub Pages, donde estamos hosteando nuestro Landing Page.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Landing_Page.png" alt="contributor-evidence.">
+  </div>
+  
+  <strong>Evidence Landing Page</strong>
+
+  En nuestro deployment de Landing Page, se ha implementado la sección principal donde se muestra un mensaje y un boton CTA, luego la sección About Us, Features, Subscriptions, Video Section and Footer.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Landing_Page.png">
+  </div>
+
+  
+  <strong>Evidence Deployment Web Application</strong>
+
+  En este sprint se realizó el deployment con Firebase Hosting, se muestra la evidencia del deployment y el uso de data que se está efectuando día a día. Firebase, nos brinda una url donde se presenta el Web Application de nuestra solución.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Web_Application.png" alt="contributor-evidence.">
+  </div>
+
+  <strong>Evidence Web Application</strong>
+
+  A continuación se presenta una imagen donde se evidencia la url brindada por Firebase y que se muestra el Home de nuestro Web Application, donde mostramos los paquetes turísticos, también hemos implementado el toolbar y navigation bar, search packages por región y un filtrado de paquetes por la región seleccionada.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Web_Application.png" alt="contributor-evidence.">
+  </div>
+
+
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+A continuación, se presenta la colaboración en equipo que se ha registrado en GitHub tanto en la seccion de analíticos como en los commits. Se presentará quiénes son los alumnos que participarón y algunos de los commits que realizaron.
+
+<strong>Analíticos de GitHUb</strong>
+ + Landing Page
+    + Contributors
+        <div align="center">
+      <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Contributors_Landing_Page.png" alt="contributor-evidence.">
+      </div>
+      En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Landing Page. Se evidencia que todo el equipo ha participado.
+    + Traffic
+          <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Traffic_Landing_Page.png" alt="Traffic-evidence.">
+        </div>
+        En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Landing Page. 
+    + Commit
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Commit_Landing_Page.png" alt="Commit-evidence.">
+      </div>
+        En esta imagen se evidencia el flujo de la cantidad de commits realizados por día en el repositorio de nuestro Landing Page. Evidencia que los integrantes han realizado sus commits en base a su desarrollo.
+    + Network
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Network_Landing_Page.png" alt="Network-evidence.">
+      </div>
+      Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones. 
+
+
+ + Web Application
+    + Pulse 
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Pulse_Web_Application.png" alt="Branches.">
+      </div>
+      En esta imagen, se evidencia que todos los integrantes del equipo han trabajado en el actual Sprint que va desde el 19 de Septiembre al 26 de Septiembre.
+    + Contributors
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-deploy.png" alt="Branches.">
+      </div>
+      En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Web Application. Se evidencia que todo el equipo ha participado.
+    + Traffic
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Traffic_Web_Application.png" alt="Branches.">
+      </div>
+      En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Web Application. 
+    + Commit
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Commits_Web_Application.png" alt="Branches.">
+      </div>
+      En esta imagen se evidencia el flujo de la cantidad de commits realizados por día en el repositorio de nuestro Web Applciation. Evidencia que los integrantes han realizado sus commits en base a su desarrollo.
+    + Network
+      <div align="center">
+      <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Network_Web_Application.png" alt="Branches.">
+    </div>
+      Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
