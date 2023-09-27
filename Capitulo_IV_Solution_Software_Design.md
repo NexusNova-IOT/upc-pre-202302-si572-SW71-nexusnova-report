@@ -11,61 +11,61 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
 #### Unstructured Exploration
 Se realizó la fase inicial en la que se exploraron ideas, conocimientos sobre el dominio del negocio. Así, se obtuvo las bases para el modelado de las siguientes etapas.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/unstructured-exploration.png" width ="700px" alt="unstructured-exploration-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/unstructured-exploration.png" width ="700px" alt="unstructured-exploration-step" style="margin-right: 20px;">
 </div>
 
 #### Pain points
 Se identificaron las áreas problemáticas para la colaboración de sus soluciones y la implementación de mejoras que contribuyeron al flujo de trabajo.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/pain-points.png" width ="700px" alt="pain-points-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/pain-points.png" width ="700px" alt="pain-points-step" style="margin-right: 20px;">
 </div>
 
 #### Timelines
 Hemos creado y gestionamos múltiples "timelines" para rastrear y coordinar nuestras actividades. Estos "timelines" nos permitieron visualizar claramente los hitos clave y asegurarnos de que todos estuviéramos alineados en cuanto a los plazos y las tareas importantes.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/timelines.png" width ="700px" alt="timelines-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/timelines.png" width ="700px" alt="timelines-step" style="margin-right: 20px;">
 </div>
 
 #### Pivotal points
 Identificamos diversos "pivotal points" en nuestro proyecto para tomar decisiones clave y ajustar nuestra estrategia para alcanzar nuestros objetivos de manera más efectiva.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/pivotal-point.png" width ="700px" alt="pivotal-points-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/pivotal-point.png" width ="700px" alt="pivotal-points-step" style="margin-right: 20px;">
 </div>
 
 #### Commands
 Estos "commands" jugaron un papel fundamental en la interacción y control de nuestro sistema, permitiéndonos lograr las funcionalidades deseadas de manera eficiente.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/commands.png" width ="700px" alt="commands-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/commands.png" width ="700px" alt="commands-step" style="margin-right: 20px;">
 </div>
 
 #### Policies
 Hemos desarrollado y aplicado diversas "policies" en nuestro sistema para establecer reglas y directrices que guiaran el comportamiento y la toma de decisiones. Estas "policies" fueron fundamentales para garantizar la consistencia y la seguridad en nuestras operaciones y procesos.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/policies.png" width ="700px" alt="policies-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/policies.png" width ="700px" alt="policies-step" style="margin-right: 20px;">
 </div>
 
 #### Read Models
 Se gestionaron varios los "read models" en nuestro sistema para proporcionar vistas optimizadas de nuestros datos almacenados.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/read-models.png" width ="700px" alt="read-models-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/read-models.png" width ="700px" alt="read-models-step" style="margin-right: 20px;">
 </div>
 
 #### External Systems
 Se identificaron los sitemas externos necesarios para la implementación de nuestro proyecto. Estos nos prooveran fuentes externas de datos o servicios.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/external-systems.png" width ="700px" alt="external-systems-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/external-systems.png" width ="700px" alt="external-systems-step" style="margin-right: 20px;">
 </div>
 
 #### Aggregates
 Se analizó cuáles son las entidades y conceptos que tienen un significado específico en el contexto del dominio.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/raggregates.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/raggregates.png" width ="700px" alt="aggregates-step" style="margin-right: 20px;">
 </div>
 
 #### Bounded Contexts
 Hemos identificado varios "bonded contexts" en nuestro proyecto para delimitar claramente las áreas funcionales y definir límites precisos entre los distintos componentes del sistema. 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/event-storming/bounded-context.jpg" width ="700px" alt="bounded-context-step" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/event-storming/bounded-context.jpg" width ="700px" alt="bounded-context-step" style="margin-right: 20px;">
 </div>
 <br>
 
@@ -78,67 +78,67 @@ Empleando la metodología de eventstorming con enfoque en la técnica de "start-
 ##### Profile management
 En este Bounded Context están los eventos y comandos relacionados a la gestión del perfil de nuestros dos tipos de usuarios: agencias de viajes y turistas. Asismismo, se encuentran los eventos de configuraciones generales de nuestras aplicaciones.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/profile.png" width="700px" alt="profile-management-bounded-context">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/profile.png" width="700px" alt="profile-management-bounded-context">
 </div>
 
 ##### Identity and Access Management
 En el presente Bounded Context están los comandos que están relacionados a la gestión de la autenticación de los usuarios en nuestras aplicaciones web y móvil. En este se detalla que usaremos un sistema externo llamado Firebase Authentication para nuestras dos aplicaciones.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/identity.png" width="700px" alt="identity">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/identity.png" width="700px" alt="identity">
 </div>
 
 ##### Booking Management
 Los eventos de este Bounded Context se relacionan a las reservas creadas después de que el usuario turista haya realizado el pago del paquete turístico elegido. Asismismo, estos eventos se relacionan a la gestión de los estados de estas reservas creadas.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/booking.png" width="700px" alt="booking">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/booking.png" width="700px" alt="booking">
 </div>
 
 ##### Execution and Tracking
 Este Bounded Context contiene a los eventos y comandos que relacionan la información de varios Bounded Context: Notification Management, Iot Asset management y Booking Management. Este se encarga de reunir la información de la ubicación del turista y enviar notificaciones a los guías turísticos en caso, los turistas, se encuentren fuera del rango permitido determinado por el guía turístico y evitar un posible extravío.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/exec-track.jpg" width="700px" alt="exec-track">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/exec-track.jpg" width="700px" alt="exec-track">
 </div>
 
 ##### Iot Asset management
 Para este Bounded Context, nos enfocamos en crear los comandos que serán útiles para el mantenimiento de nuestros dispositivos Iot, tales como: Localization-Wristband, Scale and Weather Sensors.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/iot.png" width="700px" alt="iot">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/iot.png" width="700px" alt="iot">
 </div>
 
 ##### Notification management
 En este Bounded Context están esencialmente los eventos y comandos para la gestión de notificaciones, ya sea por correo o a los dispositivos móviles de nuestros usuarios.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/noti.jpg" width="700px" alt="noti">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/noti.jpg" width="700px" alt="noti">
 </div>
 
 ##### Review management
 Los usuarios de tipo turista ejecutarán los comandos de este Bounded Context en general. Esto se debe a que después de un tour finalizado, ellos tienen la opción de calificar la experiencia del paquete turístico comprado.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/review.png" width="700px" alt="review">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/review.png" width="700px" alt="review">
 </div>
 
 ##### Subscription and payments
 En este Bounded Context, se empleará un sistema externo de Pasarela de Pagos para realizar los pagos de las suscripciones y los paquetes turísticos seleccionados que deben abonarse. También, están los comandos para el mantenimiento de las subscripciones que los usuarios agencias de viaje adquirirán.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/sub.png" width="700px" alt="sub">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/sub.png" width="700px" alt="sub">
 </div>
 
 ##### Tour Experience
 En el presente Bounded Context, los usuarios agencias de viaje podrán crear, modificar y eliminar los paquetes turísticos que publiquen en la aplicación web. De igual manera, podrán visualizar las reservas relacionadas con el paquete turístico y los estados de estas.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/tour-ex.png" width="700px" alt="tour-experience">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/tour-ex.png" width="700px" alt="tour-experience">
 </div>
 
 ##### Transportation Management
 En el presente Bounded Context, los usuarios agencias de viaje podrán crear, modificar y eliminar vehículos y asignarlos para cada tour registrado en la aplicación web. De igual manera, podrán visualizar la información de los transportes relacionada con el tour.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/trans.png" width="700px" alt="transportation">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/trans.png" width="700px" alt="transportation">
 </div>
 
 ##### Data report and analytics
 El Bounded Context "Data Report and Analytics" desempeña un papel fundamental en el análisis y la interpretación de datos tales como las reasignaciones de vehículos por exceso de peso de equipaje, satisfacción de los turistas a los paquetes turísticos, reportes sobre la cantidad de anomalías del clima de los lugares de los tours, entre otros.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/candidate-context-discovery/data.jpg" width="700px" alt="data-report-analytics">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/candidate-context-discovery/data.jpg" width="700px" alt="data-report-analytics">
 </div>
 
 #### 4.1.1.2 Domain Message Flows Modeling.
@@ -147,64 +147,64 @@ Durante este procedimiento, se detectaron los participantes, mensajes que se com
 ##### 1. Scenario: Registering in the app
 En el siguiente flujo se muestra cómo nuestros usuarios, tanto turistas como agencias, pueden registrarse en nuestra aplicación. Primero, pasarán por nuestro aplicación web, que registrará los datos requeridos en un sistema externo, respectivamente. Finalmente, recibirán una notificación a través del correo electrónico.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-1.png" width ="700px" alt="flow-1" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-1.png" width ="700px" alt="flow-1" style="margin-right: 20px;">
 </div>
 
 ##### 2. Scenario: Register a tour package
 En esta escenario, la agencia registra un paquete turístico, y nuestro sistema se encarga de almacenarlo en la base de datos con un ID para facilitar su identificación en el futuro de manera sencilla.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-2.png" width ="700px" alt="flow-2" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-2.png" width ="700px" alt="flow-2" style="margin-right: 20px;">
 </div>
 
 ##### 3. Scenario: Pay a Tour Package
 En este escenario,  los turistas utilizan nuestra aplicación web para buscar paquetes turísticos. Cuando desean pagar uno, nuestro sistema consulta el estado del pago a través de un sistema externo. Una vez confirmado el pago, se crea una reserva. Además, se notificará al turista en caso de que se produzca algún error en la creación de la reserva o si todo se ejecutó correctamente.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-3.png" width ="700px" alt="flow-3" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-3.png" width ="700px" alt="flow-3" style="margin-right: 20px;">
 </div>
 
 ##### 4. Scenario: Pay a Subscription
 En este escenario, las agencias utilizan nuestra aplicación web para suscribirse a uno de nuestros planes. Cuando desean realizar el pago, nuestro sistema consulta el estado del mismo a través de un sistema externo. Una vez confirmado el pago, se asigna la suscripción a su cuenta. Además, se notificará a la agencia sobre el estado final de la compra.
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-4.png" width ="700px" alt="flow-4" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-4.png" width ="700px" alt="flow-4" style="margin-right: 20px;">
 </div>
 
 ##### 5. Scenario: Register a Vehicle
 En este escenario, las agencias registran un medio de transporte utilizando nuestra aplicación web. El sistema se encarga de realizar las asignaciones correspondientes, lo que permite una gestión eficiente de los recursos de transporte disponibles para satisfacer las necesidades de los viajes turísticos.
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-5.png" width ="700px" alt="flow-5" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-5.png" width ="700px" alt="flow-5" style="margin-right: 20px;">
 </div>
 
 ##### 6. Scenario: Assign a vehicle for a Tour Package
 En este escenario, se describe el proceso en el cual las agencias de viaje, utilizando nuestra aplicación web, asignan un medio de transporte, previamente registrado, a un paquete turístico. Esta asignación facilita la planificación y organización de los viajes, garantizando que los turistas cuenten con los medios de transporte necesarios para disfrutar de sus experiencias turísticas de manera cómoda y eficiente.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-6.png" width ="700px" alt="flow-6" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-6.png" width ="700px" alt="flow-6" style="margin-right: 20px;">
 </div>
 
 ##### 7. Scenario: Reassign a vehicle for excess weight limit
 En este escenario, se muestra el flujo cuando a través de nuestros dispositivos IoT se detecta un exceso de peso que supera el límite permitido para el vehículo asignado. Después de esta detección, se notifica a la agencia mediante nuestra aplicación web, y finalmente se procede a la reasignación de un vehículo de transporte para ese paquete turístico.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-7.png" width ="700px" alt="flow-7" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-7.png" width ="700px" alt="flow-7" style="margin-right: 20px;">
 </div>
 
 ##### 8. Scenario: Locate a Tourist
 Este escenario describe la secuencia de interacciones entre nuestros bounded contexts que permite que un guía turístico pueda localizar a un turista específico en un paquete turístico en curso. Esta ubicación se logra mediante el uso de nuestros dispositivos IoT para la geolocalización, que envían datos de coordenadas para rastrear la ubicación del turista.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-9.png" width ="700px" alt="flow-9" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-9.png" width ="700px" alt="flow-9" style="margin-right: 20px;">
 </div>
 
 ##### 9. Scenario: Alert the tourist about the weather of the place of the tour
 En este escenario, se ilustra cómo la información recopilada por los sensores IoT para el monitoreo del clima se utiliza para enviar notificaciones a través de la aplicación móvil a todos los turistas que se encuentren en un paquete turístico.
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-10.png" width ="700px" alt="flow-10" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-10.png" width ="700px" alt="flow-10" style="margin-right: 20px;">
 </div>
 
 ##### 10. Scenario: Check purchased tour packages
 En este escenario, se presenta cómo un turista puede consultar los detalles de una reserva pendiente a través de nuestra aplicación móvil.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/domain-message-flows-modeling/flow-11.png" width ="700px" alt="flow-11" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/domain-message-flows-modeling/flow-11.png" width ="700px" alt="flow-11" style="margin-right: 20px;">
 </div>
 
 #### 4.1.1.3 Bounded Context Canvases.
@@ -212,67 +212,67 @@ En este escenario, se presenta cómo un turista puede consultar los detalles de 
 ##### Booking Management
 En este Bounded Context de Reservas, se puede visualizar la comunicación con los Bounded Context de Subscription and Payments, Transport Management y Notification Management. También, este gestiona la información y estados de las reservaciones dentro las aplicaciones web y móvil.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/booking-management-canvas.png" width="700px" alt="booking-management-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/booking-management-canvas.png" width="700px" alt="booking-management-canvas">
 </div>
 
 ##### Data Report and Analytics
 En este Canvas se obtendrá y analizará la información que devuelva los dispositivos Iot, ya sean las balanzas inteligentes, sensores climáticos y brazaletes geolocalizadores. Este Bounded Context estará relacionado con los Bounded Context Iot Asset Management y Notification Management.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/data-report-and-analytics-canvas.png" width="700px" alt="data-report-and-analytics-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/data-report-and-analytics-canvas.png" width="700px" alt="data-report-and-analytics-canvas">
 </div>
 
 ##### Execution and Tracking
 En este Bounded Context Canvas de Execution and Tracking, se puede visualizar que estará en constante comunicación con el Bounded Context de Iot Asset Management. Esto se debe a que necesitará la información de la ubicación que proporciona los brazaletes geolocalizadores que portarán los turistas durante los tours.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/execution-and-tracking-canvas.png" width="700px" alt="execution-and-tracking-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/execution-and-tracking-canvas.png" width="700px" alt="execution-and-tracking-canvas">
 </div>
 
 ##### Identity And Access Management
 En el siguiente Canvas, describe la comunicación que usaremos con los sistemas externos de autenticación para el registro e ingreso de los usuarios a nuestras aplicaciones web y móvil. Este Bounded Context estará relacionado con los Bounded Context Profile Management y Notification Management.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/identity-and-access-management-canvas.png" width="700px" alt="identity-and-access-management-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/identity-and-access-management-canvas.png" width="700px" alt="identity-and-access-management-canvas">
 </div>
 
 ##### IoT Asset Management
 La siguiente imagen corresponde al IoT Asset Management Bounded Context Canvas. Se puede observar que la información proporcionada de los dispositivos Iot se envía al Bounded Context de Notification Management.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/ioT-asset-management-canvas.png" width="700px" alt="ioT-asset-management-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/ioT-asset-management-canvas.png" width="700px" alt="ioT-asset-management-canvas">
 </div>
 
 ##### Notification Management
 En este Bounded Context Canvas, se puede visualizar la comunicación que tendrá con la mayoría de Bounded Context. Este estará encargado de enviar mensajes de alertas, correos, notificaciones a los usuarios sobre los cambios de estados de reservas, paquetes turísticos, recomendaciones climáticas, entre otros. 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/notification-management-canvas.png" width="700px" alt="notification-management-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/notification-management-canvas.png" width="700px" alt="notification-management-canvas">
 </div>
 
 ##### Profile Management
 El siguiente Profile Management Bounded Context Canvas describe la gestión de información de perfil de los usuarios. Esto no solamente abarca los datos comunes de la cuenta, sino también las configuraciones de preferencias relacionadas con las notificaciones de las aplicaciones.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/profile-management-canvas.png" width="700px" alt="profile-management-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/profile-management-canvas.png" width="700px" alt="profile-management-canvas">
 </div>
 
 ##### Review Management
 En este Bounded Context Canvas, se puede observar que la ingormación gestionada proviene de la aplicación web, ya que en esta los turistas podrán escribir las reseñas de su experiencia del paquete turístico comprado.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/review-management-canvas.png" width="700px" alt="review-management-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/review-management-canvas.png" width="700px" alt="review-management-canvas">
 </div>
 
 ##### Subscription and payments
 La siguiente imagen corresponde al Subscription and payments Context Canvas. Este gestiona la información de los pagos realizados por parte de los turistas y la información de la compra de las subscripciones de las agencias en la aplicaciñon web.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/subscription-and-payments-canvas.png" width="700px" alt="subscription-and-payments-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/subscription-and-payments-canvas.png" width="700px" alt="subscription-and-payments-canvas">
 </div>
 
 ##### Tour Experience
 La siguiente imagen corresponde al Tour Experience Bounded Context Canvas. Se puede observar a través de la aplicación web, las agencias de viaje podrán publicar los paquetes turísticos y gestionar su información en su ciclo de vida del paquete.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/tour-experience-canvas.png" width="700px" alt="tour-experience-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/tour-experience-canvas.png" width="700px" alt="tour-experience-canvas">
 </div>
 
 ##### Transport Management
 La siguiente imagen corresponde al Tour Experience Bounded Context Canvas. Se puede observar a través de la aplicación web, las agencias de viaje podrán publicar los vehículos y gestionar su información al asignarlos a cada paquete turístico.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/bounded-context-canvases/transport-management-canvas.png" width="700px" alt="transport-management-canvas">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/bounded-context-canvases/transport-management-canvas.png" width="700px" alt="transport-management-canvas">
 </div>
 
 ### 4.1.2. Context Mapping
@@ -280,7 +280,7 @@ La siguiente imagen corresponde al Tour Experience Bounded Context Canvas. Se pu
 Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, el cual se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin, como Conformist, Customer/Supplier, Partnership o Shared Kernel. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen: 
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/context-mapping/context-mapping.png" width ="700px" alt="context-mapping" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/context-mapping/context-mapping.png" width ="700px" alt="context-mapping" style="margin-right: 20px;">
 </div>
 
 ### 4.1.3. Software Architecture
@@ -290,19 +290,19 @@ Se presentaron diversas perspectivas arquitectónicas que ayudaron a visualizar 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 Se realizó un System Landscape Diagram con el objetivo de visualizar una relación general entre el sistema interno, externos y los usuarios.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/landscape.png" width ="700px" alt="landscape-diagram" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/c4-model/landscape.png" width ="700px" alt="landscape-diagram" style="margin-right: 20px;">
 </div>
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 Se realizó el primer nivel de Software Architecture, System Context en la herramienta Structurizr como se muestra en la siguiente imagen. 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/context.png" width ="700px" alt="context-diagram" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/c4-model/context.png" width ="700px" alt="context-diagram" style="margin-right: 20px;">
 </div>
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 Se realizó el segundo nivel de Software Architecture, Container, en la herramienta Structurizr como se muestra en la siguiente imagen. 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/container.png" width ="700px" alt="context-mapping" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/c4-model/container.png" width ="700px" alt="context-mapping" style="margin-right: 20px;">
 </div>
 <br>
 
@@ -312,7 +312,7 @@ Link de Structurizr: https://structurizr.com/share/85681
 Los diagramas de despliegue de software representan cómo los componentes de un sistema interactúan con la infraestructura. Son esenciales para la planificación y la gestión de sistemas de software. Por ello, se elaboró este diagrama como muestra la siguiente imagen.
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/c4-model/software-architecture-deployment-diagram.png" width ="700px" alt="software-architecture-deployment-diagram" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/c4-model/software-architecture-deployment-diagram.png" width ="700px" alt="software-architecture-deployment-diagram" style="margin-right: 20px;">
 </div>
 <br>
 
@@ -347,19 +347,19 @@ Este bounded context se centra en las clases y capas relacionadas con la gestió
 - **ActivityLogRepository:** Registra y recupera la actividad del perfil de usuario.
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 <div align="center">
-   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/Profile%20BC%20Component%20Diagram.png"       width ="700px" alt="Imagen" style="margin-right: 20px;">
+   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/Profile%20BC%20Component%20Diagram.png"       width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/profile_CB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/profile_CB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/profile_DB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/profile_DB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 
@@ -387,12 +387,12 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_TourExperince_DB_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_TourExperince_DB_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_TourExperince_Class_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_TourExperince_Class_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ### 4.2.3. Bounded Context: Transportation
@@ -413,12 +413,12 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_Trasnport_CD.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_Trasnport_CD.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_Trasnport_DB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_Trasnport_DB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 
@@ -759,19 +759,19 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
 
 #### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_Iot_Management_Diagram.png"
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_Iot_Management_Diagram.png"
     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 #### 4.2.10.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.10.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_Iot_Management_Class.png"
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_Iot_Management_Class.png"
     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ##### 4.2.10.6.2. Bounded Context Database Design Diagram.
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_IOT_Management_DB_Diagram.png"  width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_IOT_Management_DB_Diagram.png"  width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
