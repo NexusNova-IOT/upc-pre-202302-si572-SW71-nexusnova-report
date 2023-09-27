@@ -8,7 +8,7 @@ En este punto se abordarán las directrices que nuestra startup utilizará para 
 ### 5.1.1. General Style Guidelines.
 A continuación, se presentan las pautas generales para asegurar una presentación coherente de nuestros productos.
 #### Branding
-En esta sección, detallaremos cómo se deben utilizar nuestros logotipos y elementos visuales para transmitir nuestra visión de desarrollo sostenible y enriquecimiento de las comunidades. A continuacion, se muestra nuestro logo:
+En esta sección, detallaremos cómo se deben utilizar nuestros logotipos y elementos visuales para transmitir nuestra visión de desarrollo sostenible y enriquecimiento de las comunidades. A continuación, se muestra nuestro logo:
 
 ![Life travel logo](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/style-guidelines/life-travel-logo.png)
 #### Typography
@@ -66,7 +66,7 @@ En esta sección, describiremos los diferentes tonos que utilizamos, desde la em
 
 - **Agencia de viajes**: Nuestra comunicación hacia empresas de experiencias turísticas se caracteriza por su concisión y formalidad. Priorizamos la presentación de hechos y datos que respalden la eficacia de nuestra solución. Nuestra intención es motivar a estas empresas a considerar y adoptar nuestra propuesta.
 
-- **Usuario turísta**: En contraste, cuando nos dirigimos a los usuarios viajeros, empleamos un lenguaje sencillo y cautivador. Buscamos evocar emociones y crear una experiencia a través de las palabras. Nos esforzamos por brindar información clara y evitar cualquier ambigüedad en las opciones que ofrecemos a los viajeros.
+- **Usuario turista**: En contraste, cuando nos dirigimos a los usuarios viajeros, empleamos un lenguaje sencillo y cautivador. Buscamos evocar emociones y crear una experiencia a través de las palabras. Nos esforzamos por brindar información clara y evitar cualquier ambigüedad en las opciones que ofrecemos a los viajeros.
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
 #### Web Style Guidelines
