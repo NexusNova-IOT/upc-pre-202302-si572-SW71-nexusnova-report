@@ -267,6 +267,10 @@ A continuación, se presentan los user flows que competen a nuestros user goals.
 
 Para el escenario, muestra cómo es el flujo para poder editar la información del usuario, se pueden mostrar los casos en los que este es exitoso y en los que se insertan valores erróneos.
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/userflow-diagrams/userflow-1.png" width="500px" alt="mockups-mobile">
+</div>
+
 ## 5.5. Applications Prototyping.
 
 
