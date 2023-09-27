@@ -351,6 +351,18 @@ Este bounded context se centra en las clases y capas relacionadas con la gestió
 </div>
 
 
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/profile_CB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
+##### 4.2.1.6.2. Bounded Context Database Design Diagram.
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/profile_DB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
+
 ### 4.2.2. Bounded Context: Tour Experience
 Este bounded context se centra en almacenar la informacion de las experiencias turisticas seran usados. 
 
@@ -370,8 +382,6 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/Tour%20Experience%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
-
-    
 </div>
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -398,7 +408,17 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/diagrams/Transportation%20BC%20Component%20Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+</div>
 
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_Trasnport_CD.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
+##### 4.2.3.6.2. Bounded Context Database Design Diagram.
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/diagrams/BC_Trasnport_DB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 
