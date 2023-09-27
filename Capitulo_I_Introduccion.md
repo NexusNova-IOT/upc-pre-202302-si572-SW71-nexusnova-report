@@ -12,7 +12,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
 
 ### 1.1.2 Perfiles de integrantes del equipo
 <div style="display: flex; align-items: center;">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/images/Ivan.png" alt="Imagen" width="100" height="25%" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/images/Ivan.png" alt="Imagen" width="150" height="100" style="margin-right: 35px;">
     <div>
         <u><strong>Ivan Moran Moreno</strong></u><br>
         Actualmente tengo 20 años y curso la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Siempre, desde más joven, he estado interesado en la tecnología, y es por eso por lo que decidí estudiar esta carrera. Me gusta aprender nuevos frameworks, tecnologías e inteligencia artificial, y participar en Hackatons y StartUps para ampliar mi conocimiento.
@@ -39,7 +39,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/images/Edgar.jpg" alt="Imagen" width="100" height="25%" style="margin-right: 20px;">
     <div>
         <u><strong>Edgar Alexander Malca Rojas - U202020371</strong></u><br>
-        Actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable, empático y eficiente. A través de los últimos años, he acumulado experiencia en diferentes herramientas de desarrollo de código y lenguajes de programación como Java o C++, así como con los frameworks Angular y Spring Boot. Finalmente, estoy dispuesto a trabajar de forma conjunta con mis compañeros para desarrollar un buen trabajo brindando mis habilidades de análisis y origranización. 
+        Actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable, empático y eficiente. A través de los últimos años, he acumulado experiencia en diferentes herramientas de desarrollo de código y lenguajes de programación como Java o C++, así como con los frameworks Angular y Spring Boot. Finalmente, estoy dispuesto a trabajar de forma conjunta con mis compañeros para desarrollar un buen trabajo brindando mis habilidades de análisis y organización. 
     </div>
 </div>
 <br>
@@ -55,7 +55,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
-Procedemos a implementar la herramienta 5W Y 2H, la cuál nos ayudará para poder entender y plantear de forma correcta la problemática identificada y su solución respectiva.
+Procedemos a implementar la herramienta 5W Y 2H, la cual nos ayudará para poder entender y plantear de forma correcta la problemática identificada y su solución respectiva.
 #### 5W's y 2H's
 
 * <strong>What?</strong><br>
@@ -112,8 +112,10 @@ Ante este panorama, surge la pregunta: ¿Cómo podríamos abordar este desafío 
 #### Domain: 
 Industria de turismo y viajes.
 #### Customer Segments: 
-    + Agencias de viajes
+
+    + Agencias de viajes.
     + Turistas.
+    
 #### Pain Points:
 + Las agencias de viajes informales tienen dificultades para garantizar la seguridad y satisfacción de los turistas debido a la falta de recursos y procedimientos formales.
 + Los turistas experimentan inseguridad y falta de personalización en sus experiencias debido a la falta de comunicación efectiva con las agencias.
@@ -123,24 +125,41 @@ Existe una desconexión entre las agencias de viajes y los turistas en términos
 Crear una plataforma que conecte de manera efectiva a las agencias de viajes con los turistas, proporcionando experiencias personalizadas y tecnología de seguimiento para mejorar la seguridad.
 
 #### 1.2.2.2 Lean UX Assumptions
+
  + Business Outcomes:
+
+    + Aumentar las reservas de experiencias turísticas.
     
-    +
+    + Aumentar las reservas de dispositivos de seguridad como la pulsera gps para aumentar la seguridad durante la experiencia turística.
+
+    + Registrar reservas de experiencias turísticas no menor al 50% de usuarios registrados en la plataforma.
+
+    + Aumentar las recomendaciones de nuestro servicio, gracias a las sugerencias brindadas por los dispositivos iot.
+
+    + Percibir que más del 25% de usuarios registrados recomiendan la plataforma por ofrecer experiencias personalizadas.
 
  + Users:
     
-    + 
+    + Turistas
+
+    + Agencias turísticas
 
  + User Outcomes:
     
-    + 
+    + Aumentar la seguridad durante la experiencia turística para que el turista confíe en nuestro servicio.
+
+    + Permitir a los turistas acceder a experiencias personalizadas.
+
+    + Cerrar la brecha de comunicación y mejorar la personalización de las experiencias, llevando a un aumento en la satisfacción general entre ambos tipos de usuarios.
+    
+    + Brindar información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta para mejorar su nivel de satisfacción.
 
 
  + Business Assumptions:
-    * Creo que mis clientes necesitan: Mejorar la comunicación y personalización en la planificación y ejecución de sus viajes.
+    * Creo que mis clientes necesitan: una plataforma para personalizar, planificar y ejecutar el itinerario de una determinada experiencia turística. Asimismo, publicar sus experiencias y acceder a socios operadores confiables
     
 
-   + Estas necesidades se pueden resolver con: Una plataforma que conecte a agencias de viajes y turistas, ofreciendo métodos de comunicación, recomendaciones personalizadas y funciones de seguridad.
+   + Estas necesidades se pueden resolver con: Una plataforma que conecte a agencias de viajes y turistas, ofreciendo la posibilidad de crear experiencias turísticas personalizadas.
 
    + Mis clientes iniciales son (o serán): Agencias de viajes de tamaño mediano a pequeño y turistas que valoran experiencias personalizadas y seguras.
 
@@ -176,22 +195,37 @@ una plataforma <strong>para</strong> publicar sus experiencias y acceder a socio
 #### 1.2.2.4 Lean UX Canvas
 
 * **Business Problem:**
-Falta de una herramienta que les ayude a mejorar su experiencia antes y durante el viaje. En otras palabras, desde la planificación del viaje  hasta cuando el cliente se encuentre en su destino. Asimismo, una herramienta que priorice su seguridad y brinde experiencias adaptables y únicas.
+Falta de una herramienta que les ayude a mejorar su experiencia antes y durante el viaje. En otras palabras, desde la planificación del viaje hasta cuando el cliente se encuentre en su destino. Asimismo, una herramienta que priorice su seguridad y brinde experiencias adaptables y únicas.
 
 * **User & Customers:**
 Nuestros usuarios son personas mayores de edad, que están dentro de la
 población económicamente activa (PEA).
 
 * **Solution Ideas:**
-    + Portabilidad y sincronización de datos en tiempo real para una mayor seguridad de los datos de viajes.
+    + Una plataforma para publicar experiencias personalizadas y acceder a socios operadores confiables.
+
+    + Una plataforma que brinde información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta.
+
+    + Integrar dispositivos iot como una pulsera GPS opcional para los turistas, para proporcionar una forma confiable de seguimiento en caso de emergencias o pérdida.
+
     + Permitir a los usuarios acceder a un plan de viaje especializado en satisfacer al turista con experiencias pre-definidas para asegurar la seguridad y brindar recuerdos únicos e inigualables.
+
     + Integrar dispositivos IoT para optimizar el antes y después del viaje tanto para los usuarios turistas como agencias. Brindando información real y sustentable para que la experiencia sea la mejor posible.
 
 
 * **Business Outcomes:**
     + Una mejora de la experiencia de viaje de varios usuarios.
-    + Un aumento de viajes con respecto al impacto de la disminución en el sector turismo debido a los problemas socioecnómicos.
-    + Un aumento estadístico en viajes seguros y con mejores horarios gracias a las funciones que ofrece nuestro producto para los viajeros.
+
+    + Aumentar las reservas de experiencias turísticas.
+    
+    + Aumentar las reservas de dispositivos de seguridad como la pulsera gps para aumentar la seguridad durante la experiencia turística.
+
+    + Registrar reservas de experiencias turísticas no menor al 50% de usuarios registrados en la plataforma.
+
+    + Aumentar las recomendaciones de nuestro servicio, gracias a las sugerencias brindadas por los dispositivos iot.
+
+    + Percibir que más del 25% de usuarios registrados recomiendan la plataforma por ofrecer experiencias personalizadas.
+
     + Aumentar la satisfacción del viajero brindando seguridad y confiabilidad.
 
 * **User Benefits:**
