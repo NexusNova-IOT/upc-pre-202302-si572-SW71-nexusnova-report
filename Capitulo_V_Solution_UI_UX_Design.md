@@ -231,6 +231,13 @@ A continuación, mostramos los wireframes de nuestra aplicación móvil.
 
 ### 5.4.2. Applications Wireflow Diagrams.
 ### 5.4.2. Applications Mock-ups.
+Los mockups son otra parte esencial en el diseño de nuestras aplicaciones, ya que nos permiten visualizar la apariencia y la disposición de los elementos antes de comenzar el desarrollo.
+A continuación, mostramos los mock-ups de nuestra aplicación móvil.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/mock-ups/mobile-mockups.png" width="500px" alt="mockups-mobile">
+</div>
+
 ### 5.4.3. Applications User Flow Diagrams.
 ## 5.5. Applications Prototyping.
 
