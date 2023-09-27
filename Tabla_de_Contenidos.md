@@ -12,6 +12,7 @@
   <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Capituto_VI_Product_Implementation_Validation_Deployment.md">Capítulo VI: Product Implementation, Validation & Deployment</a></li>
   <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Conclusiones.md">Conclusiones</a></li>
   <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Bibliografia.md">Bibliografía</a></li>
+  <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Anexos.md">Anexos</a></li>
 </ol>
 
 <p align="right">(<a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/README.md">Volver a la carátula</a>)</p>
