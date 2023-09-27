@@ -220,6 +220,15 @@ Hemos completado con éxito la creación del mock-up de la página de inicio, lo
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
+Los wireframes son esenciales en el diseño de nuestras aplicaciones, ya que ayudan a planificar la interfaz y la navegación antes de empezar el desarrollo. En nuestro proyecto, utilizamos 'Figma' para crear los wireframes de manera eficiente y colaborativa.
+
+A continuación, mostramos los wireframes de nuestra aplicación móvil.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireframes/mobile-wireframes.png" width="500px" alt="wireframes-mobile">
+</div>
+
+
 ### 5.4.2. Applications Wireflow Diagrams.
 ### 5.4.2. Applications Mock-ups.
 ### 5.4.3. Applications User Flow Diagrams.
