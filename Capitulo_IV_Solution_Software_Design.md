@@ -387,12 +387,12 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_TourExperince_DB_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/develop/Resources/diagrams/BC_TourExperince_DB_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_TourExperince_Class_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_TourExperince_DB_Diagram.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ### 4.2.3. Bounded Context: Transportation
@@ -734,7 +734,7 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/booking_DB.png"  width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/booking.png"  width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 
