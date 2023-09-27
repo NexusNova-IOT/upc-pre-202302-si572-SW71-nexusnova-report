@@ -101,7 +101,7 @@ En el Product Backlog presentaremos una lista priorizada de nuestras user storie
 
 A continuación se presenta una representación gráfica del mismo en la plataforma Pivotal Tracker:
 
-[![Product Backlog.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/maps/ProductBacklog.png)](https://www.pivotaltracker.com/n/projects/2675473)
+[![Product Backlog.](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/maps/ProductBacklog.png)](https://www.pivotaltracker.com/n/projects/2675473)
 
 Enlace: [Product Backlog en PivotalTracker](https://www.pivotaltracker.com/n/projects/2675473)
 
