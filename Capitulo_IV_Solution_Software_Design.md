@@ -354,12 +354,12 @@ Este bounded context se centra en las clases y capas relacionadas con la gestió
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/profile_CB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/profile_CD.PNG"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/profile_DB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/profile_DB.PNG"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 
@@ -413,12 +413,12 @@ Este bounded context se centra en almacenar la informacion de las experiencias t
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_Trasnport_CD.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_Transport_CD.PNG"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_Trasnport_DB.png"     width ="700px" alt="Imagen" style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/BC_Transport_DB.PNG"     width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
 
 
