@@ -276,7 +276,7 @@ Para el escenario, muestra cómo es el flujo para poder editar la información d
 A continuación, se presenta el prototipo que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/userflow-diagrams/userflow-1.png" width="500px" alt="mockups-mobile">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/images/Prototype.png" width="500px" alt="mockups-mobile">
 </div>
 
 Link: https://www.figma.com/proto/mhaCpGVtwWiaWj1eKxN2Z9/IOT?type=design&node-id=3-2334&t=HwOrOA7xxoNdcob6-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2334&show-proto-sidebar=1 
