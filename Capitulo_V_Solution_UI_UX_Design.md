@@ -246,6 +246,12 @@ User goal 2: Dado que el usuario desea ver el itinerario de un paquete turístic
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireflow-diagrams/wireflow-diagram-2.png" width="500px" alt="mockups-mobile">
 </div>
 
+User goal 3: Dado que la agencia desea registrar un paquete, a continuación se presentan los pasos a seguir utilizando nuestra aplicación web.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireflow-diagrams/wireflow-diagram-7.png" width="500px" alt="mockups-web">
+</div>
+
 
 ### 5.4.2. Applications Mock-ups.
 Los mockups son otra parte esencial en el diseño de nuestras aplicaciones, ya que nos permiten visualizar la apariencia y la disposición de los elementos antes de comenzar el desarrollo.
@@ -256,6 +262,11 @@ A continuación, mostramos los mock-ups de nuestra aplicación móvil.
 </div>
 
 ### 5.4.3. Applications User Flow Diagrams.
+
+A continuación, se presentan los user flows que competen a nuestros user goals.
+
+Para el escenario, muestra cómo es el flujo para poder editar la información del usuario, se pueden mostrar los casos en los que este es exitoso y en los que se insertan valores erróneos.
+
 ## 5.5. Applications Prototyping.
 
 
