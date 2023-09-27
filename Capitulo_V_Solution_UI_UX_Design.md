@@ -230,6 +230,23 @@ A continuación, mostramos los wireframes de nuestra aplicación móvil.
 
 
 ### 5.4.2. Applications Wireflow Diagrams.
+
+A continuación, se presentan los wireflows que competen a nuestros user goals.
+
+User goal 1 : Dado que los turistas disponen de dispositivos para enviar su ubicación, se presentan los pasos que debe seguir el guía turístico para visualizar a los turistas en un mapa dentro de nuestra aplicación móvil.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireflow-diagrams/wireflow-diagram-5.png" width="500px" alt="mockups-mobile">
+</div>
+
+
+
+User goal 2: Dado que el usuario desea ver el itinerario de un paquete turístico al que ya está suscrito, a continuación se muestran los pasos para poder visualizarlo mediante nuestra aplicación móvil.
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireflow-diagrams/wireflow-diagram-2.png" width="500px" alt="mockups-mobile">
+</div>
+
+
 ### 5.4.2. Applications Mock-ups.
 Los mockups son otra parte esencial en el diseño de nuestras aplicaciones, ya que nos permiten visualizar la apariencia y la disposición de los elementos antes de comenzar el desarrollo.
 A continuación, mostramos los mock-ups de nuestra aplicación móvil.
