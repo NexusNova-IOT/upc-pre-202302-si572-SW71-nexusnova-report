@@ -304,7 +304,7 @@ LLENAR RESUMEN
   <tr>
     <td>Duracion<br></td>
     <td>
-		9:53 min
+		 00:00 min - 10:12 min 
 		</td>
   </tr>
   <tr>
@@ -381,7 +381,7 @@ LLENAR RESUMEN
   <tr>
     <td>Duracion<br></td>
     <td>
-		8:48 min
+		 10:12 min - 19:01 min 
 		</td>
   </tr>
   <tr>
@@ -459,7 +459,7 @@ LLENAR RESUMEN
   <tr>
     <td>Duracion<br></td>
     <td>
-		8:48 min
+		 19:01 min - 24:55 min 
 		</td>
   </tr>
   <tr>
@@ -537,7 +537,7 @@ LLENAR RESUMEN
   <tr>
     <td>Duracion<br></td>
     <td>
-		9:53 min
+		 24:55 min - 34:49 min 
 		</td>
   </tr>
   <tr>
