@@ -64,12 +64,6 @@
     <td>Ryan Sweden</td>
     <td>Se agrego contenido relacionado al capítulo 4, sobre el tactical DDD</td>
   </tr>
-  <tr>
-    <td>1.3</td>
-    <td>08/09/2023</td>
-    <td>Dominik Mendoza<br>Ivan Moran<br>Edgar Malca<br>Ryan Sweden<br>Nicole Price</td>
-    <td>Se culminó de agregar las partes faltantes a todos los capítulos y mejorando la estructura del informe. Se agrego principalmente, todo lo relacionado a los Bounded Contexts.</td>
-  </tr>
 
   <tr>
     <td>1.3</td>
@@ -108,6 +102,78 @@
     <td>08/09/2023</td>
     <td>Dominik Mendoza</td>
     <td>Mejoras a la estructura de algunos files para la generación de archivos pdf para el envío de la TB1</td>
+  </tr>
+  <tr>
+    <td>1.4.1</td>
+    <td>23/09/2023</td>
+    <td>Edgar Malca</td>
+    <td>Mejoras a la estructura del Lean UX, arreglo el lean ux assumptions y el canvas.</td>
+  </tr>
+  <tr>
+    <td>1.4.2</td>
+    <td>24/09/2023</td>
+    <td>Edgar Malca</td>
+    <td>Agrego el Collaboration Insights Structure, imágenes, y vinculo los links.</td>
+  </tr>
+  <tr>
+    <td>1.4.3</td>
+    <td>23/09/2023</td>
+    <td>Ryan Sweden</td>
+    <td>Agrego estructura para el capítulo 5 y documentación de organization systems</td>
+  </tr>
+  <tr>
+    <td>1.4.4</td>
+    <td>23/09/2023</td>
+    <td>Dominik Mendoza</td>
+    <td>Añadio style guidelines, branding and typography y algunas descripciones para las secciones relacionadas al style guidelines</td>
+  </tr>
+  <tr>
+    <td>1.4.5</td>
+    <td>23/09/2023</td>
+    <td>Ivan Moran</td>
+    <td>Documentación de trabajo con GitFlow, y añadio Source Code Style Guide & Conventions.  Asimismo, añadio el Software Configuration Management</td>
+  </tr>
+  <tr>
+    <td>1.4.6</td>
+    <td>25/09/2023</td>
+    <td>Dominik Mendoza</td>
+    <td>Product Backlog priorización corregida, se añadio el sprint backlog 1.</td>
+  </tr>
+  <tr>
+    <td>1.4.7</td>
+    <td>26/09/2023</td>
+    <td>Ryan Sweden</td>
+    <td>Agrego mockups, wireframes</td>
+  </tr>
+  <tr>
+    <td>1.4.8</td>
+    <td>26/09/2023</td>
+    <td>Ivan Moran</td>
+    <td>Software Deployment Configuration mejorado y se agrego documentacion para firebase hosting</td>
+  </tr>
+  <tr>
+    <td>1.4.9</td>
+    <td>26/09/2023</td>
+    <td>Nicole Price</td>
+    <td>Agrego el Sprint Backlog 1, mejora</td>
+  </tr>
+  <tr>
+    <td>1.4.10</td>
+    <td>26/09/2023</td>
+    <td>Edgar Malca</td>
+    <td>Realizó estructura para deployment configuration sprint review y agrego imágenes para el sprint collaboration.</td>
+  </tr>
+  <tr>
+    <td>1.4.11</td>
+    <td>27/09/2023</td>
+    <td>Ryan Sweden</td>
+    <td>Agrego wireflows, userflows y mockups and wireframes finales</td>
+  </tr>
+  <tr>
+    <td>1.5</td>
+    <td>27/09/2023</td>
+    <td>Dominik Mendoza</td>
+    <td>Mejoras en typos y links de referencia de imágenes de local a link en internet.</td>
   </tr>
 </tbody>
 </table>
