@@ -1,4 +1,4 @@
-<div align="justify">
+< align="justify">
 
 ## 4.1. Strategic-Level Domain-Driven Design
 
@@ -724,7 +724,19 @@ Este bounded context se enfoca en las clases y capas relacionadas con la gestió
 </div>
 
 
+#### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/booking_CD.png"
+    width ="700px" alt="Imagen" style="margin-right: 20px;">
 </div>
+
+##### 4.2.9.6.2. Bounded Context Database Design Diagram.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/booking_DB.png"  width ="700px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
 
 ### 4.2.10. Bounded Context: IoT Asset Management  
 #### 4.2.10.1. Domain Layer.
