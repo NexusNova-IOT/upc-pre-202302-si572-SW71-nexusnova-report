@@ -39,7 +39,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/main/Resources/images/Edgar.jpg" alt="Imagen" width="100" height="25%" style="margin-right: 20px;">
     <div>
         <u><strong>Edgar Alexander Malca Rojas - U202020371</strong></u><br>
-        Actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable, empático y eficiente. A través de los últimos años, he acumulado experiencia en diferentes herramientas de desarrollo de código y lenguajes de programación como Java o C++, así como con los frameworks Angular y Spring Boot. Finalmente, estoy dispuesto a trabajar de forma conjunta con mis compañeros para desarrollar un buen trabajo brindando mis habilidades de análisis y origranización. 
+        Actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable, empático y eficiente. A través de los últimos años, he acumulado experiencia en diferentes herramientas de desarrollo de código y lenguajes de programación como Java o C++, así como con los frameworks Angular y Spring Boot. Finalmente, estoy dispuesto a trabajar de forma conjunta con mis compañeros para desarrollar un buen trabajo brindando mis habilidades de análisis y organización. 
     </div>
 </div>
 <br>
@@ -55,7 +55,7 @@ Nuestra visión es consolidarnos como la empresa número 1 en promover el desarr
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
-Procedemos a implementar la herramienta 5W Y 2H, la cuál nos ayudará para poder entender y plantear de forma correcta la problemática identificada y su solución respectiva.
+Procedemos a implementar la herramienta 5W Y 2H, la cual nos ayudará para poder entender y plantear de forma correcta la problemática identificada y su solución respectiva.
 #### 5W's y 2H's
 
 * <strong>What?</strong><br>
@@ -146,7 +146,7 @@ Crear una plataforma que conecte de manera efectiva a las agencias de viajes con
 
  + User Outcomes:
     
-    + Aumentar la seguridad durante la experiencia turística para que el turista confie en nuestro servicio.
+    + Aumentar la seguridad durante la experiencia turística para que el turista confíe en nuestro servicio.
 
     + Permitir a los turistas acceder a experiencias personalizadas.
 
@@ -156,7 +156,7 @@ Crear una plataforma que conecte de manera efectiva a las agencias de viajes con
 
 
  + Business Assumptions:
-    * Creo que mis clientes necesitan: una plataforma para personalizar, planificar y ejecutar el intinerario de una determinada experiencia turística. Asimismo, publicar sus experiencias y acceder a socios operadores confiables
+    * Creo que mis clientes necesitan: una plataforma para personalizar, planificar y ejecutar el itinerario de una determinada experiencia turística. Asimismo, publicar sus experiencias y acceder a socios operadores confiables
     
 
    + Estas necesidades se pueden resolver con: Una plataforma que conecte a agencias de viajes y turistas, ofreciendo la posibilidad de crear experiencias turísticas personalizadas.
@@ -195,14 +195,14 @@ una plataforma <strong>para</strong> publicar sus experiencias y acceder a socio
 #### 1.2.2.4 Lean UX Canvas
 
 * **Business Problem:**
-Falta de una herramienta que les ayude a mejorar su experiencia antes y durante el viaje. En otras palabras, desde la planificación del viaje  hasta cuando el cliente se encuentre en su destino. Asimismo, una herramienta que priorice su seguridad y brinde experiencias adaptables y únicas.
+Falta de una herramienta que les ayude a mejorar su experiencia antes y durante el viaje. En otras palabras, desde la planificación del viaje hasta cuando el cliente se encuentre en su destino. Asimismo, una herramienta que priorice su seguridad y brinde experiencias adaptables y únicas.
 
 * **User & Customers:**
 Nuestros usuarios son personas mayores de edad, que están dentro de la
 población económicamente activa (PEA).
 
 * **Solution Ideas:**
-    + Una plataforma  para publicar experiencias personalizadas y acceder a socios operadores confiables.
+    + Una plataforma para publicar experiencias personalizadas y acceder a socios operadores confiables.
 
     + Una plataforma que brinde información en tiempo real sobre las condiciones climáticas y recomendaciones de vestimenta.
 
