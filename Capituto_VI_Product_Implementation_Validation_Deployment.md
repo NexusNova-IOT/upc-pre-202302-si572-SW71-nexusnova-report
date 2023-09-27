@@ -1252,5 +1252,47 @@ En esta sección, nos sumergiremos en el Sprint Backlog 1, que es una parte esen
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+  Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados así como los respectivos HTTP methods.
+
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+  En este Sprint, se llevaron a cabo una serie de actividades relacionadas con el despliegue de Landing Page y Web Application. Estas actividades abarcaron la creación de la página a la cuál pueden acceder los visitantes para que pueden conocer Life Travel y luego si desean convertirse en usuarios. Por otro lado, se desarrolló la primera versión del Web Application, que por el momento obtiene data de un json web server o fake api. Ahora, continuamos con la evidencia de despliegue. 
+
+  <strong>Evidence Deployment Landing Page</strong>
+  
+  <strong>Evidence Landing Page</strong>
+
+  <strong>Evidence Deployment Web Application</strong>
+
+  <strong>Evidence Web Application</strong>
+
+
+
 #### 6.2.1.8. Team Collaboration Insights during Sprint
+
+A continuación, se presenta la colaboración en equipo que se ha registrado en GitHub tanto en la seccion de analíticos como en los commits. Se presentará quiénes son los alumnos que participarón y algunos de los commits que realizaron.
+
+<strong>Analíticos de GitHUb</strong>
+ + Landing Page
+    + Contributors
+
+    + Traffic
+
+    + Commit
+
+    + Network
+
+
+
+ + Web Application
+    + Pulse 
+    
+    + Contributors
+
+    + Traffic
+
+    + Commit
+
+    + Network
+
+
+
