@@ -1519,6 +1519,89 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 Para este sprint, no se han realizado las actividades requeridas en la sección de pruebas. Es decir, no se han creado archivos .feature ni se ha identificado la relación con User Stories o clases.
 
 #### 6.2.1.5. Execution Evidence for Sprint Review.
+
+##### Landing Page
+
+Para este Sprint 1, se realizó la versión final del Landing Page que contiene las siguientes vistas:
+
+###### VISTA GENERAL
+Cuando el visitante ingrese a nuestro landing page, se mostrará lo siguiente:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/first.png" alt="first-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/firstES.png" alt="first-landing-page-spanish">
+</div>
+
+###### ABOUT US
+En esta sección los visitantes podrán conocer en términos generales sobre LifeTravel.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/about-us.png" alt="about-us-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/about-usES.png" alt="about-us-landing-page-spanish">
+</div>
+
+###### CHARACTERISTICS
+En esta sección los visitantes podrán conocer las características de nuestra plataforma LifeTravel. Se presentan las características de la aplicación web, móvil.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristics.png" alt="characteristics-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristicsES.png" alt="characteristics-landing-page-spanish">
+</div>
+
+Asimismo, se muestran unos ejemplos de las características de la aplicación web.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristics2.png" alt="characteristics-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristics2ES.png" alt="characteristics-landing-page-spanish">
+</div>
+
+De igual manera, se introducirá la información sobre los brazaletes geolocalizadores, productos exclusivos para los usuarios de nuestra aplicación.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/gps.png" alt="gps-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/gpsES.png" alt="gps-landing-page-spanish">
+</div>
+
+###### SUBSCRIPTIONS
+En esta sección los visitantes podrán conocer la información de las subscripciones de nuestra plataforma LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/subscriptions.png" alt="subscriptions-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/subscriptionsES.png" alt="subscriptions-landing-page-spanish">
+</div>
+
+###### OUR TEAM
+En esta sección los visitantes podrán conocer la información del equipo desarrollador de nuestra plataforma LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/team.png" alt="team-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/teamES.png" alt="team-landing-page-spanish">
+</div>
+
+###### CONTACT US
+En esta sección los visitantes podrán conocer la información necesaria para contactar al equipo desarrollador de LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/contact-us.png" alt="contact-us-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/contact-usES.png" alt="contact-us-landing-page-spanish">
+</div>
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
   Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados así como los respectivos HTTP methods.
 
