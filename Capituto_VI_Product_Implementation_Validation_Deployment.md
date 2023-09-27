@@ -1186,64 +1186,136 @@ En esta sección, nos sumergiremos en el Sprint Backlog 1, que es una parte esen
     <td>Status (To-do / InProcess / ToReview / Done)</td>
   </tr>
   <tr>
-    <td>US06</td>
-    <td>Navegación en la landing page (3)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="3">US06</td>
+    <td rowspan="3">Navegación en la landing page (3)<br></td>
+    <td>US06-1</td>
+    <td>Diseño de la navegación</td>
+    <td>Implementar el diseño de la navegación</td>
+    <td>1</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td>US04</td>
-    <td>Visualización de planes y precios (3)</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US06-2</td>
+    <td>Implementar botones de navegación</td>
+    <td>Agregar botones de navegación y establecer sus rutas</td>
+    <td>1</td>
+    <td>Ryan Sweden</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06-3</td>
+    <td>Pruebas de navegación</td>
+    <td>Realizar pruebas de navegación para garantizar la funcionalidad correcta</td>
+    <td>1</td>
+    <td>Ivan Moran</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US04</td>
+    <td rowspan="3">Visualización de planes y precios (3)</td>
+    <td>US04-1</td>
+    <td>Diseño de la página de planes</td>
+    <td>Diseño de la página de planes</td>
+    <td>1</td>
+    <td>Dominik Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04-2</td>
+    <td>Integrar datos de precios</td>
+    <td>Integrar datos de precios</td>
+    <td>1</td>
+    <td>Edgar Malca</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04-3</td>
+    <td>Pruebas de visualización de precios</td>
+    <td>Pruebas de visualización de precios</td>
+    <td>1</td>
+    <td>Ryan Sweden</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US05</td>
+    <td rowspan="2">Visualización al equipo de desarrollo (2)</td>
+    <td>US05-1</td>
+    <td>Diseño de la sección de equipo</td>
+    <td>Diseñar la sección que muestra al equipo</td>
+    <td>1</td>
+    <td>Ivan Moreno</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US05-2</td>
+    <td>Integrar información del equipo</td>
+    <td>Conectar la página con la base de datos para mostrar los precios</td>
+    <td>4</td>
+    <td>Edgar Malca</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US07</td>
+    <td rowspan="2">Contacto con los representantes de la solución IoT (2)</td>
+    <td>US07-1</td>
+    <td>Diseño de la sección de contacto</td>
+    <td>Diseñar la sección que permite el contacto con los representantes</td>
+    <td>1</td>
+    <td>Nicole Price</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US07-2</td>
+    <td>Implementar formulario de contacto</td>
+    <td>Crear un formulario funcional para permitir el contacto</td>
     <td>2</td>
     <td>Dominik Mendoza</td>
-    <td>To - do</td>
+    <td>To-do</td>
   </tr>
   <tr>
-    <td>US05</td>
-    <td>Visualización al equipo de desarrollo (2)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="3">US12</td>
+    <td rowspan="3">Promoción de viajes turísticos (3)</td>
+    <td>US12-1</td>
+    <td>Diseño de la sección de promoción</td>
+    <td>Diseñar la sección que promociona los viajes turísticos</td>
+    <td>2</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td>US07</td>
-    <td>Contacto con los representantes de la solución IoT (2)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US12-2</td>
+    <td>Integrar información de promoción</td>
+    <td>Conectar la página con la base de datos para mostrar la información de promoción</td>
+    <td>4</td>
+    <td>Ryan Sweden</td>
+    <td>To-do</td>
   </tr>
   <tr>
-    <td>US12</td>
-    <td>Promoción de viajes turísticos (3)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US12-3</td>
+    <td>Pruebas de promoción de viajes</td>
+    <td>Verificar que la sección de promoción se muestre correctamente</td>
+    <td>2</td>
+    <td>Edgar Malcar</td>
+    <td>In Process</td>
   </tr>
   <tr>
-    <td>US09</td>
-    <td>Filtrado de destinos turísticos (4)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">US09</td>
+    <td rowspan="2">Filtrado de destinos turísticos (4)</td>
+    <td>US09-1</td>
+    <td>Diseño de la sección de filtrado</td>
+    <td>Diseñar la sección que permite filtrar destinos turísticos</td>
+    <td>2</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09-2</td>
+    <td>Implementar opciones de filtrado</td>
+    <td>Agregar opciones de filtrado y conectarlas con la base de datos</td>
+    <td>4</td>
+    <td>Dominik Mendoza</td>
+    <td>To-do</td>
   </tr>
 </tbody>
 </table>
