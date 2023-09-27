@@ -1321,7 +1321,203 @@ En esta sección, nos sumergiremos en el Sprint Backlog 1, que es una parte esen
 </table>
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
+A continuación, se brinda una visión general de las contribuciones realizadas en dos repositorios del proyecto, incluyendo detalles como la rama empleada, el identificador del commit, el mensaje del commit y su cuerpo, además de la fecha en que se llevaron dichos commits. 
+
+<table>
+<thead>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/search-experience</td>
+    <td>68f554f78fb3864b2fdae982e98e897c632625bf</td>
+    <td>style: Modified tour-packages components and menu options</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/firebase-hosting</td>
+    <td>5499c39054f078d2a92aa49c1b97979c84115ccf</td>
+    <td>feat: Firebase Hosting Implemented</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>7367f43439297b60d2999af689f20206209ddd20</td>
+    <td>refactor(toolbar-header): Modified order of toolbar components</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>33f18b80879d63cb26e585a9b1e0c98a98acf7ff</td>
+    <td>feat(sidebar): Modified SideMenu component</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/search-experience</td>
+    <td>34f0109f7f74e21c2263992b8e278943341e7ea4</td>
+    <td>feat(search): Added module for search packages</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/packages</td>
+    <td>0afeb0aa9a39a0a3414e5c1efb5e03038cd41b29</td>
+    <td>feat(packages): added component to show packages</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>2fdadd2fb4b04cbc3ba342a62f31c3f8cbea5ec3</td>
+    <td>style(toolbar-header): Modified font-family</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>60d6ecbe7af2306ea1246aad91e5cdeadf2cb202</td>
+    <td>feat(toolbar-header): Added search input in header</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-app</td>
+    <td>8161229bc843d6a1c0bec900bf34bd3e232fd6e9</td>
+    <td>feat: added contributors section</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/subscriptions</td>
+    <td>8358724fe23f863481abc9e3d4e7a8b40b0c3141</td>
+    <td>chore: Changes before merge</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/subscriptions</td>
+    <td>c9c761c6610a921d25cb9ef7dc0acd50c783df52</td>
+    <td>feat(subscriptions): Updated subscriptions</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/brands</td>
+    <td>998ce7600aa3e81168c5cd3b22a5f8f8612938e9</td>
+    <td>feat(brands): Added main collaborators</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/subscriptions</td>
+    <td>11aedddd7fd311ffab6c13412cb90c1d691837ad</td>
+    <td>feat(subscriptions): Added subscriptions section and feature benefits</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-us</td>
+    <td>0506701e17fa980ac7eb4a945a4aead361c2450c</td>
+    <td>feat(about-us): Added about us section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/header</td>
+    <td>5e6abdc2a78b9a91ce545c734dc254bfbb727832</td>
+    <td>feat(header): Added header of general information of LifeTravel</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/characteristics</td>
+    <td>ceb358a219173719387d351ad77dc2c80c2a9d06</td>
+    <td>feat(characteristics): added characteristics section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-us</td>
+    <td>513610d38acf7418166232bd7f5e3bc4b964b520</td>
+    <td>fix(about-us): changed language</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-app</td>
+    <td>7365a1e28aab28883a0b7d7abc727ef6c2c4fc5b</td>
+    <td>feat: added about app section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/video</td>
+    <td>1f6470d9262bdf9039e7505e9f331314f7f5938f</td>
+    <td>feat: added css styles to video section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/footer</td>
+    <td>4872c656320b941d7284bd1f582dbbb8cfb9887d</td>
+    <td>feat: added footer section</td>
+    <td></td>
+    <td>23/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/header</td>
+    <td>4e0a4f00e357d80e941a7c7d39a181e4b34a73fd</td>
+    <td>fix: change structure</td>
+    <td></td>
+    <td>23/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/video</td>
+    <td>165dc23c5a7d9042180ed90a711900c6a6ed08a1</td>
+    <td>feat(video):added video section</td>
+    <td></td>
+    <td>23/09/2023</td>
+  </tr>
+</tbody>
+</table>
+
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+
+Para este sprint, no se han realizado las actividades requeridas en la sección de pruebas. Es decir, no se han creado archivos .feature ni se ha identificado la relación con User Stories o clases.
+
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
   Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados así como los respectivos HTTP methods.
