@@ -8,6 +8,8 @@
   <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Capitulo_II_Requirements_Elicitation_And_Analysis.md">Capítulo II: Requirements Elicitation & Analysis</a></li>
   <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Capitulo_III_Requirements_Specification.md">Capítulo III: Requirements Specification</a></li>
   <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Capitulo_IV_Solution_Software_Design.md">Capítulo IV: Solution Software Design</a></li>
+  <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Capitulo_V_Solution_UI_UX_Design.md">Capítulo V: Solution UI/UX Design</a></li>
+  <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Capituto_VI_Product_Implementation_Validation_Deployment.md">Capítulo VI: Product Implementation, Validation & Deployment</a></li>
   <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Conclusiones.md">Conclusiones</a></li>
   <li><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Bibliografia.md">Bibliografía</a></li>
 </ol>
