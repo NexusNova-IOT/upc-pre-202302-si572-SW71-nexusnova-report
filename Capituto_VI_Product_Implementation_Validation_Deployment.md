@@ -113,15 +113,15 @@ https://swagger.io/specification/
 
 A continuación, se presenta la gestión de código fuente o como es conocido por sus siglas en ingles SCM (Source Code Management). Su función principal es realizar un seguimiento de las modificaciones que el equipo realizara a lo largo del desarrollo de sus proyectos en los repositorios de código fuente. Se empleará como un sistema de control de versiones que permite dar seguimiento a los cambios que cada integrante o desarrollador realice en el proyecto. Asimismo, cabe resaltar que para el sistema de control de versiones emplearemos GitHub.
 
-* <strong>URL de la Organización:</strong> https://github.com/MIRAI-Open-Source-SW52-Grupo-3 
+* <strong>URL de la Organización:</strong> https://github.com/NexusNova-IOT
   
-* <strong>URL del Repositorio del Landing Page:</strong> https://github.com/Open-Source-SW52-Grupo-3/Landing-Page-Import-It 
+* <strong>URL del Repositorio del Landing Page:</strong> https://github.com/NexusNova-IOT/landing-page
   
 * <strong>URL del Repositorio de Web Services:</strong> Por el momento el equipo no ha creado un repositorio, puesto que no comenzamos con la implementación
   
-* <strong>URL del Repositorio de Frontend Web Applications:</strong>  https://github.com/MIRAI-Open-Source-SW52-Grupo-3/Import_It_Web_Application
+* <strong>URL del Repositorio de Frontend Web Applications:</strong>  https://github.com/NexusNova-IOT/LifeTravel-App
   
-* <strong>URL del Repositorio de las pruebas de aceptación:</strong>  https://github.com/MIRAI-Open-Source-SW52-Grupo-3/Acceptance-Tests 
+* <strong>URL del WebApp Hosteado en Firebase:</strong>  https://lifetravel-app.web.app/
 
 <strong>GitFlow</strong><br>
 Es el modelo alternativo de creación de ramas en Git que en los últimos años se ha vuelto una herramienta indispensable para muchos desarrolladores. Este flujo de trabajo de control de versiones utiliza ramas y fue publicado y popularizado por Vincent Driessen. Su principal función es ayudar en la organización de la versión de un código, permitiendo la creación de nuevos Features y Hotfixes de manera organizada. 
@@ -273,7 +273,7 @@ Cualquier información sobre cambios importantes. Es opcional, puede incluir ref
 
 En esta sección se mostrarán las pautas, convenciones, estilos y
 principios que se utilizarán para cada uno de los lenguajes que se
-emplearán en la creación de nuestra aplicación, DocSeeker. La práctica
+emplearán en la creación de nuestra aplicación, LifeTravel. La práctica
 de este conjunto de reglas es de suma importancia, ya que estas tienen
 el propósito de conservar la calidad estructural del software, dar una
 mayor legibilidad al código fuente y facilitar el mantenimiento del
@@ -335,7 +335,7 @@ W3Schools (s.f.):
 > }
 
 Seguidamente, explicaremos las reglas específicas que se necesitan en
-cada lenguaje para entender el código de nuestro programa, DocSeeker.
+cada lenguaje para entender el código de nuestro programa, LifeTravel.
 
 **HTML**
 
@@ -1007,6 +1007,7 @@ Para el despliegue de la landing page se usara GitHub Pages, ya que es una herra
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-repo.png" alt="Branches.">
 </div>
 
+<br>
 
 **2.  Ir a la sección de Settings.**
 
@@ -1014,17 +1015,23 @@ Para el despliegue de la landing page se usara GitHub Pages, ya que es una herra
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-settings.png" alt="Branches.">
 </div>
 
+<br>
+
 **3.  Bajar hasta la sección de GitHub Pages.**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-pages.png" alt="Branches.">
 </div>
 
+<br>
+
 **4.  En la opción de Source, seleccionar la rama de gh-pages.**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-branch.png" alt="Branches.">
 </div>
+
+<br>
 
 **5.  Esperar unos minutos y listo.**
 
@@ -1034,6 +1041,8 @@ Para el despliegue de la landing page se usara GitHub Pages, ya que es una herra
 
 Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Landing Page con cada commit generado a la rama *develop* con GitHub Pages.
 
+<br><br>
+
 **Front-End:**
 
 **1.  Crear el proyecto en Firebase.**
@@ -1042,11 +1051,15 @@ Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Lan
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-add.png" alt="Branches.">
 </div>
 
+<br>
+
 **2.  Configurar el proyecto.**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-setup.png" alt="Branches.">
 </div>
+
+<br>
 
 **3.  Activar Hosting.**
 
@@ -1054,15 +1067,21 @@ Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Lan
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-hosting.png" alt="Branches.">
 </div>
 
+<br>
+
 **4.  Configurar Hosting en proyecto.**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-setup-hosting.png" alt="Branches.">
 </div>
 
+<br>
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-setup-web.png" alt="Branches.">
 </div>
+
+<br>
 
 **5.  Compilar el proyecto localmente.**
 
@@ -1070,11 +1089,15 @@ Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Lan
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-build.png" alt="Branches.">
 </div>
 
+<br>
+
 **6.  Mediante consola hacer *deploy* del build.**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-deploy.png" alt="Branches.">
 </div>
+
+<br><br>
 
 **Back-End:**
 
