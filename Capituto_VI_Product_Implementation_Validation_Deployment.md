@@ -1118,7 +1118,7 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 1
   </tr>
   <tr>
     <td>Date</td>
-    <td>2020-09-24</td>
+    <td>2023-09-24</td>
   </tr>
   <tr>
     <td>Time</td>
@@ -1149,12 +1149,12 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 1
   </tr>
   <tr>
     <td>Sprint 1 Goal</td>
-    <td>Desarrollar una versión inicial de la landing page y la web application que permita atraer visitantes a nuestro sitio web y brinde funcionalidades básicas para los usuarios. <br>
+    <td>Desarrollar una versión inicial de la landing page y la web application que permita atraer visitantes a nuestro sitio web y brinde funcionalidades básicas para los usuarios, incluyendo el filtrado de destinos turísticos y la promoción de viajes turísticos.<br>
       Métrica de Cumplimiento: Para evaluar el cumplimiento de este sprint, utilizaremos las siguientes métricas:<br>
       1. Número de visitantes a la landing page: Mediremos cuántos visitantes llegan a nuestra landing page durante el período del sprint. El objetivo será atraer al menos 15 visitantes nuevos.<br>
-      2. Funcionalidades implementadas en la web application: Realizaremos un seguimiento de las funcionalidades clave implementadas en la web application y estableceremos un objetivo de cuántas de estas funcionalidades deben estar listas al final del sprint. Por ejemplo, podríamos tener como objetivo tener implementadas al menos 3 funcionalidades esenciales.<br>
-      3. Retroalimentación de los usuarios: Recopilaremos retroalimentación de los usuarios para evaluar su satisfacción con la funcionalidad inicial de la web application y su percepción de la landing page.</td>
-  </tr>
+      2. Funcionalidades implementadas en la web application: Realizaremos un seguimiento de las funcionalidades clave implementadas en la web application y estableceremos un objetivo de cuántas de estas funcionalidades deben estar listas al final del sprint. Por ejemplo, podríamos tener como objetivo tener implementadas al menos 3 funcionalidades esenciales, incluyendo el filtrado de destinos turísticos y la promoción de viajes turísticos.
+</tr>
+
   <tr>
     <td>Sprint 1 Velocity</td>
     <td>18</td>
@@ -1741,8 +1741,3 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
       <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Network_Web_Application.png" alt="Branches.">
     </div>
       Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
-
-      
-        
-
-
