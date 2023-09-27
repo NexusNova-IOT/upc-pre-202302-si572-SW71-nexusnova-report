@@ -69,6 +69,7 @@ Enlace: [Impact map en UXPRESSIA](https://uxpressia.com/w/MLSwR/i/TqqtE)
 ## 3.4. Product Backlog.
 
 En el Product Backlog presentaremos una lista priorizada de nuestras user stories según el nivel de prioridad que acordamos en el equipo, esencial para el *enfoque ágil*.
+
 | Orden | User Story Id | Título | Descripción | Story Points |
 |:-----:|:-------------:|--------|-------------|:------------:|
 |   1    | US06 | Navegación en la landing page | Como usuario visitante, deseo tener un menú de navegación en la página principal para poder desplazarme de manera cómoda por el sitio web. | 3 |

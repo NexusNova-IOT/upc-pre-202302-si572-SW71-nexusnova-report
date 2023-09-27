@@ -1,8 +1,5 @@
 <div align="justify">
 
-
-
-
 ## 5.1. Style Guidelines.
 En este punto se abordarán las directrices que nuestra startup utilizará para presentar de manera uniforme y efectiva nuestros productos.
 ### 5.1.1. General Style Guidelines.
@@ -272,7 +269,5 @@ Para el escenario, muestra cómo es el flujo para poder editar la información d
 </div>
 
 ## 5.5. Applications Prototyping.
-
-
 
 </div>
