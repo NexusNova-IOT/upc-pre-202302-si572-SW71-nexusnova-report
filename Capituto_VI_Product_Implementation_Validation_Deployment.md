@@ -995,6 +995,42 @@ datos declarados como static.
 
 ### 6.1.4 Software Deployment Configuration
 
+En esta sección se explicará los pasos realizados para el despliegue de cada unos de nuestros proyectos realizados.
+
+**Landing Page**
+
+Para el despliegue de la landing page se usara GitHub Pages, ya que es una herramienta que nos permite alojar sitios web estáticos de forma gratuita. Para ello, se debe seguir los siguientes pasos:
+
+**1.  Ingresar al repositorio de GitHub de la landing page.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-repo.png" alt="Branches.">
+</div>
+
+**2.  Ir a la sección de Settings.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-settings.png" alt="Branches.">
+</div>
+
+**3.  Bajar hasta la sección de GitHub Pages.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-pages.png" alt="Branches.">
+</div>
+
+**4.  En la opción de Source, seleccionar la rama de gh-pages.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-branch.png" alt="Branches.">
+</div>
+
+**5.  Esperar unos minutos y listo.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-action.png" alt="Branches.">
+</div>
+
 ## 6.2 Landing Page, Services & Applications Implementation
 ### 6.2.1 Sprint 1
 En esta sección, documentaremos y explicaremos el progreso del Sprint 1 en términos de desarrollo del producto y colaboración del equipo. Abordaremos varios aspectos clave, incluyendo la planificación del sprint, el backlog del sprint, la evidencia de desarrollo para la Revisión del Sprint.
