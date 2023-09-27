@@ -1007,6 +1007,7 @@ Para el despliegue de la landing page se usara GitHub Pages, ya que es una herra
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-repo.png" alt="Branches.">
 </div>
 
+
 **2.  Ir a la sección de Settings.**
 
 <div align="center">
@@ -1030,6 +1031,54 @@ Para el despliegue de la landing page se usara GitHub Pages, ya que es una herra
 <div align="center">
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/landing-page-action.png" alt="Branches.">
 </div>
+
+Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Landing Page con cada commit generado a la rama *develop* con GitHub Pages.
+
+**Front-End:**
+
+**1.  Crear el proyecto en Firebase.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-add.png" alt="Branches.">
+</div>
+
+**2.  Configurar el proyecto.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-setup.png" alt="Branches.">
+</div>
+
+**3.  Activar Hosting.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-hosting.png" alt="Branches.">
+</div>
+
+**4.  Configurar Hosting en proyecto.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-setup-hosting.png" alt="Branches.">
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-setup-web.png" alt="Branches.">
+</div>
+
+**5.  Compilar el proyecto localmente.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-build.png" alt="Branches.">
+</div>
+
+**6.  Mediante consola hacer *deploy* del build.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-deploy.png" alt="Branches.">
+</div>
+
+**Back-End:**
+
+Aun no se ha configurado el sistema de despliegue para el back-end. Sin embargo, en las próximas versiones cuando el equipo concluya sobre la herramienta a usar se estará agregando en una nueva versión del documento.
 
 ## 6.2 Landing Page, Services & Applications Implementation
 ### 6.2.1 Sprint 1
