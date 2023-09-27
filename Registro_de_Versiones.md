@@ -176,6 +176,12 @@
     <td>Dominik Mendoza</td>
     <td>Mejoras en typos y links de referencia de imágenes de local a link en internet.</td>
   </tr>
+  <tr>
+    <td>1.5</td>
+    <td>08/09/2023</td>
+    <td><br>Ryan Sweden<br></td>
+    <td>Se agregó contenido referente a Information Architecture.</td>
+  </tr>
 </tbody>
 </table>
 

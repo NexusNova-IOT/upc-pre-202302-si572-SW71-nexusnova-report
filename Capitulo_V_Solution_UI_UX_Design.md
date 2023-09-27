@@ -8,7 +8,7 @@ En este punto se abordarán las directrices que nuestra startup utilizará para 
 ### 5.1.1. General Style Guidelines.
 A continuación, se presentan las pautas generales para asegurar una presentación coherente de nuestros productos.
 #### Branding
-En esta sección, detallaremos cómo se deben utilizar nuestros logotipos y elementos visuales para transmitir nuestra visión de desarrollo sostenible y enriquecimiento de las comunidades. A continuacion, se muestra nuestro logo:
+En esta sección, detallaremos cómo se deben utilizar nuestros logotipos y elementos visuales para transmitir nuestra visión de desarrollo sostenible y enriquecimiento de las comunidades. A continuación, se muestra nuestro logo:
 
 ![Life travel logo](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/style-guidelines/life-travel-logo.png)
 #### Typography
@@ -66,7 +66,7 @@ En esta sección, describiremos los diferentes tonos que utilizamos, desde la em
 
 - **Agencia de viajes**: Nuestra comunicación hacia empresas de experiencias turísticas se caracteriza por su concisión y formalidad. Priorizamos la presentación de hechos y datos que respalden la eficacia de nuestra solución. Nuestra intención es motivar a estas empresas a considerar y adoptar nuestra propuesta.
 
-- **Usuario turísta**: En contraste, cuando nos dirigimos a los usuarios viajeros, empleamos un lenguaje sencillo y cautivador. Buscamos evocar emociones y crear una experiencia a través de las palabras. Nos esforzamos por brindar información clara y evitar cualquier ambigüedad en las opciones que ofrecemos a los viajeros.
+- **Usuario turista**: En contraste, cuando nos dirigimos a los usuarios viajeros, empleamos un lenguaje sencillo y cautivador. Buscamos evocar emociones y crear una experiencia a través de las palabras. Nos esforzamos por brindar información clara y evitar cualquier ambigüedad en las opciones que ofrecemos a los viajeros.
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
 #### Web Style Guidelines
@@ -90,33 +90,187 @@ Nuestras pautas de estilo para dispositivos IoT, como la balanza inteligente con
 
 ## 5.2. Information Architecture.
 ### 5.2.1. Organization Systems.
+Establecer una jerarquía visual clara es fundamental para la creación de una página web altamente optimizada. Esto se debe a la forma en que nuestros sistemas visuales están interconectados; tenemos la tendencia natural de escanear y procesar rápidamente diversos elementos visuales, como bordes, contrastes, tamaños y movimientos, para evaluar y comprender nuestro entorno. Esta dinámica es aplicable tanto si estamos contemplando un paisaje natural como si estamos navegando por una página web. A continuación, se presentarán algunos ejemplos de la jerarquía visual que está previsto implementar en nuestras aplicaciones.
+
+
+El flujo que deseamos que los usuarios experimenten al ingresar a la aplicación se describe de la siguiente manera:
+
+- En primer lugar, el usuario será recibido con una lista de paquetes de viajes, cada uno representado en una tarjeta individual.
+
+- A continuación, el usuario tendrá acceso a una barra superior donde encontrará una serie de opciones adicionales, como la posibilidad de filtrado por región, búsqueda, etc.
+
+- Asimismo, se proporcionará al usuario la opción de ordenar los paquetes de viajes según varios criterios, como precio, calificación, orden alfabético, entre otros.
+
+Por último, el usuario podrá seleccionar una región, mostrando sus detalles  y sus departamentos.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/mock-ups/Organization-Systems.png" width="500px" alt="organizationSystemPicture">
+</div>
+
+El flujo que buscamos que los usuarios sigan al revisar los detalles de un paquete de viajes se puede describir de la siguiente manera:
+
+En primer lugar, el usuario examina la información más relevante del paquete, que incluye detalles como la ubicación, la duración, la capacidad mínima y máxima de personas y la disponibilidad de la agencia de viajes.
+
+Luego, el usuario profundiza en los detalles específicos del paquete de viajes.
+
+Después, el usuario utiliza la navegación para seleccionar entre diferentes secciones de detalles, como información sobre el paquete turístico, las actividades disponibles, etc.
+
+A continuación, el usuario visualiza el precio del paquete y accede a un calendario donde puede seleccionar la fecha de su preferencia, así como la cantidad de adultos y niños que viajarán.
+
+Por último, el usuario tomará su decisión final y elegirá el paquete que desee adquirir al hacer clic en el botón "Comprar" ("Buy").
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/mock-ups/Organization-Systems-2.png" width="500px" alt="organizationSystemPicture">
+</div>
+
 
 
 ### 5.2.2. Labeling Systems.
-En esta sección, vamos a presentar el sistema de etiquetado que proporcionará una descripción concisa y clara de la información presentada en cada uno de nuestras aplicaciones. Comenzaremos detallando los encabezados que estarán disponibles en nuestra landing page.
+En esta sección, vamos a presentar el sistema de etiquetado que proporcionará una descripción concisa y clara de la información presentada en cada una de nuestras aplicaciones. Comenzaremos detallando los encabezados que estarán disponibles en nuestra landing page.
 
   - **Inicio/Home:** Esta sección preseleccionada por defecto ofrecerá una breve descripción que representará la aplicación y proporcionará una idea del objetivo principal de esta.
 
 - **Conócenos/About Us:** En esta sección, los clientes podrán obtener información sobre nuestro equipo, ver nuestra misión, visión, conocer quiénes somos y qué hacemos.
 
-- **Servicios/Services:** La sección de Servicios se encuentra dividida en segmentos objetivos, donde mostraremos los beneficios que nuestro sistema ofrece para cada uno de ellos.
+- **Servicios/Services:** La sección de caracteristicas se encuentra dividida en segmentos objetivos, donde mostraremos los beneficios que nuestro sistema ofrece para cada uno de ellos.
 
 - **Planes**: Aquí se presentarán los montos promedio a pagar por cada segmento objetivo.
 
-- **Contáctanos/Contact Us:** Esta sección mostrará nuestros canales de comunicación y mostrará una forma sencilla de ponerse en contacto con el equipo.
-
 
 ### 5.2.3. SEO Tags and Meta Tags
+Los meta tags que serán incorporados son los siguientes:
+
+Encabezado: Estrictamente hablando, esto no es un meta-tag, sino una etiqueta independiente de HTML. Sin embargo, es válido considerarlo como parte de la información metadatos. Esta etiqueta debe tratarse como un elemento esencial en el encabezado del documento HTML, ya que se encarga de proporcionar el título de la página web. Su importancia radica en que los motores de búsqueda más prominentes utilizan esta etiqueta para titular las entradas en sus resultados.
+
+Descripción: En este campo, podemos ofrecer una descripción breve y concisa del contenido del sitio web. Esta información es la que se muestra como un fragmento (síntesis que aparece debajo de la URL) en los motores de búsqueda más comunes, como Google.
+
+Keywords: Aquí tenemos la opción de definir Keywords para el motor de búsqueda. En su momento de mayor auge, esta etiqueta meta se utilizaba en los motores de búsqueda primitivos para el posicionamiento de resultados de búsqueda. Por lo tanto, se consideró uno de los factores de SEO más relevantes.
+
+Autor y Derechos de Autor: Estas dos etiquetas meta hacen referencia al diseñador de una página web y al propietario de los derechos de autor del código fuente de la página HTML.
+
+
+Landing Page:
+• Título:
+- **Título:**
+```html
+<title>
+DreamTrip | Conoce la mejor aplicación para viajes
+</title>
+```
+
+- Descripción:
+```
+  
+ <meta name="description" content="Viaja sin preocupaciones, viaja con nosotros"/>
+
+```
+
+- Palabras clave:
+```
+
+<meta name="keywords" content="Viajes, Paquetes de viajes, Tours, Tour Packages, precios, tarifas"/>
+```
+
+• Autor:
+```
+
+<meta name="author" content="Nexus Nova Startup" />
+
+```
+
+- Copyright:
+```
+
+<meta name="copyright" content="© Nexus Nova, 2023" />
+
+```
+
 ### 5.2.4. Searching Systems.
+
+Los Searching Systems se han diseñado utilizando un lenguaje claro y formal, que al mismo tiempo es fácil de comprender. Aquí se enumeran las funciones clave:
+
+| Icono complementario de  filtros | En esta sección encontraras los diferentes filtros que están  relacionados a los paquetes de viajes, como precio, fecha publicación, etc.                                    |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Barra de filtrado  por región    | Esta funcionalidad te permite ordenar los paquetes de viaje según la región (costa, sierra o selva), facilitando así la búsqueda de destinos específicos. |
+
 ### 5.2.5. Navigation Systems.
+
+Nuestros sistemas de navegación brindarán a los usuarios la capacidad de buscar paquetes turísticos de varias formas, incluyendo la búsqueda por nombres, regiones geográficas y utilizando diversos filtros relacionados con las opciones de viaje disponibles. Estamos convencidos de que esta funcionalidad facilitará a los usuarios encontrar los paquetes que mejor se ajusten a sus preferencias y gustos personales, mejorando así su experiencia de búsqueda y selección de viajes
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/mock-ups/Navigation-Systems.png" width="500px" alt="sub">
+</div>
+
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
+Para la creación del esquema inicial de nuestra página de inicio (landing page), se empleó la plataforma Figma en conjunto con una variedad de complementos que simplificaron considerablemente el proceso de diseño y desarrollo. Esta combinación de herramientas permitió una producción eficiente y efectiva del wireframe.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/landing-page/landing-page-wireframes.png" width="500px" alt="sub">
+</div>
+
 ### 5.3.2. Landing Page Mock-up.
+Hemos completado con éxito la creación del mock-up de la página de inicio, lo que nos ha permitido destacar y aplicar los principios y elementos de diseño que hemos establecido. Estos principios y pautas heurísticas desempeñan un papel fundamental al hacer que la experiencia para los usuarios finales de nuestra plataforma sea más sencilla e intuitiva.
+
+
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/landing-page/landing-page-mockup.png" width="500px" alt="sub">
+</div>
+
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
+Los wireframes son esenciales en el diseño de nuestras aplicaciones, ya que ayudan a planificar la interfaz y la navegación antes de empezar el desarrollo. En nuestro proyecto, utilizamos 'Figma' para crear los wireframes de manera eficiente y colaborativa.
+
+A continuación, mostramos los wireframes de nuestra aplicación móvil.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireframes/mobile-wireframes.png" width="500px" alt="wireframes-mobile">
+</div>
+
+
 ### 5.4.2. Applications Wireflow Diagrams.
+
+A continuación, se presentan los wireflows que competen a nuestros user goals.
+
+User goal 1 : Dado que los turistas disponen de dispositivos para enviar su ubicación, se presentan los pasos que debe seguir el guía turístico para visualizar a los turistas en un mapa dentro de nuestra aplicación móvil.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireflow-diagrams/wireflow-diagram-5.png" width="500px" alt="mockups-mobile">
+</div>
+
+
+
+User goal 2: Dado que el usuario desea ver el itinerario de un paquete turístico al que ya está suscrito, a continuación se muestran los pasos para poder visualizarlo mediante nuestra aplicación móvil.
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireflow-diagrams/wireflow-diagram-2.png" width="500px" alt="mockups-mobile">
+</div>
+
+User goal 3: Dado que la agencia desea registrar un paquete, a continuación se presentan los pasos a seguir utilizando nuestra aplicación web.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireflow-diagrams/wireflow-diagram-7.png" width="500px" alt="mockups-web">
+</div>
+
+
 ### 5.4.2. Applications Mock-ups.
+Los mockups son otra parte esencial en el diseño de nuestras aplicaciones, ya que nos permiten visualizar la apariencia y la disposición de los elementos antes de comenzar el desarrollo.
+A continuación, mostramos los mock-ups de nuestra aplicación móvil.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/mock-ups/mobile-mockups.png" width="500px" alt="mockups-mobile">
+</div>
+
 ### 5.4.3. Applications User Flow Diagrams.
+
+A continuación, se presentan los user flows que competen a nuestros user goals.
+
+Para el escenario, muestra cómo es el flujo para poder editar la información del usuario, se pueden mostrar los casos en los que este es exitoso y en los que se insertan valores erróneos.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/userflow-diagrams/userflow-1.png" width="500px" alt="mockups-mobile">
+</div>
+
 ## 5.5. Applications Prototyping.
 
 
