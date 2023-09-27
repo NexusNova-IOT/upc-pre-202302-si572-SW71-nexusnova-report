@@ -694,6 +694,11 @@ Mediante el uso de este bounded context se abordan las clases y capas relacionad
 
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
+<div align="center" >
+    <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-4/Resources/diagrams/profile_DB.png"     width ="250px" alt="Imagen" style="margin-right: 20px;">
+</div>
+
+
 ### 4.2.9. Bounded Context: Booking
 Este bounded context se enfoca en las clases y capas relacionadas con la gestión de reservas de tours por parte de los usuarios viajeros y la administración de estas reservas por parte de las agencias de viaje. A continuación, se detallan las principales componentes de este contexto:
 #### 4.2.9.1. Domain Layer.
