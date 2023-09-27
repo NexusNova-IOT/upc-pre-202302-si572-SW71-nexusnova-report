@@ -1602,6 +1602,54 @@ En esta sección los visitantes podrán conocer la información necesaria para c
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/contact-usES.png" alt="contact-us-landing-page-spanish">
 </div>
 
+##### Web Application
+
+Para este Sprint 1, se realizó la primera versión de nuestro Frontend Web App que contiene las siguientes vistas:
+
+###### VISTA GENERAL
+En esta sección los visitantes podrán conocer la información del equipo desarrollador de nuestra plataforma LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/home.png" alt="home-web-app">
+</div>
+
+###### BÚSQUEDA POR REGIONES
+
+Cuando el usuario le de clic al search bar, la aplicación web mostrará un dialog con tres opciones a elegir.
+
++ <strong> BÚSQUEDA POR REGIÓN COSTA </strong>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-costa.png" alt="search-costa-web-app">
+</div>
+
+Al darle clic a la región Costa, se mostrará un listado de los paquetes turísticos que correspondan a la región Costa.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-result-costa.png" alt="search-result-costa-web-app">
+</div>
+
+
++ <strong> BÚSQUEDA POR REGIÓN SIERRA </strong>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-sierra.png" alt="search-sierra-web-app">
+</div>
+
+Al darle clic a la región Sierra, se mostrará un listado de los paquetes turísticos que correspondan a la región Sierra.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-result-sierra.png" alt="search-result-sierra-web-app">
+</div>
+
++ <strong> BÚSQUEDA POR REGIÓN SELVA </strong>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-selva.png" alt="search-selva-web-app">
+</div>
+
+Al darle clic a la región Selva, se mostrará un listado de los paquetes turísticos que correspondan a la región Selva.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-result-selva.png" alt="search-result-selva-web-app">
+</div>
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
   Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados así como los respectivos HTTP methods.
 
