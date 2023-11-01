@@ -62,7 +62,7 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 ## 3.3. Impact Mapping.
 En esta sección, nuestro equipo presenta el Impact Mapping, el cual es una herramienta visual y colaborativa que ayuda a los equipos a alinear sus objetivos con los resultados deseados.
 
-[![Impact mapping](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-3/Resources/maps/ImpactMapping.png)](https://uxpressia.com/w/MLSwR/i/TqqtE)
+[![Impact mapping](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/maps/ImpactMapping.png)](https://uxpressia.com/w/MLSwR/i/TqqtE)
 
 Enlace: [Impact map en UXPRESSIA](https://uxpressia.com/w/MLSwR/i/TqqtE)
 

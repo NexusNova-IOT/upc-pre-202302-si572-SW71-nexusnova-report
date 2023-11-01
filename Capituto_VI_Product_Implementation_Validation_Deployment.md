@@ -1118,7 +1118,7 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 1
   </tr>
   <tr>
     <td>Date</td>
-    <td>2020-09-24</td>
+    <td>2023-09-24</td>
   </tr>
   <tr>
     <td>Time</td>
@@ -1149,12 +1149,12 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 1
   </tr>
   <tr>
     <td>Sprint 1 Goal</td>
-    <td>Desarrollar una versión inicial de la landing page y la web application que permita atraer visitantes a nuestro sitio web y brinde funcionalidades básicas para los usuarios. <br>
+    <td>Desarrollar una versión inicial de la landing page y la web application que permita atraer visitantes a nuestro sitio web y brinde funcionalidades básicas para los usuarios, incluyendo el filtrado de destinos turísticos y la promoción de viajes turísticos.<br>
       Métrica de Cumplimiento: Para evaluar el cumplimiento de este sprint, utilizaremos las siguientes métricas:<br>
       1. Número de visitantes a la landing page: Mediremos cuántos visitantes llegan a nuestra landing page durante el período del sprint. El objetivo será atraer al menos 15 visitantes nuevos.<br>
-      2. Funcionalidades implementadas en la web application: Realizaremos un seguimiento de las funcionalidades clave implementadas en la web application y estableceremos un objetivo de cuántas de estas funcionalidades deben estar listas al final del sprint. Por ejemplo, podríamos tener como objetivo tener implementadas al menos 3 funcionalidades esenciales.<br>
-      3. Retroalimentación de los usuarios: Recopilaremos retroalimentación de los usuarios para evaluar su satisfacción con la funcionalidad inicial de la web application y su percepción de la landing page.</td>
-  </tr>
+      2. Funcionalidades implementadas en la web application: Realizaremos un seguimiento de las funcionalidades clave implementadas en la web application y estableceremos un objetivo de cuántas de estas funcionalidades deben estar listas al final del sprint. Por ejemplo, podríamos tener como objetivo tener implementadas al menos 3 funcionalidades esenciales, incluyendo el filtrado de destinos turísticos y la promoción de viajes turísticos.
+</tr>
+
   <tr>
     <td>Sprint 1 Velocity</td>
     <td>18</td>
@@ -1519,6 +1519,140 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 Para este sprint, no se han realizado las actividades requeridas en la sección de pruebas. Es decir, no se han creado archivos .feature ni se ha identificado la relación con User Stories o clases.
 
 #### 6.2.1.5. Execution Evidence for Sprint Review.
+
+##### Landing Page
+
+Para este Sprint 1, se realizó la versión final del Landing Page que contiene las siguientes vistas:
+
+###### VISTA GENERAL
+Cuando el visitante ingrese a nuestro landing page, se mostrará lo siguiente:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/first.png" alt="first-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/firstES.png" alt="first-landing-page-spanish">
+</div>
+
+###### ABOUT US
+En esta sección los visitantes podrán conocer en términos generales sobre LifeTravel.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/about-us.png" alt="about-us-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/about-usES.png" alt="about-us-landing-page-spanish">
+</div>
+
+###### CHARACTERISTICS
+En esta sección los visitantes podrán conocer las características de nuestra plataforma LifeTravel. Se presentan las características de la aplicación web, móvil.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristics.png" alt="characteristics-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristicsES.png" alt="characteristics-landing-page-spanish">
+</div>
+
+Asimismo, se muestran unos ejemplos de las características de la aplicación web.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristics2.png" alt="characteristics-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/characteristics2ES.png" alt="characteristics-landing-page-spanish">
+</div>
+
+De igual manera, se introducirá la información sobre los brazaletes geolocalizadores, productos exclusivos para los usuarios de nuestra aplicación.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/gps.png" alt="gps-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/gpsES.png" alt="gps-landing-page-spanish">
+</div>
+
+###### SUBSCRIPTIONS
+En esta sección los visitantes podrán conocer la información de las subscripciones de nuestra plataforma LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/subscriptions.png" alt="subscriptions-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/subscriptionsES.png" alt="subscriptions-landing-page-spanish">
+</div>
+
+###### OUR TEAM
+En esta sección los visitantes podrán conocer la información del equipo desarrollador de nuestra plataforma LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/team.png" alt="team-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/teamES.png" alt="team-landing-page-spanish">
+</div>
+
+###### CONTACT US
+En esta sección los visitantes podrán conocer la información necesaria para contactar al equipo desarrollador de LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/contact-us.png" alt="contact-us-landing-page">
+</div>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/contact-usES.png" alt="contact-us-landing-page-spanish">
+</div>
+
+##### Web Application
+
+Para este Sprint 1, se realizó la primera versión de nuestro Frontend Web App que contiene las siguientes vistas:
+
+###### VISTA GENERAL
+En esta sección los visitantes podrán conocer la información del equipo desarrollador de nuestra plataforma LifeTravel. 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/home.png" alt="home-web-app">
+</div>
+
+###### BÚSQUEDA POR REGIONES
+
+Cuando el usuario le de clic al search bar, la aplicación web mostrará un dialog con tres opciones a elegir.
+
++ <strong> BÚSQUEDA POR REGIÓN COSTA </strong>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-costa.png" alt="search-costa-web-app">
+</div>
+
+Al darle clic a la región Costa, se mostrará un listado de los paquetes turísticos que correspondan a la región Costa.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-result-costa.png" alt="search-result-costa-web-app">
+</div>
+
+
++ <strong> BÚSQUEDA POR REGIÓN SIERRA </strong>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-sierra.png" alt="search-sierra-web-app">
+</div>
+
+Al darle clic a la región Sierra, se mostrará un listado de los paquetes turísticos que correspondan a la región Sierra.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-result-sierra.png" alt="search-result-sierra-web-app">
+</div>
+
++ <strong> BÚSQUEDA POR REGIÓN SELVA </strong>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-selva.png" alt="search-selva-web-app">
+</div>
+
+Al darle clic a la región Selva, se mostrará un listado de los paquetes turísticos que correspondan a la región Selva.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/sprint1/search-result-selva.png" alt="search-result-selva-web-app">
+</div>
+
+
+Enlace de video de Development Evidence for Sprint 1: [Development Evidence for Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/EZhS5KFVJc5Hpr4s2xrhtO4BvL4mzeXwUIN9Jtfzc9Racg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=t0bYsm)
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
   Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados así como los respectivos HTTP methods.
 
