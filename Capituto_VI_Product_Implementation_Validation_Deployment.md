@@ -1841,7 +1841,7 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
 </table>
 
 #### 6.2.2.2 Sprint Backlog 2
-En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esencial de la planificación y ejecución del sprint. Comenzaremos con una introducción que destacará el propósito y la importancia del backlog del sprint en el contexto del Sprint 1.
+En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esencial de la planificación y ejecución del sprint. Comenzaremos con una introducción que destacará el propósito y la importancia del backlog del sprint en el contexto del Sprint 2.
 <table>
 <thead>
   <tr>
@@ -2011,52 +2011,76 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 </thead>
 <tbody>
   <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/search-experience</td>
-    <td>68f554f78fb3864b2fdae982e98e897c632625bf</td>
-    <td>style: Modified tour-packages components and menu options</td>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>a4cbaf2ebfd56e2f7b89d6e61b8364c104251974</td>
+    <td>initial commit</td>
     <td></td>
-    <td>26/09/2023</td>
+    <td>13/10/2023</td>
   </tr>
   <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/firebase-hosting</td>
-    <td>5499c39054f078d2a92aa49c1b97979c84115ccf</td>
-    <td>feat: Firebase Hosting Implemented</td>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>7bd7296cb1a028d6b15946baca3033754d73ade2</td>
+    <td>feat: added temperature measure</td>
     <td></td>
-    <td>26/09/2023</td>
+    <td>14/10/2023</td>
   </tr>
   <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/toolbar-header</td>
-    <td>7367f43439297b60d2999af689f20206209ddd20</td>
-    <td>refactor(toolbar-header): Modified order of toolbar components</td>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>f08a816faad9593a45c65fb59be98f31c66ba3f0</td>
+    <td>feat: removed unused libraries</td>
     <td></td>
-    <td>26/09/2023</td>
+    <td>18/10/2023</td>
   </tr>
   <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/toolbar-header</td>
-    <td>33f18b80879d63cb26e585a9b1e0c98a98acf7ff</td>
-    <td>feat(sidebar): Modified SideMenu component</td>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>main</td>
+    <td>81c00426904a32c583d1b18d247a6f1547428d00</td>
+    <td>Merge pull request #1 from NexusNova-IOT/develop </td>
     <td></td>
-    <td>26/09/2023</td>
+    <td>18/10/2023</td>
   </tr>
   <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/search-experience</td>
-    <td>34f0109f7f74e21c2263992b8e278943341e7ea4</td>
-    <td>feat(search): Added module for search packages</td>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>6c4ae7a7264daa83b9dc2608c5507a868e6e3320</td>
+    <td>chore: added project screenshot</td>
     <td></td>
-    <td>26/09/2023</td>
+    <td>18/10/2023</td>
   </tr>
   <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/packages</td>
-    <td>0afeb0aa9a39a0a3414e5c1efb5e03038cd41b29</td>
-    <td>feat(packages): added component to show packages</td>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>81ba8561a4b312ab0d3b7e694a7cddb235cec724</td>
+    <td>feat: added wifi connection</td>
     <td></td>
-    <td>25/09/2023</td>
+    <td>18/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>61ac37ad268e0396c7d6527f126daec69b738d88</td>
+    <td>chore: add libraries for wifi and display management</td>
+    <td></td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>269dd2314fa4521bb673fb648aa39124e7653961</td>
+    <td>chore: add LCD display module</td>
+    <td></td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>56eecdd426021b3acd58df96e09e761021b77387</td>
+    <td>feat: add weight presentation on display</td>
+    <td></td>
+    <td>26/10/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
@@ -2194,8 +2218,12 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 Para este sprint, no se han realizado las actividades requeridas en la sección de pruebas. Es decir, no se han creado archivos .feature ni se ha identificado la relación con User Stories o clases.
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
+
+
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
-  Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados así como los respectivos HTTP methods.
+  A continuación, se presentan los endpoints realizados para el entregable TB2 acorde con el Sprint 2.  Pero antes, cabe mencionar que se logró desarrollar los endpoint principales relacionados a la funcionalidad core de nuestra web application y mobile application.
+
+
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review.
   En este Sprint, se llevaron a cabo una serie de actividades relacionadas con el despliegue de Landing Page y Web Application. Estas actividades abarcaron la creación de la página a la cuál pueden acceder los visitantes para que pueden conocer Life Travel y luego si desean convertirse en usuarios. Por otro lado, se desarrolló la primera versión del Web Application, que por el momento obtiene data de un json web server o fake api. Ahora, continuamos con la evidencia de despliegue. 
