@@ -1611,6 +1611,547 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
     </div>
       Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
 
+
+
+### 6.2.2 Sprint 2
+En esta sección, documentaremos y explicaremos el progreso del Sprint 2 en términos de desarrollo del producto y colaboración del equipo. Abordaremos varios aspectos clave, incluyendo la planificación del sprint, el backlog del sprint, la evidencia de desarrollo para la Revisión del Sprint.
+#### 6.2.2.1 Sprint Planning 2
+En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2. Comenzaremos con una introducción que establecerá el contexto y la importancia de esta reunión. Luego, exploraremos los elementos clave de la reunión, incluyendo la agenda, los objetivos, y cómo se prepara el equipo para el sprint.
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 2</th>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2023-10-10</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>10:00 AM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión en aula de la Universidad</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Mendoza Ramos, Dominik Mendoza</td>
+  </tr>
+  <tr>
+    <td>Attendees</td>
+    <td>Malca Rojas, Edgar Alexander / Mendoza Ramos, Dominik Aldahir / Moran Moreno, Ivan / Price Torrejón, Nicole Areli / Sweden Silva, Ryan Robert</td>
+  </tr>
+  <tr>
+    <td>Sprint n -1 Review Summary</td>
+    <td>Bueno, el sprint anterior fue desarrollado de manera conjunta y organizada entre todos los miembros del equipo. Se logro el sprint goal del sprint 1, esto lo deducimos del seguimiento continuo que hemos realizado a las funcionalidades implementadas tanto para nuestra Landing Page como para nuestra Web Application.
+
+    Comentarios Miembros del Equipo:
+
+      Ryan Sweden: que hicimos?
+
+      Nicole Price: 
+
+      Dominik Mendoza:
+
+      Ivan Morán: “Buenardo” 
+
+      Edgar Malca: En mi opinión, el alcance que se tuvo en el sprint 1 fue satisfactorio. Esto se demuestra en la calificación obtenida y en la calidad de artefactos y productos de software que se entrego. 
+
+      
+    Feedback Product Owner - Angel Velasquez: En el sprint 1, el product owner acepto gran parte de las funcionalidades desarrolladas. Cabe destacar que dejo comentarios para una mejora continua. Su mensaje fue el siguiente: Completar artefactos que faltan. Por ejemplo User Flow debe ser uno por cada user goal. 
+      
+  </td>
+  </tr>
+  <tr>
+    <td>Sprint n -1 Retrospective Summary</td>
+    <td>En el sprint anterior, el equipo realizó una primera versión del Landing Page y del Web Application. Se comenzó a desarrollar la parte core de nuestro negocio. A continuación algunos comentarios de que aciertos u oportunidades de mejoras identificaron los integrantes.
+    
+   Comentarios Miembros del Equipo:
+
+      Ryan Sweden: que hicimos?
+
+      Nicole Price: 
+
+      Dominik Mendoza:
+
+      Ivan Morán: “Buenardo” 
+
+      Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar, especialmente la parte del navbar. Asimismo, en el web application identifique que algunas secciones no tenian concordancia con las reglas del negocio planteadas. Por ello, el equipo replanteo mejor la logica de negocio junto con el Product Owner.  
+   </td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint 2 Goal</td>
+  </tr>
+  <tr>
+    <td>Sprint 2 Goal</td>
+    <td>Desarrollar una nueva versión de la landing page y la web application. Del mismo modo, una versión inicial del Web Services, Mobile Application y Embedded Application. Con el desarrollo de estos productos software, nos permitira ejemplificar nuestra idea de negocio como solución software y compartirla con nuestros segmentos objetivos. <br>
+      Métrica de Cumplimiento: Para evaluar el cumplimiento de este sprint, utilizaremos las siguientes métricas:<br>
+      1. Número de usuarios registrados en nuestro web application: Mediremos cuántos usuarios se han registrado para probar nuestra interfaz durante el período del sprint. El objetivo será atraer al menos 10 usuarios nuevos.<br>
+      2. Funcionalidades implementadas en la web application: Realizaremos un seguimiento de las funcionalidades clave implementadas en la web application y estableceremos un objetivo de cuántas de estas funcionalidades deben estar listas al final del sprint. Por ejemplo, podríamos tener como objetivo tener implementadas al menos 5 funcionalidades esenciales.<br>
+      3. Endpoints generados en nuestro Web Services: Realizaremos una documentación y medición en % de cuantos endpoints nos falta por desarrollar
+      <br>
+      4. Retroalimentación de los usuarios: Recopilaremos retroalimentación de los usuarios para evaluar su satisfacción con la funcionalidad inicial de la web application y su percepción de la landing page, asi como la mobile application.</td>
+  </tr>
+  <tr>
+    <td>Sprint 2 Velocity</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>17</td>
+  </tr>
+</table>
+
+#### 6.2.2.2 Sprint Backlog 2
+En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esencial de la planificación y ejecución del sprint. Comenzaremos con una introducción que destacará el propósito y la importancia del backlog del sprint en el contexto del Sprint 1.
+<table>
+<thead>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned to</td>
+    <td>Status (To-do / InProcess / ToReview / Done)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US09</td>
+    <td rowspan="3">Filtrado de destinos turísticos (3)<br></td>
+    <td>US09-1</td>
+    <td>Diseño de la navegación</td>
+    <td>Implementar el diseño de la navegación</td>
+    <td>1</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09-2</td>
+    <td>Implementar botones de navegación</td>
+    <td>Agregar botones de navegación y establecer sus rutas</td>
+    <td>1</td>
+    <td>Ryan Sweden</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09-3</td>
+    <td>Pruebas de navegación</td>
+    <td>Realizar pruebas de navegación para garantizar la funcionalidad correcta</td>
+    <td>1</td>
+    <td>Ivan Moran</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US12</td>
+    <td rowspan="3">Promoción de viajes turísticos (3)</td>
+    <td>US12-1</td>
+    <td>Diseño de la página de planes</td>
+    <td>Diseño de la página de planes</td>
+    <td>1</td>
+    <td>Dominik Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US12-2</td>
+    <td>Integrar datos de precios</td>
+    <td>Integrar datos de precios</td>
+    <td>1</td>
+    <td>Edgar Malca</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US12-3</td>
+    <td>Pruebas de visualización de precios</td>
+    <td>Pruebas de visualización de precios</td>
+    <td>1</td>
+    <td>Ryan Sweden</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US19</td>
+    <td rowspan="2">Visualización al equipo de desarrollo (2)</td>
+    <td>US19-1</td>
+    <td>Diseño de la sección de equipo</td>
+    <td>Diseñar la sección que muestra al equipo</td>
+    <td>1</td>
+    <td>Ivan Moreno</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US19-2</td>
+    <td>Integrar información del equipo</td>
+    <td>Conectar la página con la base de datos para mostrar los precios</td>
+    <td>4</td>
+    <td>Edgar Malca</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US10</td>
+    <td rowspan="2">Contacto con los representantes de la solución IoT (2)</td>
+    <td>US10-1</td>
+    <td>Diseño de la sección de contacto</td>
+    <td>Diseñar la sección que permite el contacto con los representantes</td>
+    <td>1</td>
+    <td>Nicole Price</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US10-2</td>
+    <td>Implementar formulario de contacto</td>
+    <td>Crear un formulario funcional para permitir el contacto</td>
+    <td>2</td>
+    <td>Dominik Mendoza</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US1</td>
+    <td rowspan="3">Promoción de viajes turísticos (3)</td>
+    <td>US01-1</td>
+    <td>Diseño de la sección de promoción</td>
+    <td>Diseñar la sección que promociona los viajes turísticos</td>
+    <td>2</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US01-2</td>
+    <td>Integrar información de promoción</td>
+    <td>Conectar la página con la base de datos para mostrar la información de promoción</td>
+    <td>4</td>
+    <td>Ryan Sweden</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US12-3</td>
+    <td>Pruebas de promoción de viajes</td>
+    <td>Verificar que la sección de promoción se muestre correctamente</td>
+    <td>2</td>
+    <td>Edgar Malcar</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US09</td>
+    <td rowspan="2">Filtrado de destinos turísticos (4)</td>
+    <td>US09-1</td>
+    <td>Diseño de la sección de filtrado</td>
+    <td>Diseñar la sección que permite filtrar destinos turísticos</td>
+    <td>2</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09-2</td>
+    <td>Implementar opciones de filtrado</td>
+    <td>Agregar opciones de filtrado y conectarlas con la base de datos</td>
+    <td>4</td>
+    <td>Dominik Mendoza</td>
+    <td>To-do</td>
+  </tr>
+</tbody>
+</table>
+
+#### 6.2.2.3. Development Evidence for Sprint Review.
+A continuación, se brinda una visión general de las contribuciones realizadas en dos repositorios del proyecto, incluyendo detalles como la rama empleada, el identificador del commit, el mensaje del commit y su cuerpo, además de la fecha en que se llevaron dichos commits. 
+
+<table>
+<thead>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/search-experience</td>
+    <td>68f554f78fb3864b2fdae982e98e897c632625bf</td>
+    <td>style: Modified tour-packages components and menu options</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/firebase-hosting</td>
+    <td>5499c39054f078d2a92aa49c1b97979c84115ccf</td>
+    <td>feat: Firebase Hosting Implemented</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>7367f43439297b60d2999af689f20206209ddd20</td>
+    <td>refactor(toolbar-header): Modified order of toolbar components</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>33f18b80879d63cb26e585a9b1e0c98a98acf7ff</td>
+    <td>feat(sidebar): Modified SideMenu component</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/search-experience</td>
+    <td>34f0109f7f74e21c2263992b8e278943341e7ea4</td>
+    <td>feat(search): Added module for search packages</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/packages</td>
+    <td>0afeb0aa9a39a0a3414e5c1efb5e03038cd41b29</td>
+    <td>feat(packages): added component to show packages</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>2fdadd2fb4b04cbc3ba342a62f31c3f8cbea5ec3</td>
+    <td>style(toolbar-header): Modified font-family</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/toolbar-header</td>
+    <td>60d6ecbe7af2306ea1246aad91e5cdeadf2cb202</td>
+    <td>feat(toolbar-header): Added search input in header</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-app</td>
+    <td>8161229bc843d6a1c0bec900bf34bd3e232fd6e9</td>
+    <td>feat: added contributors section</td>
+    <td></td>
+    <td>26/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/subscriptions</td>
+    <td>8358724fe23f863481abc9e3d4e7a8b40b0c3141</td>
+    <td>chore: Changes before merge</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/subscriptions</td>
+    <td>c9c761c6610a921d25cb9ef7dc0acd50c783df52</td>
+    <td>feat(subscriptions): Updated subscriptions</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/brands</td>
+    <td>998ce7600aa3e81168c5cd3b22a5f8f8612938e9</td>
+    <td>feat(brands): Added main collaborators</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/subscriptions</td>
+    <td>11aedddd7fd311ffab6c13412cb90c1d691837ad</td>
+    <td>feat(subscriptions): Added subscriptions section and feature benefits</td>
+    <td></td>
+    <td>25/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-us</td>
+    <td>0506701e17fa980ac7eb4a945a4aead361c2450c</td>
+    <td>feat(about-us): Added about us section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/header</td>
+    <td>5e6abdc2a78b9a91ce545c734dc254bfbb727832</td>
+    <td>feat(header): Added header of general information of LifeTravel</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/characteristics</td>
+    <td>ceb358a219173719387d351ad77dc2c80c2a9d06</td>
+    <td>feat(characteristics): added characteristics section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-us</td>
+    <td>513610d38acf7418166232bd7f5e3bc4b964b520</td>
+    <td>fix(about-us): changed language</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/about-app</td>
+    <td>7365a1e28aab28883a0b7d7abc727ef6c2c4fc5b</td>
+    <td>feat: added about app section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/video</td>
+    <td>1f6470d9262bdf9039e7505e9f331314f7f5938f</td>
+    <td>feat: added css styles to video section</td>
+    <td></td>
+    <td>24/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/footer</td>
+    <td>4872c656320b941d7284bd1f582dbbb8cfb9887d</td>
+    <td>feat: added footer section</td>
+    <td></td>
+    <td>23/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/header</td>
+    <td>4e0a4f00e357d80e941a7c7d39a181e4b34a73fd</td>
+    <td>fix: change structure</td>
+    <td></td>
+    <td>23/09/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>feature/video</td>
+    <td>165dc23c5a7d9042180ed90a711900c6a6ed08a1</td>
+    <td>feat(video):added video section</td>
+    <td></td>
+    <td>23/09/2023</td>
+  </tr>
+</tbody>
+</table>
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+
+Para este sprint, no se han realizado las actividades requeridas en la sección de pruebas. Es decir, no se han creado archivos .feature ni se ha identificado la relación con User Stories o clases.
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+  Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados así como los respectivos HTTP methods.
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+  En este Sprint, se llevaron a cabo una serie de actividades relacionadas con el despliegue de Landing Page y Web Application. Estas actividades abarcaron la creación de la página a la cuál pueden acceder los visitantes para que pueden conocer Life Travel y luego si desean convertirse en usuarios. Por otro lado, se desarrolló la primera versión del Web Application, que por el momento obtiene data de un json web server o fake api. Ahora, continuamos con la evidencia de despliegue. 
+
+  <strong>Evidence Deployment Landing Page</strong>
+  
+  En este sprint, se puede evidenciar el cuadro de acciones en nuestro repositorio de Landing Page en GitHub. Esto está relacionado a GitHub Pages, donde estamos hosteando nuestro Landing Page.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Landing_Page.png" alt="contributor-evidence.">
+  </div>
+  
+  <strong>Evidence Landing Page</strong>
+
+  En nuestro deployment de Landing Page, se ha implementado la sección principal donde se muestra un mensaje y un boton CTA, luego la sección About Us, Features, Subscriptions, Video Section and Footer.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Landing_Page.png">
+  </div>
+
+  
+  <strong>Evidence Deployment Web Application</strong>
+
+  En este sprint se realizó el deployment con Firebase Hosting, se muestra la evidencia del deployment y el uso de data que se está efectuando día a día. Firebase, nos brinda una url donde se presenta el Web Application de nuestra solución.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Web_Application.png" alt="contributor-evidence.">
+  </div>
+
+  <strong>Evidence Web Application</strong>
+
+  A continuación se presenta una imagen donde se evidencia la url brindada por Firebase y que se muestra el Home de nuestro Web Application, donde mostramos los paquetes turísticos, también hemos implementado el toolbar y navigation bar, search packages por región y un filtrado de paquetes por la región seleccionada.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Web_Application.png" alt="contributor-evidence.">
+  </div>
+
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
+A continuación, se presenta la colaboración en equipo que se ha registrado en GitHub tanto en la seccion de analíticos como en los commits. Se presentará quiénes son los alumnos que participarón y algunos de los commits que realizaron.
+
+<strong>Analíticos de GitHUb</strong>
+ + Landing Page
+    + Contributors
+        <div align="center">
+      <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Contributors_Landing_Page.png" alt="contributor-evidence.">
+      </div>
+      En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Landing Page. Se evidencia que todo el equipo ha participado.
+    + Traffic
+          <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Traffic_Landing_Page.png" alt="Traffic-evidence.">
+        </div>
+        En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Landing Page. 
+    + Commit
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Commit_Landing_Page.png" alt="Commit-evidence.">
+      </div>
+        En esta imagen se evidencia el flujo de la cantidad de commits realizados por día en el repositorio de nuestro Landing Page. Evidencia que los integrantes han realizado sus commits en base a su desarrollo.
+    + Network
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Network_Landing_Page.png" alt="Network-evidence.">
+      </div>
+      Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones. 
+
+
+ + Web Application
+    + Pulse 
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Pulse_Web_Application.png" alt="Branches.">
+      </div>
+      En esta imagen, se evidencia que todos los integrantes del equipo han trabajado en el actual Sprint que va desde el 19 de Septiembre al 26 de Septiembre.
+    + Contributors
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/front-end-deploy.png" alt="Branches.">
+      </div>
+      En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Web Application. Se evidencia que todo el equipo ha participado.
+    + Traffic
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Traffic_Web_Application.png" alt="Branches.">
+      </div>
+      En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Web Application. 
+    + Commit
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Commits_Web_Application.png" alt="Branches.">
+      </div>
+      En esta imagen se evidencia el flujo de la cantidad de commits realizados por día en el repositorio de nuestro Web Applciation. Evidencia que los integrantes han realizado sus commits en base a su desarrollo.
+    + Network
+      <div align="center">
+      <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Network_Web_Application.png" alt="Branches.">
+    </div>
+      Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
+
       
         
 
