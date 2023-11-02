@@ -2464,14 +2464,14 @@ Para este sprint, no se han realizado las actividades requeridas en la sección 
   
   En este sprint, se puede evidenciar el cuadro de acciones en nuestro repositorio de Landing Page en GitHub. Esto está relacionado a GitHub Pages, donde estamos hosteando nuestro Landing Page.
   <div align="center">
-  <img src="" alt="contributor-evidence.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/landing_deployment_sprint2.png" alt="contributor-evidence.">
   </div>
   
   <strong>Evidence Landing Page</strong>
 
   En nuestro deployment de Landing Page, se ha realizado una mejora del navbar y de algunas secciones para que sean responsives.
   <div align="center">
-  <img src="">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/landing_evidence.png">
   </div>
 
   
@@ -2513,7 +2513,7 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
  + Landing Page
     + Contributors
         <div align="center">
-      <img src="" alt="contributor-evidence.">
+      <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/landing_sprint_2_insight_1.png" alt="contributor-evidence.">
       </div>
       En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Landing Page. Se evidencia que todo el equipo ha participado.
     + Traffic
@@ -2521,14 +2521,14 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
         <img src="" alt="Traffic-evidence.">
         </div>
         En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Landing Page. 
-    + Commit
+    + Traffic
         <div align="center">
-        <img src="" alt="Commit-evidence.">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/traffic_landing_sprint2_2.png" alt="Commit-evidence.">
       </div>
-        En esta imagen se evidencia el flujo de la cantidad de commits realizados por día en el repositorio de nuestro Landing Page. Evidencia que los integrantes han realizado sus commits en base a su desarrollo.
+        En esta imagen se evidencia el trafico realizado por día en el repositorio de nuestro Landing Page. Evidencia que los integrantes han realizado sus commits en base a su desarrollo, visitantes y clones.
     + Network
         <div align="center">
-        <img src="" alt="Network-evidence.">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_Sprint2_landing.png" alt="Network-evidence.">
       </div>
       Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones. 
 
@@ -2536,17 +2536,12 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
  + Web Application
     + Pulse 
         <div align="center">
-        <img src="" alt="Branches.">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/pulse_web_sprint_2_1.png" alt="Branches.">
       </div>
       En esta imagen, se evidencia que todos los integrantes del equipo han trabajado en el actual Sprint que va desde el 19 de Septiembre al 26 de Septiembre.
-    + Contributors
-        <div align="center">
-        <img src="" alt="Branches.">
-      </div>
-      En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Web Application. Se evidencia que todo el equipo ha participado.
     + Traffic
         <div align="center">
-        <img src="" alt="Branches.">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/traffic_web_sprint_2_2.png" alt="Branches.">
       </div>
       En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Web Application. 
     + Commit
@@ -2556,41 +2551,41 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
       En esta imagen se evidencia el flujo de la cantidad de commits realizados por día en el repositorio de nuestro Web Applciation. Evidencia que los integrantes han realizado sus commits en base a su desarrollo.
     + Network
       <div align="center">
-      <img src="" alt="Branches.">
+      <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_web_sprint%202.png" alt="Branches.">
     </div>
       Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
 
 + Web Service
     + Contributors
         <div align="center">
-        <img src="" alt="Branches.">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/contributors_backend_sprint2.png" alt="Branches.">
       </div>
-      En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Web Application. Se evidencia que todo el equipo ha participado.
+      En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Mobile Application. Se evidencia que todo el equipo ha participado.
     + Traffic
         <div align="center">
-        <img src="" alt="Branches.">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/traffic_backend_sprint2.png" alt="Branches.">
       </div>
-      En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Web Application. 
+      En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Mobile Application. 
     + Network
       <div align="center">
-      <img src="" alt="Branches.">
+      <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_backend_sprint2.png" alt="Branches.">
     </div>
       Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
 
 + Mobile Application
     + Contributors
         <div align="center">
-        <img src="" alt="Branches.">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/contributors_sprint_2_mobile.png" alt="Branches.">
       </div>
-      En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Web Application. Se evidencia que todo el equipo ha participado.
+      En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Web Services. Se evidencia que todo el equipo ha participado.
     + Traffic
         <div align="center">
-        <img src="" alt="Branches.">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/traffic_sprint_2_mobile.png" alt="Branches.">
       </div>
-      En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Web Application. 
+      En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Web Services. 
     + Network
       <div align="center">
-      <img src="" alt="Branches.">
+      <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_sprint2_mobile.png" alt="Branches.">
     </div>
       Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
 
