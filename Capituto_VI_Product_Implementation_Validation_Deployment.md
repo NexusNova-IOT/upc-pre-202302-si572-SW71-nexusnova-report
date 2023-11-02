@@ -1789,7 +1789,7 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
 
       Nicole Price: 
 
-      Dominik Mendoza:
+      Dominik Mendoza: Desde mi perspectiva, el avance del sprint 1 fue notable. Por un lado, la Landing Page cumplía con las heurísticas y la aplicación Web constaba de lo básico.
 
       Ivan Morán: “Buenardo” 
 
@@ -1810,7 +1810,7 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
 
       Nicole Price: 
 
-      Dominik Mendoza:
+      Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos mejorar el diseño responsive para ciertos dispositivos. Adicionalmente, la aplicación web debe mejorar su diseño.
 
       Ivan Morán: “Buenardo” 
 
