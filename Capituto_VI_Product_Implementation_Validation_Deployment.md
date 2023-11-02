@@ -1861,118 +1861,100 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
     <td>Status (To-do / InProcess / ToReview / Done)</td>
   </tr>
   <tr>
-    <td rowspan="3">US09</td>
-    <td rowspan="3">Filtrado de destinos turísticos (3)<br></td>
-    <td>US09-1</td>
-    <td>Diseño de la navegación</td>
-    <td>Implementar el diseño de la navegación</td>
-    <td>1</td>
-    <td>Nicole Price</td>
+    <td rowspan="3">US01</td>
+    <td rowspan="3">Clima del viaje (3)<br></td>
+    <td>US01-1</td>
+    <td>Diseñar widget donde se muestra el clima</td>
+    <td>Implementar el diseño del contenedor donde aparacerá el clima</td>
+    <td>2</td>
+    <td>Edgar Malca</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>US09-2</td>
-    <td>Implementar botones de navegación</td>
-    <td>Agregar botones de navegación y establecer sus rutas</td>
-    <td>1</td>
+    <td>US01-2</td>
+    <td>Diseñar Widget que muestre las recomendaciones</td>
+    <td>Agregar contenedor y logica para mostrar recomendaciones según clima</td>
+    <td>2</td>
     <td>Ryan Sweden</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>US09-3</td>
-    <td>Pruebas de navegación</td>
-    <td>Realizar pruebas de navegación para garantizar la funcionalidad correcta</td>
+    <td>US01-3</td>
+    <td>Obtener Clima</td>
+    <td>Desarrollar logica para obtener clima de Backend</td>
+    <td>1</td>
+    <td>Ivan Moran</td>
+    <td>In Proccess</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US02</td>
+    <td rowspan="2">Geolocalización como medida de seguridad (2)</td>
+    <td>US02-1</td>
+    <td>Diseño Widget</td>
+    <td>Diseñar interfaz donde se muestra mapa para guía turístico</td>
+    <td>1</td>
+    <td>Dominik Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02-2</td>
+    <td>IoT Logic</td>
+    <td>Desarrollar logica para obtener ubicación geográfica de pulseras IoT </td>
     <td>1</td>
     <td>Ivan Moran</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td rowspan="3">US12</td>
-    <td rowspan="3">Promoción de viajes turísticos (3)</td>
-    <td>US12-1</td>
-    <td>Diseño de la página de planes</td>
-    <td>Diseño de la página de planes</td>
-    <td>1</td>
-    <td>Dominik Mendoza</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US12-2</td>
-    <td>Integrar datos de precios</td>
-    <td>Integrar datos de precios</td>
+    <td rowspan="3">US19</td>
+    <td rowspan="3">Configuración de notificaciones (3)</td>
+    <td>US19-1</td>
+    <td>Diseño Notificaciones</td>
+    <td>Diseñar widget donde se muestran notificaciones</td>
     <td>1</td>
     <td>Edgar Malca</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US12-3</td>
-    <td>Pruebas de visualización de precios</td>
-    <td>Pruebas de visualización de precios</td>
-    <td>1</td>
-    <td>Ryan Sweden</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US19</td>
-    <td rowspan="2">Visualización al equipo de desarrollo (2)</td>
-    <td>US19-1</td>
-    <td>Diseño de la sección de equipo</td>
-    <td>Diseñar la sección que muestra al equipo</td>
-    <td>1</td>
-    <td>Ivan Moreno</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>US19-2</td>
-    <td>Integrar información del equipo</td>
-    <td>Conectar la página con la base de datos para mostrar los precios</td>
-    <td>4</td>
-    <td>Edgar Malca</td>
-    <td>To-do</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US10</td>
-    <td rowspan="2">Contacto con los representantes de la solución IoT (2)</td>
-    <td>US10-1</td>
-    <td>Diseño de la sección de contacto</td>
-    <td>Diseñar la sección que permite el contacto con los representantes</td>
-    <td>1</td>
+    <td>Integrar Firebase</td>
+    <td>Crear sistema de notificaciones en Firebase</td>
+    <td>3</td>
     <td>Nicole Price</td>
-    <td>To-do</td>
+    <td>In Process</td>
   </tr>
   <tr>
-    <td>US10-2</td>
-    <td>Implementar formulario de contacto</td>
-    <td>Crear un formulario funcional para permitir el contacto</td>
-    <td>2</td>
-    <td>Dominik Mendoza</td>
-    <td>To-do</td>
+    <td>US19-3</td>
+    <td>Permisos de Notificación</td>
+    <td>Implementar lógica para permisos de notificaciones</td>
+    <td>3</td>
+    <td>Nicole Price</td>
+    <td>In Process</td>
   </tr>
   <tr>
-    <td rowspan="3">US1</td>
-    <td rowspan="3">Promoción de viajes turísticos (3)</td>
-    <td>US01-1</td>
-    <td>Diseño de la sección de promoción</td>
-    <td>Diseñar la sección que promociona los viajes turísticos</td>
-    <td>2</td>
+    <td rowspan="3">US22</td>
+    <td rowspan="3">Inicio de Sesión (2)</td>
+    <td>US22-1</td>
+    <td>Diseñar widget de Log In</td>
+    <td>Diseñar widget de Log In</td>
+    <td>1</td>
     <td>Nicole Price</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>US01-2</td>
-    <td>Integrar información de promoción</td>
-    <td>Conectar la página con la base de datos para mostrar la información de promoción</td>
-    <td>4</td>
+    <td>US22-2</td>
+    <td>Vincular Firebase autenticacion</td>
+    <td>Vincular Firebase autenticacion</td>
+    <td>2</td>
     <td>Ryan Sweden</td>
-    <td>To-do</td>
+    <td>In Process</td>
   </tr>
   <tr>
-    <td>US12-3</td>
-    <td>Pruebas de promoción de viajes</td>
-    <td>Verificar que la sección de promoción se muestre correctamente</td>
+    <td>US22-3</td>
+    <td>Integrar backend</td>
+    <td>Conectar con Backend para obtener datos del usuario con token</td>
     <td>2</td>
-    <td>Edgar Malcar</td>
-    <td>In Process</td>
+    <td>Ryan Sweden</td>
+    <td>To-do</td>
   </tr>
   <tr>
     <td rowspan="2">US09</td>
@@ -1990,7 +1972,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
     <td>Agregar opciones de filtrado y conectarlas con la base de datos</td>
     <td>4</td>
     <td>Dominik Mendoza</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 </tbody>
 </table>
