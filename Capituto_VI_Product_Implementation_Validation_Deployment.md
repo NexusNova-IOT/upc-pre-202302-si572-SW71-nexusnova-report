@@ -2455,7 +2455,80 @@ Para este sprint, no se han realizado las actividades requeridas en la sección 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
   A continuación, se presentan los endpoints realizados para el entregable TB2 acorde con el Sprint 2.  Pero antes, cabe mencionar que se logró desarrollar los endpoint principales relacionados a la funcionalidad core de nuestra web application y mobile application.
 
+<table>
+<thead>
+  <tr>
+    <th>Endpoint</th>
+    <th>Acción</th>
+    <th>Descripción</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/register/tourist">https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/register/tourist</a></td>
+    <td>POST</td>
+    <td>
+    El presente endpoint sirve para registrar a un usuario turista.
 
+    La acción que permite es un post y el request body es el siguiente:
+
+    {
+      "id": "string",
+      "name": "string",
+      "email": "string",
+      "photoUrl": "string"
+    }
+
+    
+  </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/swagger-ui/index.html#/User%20Controller/registerAgency">https://lifetravel-iot-backend.azurewebsites.net/swagger-ui/index.html#/User%20Controller/registerAgency</a></td>
+    <td>POST</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/login/{id}">https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/login/{id}</a></td>
+    <td>GET</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages</a></td>
+    <td>GET</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages</a></td>
+    <td>POST</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/{id}">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/{id}</a></td>
+    <td>GET</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/region/{id}">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/region/{id}</a></td>
+    <td>GET</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking</a></td>
+    <td>POST</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/tourist/1">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/tourist/1</a></td>
+    <td>GET</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities</a></td>
+    <td>GET</td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review.
   En este Sprint, se llevaron a cabo una serie de actividades relacionadas con el despliegue de Landing Page, Web Application, Web Services. Estas actividades abarcaron la creación de la página a la cuál pueden acceder los visitantes para que pueden conocer Life Travel y luego si desean convertirse en usuarios. Por otro lado, se desarrolló la segunda versión del Web Application y primera versión de Web Services.. 
