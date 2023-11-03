@@ -2468,64 +2468,299 @@ Para este sprint, no se han realizado las actividades requeridas en la sección 
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/register/tourist">https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/register/tourist</a></td>
     <td>POST</td>
     <td>
-    El presente endpoint sirve para registrar a un usuario turista.
-
-    La acción que permite es un post y el request body es el siguiente:
-
-    {
-      "id": "string",
-      "name": "string",
-      "email": "string",
-      "photoUrl": "string"
-    }
-
-    
+        El presente endpoint sirve para registrar a un usuario turista.
+        <br></br>
+        La acción que permite es un post y el request body es el siguiente:
+        <br></br>
+        {
+          "id": "string",
+          "name": "string",
+          "email": "string",
+          "photoUrl": "string"
+        }
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_1.png">
+        </div>
+        <br></br>
+        Response, cuando se hace la acción correctamente:
+        {
+          "id": "1",
+          "name": "TuristaPrueba",
+          "role": "ROLE_TOURIST"
+        }
+        <br></br>
+        Emplea el UserSummaryDTO:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_2.png">
+        </div>
   </td>
   </tr>
   <tr>
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/swagger-ui/index.html#/User%20Controller/registerAgency">https://lifetravel-iot-backend.azurewebsites.net/swagger-ui/index.html#/User%20Controller/registerAgency</a></td>
     <td>POST</td>
-    <td></td>
+    <td>
+     El presente endpoint sirve para registrar a una agencia.
+        <br></br>
+        La acción que permite es un post y el request body es el siguiente:
+        <br></br>
+        {
+          "id": "string",
+          "name": "string",
+          "email": "string",
+          "photoUrl": "string"
+        }
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_1.png">
+        </div>
+        <br></br>
+        Response, cuando se hace la acción correctamente:
+        {
+          "id": "1",
+          "name": "AgenciaPrueba",
+          "role": "ROLE_AGENCY"
+        }
+        <br></br>
+        Emplea el UserSummaryDTO:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_2.png">
+        </div>
+    </td>
   </tr>
   <tr>
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/login/{id}">https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/login/{id}</a></td>
     <td>GET</td>
-    <td></td>
+    <td>
+    La acción que permite es un get y se precisa del id.
+        <br></br>
+        La acción que permite es un post y el request body es el siguiente:
+        <br></br>
+        En el response, nos dará la data del usuario:
+        {
+          "id": "1",
+          "name": "TuristaPrueba",
+          "role": "ROLE_TOURIST"
+        }
+        <br></br>
+        Emplea el UserSummaryDTO:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_2.png">
+        </div>
+    </td>
   </tr>
   <tr>
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages</a></td>
     <td>GET</td>
-    <td></td>
+    <td>
+    El presente endpoint sirve para obtener todos los paquetes turísticos.
+        <br></br>
+        La acción que permite es un get, no cuenta con parámetros.
+        <br></br>
+        El Response, cuando se hace la acción correctamente:
+        [
+          {
+            "id": "string",
+            "title": "string",
+            "departmentName": "string",
+            "description": "string",
+            "price": 0,
+            "rating": 0,
+            "imgUrl": "string",
+            "visible": true
+          }
+        ]
+        <br></br>
+        Emplea el TourPackageSummaryDto:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_3.png">
+        </div>
+    </td>
   </tr>
   <tr>
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages</a></td>
     <td>POST</td>
-    <td></td>
+    <td>
+    Este endpoint se encarga de publicar paquetes turísticos.
+        <br></br>
+        La acción que acepta es Post y su Request Body es el siguiente:
+        <br></br>
+        {
+          "agencyId": "string",
+          "title": "string",
+          "description": "string",
+          "imgUrl": "string",
+          "departmentName": "string",
+          "price": 0,
+          "meetingPoint": {
+            "latitude": 0,
+            "longitude": 0
+          },
+          "activities": [
+            {
+              "id": 0
+            }
+          ],
+          "activitiesMeetingPoints": [
+            {
+              "latitude": 0,
+              "longitude": 0
+            }
+          ]
+        }
+        <br></br>
+        El response si se da el codigo 201:
+        {
+          "id": "string",
+          "title": "string",
+          "departmentName": "string",
+          "description": "string",
+          "price": 0,
+          "rating": 0,
+          "imgUrl": "string",
+          "visible": true
+        }
+        <br></br>
+        Emplea el TourPackageRequestDto:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_4.png">
+        </div>
+    </td>
   </tr>
   <tr>
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/{id}">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/{id}</a></td>
     <td>GET</td>
-    <td></td>
+    <td>
+    Este endpoint se utiliza para acceder a un paquete turístico por id.
+        <br></br>
+        Acepta la acción get y solo requiere el id.
+        <br></br>
+        El response si se da el codigo 201:
+          {
+            "id": 0,
+            "title": "string",
+            "departmentName": "string",
+            "description": "string",
+            "imgUrl": "string",
+            "rating": 0,
+            "meetintPointLatitude": 0,
+            "meetintPointLongitude": 0
+          }
+        <br></br>
+        Emplea el TourPackageDetailDto:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_5.png">
+        </div>
+    </td>
   </tr>
   <tr>
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/region/{id}">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/region/{id}</a></td>
     <td>GET</td>
-    <td></td>
+    <td>
+    Este endpoint se utiliza para encontrar paquetes turísticos por región.
+        <br></br>
+        Acepta la acción get y solo requiere del id de la región a buscar.
+        <br></br>
+        El response si se da el codigo 201:
+          [
+            {
+              "id": "string",
+              "title": "string",
+              "departmentName": "string",
+              "description": "string",
+              "price": 0,
+              "rating": 0,
+              "imgUrl": "string",
+              "visible": true
+            }
+          ]
+        <br></br>
+        Utiliza:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_6.png">
+        </div>
+    </td>
   </tr>
   <tr>
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking</a></td>
     <td>POST</td>
-    <td></td>
+    <td>
+     Se emplea para registrar un booking.
+        <br></br>
+        Acepta la opción POST y requiere del siguiente request Body:
+        <br></br>
+        El response si se da el codigo 201:
+          {
+            "id": 0,
+            "tourPackageId": 0,
+            "tourExperienceDate": "2023-11-03T18:43:36.881Z",
+            "tourPackageTitle": "string",
+            "agencyName": "string",
+            "imgUrl": "string"
+          }
+        <br></br>
+        Utiliza:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_7.png">
+        </div>
+    </td>
   </tr>
   <tr>
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/tourist/1">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/tourist/1</a></td>
     <td>GET</td>
-    <td></td>
+    <td>
+    Este endpoint nos ayuda a obtener los bookings de un turista por su id.
+        <br></br>
+        Acepta la acción get y solo se requiere el id del turista.
+        <br></br>
+        El response si se da el codigo 201:
+          {
+            "id": 0,
+            "tourPackageId": 0,
+            "tourExperienceDate": "2023-11-03T18:43:36.881Z",
+            "tourPackageTitle": "string",
+            "agencyName": "string",
+            "imgUrl": "string"
+          }
+        <br></br>
+        Utiliza:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_7.png">
+        </div>
+    </td>
   </tr>
   <tr>
     <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities</a></td>
     <td>GET</td>
-    <td></td>
+    <td>
+      Se emplea para que las agencias turísticas al momento de crear sus paquetes puedan colocar actividades ya predispuestas en nuestra base de datos. Con este endpoint se muestran todas las actividades disponibles.
+        <br></br>
+        Acepta la acción get, no tiene parámetros.
+        <br></br>
+        El response si se da el codigo 201:
+          [
+            {
+              "id": "string",
+              "title": "string",
+              "imgUrl": "string"
+            }
+          ]
+        <br></br>
+        Utiliza:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_8.png">
+        </div>
+    </td>
   </tr>
 </tbody>
 </table>
