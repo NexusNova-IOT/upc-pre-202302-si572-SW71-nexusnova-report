@@ -2481,6 +2481,13 @@ Para este sprint, no se han realizado las actividades requeridas en la sección 
   <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Web_Application.png" alt="contributor-evidence.">
   </div>
 
+  <strong>Evidence Deployment Web Services</strong>
+
+  En este sprint se realizó el deployment con Azure, se muestra la evidencia del deployment y el uso de data que se está efectuando día a día. Azure, nos brinda una url donde se extraen los endpoints.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Web_Application.png" alt="contributor-evidence.">
+  </div>
+
   <strong>Evidence Web Services</strong>
 
   A continuación se presenta una imagen donde se evidencia la url del web services desplegado.
