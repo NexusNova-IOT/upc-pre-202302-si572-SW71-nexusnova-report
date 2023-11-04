@@ -1814,12 +1814,9 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
 
       Ryan Sweden: En mi opinión, el sprint 1 fue exitoso, con la Landing Page y la aplicación web cumpliendo con los estándares heurísticos y entregando funcionalidades esenciales con calidad.
 
-
-      Nicole Price: 
+      Nicole Price: A mi parecer, el avance del sprint 1 fue satisfactorio. Se desarrollaron las funcionalidades principales de la aplicación.y se cumplieron con lo establecido para el Sprint 1.
 
       Dominik Mendoza: Desde mi perspectiva, el avance del sprint 1 fue notable. Por un lado, la Landing Page cumplía con las heurísticas y la aplicación Web constaba de lo básico.
-
-      Ivan Morán: 
 
       Edgar Malca: En mi opinión, el alcance que se tuvo en el sprint 1 fue satisfactorio. Esto se demuestra en la calificación obtenida y en la calidad de artefactos y productos de software que se entrego. 
 
@@ -1832,20 +1829,15 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
     <td>Sprint n -1 Retrospective Summary</td>
     <td>En el sprint anterior, el equipo realizó una primera versión del Landing Page y del Web Application. Se comenzó a desarrollar la parte core de nuestro negocio. A continuación algunos comentarios de que aciertos u oportunidades de mejoras identificaron los integrantes.
     
-   Comentarios Miembros del Equipo:
+    Comentarios Miembros del Equipo:
 
-      
+      Ryan Sweden: En mi opinión, el sprint 1 fue exitoso
 
-
-      Nicole Price: 
+      Nicole Price: Uno de los puntos a mejorar en la aplicación web es la sección del listado de paquetes turísticos. Esta podría mejorar en el filtrado por búsqueda de regiones.
 
       Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos mejorar el diseño responsive para ciertos dispositivos. Adicionalmente, la aplicación web debe mejorar su diseño.
 
-      Ivan Morán: 
-
-      Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar, especialmente la parte del navbar. Asimismo, en el web application identifique que algunas secciones no tenian concordancia con las reglas del negocio planteadas. Por ello, el equipo replanteo mejor la logica de negocio junto con el Product Owner.  
-
-      Ryan Sweden: En mi opinión, el sprint 1 fue exitoso
+      Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar, especialmente la parte del navbar. Asimismo, en el web application identifique que algunas secciones no tenian concordancia con las reglas del negocio planteadas. Por ello, el equipo replanteó mejor la lógica de negocio junto con el Product Owner.  
 
    </td>
   </tr>
