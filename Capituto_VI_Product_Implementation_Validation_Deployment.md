@@ -3135,7 +3135,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/82915d25d5b574ae189e8feb3af9e6900df4098b/Resources/sprint2/reunion_pamela.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
