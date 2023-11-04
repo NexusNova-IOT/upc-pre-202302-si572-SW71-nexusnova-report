@@ -2455,6 +2455,27 @@ Para este sprint, no se han realizado las actividades requeridas en la sección 
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 
+Para este sprint, se realizaron las secciones para la gestión de Paquetes Turísticos y las vistas generales que tendrán los usuarios de tipo de segmento TURISTA.
+
+La siguiente imagen refleja los paquetes turísticos con estado visible para los turistas.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/home.png" alt="home">
+
+Se añadieron los filtros de precio, por tipo de actividad e idioma. Estos filtrarán y mostrarán los paquetes turísticos que cumplan con las características.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/filter.png" alt="filter-in-home">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/filter-2.png" alt="filter-2-in-home">
+
+Los usuarios de tipo AGENCIA podrán visualizar y filtrar por el estado del paquete turísticos HIDDEN o VISIBLE. En esta sección podrán agregar y editar.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/agency-packages.png" alt="agency-packages">
+
+Este tipo de segmento solo podrá agregar los paquetes turísticos que agregaron previamente.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/add-tour.png" alt="add-tour">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/add-tour2.png" alt="add-tour2">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/add-tour3.png" alt="add-tour3">
+
+Este tipo de segmento solo podrá editar los paquetes turísticos que agregaron previamente.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour.png" alt="edit-tour">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour2.png" alt="edit-tour2">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour3.png" alt="edit-tour3">
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
   A continuación, se presentan los endpoints realizados para el entregable TB2 acorde con el Sprint 2.  Pero antes, cabe mencionar que se logró desarrollar los endpoint principales relacionados a la funcionalidad core de nuestra web application y mobile application.
