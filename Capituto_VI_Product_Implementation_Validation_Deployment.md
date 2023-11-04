@@ -1123,7 +1123,7 @@ Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Lan
 **3.  Esperar la compilacion del proyecto en el dashboard.**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-2.png" alt="Branches.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-3.png" alt="Branches.">
 </div>
 
 <br><br>
@@ -1812,13 +1812,14 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
 
     Comentarios Miembros del Equipo:
 
-      Ryan Sweden: que hicimos?
+      Ryan Sweden: En mi opinión, el sprint 1 fue exitoso, con la Landing Page y la aplicación web cumpliendo con los estándares heurísticos y entregando funcionalidades esenciales con calidad.
+
 
       Nicole Price: 
 
       Dominik Mendoza: Desde mi perspectiva, el avance del sprint 1 fue notable. Por un lado, la Landing Page cumplía con las heurísticas y la aplicación Web constaba de lo básico.
 
-      Ivan Morán: “Buenardo” 
+      Ivan Morán: 
 
       Edgar Malca: En mi opinión, el alcance que se tuvo en el sprint 1 fue satisfactorio. Esto se demuestra en la calificación obtenida y en la calidad de artefactos y productos de software que se entrego. 
 
@@ -1833,15 +1834,19 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
     
    Comentarios Miembros del Equipo:
 
-      Ryan Sweden: que hicimos?
+      
+
 
       Nicole Price: 
 
       Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos mejorar el diseño responsive para ciertos dispositivos. Adicionalmente, la aplicación web debe mejorar su diseño.
 
-      Ivan Morán: “Buenardo” 
+      Ivan Morán: 
 
       Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar, especialmente la parte del navbar. Asimismo, en el web application identifique que algunas secciones no tenian concordancia con las reglas del negocio planteadas. Por ello, el equipo replanteo mejor la logica de negocio junto con el Product Owner.  
+
+      Ryan Sweden: En mi opinión, el sprint 1 fue exitoso
+
    </td>
   </tr>
   <tr>
@@ -1981,7 +1986,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
     <td>Vincular Firebase autenticacion</td>
     <td>2</td>
     <td>Ryan Sweden</td>
-    <td>In Process</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US22-3</td>
@@ -1989,7 +1994,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
     <td>Conectar con Backend para obtener datos del usuario con token</td>
     <td>2</td>
     <td>Ryan Sweden</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td rowspan="2">US09</td>
