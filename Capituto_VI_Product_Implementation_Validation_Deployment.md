@@ -2969,7 +2969,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>Abel Angel</td>
+    <td>Abel Ángel</td>
   </tr>
   <tr>
     <td>Apellidos</td>
@@ -3001,13 +3001,13 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
   <tr>
     <td>Link</td>
     <td>
-		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/EUoAltNAJz5GvxuSJf7gQEwBysQoVQ9wjGCN5jOa72LEOA?e=z7Q8Hi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
 		</td>
   </tr>
   <tr>
     <td>Duracion<br></td>
     <td>
-		9:53 min
+		8:54 min
 		</td>
   </tr>
   <tr>
@@ -3044,7 +3044,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
   </tr>
   <tr>
     <td>Edad</td>
-    <td>20 años</td>
+    <td>25 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
@@ -3052,35 +3052,36 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
   </tr>
   <tr>
     <td>Empresa</td>
-    <td>Tarapoto Tour</td>
+    <td>Ecologie Tours</td>
   </tr>
   <tr>
     <td>Ocupación</td>
-    <td>Guía turístico y conductor</td>
+    <td>Guía turístico</td>
   </tr>
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/interviews/entrevista-validacion-1.png" alt="Entrevista Evidencia">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/interviews/entrevista-validacion-2.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
   <tr>
     <td>Link</td>
     <td>
-		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/ETBqu4x5qpJCjolXPio5SroBa1doc4LfuhA-c_p-ZW8xPQ?e=yobV9o&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19 title="Title">Microsoft Stream</p>
 		</td>
   </tr>
   <tr>
     <td>Duracion<br></td>
     <td>
-		9:53 min
+		6:52 min
 		</td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td>
-
+    Se realizó una entrevista con Branco Villegas, quien trabaja como guía turístico en la empresa "Ecologie Tours". Branco tiene una experiencia de 2 años en la organización de recorridos y paquetes turísticos que incluyen full days y viajes de 3 días y 2 noches, así como opciones para una semana. Branco interactuó con la landing page proporcionada y expresó su aprecio por el diseño, los colores y la tipografía. Sin embargo, sugirió que los botones y las imágenes podrían tener una mayor dinámica en su diseño para evitar que parezcan estáticos. También elogió la información detallada sobre los beneficios y características de los planes y servicios adicionales ofrecidos. Luego, Branco probó la aplicación móvil y destacó la importancia de las funcionalidades relacionadas con los itinerarios y el GPS. Consideró que estas funciones son valiosas para su trabajo como guía turístico. También sugirió la inclusión de un calendario que muestre los itinerarios futuros, lo que le permitiría una mejor organización. Cuando se le preguntó si su empresa estaría dispuesta a pagar un plan para acceder a funciones adicionales en la aplicación, Branco expresó su disposición a hacerlo. Considera que una aplicación dedicada a la gestión de itinerarios sería más eficiente que las actuales soluciones basadas en WhatsApp.
+    <br>En resumen, Branco Villegas valora el diseño y la información proporcionada en la landing page y encuentra que la aplicación móvil es útil para su trabajo. Estaría dispuesto a que su empresa pague por un plan para acceder a funcionalidades adicionales en la aplicación.
 </td>
   </tr>
 </tbody>
