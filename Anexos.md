@@ -21,4 +21,8 @@ Enlace de video de Development Evidence for Sprint 1: [Development Evidence for 
 
 
 ## Sprint 2
+
+[![Exposure video Tb1](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/execution-evidence.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwWpKRGuJYeHWhxHT8BZNBY3MCf8RqCACfYZSpuWQ?e=pzrhjp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)
+
+
 Enlace de video de Execution Evidence for Sprint 2: [Execution Evidence for Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwWpKRGuJYeHWhxHT8BZNBY3MCf8RqCACfYZSpuWQ?e=pzrhjp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)
