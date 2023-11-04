@@ -3414,84 +3414,101 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 
 **CURSO   : Desarrollo de Soluciones IoT** 
 
-**SECCIÓN   :** Código de la sección** 
+**SECCIÓN   : SW71** 
 
-**PROFESORES  : Todos** 
+**PROFESORES  : Angel Augusto Velasquez Nuñez** 
 
-**AUDITOR :** Nombre del Grupo que ejecuta la Sesión de evaluación** 
-
-**CLIENTE(S) :** Nombre de las personas que participan en la sesión **![](Aspose.Words.38d78c91-3121-4c29-95f8-fe72ff236128.001.png)**
-
-*NOTA: Los contenidos de este formato (en color plomo) son referidos a un sitio web de ejemplo. Use este formato como referencia de la estructura que tiene que ser entregada y elimine el contenido en plomo. Coloque su contenido con color azul.* 
-
-***SITE o APP A EVALUAR:** Nombre de App* 
-
-***TAREAS A EVALUAR:*** 
-
-*El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:* 
-
-1. *Registro de un usuario nuevo* 
-1. *Publicación de un post* 
-1. *Búsqueda de un paquete turístico* 
-1. *Reserva de un viaje* 
-1. *Cancelación de una reserva* 
-1. *Agregar ítems a un pedido* 
-1. *Pago de un paquete turístico* 
-1. *Etc.* 
-
-*No están incluidas en esta versión de la evaluación las siguientes tareas:* 
-
-1. *Compartir reservas entre usuarios* 
-1. *Presentar ofertas de último minuto* 
-1. *Administrar puntos del programa de fidelización de viajes* 
-1. *Guardar “alerta de paquetes”* 
-1. *Etc.* 
-
-36/37  V1.0 
-
-***ESCALA DE SEVERIDAD:*** 
-
-*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad* 
+**AUDITOR : NexusNova** 
 
 
+**CLIENTE(S): Malca Edgar, Mendoza Dominik, Moran Ivan, Price Nicole, Sweden Ryan.**
 
-|**Nivel** |**Descripción** |
-| - | - |
-|1 |Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-|2 |Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
-|3 |Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-|4 |Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+**SITE o APP A EVALUAR:** LifeTravel
 
-***TABLA RESUMEN:*** 
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Inicio de Sesión.
+2. Publicación de una experiencia turística.
+3. Edición de un paquete turístico.
+4. Búsqueda de un paquete turístico.
+5. Filtrado de paquetes turísticos.
+6. Geolocalización de turistas.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Compartir reservas entre usuarios
+2. Presentar ofertas de último minuto
+3. Administrar puntos del programa de fidelización de viajes
+4. Guardar “alerta de paquetes”
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados teniendo en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+| ----- | ----------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al próximo release. |
+| 3     | Problema mayor: ocurre con frecuencia o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+| #  | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| -- | -------- | ------------------- | ------------------------------- |
+| 1  | La contraseña se muestra como texto plano en lugar de censurada | 2 | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores |
+| 2  | La función de geolocalización es inexacta y muestra información incorrecta | 4 | Usability: Prevención de errores |
+| 3  | No hay un mensaje de confirmación al guardar cambios  | 3 | Usability: Visibilidad del estado del sistema |
 
 
+**DESCRIPCIÓN DE PROBLEMAS:**
 
-|# |Problema |Escala de severidad |Heurística/Principio violada(o) |
-| - | - | - | - |
-|1 |No hay un control que permita regresar a la tienda durante el trámite de compra |3 |Usability: Libertad y control del usuario |
-|2 |Se repiten constantemente algunas opciones  |1 |Usability: Consistencia y estándares |
-|3 |Imágenes sin atributo “alt”  |3 |Inclusive Design: Proporciona experiencias comparables |
-|4 |Incluye un botón “Ver más” pero no existe contenido al que dirigirse |3 |Information Architecture: Is it usable? |
-|5 |No incluye información de los planes de servicio |2 |Information Architecture: Is it findable? |
-|… |…. |||
-Etc. 
+**PROBLEMA #1: La contraseña se muestra como texto plano en lugar de censurada**
 
-***DESCRIPCIÓN DE PROBLEMAS:*** 
+- **Severidad: 2**
+- **Heurística violada: Usabilidad - Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores**
 
-*PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra* 
+**Problema:**
 
-*Severidad: 3* 
+Durante el proceso de inicio de sesión, cuando los usuarios ingresan su contraseña, esta se muestra como texto plano en lugar de ser ocultada con asteriscos u otro carácter. Esto puede plantear preocupaciones de seguridad, ya que otros pueden ver la contraseña mientras se ingresa.
 
-*Heurística violada: Usabilidad - Libertad y control del usuario* 
+![Problema 1](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/heuristics/problem-1.png)
 
-*Problema:* 
+**Recomendación:**
 
-*Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.* 
+Para mejorar la seguridad y la experiencia del usuario, se debe ocultar la contraseña con asteriscos u otro carácter mientras se ingresa. Esto ayudará a proteger la contraseña del usuario de miradas indiscretas y aumentará la seguridad del proceso de inicio de sesión.
 
-*(Incluir además una captura de pantalla ilustrando el problema). Recomendación:* 
+**PROBLEMA #2: La función de geolocalización es inexacta y muestra información incorrecta**
 
-*La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para no perder los cambios realizados en nuestro carrito de compras.*
+- **Severidad: 4**
+- **Heurística violada: Usability - Prevención de errores**
 
+**Problema:**
+
+La función de geolocalización en la aplicación muestra información incorrecta y a menudo no localiza a los usuarios con precisión. Esto puede llevar a confusiones y problemas en la planificación de viajes.
+
+![Problema 2](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/heuristics/problem-2.png)
+
+**Recomendación:**
+
+Es fundamental corregir la inexactitud de la función de geolocalización para proporcionar información precisa a los usuarios. Se deben realizar pruebas exhaustivas para garantizar que esta característica funcione de manera confiable.
+
+**PROBLEMA #3: No hay un mensaje de confirmación al guardar cambios**
+
+- **Severidad: 3**
+- **Heurística violada: Usability - Visibilidad del estado del sistema**
+
+**Problema:**
+
+Cuando los usuarios realizan cambios o actualizaciones en la aplicación, como editar un perfil o modificar un paquete turístico, no reciben un mensaje de confirmación que indique que los cambios se han guardado con éxito. Esto puede generar incertidumbre en los usuarios, ya que no tienen retroalimentación inmediata sobre el estado de sus acciones.
+
+![Problema 3](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/heuristics/problem-3.png)
+
+**Recomendación:**
+
+Para proporcionar una mejor experiencia al usuario, se debe implementar un mensaje de confirmación después de que los cambios se guarden exitosamente. Esto ayudará a los usuarios a tener la seguridad de que sus modificaciones se han realizado con éxito y que sus acciones se han registrado correctamente en la aplicación.
 
 ## 6.4 Video About-the-Product.
 
