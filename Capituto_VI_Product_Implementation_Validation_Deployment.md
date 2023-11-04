@@ -1123,7 +1123,7 @@ Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Lan
 **3.  Esperar la compilacion del proyecto en el dashboard.**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-2.png" alt="Branches.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-3.png" alt="Branches.">
 </div>
 
 <br><br>
