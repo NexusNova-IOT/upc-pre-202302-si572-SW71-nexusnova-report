@@ -1,3 +1,4 @@
+
 <div align="justify">
 # Registro de Versiones del Informe
 <table>
@@ -176,10 +177,40 @@
     <td>Agrego wireflows, userflows y mockups and wireframes finales</td>
   </tr>
   <tr>
-    <td>1.5</td>
-    <td>27/09/2023</td>
+    <td>1.5.0</td>
+    <td>01/11/2023</td>
+    <td>Edgar Malca</td>
+    <td>Agrego estructura Sprint 2 y demás puntos para NT2.</td>
+  </tr>
+  <tr>
+    <td>1.5.1</td>
+    <td>02/11/2023</td>
+    <td>Nicole Price</td>
+    <td>Mejoras en typos agrego sección de Execution Evidence.</td>
+  </tr>
+  <tr>
+    <td>1.5.2</td>
+    <td>03/11/2023</td>
     <td>Dominik Mendoza</td>
-    <td>Mejoras en typos y links de referencia de imágenes de local a link en internet.</td>
+    <td>Diseño de entrevistas, registro de entrevistas, heruristicas obtenidas de las entrevistas de validación.</td>
+  </tr>
+  <tr>
+    <td>1.5.3</td>
+    <td>03/11/2023</td>
+    <td>Ryan Sweden</td>
+    <td>Mejoras en typos y mejora de TP1, especificamente user flows con sus respectivos user goals.</td>
+  </tr>
+  <tr>
+    <td>1.5.4</td>
+    <td>03/11/2023</td>
+    <td>Ivan Moran</td>
+    <td>Se agrego evidencias de deployment y guía.</td>
+  </tr>
+  <tr>
+    <td>1.6</td>
+    <td>03/11/2023</td>
+    <td>Edgar Malca</td>
+    <td>Se corrigieron typos. Asimismo, se editaron versiones, conclusiones, student outcome, etc.</td>
   </tr>
 </tbody>
 </table>
