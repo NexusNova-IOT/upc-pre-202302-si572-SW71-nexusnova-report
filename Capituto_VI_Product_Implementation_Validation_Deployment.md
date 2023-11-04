@@ -2930,4 +2930,454 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
           </div>
             Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
 
-</div>
+## 6.3 Validation Interviews
+### 6.3.1 Diseño de Entrevistas.
+<strong>Preguntas sobre información personal</strong>
+
+*	¿Cuál es su nombre completo?
+*	¿Qué edad tienes?
+*	¿A qué te dedicas?
+*	¿Cuál es tu estado civil?
+*	¿En qué ciudad resides?
+*	¿Eres extrovertido o calmado?
+*	¿Eres una persona que toma decisiones analizando los hechos o te dejas llevar por tus sentimientos?
+*	¿Qué smartphone posee? ¿Android o IOS?
+*	¿Usas aplicaciones o programas en especial? ¿Cuáles?
+*	Preguntas principales y secundarias para entrevistas (Usuarios VIajeros)
+
+<strong>Principales: </strong>
+
+*	¿Con qué frecuencia suele realizar un viaje al interior del país? 
+*	¿Tiene problemas para armar su itinerario?¿ Si su respuesta es sí, qué tipo de problemas son?
+*	¿ Qué características positivas debería tener una empresa para que usted pueda contratar su servicio?
+*	¿Qué tipo de información consideran importante previo a elegir su viaje?
+*	¿Cuáles son los servicios que contrata a menudo de las agencias de viaje?
+*	¿Cuál es su presupuesto promedio y cuáles son los principales rubros en los que realiza sus gastos?
+*	¿Cómo organiza sus viajes frecuentemente?
+*	¿ Sigue algún influencer en redes sociales que haya influido en su elección de viaje?
+*	¿ Utiliza alguna App que lo ayude en las reservas de viaje?¿Si su respuesta es sí, que le brinda esta App?
+*	¿ Le sería útil una Aplicación que lo ayude en la planificación y reserva de un viaje?
+
+
+
+<strong>Complementarias:</strong>
+
+*	¿ Alguna vez fue partícipe de una estafa con su reserva de viaje?
+*	¿ La opinión de su entorno social influye para la elección de una aerolínea de viaje?¿ Si es así, cuál fue la más comentada?
+*	¿Alguna vez sufrió un percance con la reserva de su viaje, por un factor externo a este?
+*	¿Se encuentran conformes con las atenciones que le brinda su actual agencia de viaje?
+*	Frente a algún percance con alguna reserva, ¿la agencia actuó de inmediato?
+
+<strong>Preguntas principales y secundarias para entrevistas (Agencias de viajes)</strong>
+<strong>Principales:</strong>
+
+*	¿Con qué frecuencia los suelen contratar para sus servicios?
+*	¿Cómo hacen los procesos de reserva de alojamiento y transporte?
+*	¿Han tenido algún percance con algún cliente? ¿Qué fue lo que ocurrió?
+*	¿Han tenido algún problema con aerolíneas o alojamientos? ¿Qué fue lo que ocurrió?
+*	¿Cómo generan sus ganancias?
+*	¿Cómo organizan las actividades de los destinos?
+*	¿Su empresa cuenta con redes sociales como medio de marketing?
+*	¿El marketing actual que tienen es efectivo?
+*	¿Colaboran con agencias online para mostrar sus servicios?
+*	¿Le sería útil una aplicación que le ayude a mostrar sus servicios, destinos y planes, con el fin de que los clientes tengan más opciones de elección?
+
+<strong>Complementarias:</strong>
+
+*	¿Su empresa es conocida?
+*	¿Cuál es la razón del porqué los clientes los contactan?
+*	¿Cómo es la percepción de los clientes sobre sus servicios?
+*	¿Qué otros destinos piensan incorporar en sus servicios?
+*	¿Qué proyección tienen a futuro?
+
+### 6.3.2 Registro de Entrevistas
+En esta sección se registrarán las entrevistas realizadas por cada segmento indicando la información obtenida en una pequeña reseña de sus respuestas a las preguntas realizadas en la sección de diseño de entrevista.
+
+<strong>Segmento Cliente</strong><br>
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Anderson</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Gamarra</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Google Chrome, Zoom</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Viajes familiares divertidos</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Demandante de tiempo la planificacion</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Laptop, Computadora de Escritorio, Smartphone</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		9:53 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>Se realizó una entrevista a Anderson Gamarra, estudiante universitario de 20 años que actualmente reside en Lima, Perú. Él nos comenta que la frecuencia con la que viaja es durante sus vacaciones a mitad de año junto a su familia, por lo que busca en internet todo lo relacionado desde el destino hasta las actividades que harán durante su viaje. Además, nos menciona que le toma días, incluso meses realizar esta tarea, ya que no tiene un medio que se lo facilite, y que por lo general la mayoría de las veces que busca en internet solo encuentra los vuelos para el destino elegido, pero no las actividades para dicho destino. Los servicios que suele contratar a menudo en internet son el hospedaje y una guía con las actividades, pero le desagrada que las guías de las actividades a realizar se lo entreguen cuando llega a su destino y no con antelación.
+		<br>
+		Por último, considera importante la posibilidad de tener el horario de todas las actividades desde el inicio hasta el final del viaje de forma detallada y que permita a todos los involucrados en el viaje la posibilidad de ver el itinerario y las actividades de la reserva en su dispositivo con su propia cuenta.
+</td>
+  </tr>
+</tbody>
+</table>
+
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Diego Fabian</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Cabrera Zelada</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Cajamarca</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Zoom, Discord</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Aprovechar las pocas vacaciones que tiene</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Dificil encontrar paquetes de viaje economicos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Computadora de Escritorio, Smartphone, Tablet</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-2.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		8:48 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		Diego Cabrera Zelada es un estudiante de ingeniería industrial que suele viajar mucho dentro del país por los proyectos que posee con la empresa con la que trabaja, pero suele vacacionar 2 veces al año con su familia. Se le complica viajar en familia. Para él una empresa de viajes debería ofrecer transporte puntual y buenos precios con gente capacitada en el turismo.
+		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciones que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
+		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciones anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
+
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Jose</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Rondan Perez</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>22 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Word, Google Meet</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Sobresalir y ayudar a su familia</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Cada dia disminuyen la cantidad de clientes potenciales.</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Smartphone, Tablet, Laptop</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-3.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		8:48 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+				Diego Cabrera Zelada es un estudiante de ingeniería industrial que suele viajar mucho dentro del país por los proyectos que posee con la empresa con la que trabaja, pero suele vacacionar 2 veces al año con su familia. Se le complica viajar en familia. Para él una empresa de viajes debería ofrecer transporte puntual y buenos precios con gente capacitada en el turismo.
+		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciones que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
+		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciones anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
+
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #4<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Roxana</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Melgranejo</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>58 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Word, Google Meet</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Hacer crecer el negocio y expandirse</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Los clientes tienen problemas con los vuelos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Computadora Escritorio</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-4.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		9:53 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		La entrevistada, Roxana Melgarejo, de 58 años, es administradora de empresas y trabaja en una agencia de viajes en Lima, Perú. Se considera una persona extrovertida y toma decisiones de acuerdo con los hechos en su vida personal y profesional. Usa un smartphone Android y un programa de reservas de boletos y autos llamado Amadeus. <br> En cuanto a la contratación de servicios, los clientes pueden contratar diferentes servicios como venta de aéreos, paquetes turísticos, seguros de viaje y alquileres de auto, y lo hacen a través de la agencia por diferentes formas, incluso por WhatsApp y con frecuencia hasta en los fines de semana. En cuanto a los procesos de reserva de alojamiento y transporte en los tours, Roxana comenta que los pasajeros solicitan programas a través de WhatsApp y ella cotiza con sus operadores de extranjero y les manda opciones de acuerdo con las solicitudes de cada pasajero. La entrevistada menciona que tuvo un percance con un pasajero que reservó un hotel en Barcelona, ya que el cliente quería algo económico y no se había informado sobre las restricciones de edad del hotel.<br> La reserva se tuvo que cancelar y se le tuvo que devolver el dinero al cliente. Respecto a las aerolíneas, Roxana comenta que antes daban todo incluido, pero ahora los clientes pueden escoger diferentes opciones que varían en cuanto al equipaje que pueden llevar. También menciona que ha tenido problemas con retrasos y cancelaciones de vuelos, pero que ha logrado solucionarlos con los clientes y las aerolíneas. En general, la entrevista proporciona información útil sobre cómo funciona la industria del turismo y cómo los clientes pueden contratar servicios a través de una agencia de viajes. También se destacan los posibles percances que pueden ocurrir en el proceso de reserva y cómo se pueden solucionar. 
+
+</td>
+  </tr>
+</tbody>
+</table>
+
+### 6.3.3 Evaluaciones según heurísticas. 
+
+**UX Heuristics & Principles Evaluation               Usability – Inclusive Design – Information Architecture** 
+
+**CARRERA   : Ingeniería de Software** 
+
+**CURSO   : Desarrollo de Soluciones IoT** 
+
+**SECCIÓN   :** Código de la sección** 
+
+**PROFESORES  : Todos** 
+
+**AUDITOR :** Nombre del Grupo que ejecuta la Sesión de evaluación** 
+
+**CLIENTE(S) :** Nombre de las personas que participan en la sesión **![](Aspose.Words.38d78c91-3121-4c29-95f8-fe72ff236128.001.png)**
+
+*NOTA: Los contenidos de este formato (en color plomo) son referidos a un sitio web de ejemplo. Use este formato como referencia de la estructura que tiene que ser entregada y elimine el contenido en plomo. Coloque su contenido con color azul.* 
+
+***SITE o APP A EVALUAR:** Nombre de App* 
+
+***TAREAS A EVALUAR:*** 
+
+*El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:* 
+
+1. *Registro de un usuario nuevo* 
+1. *Publicación de un post* 
+1. *Búsqueda de un paquete turístico* 
+1. *Reserva de un viaje* 
+1. *Cancelación de una reserva* 
+1. *Agregar ítems a un pedido* 
+1. *Pago de un paquete turístico* 
+1. *Etc.* 
+
+*No están incluidas en esta versión de la evaluación las siguientes tareas:* 
+
+1. *Compartir reservas entre usuarios* 
+1. *Presentar ofertas de último minuto* 
+1. *Administrar puntos del programa de fidelización de viajes* 
+1. *Guardar “alerta de paquetes”* 
+1. *Etc.* 
+
+36/37  V1.0 
+
+***ESCALA DE SEVERIDAD:*** 
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad* 
+
+
+
+|**Nivel** |**Descripción** |
+| - | - |
+|1 |Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+|2 |Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+|3 |Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+|4 |Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+***TABLA RESUMEN:*** 
+
+
+
+|# |Problema |Escala de severidad |Heurística/Principio violada(o) |
+| - | - | - | - |
+|1 |No hay un control que permita regresar a la tienda durante el trámite de compra |3 |Usability: Libertad y control del usuario |
+|2 |Se repiten constantemente algunas opciones  |1 |Usability: Consistencia y estándares |
+|3 |Imágenes sin atributo “alt”  |3 |Inclusive Design: Proporciona experiencias comparables |
+|4 |Incluye un botón “Ver más” pero no existe contenido al que dirigirse |3 |Information Architecture: Is it usable? |
+|5 |No incluye información de los planes de servicio |2 |Information Architecture: Is it findable? |
+|… |…. |||
+Etc. 
+
+***DESCRIPCIÓN DE PROBLEMAS:*** 
+
+*PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra* 
+
+*Severidad: 3* 
+
+*Heurística violada: Usabilidad - Libertad y control del usuario* 
+
+*Problema:* 
+
+*Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.* 
+
+*(Incluir además una captura de pantalla ilustrando el problema). Recomendación:* 
+
+*La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para no perder los cambios realizados en nuestro carrito de compras.*
+
+
+## 6.4 Video About-the-Product.
+
+      
+        
+
+
