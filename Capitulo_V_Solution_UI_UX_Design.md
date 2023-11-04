@@ -1,5 +1,8 @@
 <div align="justify">
 
+<p align="left"><a href="https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/blob/main/Tabla_de_Contenidos.md">Volver a tabla de contenido</a></p>
+
+
 ## 5.1. Style Guidelines.
 En este punto se abordarán las directrices que nuestra startup utilizará para presentar de manera uniforme y efectiva nuestros productos.
 ### 5.1.1. General Style Guidelines.
@@ -236,8 +239,6 @@ User goal 1 : Dado que los turistas disponen de dispositivos para enviar su ubic
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireflow-diagrams/wireflow-diagram-5.png" width="500px" alt="mockups-mobile">
 </div>
 
-
-
 User goal 2: Dado que el usuario desea ver el itinerario de un paquete turístico al que ya está suscrito, a continuación se muestran los pasos para poder visualizarlo mediante nuestra aplicación móvil.
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/wireflow-diagrams/wireflow-diagram-2.png" width="500px" alt="mockups-mobile">
@@ -250,6 +251,8 @@ User goal 3: Dado que la agencia desea registrar un paquete, a continuación se 
 </div>
 
 
+
+
 ### 5.4.2. Applications Mock-ups.
 Los mockups son otra parte esencial en el diseño de nuestras aplicaciones, ya que nos permiten visualizar la apariencia y la disposición de los elementos antes de comenzar el desarrollo.
 A continuación, mostramos los mock-ups de nuestra aplicación móvil.
@@ -260,13 +263,33 @@ A continuación, mostramos los mock-ups de nuestra aplicación móvil.
 
 ### 5.4.3. Applications User Flow Diagrams.
 
-A continuación, se presentan los user flows que competen a nuestros user goals.
+A continuación, se presentan los diagramas de flujo de usuarios relacionados con nuestros objetivos de usuario.
 
-Para el escenario, muestra cómo es el flujo para poder editar la información del usuario, se pueden mostrar los casos en los que este es exitoso y en los que se insertan valores erróneos.
+User Goal 1: Edición de Información del Usuario:
+
+Este escenario ilustra el flujo para editar la información del usuario. Se muestran casos tanto de éxito como de inserción de valores incorrectos.
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-5/Resources/userflow-diagrams/userflow-1.png" width="500px" alt="mockups-mobile">
 </div>
+
+User Goal 2: Visualización de Ubicación en Tiempo Real: 
+
+El Guía Turístico busca visualizar la ubicación en tiempo real de los turistas en su paquete actual de manera simple y sin problemas técnicos.
+
+<div align="center">
+    <img src="https://i.postimg.cc/7ZdJ5tNM/imagen-2023-11-03-184712816.png" width="500px" alt="user-goal-4">
+</div>
+
+
+User Goal 3: Creación de un Paquete Turístico:
+
+El propietario de la agencia tiene la capacidad de crear un paquete turístico completo con información detallada.
+
+<div align="center">
+    <img src="https://i.postimg.cc/brr3zFgc/Group-2367.png" width="500px" alt="user-goal-4">
+</div>
+
 
 ## 5.5. Applications Prototyping.
 
