@@ -2477,6 +2477,13 @@ Este tipo de segmento solo podrá editar los paquetes turísticos que agregaron 
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour2.png" alt="edit-tour2">
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour3.png" alt="edit-tour3">
 
+Se realizó un video explicando las funcionalidades realizadas en el web application para este Sprint 2.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/execution-evidence.png" alt="execution-evidence">
+
+Link del Video: 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwWpKRGuJYeHWhxHT8BZNBY3MCf8RqCACfYZSpuWQ?e=pzrhjp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19 
+
+
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
   A continuación, se presentan los endpoints realizados para el entregable TB2 acorde con el Sprint 2.  Pero antes, cabe mencionar que se logró desarrollar los endpoint principales relacionados a la funcionalidad core de nuestra web application y mobile application.
 
