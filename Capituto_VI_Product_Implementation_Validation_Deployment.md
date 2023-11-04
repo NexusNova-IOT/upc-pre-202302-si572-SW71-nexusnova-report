@@ -2477,6 +2477,13 @@ Este tipo de segmento solo podrá editar los paquetes turísticos que agregaron 
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour2.png" alt="edit-tour2">
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour3.png" alt="edit-tour3">
 
+Se realizó un video explicando las funcionalidades realizadas en el web application para este Sprint 2.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/execution-evidence.png" alt="execution-evidence">
+
+Link del Video: 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwWpKRGuJYeHWhxHT8BZNBY3MCf8RqCACfYZSpuWQ?e=pzrhjp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19 
+
+
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
   A continuación, se presentan los endpoints realizados para el entregable TB2 acorde con el Sprint 2.  Pero antes, cabe mencionar que se logró desarrollar los endpoint principales relacionados a la funcionalidad core de nuestra web application y mobile application.
 
@@ -2932,68 +2939,29 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
 
 ## 6.3 Validation Interviews
 ### 6.3.1 Diseño de Entrevistas.
-<strong>Preguntas sobre información personal</strong>
 
-*	¿Cuál es su nombre completo?
-*	¿Qué edad tienes?
-*	¿A qué te dedicas?
-*	¿Cuál es tu estado civil?
-*	¿En qué ciudad resides?
-*	¿Eres extrovertido o calmado?
-*	¿Eres una persona que toma decisiones analizando los hechos o te dejas llevar por tus sentimientos?
-*	¿Qué smartphone posee? ¿Android o IOS?
-*	¿Usas aplicaciones o programas en especial? ¿Cuáles?
-*	Preguntas principales y secundarias para entrevistas (Usuarios VIajeros)
+**Preguntas sobre información personal:**
 
-<strong>Principales: </strong>
+- ¿Cuál es su nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué lugar reside actualmente?
+- ¿Qué ocupación tiene y dónde labora?
 
-*	¿Con qué frecuencia suele realizar un viaje al interior del país? 
-*	¿Tiene problemas para armar su itinerario?¿ Si su respuesta es sí, qué tipo de problemas son?
-*	¿ Qué características positivas debería tener una empresa para que usted pueda contratar su servicio?
-*	¿Qué tipo de información consideran importante previo a elegir su viaje?
-*	¿Cuáles son los servicios que contrata a menudo de las agencias de viaje?
-*	¿Cuál es su presupuesto promedio y cuáles son los principales rubros en los que realiza sus gastos?
-*	¿Cómo organiza sus viajes frecuentemente?
-*	¿ Sigue algún influencer en redes sociales que haya influido en su elección de viaje?
-*	¿ Utiliza alguna App que lo ayude en las reservas de viaje?¿Si su respuesta es sí, que le brinda esta App?
-*	¿ Le sería útil una Aplicación que lo ayude en la planificación y reserva de un viaje?
+**Preguntas principales:**
 
-
-
-<strong>Complementarias:</strong>
-
-*	¿ Alguna vez fue partícipe de una estafa con su reserva de viaje?
-*	¿ La opinión de su entorno social influye para la elección de una aerolínea de viaje?¿ Si es así, cuál fue la más comentada?
-*	¿Alguna vez sufrió un percance con la reserva de su viaje, por un factor externo a este?
-*	¿Se encuentran conformes con las atenciones que le brinda su actual agencia de viaje?
-*	Frente a algún percance con alguna reserva, ¿la agencia actuó de inmediato?
-
-<strong>Preguntas principales y secundarias para entrevistas (Agencias de viajes)</strong>
-<strong>Principales:</strong>
-
-*	¿Con qué frecuencia los suelen contratar para sus servicios?
-*	¿Cómo hacen los procesos de reserva de alojamiento y transporte?
-*	¿Han tenido algún percance con algún cliente? ¿Qué fue lo que ocurrió?
-*	¿Han tenido algún problema con aerolíneas o alojamientos? ¿Qué fue lo que ocurrió?
-*	¿Cómo generan sus ganancias?
-*	¿Cómo organizan las actividades de los destinos?
-*	¿Su empresa cuenta con redes sociales como medio de marketing?
-*	¿El marketing actual que tienen es efectivo?
-*	¿Colaboran con agencias online para mostrar sus servicios?
-*	¿Le sería útil una aplicación que le ayude a mostrar sus servicios, destinos y planes, con el fin de que los clientes tengan más opciones de elección?
-
-<strong>Complementarias:</strong>
-
-*	¿Su empresa es conocida?
-*	¿Cuál es la razón del porqué los clientes los contactan?
-*	¿Cómo es la percepción de los clientes sobre sus servicios?
-*	¿Qué otros destinos piensan incorporar en sus servicios?
-*	¿Qué proyección tienen a futuro?
+- ¿Qué le parece el diseño de la landing page?
+- ¿El contenido mostrado le motiva a registrarse en la aplicación?
+- Desde su punto de vista, ¿la aplicación le muestra una interfaz fácil de usar? ¿Por qué?
+- ¿Qué opina acerca de los mensajes mostrados al cometer un error? Por ejemplo, al iniciar sesión con un correo no registrado.
+- Después de ver la aplicación, ¿qué mejoras o recomendaciones sugiere?
+- ¿Puede mencionar alguna funcionalidad adicional de las que se les mostró en la exposición que le puedan ayudar para la eficiencia de su trabajo?
+- En base a lo mostrado, ¿usted estaría dispuesto a adquirir un plan pagado para obtener mejores funciones en la aplicación?
 
 ### 6.3.2 Registro de Entrevistas
 En esta sección se registrarán las entrevistas realizadas por cada segmento indicando la información obtenida en una pequeña reseña de sus respuestas a las preguntas realizadas en la sección de diseño de entrevista.
 
-<strong>Segmento Cliente</strong><br>
+<strong>Segmento Agencia</strong><br>
+
 
 <table style="undefined;table-layout: fixed; width: 910px">
 <colgroup>
@@ -3008,23 +2976,156 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>Anderson</td>
+    <td>Abel Ángel</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>Gamarra</td>
+    <td>Cierto Espiritu</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>20 años</td>
+    <td>26 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Tarapoto</td>
+  </tr>
+  <tr>
+    <td>Empresa</td>
+    <td>Tarapoto Tour</td>
+  </tr>
+  <tr>
+    <td>Ocupación</td>
+    <td>Guía turístico y conductor</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/interviews/entrevista-validacion-1.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/EUoAltNAJz5GvxuSJf7gQEwBysQoVQ9wjGCN5jOa72LEOA?e=z7Q8Hi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		8:54 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>Se realizó una entrevista con Abel Ángel, un guía turístico de 26 años de edad que reside en Tarapoto. Abel trabaja en la empresa "Tarapoto Tour", donde cumple funciones tanto como guía turístico como conductor para llevar a los pasajeros a diferentes lugares turísticos de la región.
+    Abel comentó que, a menudo, debe interactuar con los turistas y estar pendiente de su ubicación, ya que a veces se quedan rezagados durante las visitas. Le gustaría contar con una herramienta que facilite la comunicación y el seguimiento de los viajeros, lo que considera esencial para mejorar la experiencia de los clientes.
+    Cuando se le pidió su opinión sobre la aplicación y el landing page proporcionados, Abel mencionó que encontró el diseño atractivo y fácil de usar. Valoró la facilidad de registro, la presentación de la información y las características intuitivas de la aplicación. También sugirió la posibilidad de incluir funciones de mensajería de voz o videollamadas para que los turistas puedan interactuar entre ellos y mejorar la gestión de itinerarios.
+    En cuanto a la adquisición de un plan por parte de su empresa, Abel afirmó que consideraría comprarlo, ya que ayudaría a gestionar a los turistas de manera más eficiente y proporcionaría notificaciones de horarios de partida, lo que facilitaría el trabajo del personal de la empresa.
+    <br>En resumen, Abel valora la usabilidad de la aplicación y el diseño del landing page, pero sugiere la inclusión de funciones de comunicación adicional. Además, estaría dispuesto a adquirir un plan para su empresa con el fin de mejorar la gestión y la experiencia de los turistas.
+</td>
+  </tr>
+</tbody>
+</table>
+
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Branco Alberto</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Villegas Peralta</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
     <td>Los Olivos</td>
   </tr>
   <tr>
+    <td>Empresa</td>
+    <td>Ecologie Tours</td>
+  </tr>
+  <tr>
+    <td>Ocupación</td>
+    <td>Guía turístico</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/interviews/entrevista-validacion-2.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/ETBqu4x5qpJCjolXPio5SroBa1doc4LfuhA-c_p-ZW8xPQ?e=yobV9o&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19 title="Title">Microsoft Stream</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		6:52 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+    Se realizó una entrevista con Branco Villegas, quien trabaja como guía turístico en la empresa "Ecologie Tours". Branco tiene una experiencia de 2 años en la organización de recorridos y paquetes turísticos que incluyen full days y viajes de 3 días y 2 noches, así como opciones para una semana. Branco interactuó con la landing page proporcionada y expresó su aprecio por el diseño, los colores y la tipografía. Sin embargo, sugirió que los botones y las imágenes podrían tener una mayor dinámica en su diseño para evitar que parezcan estáticos. También elogió la información detallada sobre los beneficios y características de los planes y servicios adicionales ofrecidos. Luego, Branco probó la aplicación móvil y destacó la importancia de las funcionalidades relacionadas con los itinerarios y el GPS. Consideró que estas funciones son valiosas para su trabajo como guía turístico. También sugirió la inclusión de un calendario que muestre los itinerarios futuros, lo que le permitiría una mejor organización. Cuando se le preguntó si su empresa estaría dispuesta a pagar un plan para acceder a funciones adicionales en la aplicación, Branco expresó su disposición a hacerlo. Considera que una aplicación dedicada a la gestión de itinerarios sería más eficiente que las actuales soluciones basadas en WhatsApp.
+    <br>En resumen, Branco Villegas valora el diseño y la información proporcionada en la landing page y encuentra que la aplicación móvil es útil para su trabajo. Estaría dispuesto a que su empresa pague por un plan para acceder a funcionalidades adicionales en la aplicación.
+</td>
+  </tr>
+</tbody>
+</table>
+
+<strong>Segmento Turistas</strong><br>
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Pamela</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Mendoza</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Carabayllo</td>
+  </tr>
+  <tr>
     <td>Aplicaciones Usadas</td>
-    <td>Google Chrome, Zoom</td>
+    <td>Google Chrome, Navegador por defecto de Samsung</td>
   </tr>
   <tr>
     <td>Motivacion</td>
@@ -3041,27 +3142,27 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
   <tr>
     <td colspan="2">Evidencia
 			<div align="center">
-				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tb1/Resources/interviews/entrevista-1.png" alt="Entrevista Evidencia">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/82915d25d5b574ae189e8feb3af9e6900df4098b/Resources/sprint2/reunion_pamela.png" alt="Entrevista Evidencia">
 			</div>
 		</td>
   </tr>
   <tr>
     <td>Link</td>
     <td>
-		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/EWudn6iq5RxFrGvV0LK4j7EBUgSQVy5ETf1WherSzZuKFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=fLsKgJ" title="Title">Microsoft Stream</p>
 		</td>
   </tr>
   <tr>
     <td>Duracion<br></td>
     <td>
-		9:53 min
+		6:43 min
 		</td>
   </tr>
   <tr>
     <td>Resumen</td>
-    <td>Se realizó una entrevista a Anderson Gamarra, estudiante universitario de 20 años que actualmente reside en Lima, Perú. Él nos comenta que la frecuencia con la que viaja es durante sus vacaciones a mitad de año junto a su familia, por lo que busca en internet todo lo relacionado desde el destino hasta las actividades que harán durante su viaje. Además, nos menciona que le toma días, incluso meses realizar esta tarea, ya que no tiene un medio que se lo facilite, y que por lo general la mayoría de las veces que busca en internet solo encuentra los vuelos para el destino elegido, pero no las actividades para dicho destino. Los servicios que suele contratar a menudo en internet son el hospedaje y una guía con las actividades, pero le desagrada que las guías de las actividades a realizar se lo entreguen cuando llega a su destino y no con antelación.
+    <td>Se realizó una entrevista a Pamela Mendoza, de 25 años que actualmente reside en Carabayllo, Perú. Ella nos comenta que la la aplicación le parece totalmente llamativa. Que la primera versión presentada tiene colores atractivos y que la navegación es acorde a una que está vinculada con el turismo. Asimismo, nos comento que no identifica alguna mejora a lo presentado.
 		<br>
-		Por último, considera importante la posibilidad de tener el horario de todas las actividades desde el inicio hasta el final del viaje de forma detallada y que permita a todos los involucrados en el viaje la posibilidad de ver el itinerario y las actividades de la reserva en su dispositivo con su propia cuenta.
+		Por último, considera importante la posibilidad de tener una sección de favoritos, donde pueda agregar los tours que sean llamativos e interesantes para ella.
 </td>
   </tr>
 </tbody>
