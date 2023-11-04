@@ -2955,6 +2955,139 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 
 <strong>Segmento Cliente</strong><br>
 
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Abel Angel</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Cierto Espiritu</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>26 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Tarapoto</td>
+  </tr>
+  <tr>
+    <td>Empresa</td>
+    <td>Tarapoto Tour</td>
+  </tr>
+  <tr>
+    <td>Ocupación</td>
+    <td>Guía turístico y conductor</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/interviews/entrevista-validacion-1.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		9:53 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>Se realizó una entrevista con Abel Ángel, un guía turístico de 26 años de edad que reside en Tarapoto. Abel trabaja en la empresa "Tarapoto Tour", donde cumple funciones tanto como guía turístico como conductor para llevar a los pasajeros a diferentes lugares turísticos de la región.
+    Abel comentó que, a menudo, debe interactuar con los turistas y estar pendiente de su ubicación, ya que a veces se quedan rezagados durante las visitas. Le gustaría contar con una herramienta que facilite la comunicación y el seguimiento de los viajeros, lo que considera esencial para mejorar la experiencia de los clientes.
+    Cuando se le pidió su opinión sobre la aplicación y el landing page proporcionados, Abel mencionó que encontró el diseño atractivo y fácil de usar. Valoró la facilidad de registro, la presentación de la información y las características intuitivas de la aplicación. También sugirió la posibilidad de incluir funciones de mensajería de voz o videollamadas para que los turistas puedan interactuar entre ellos y mejorar la gestión de itinerarios.
+    En cuanto a la adquisición de un plan por parte de su empresa, Abel afirmó que consideraría comprarlo, ya que ayudaría a gestionar a los turistas de manera más eficiente y proporcionaría notificaciones de horarios de partida, lo que facilitaría el trabajo del personal de la empresa.
+    <br>En resumen, Abel valora la usabilidad de la aplicación y el diseño del landing page, pero sugiere la inclusión de funciones de comunicación adicional. Además, estaría dispuesto a adquirir un plan para su empresa con el fin de mejorar la gestión y la experiencia de los turistas.
+</td>
+  </tr>
+</tbody>
+</table>
+
+
+<table style="undefined;table-layout: fixed; width: 910px">
+<colgroup>
+<col style="width: 220px">
+<col style="width: 700px">
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Branco Alberto</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Villegas Peralta</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <td>Empresa</td>
+    <td>Tarapoto Tour</td>
+  </tr>
+  <tr>
+    <td>Ocupación</td>
+    <td>Guía turístico y conductor</td>
+  </tr>
+  <tr>
+    <td colspan="2">Evidencia
+			<div align="center">
+				<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/interviews/entrevista-validacion-1.png" alt="Entrevista Evidencia">
+			</div>
+		</td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		</td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>
+		9:53 min
+		</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+
+</td>
+  </tr>
+</tbody>
+</table>
+
+
+
 <table style="undefined;table-layout: fixed; width: 910px">
 <colgroup>
 <col style="width: 220px">
