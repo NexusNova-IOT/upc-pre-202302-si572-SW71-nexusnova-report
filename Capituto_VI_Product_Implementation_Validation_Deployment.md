@@ -2953,7 +2953,7 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
 ### 6.3.2 Registro de Entrevistas
 En esta sección se registrarán las entrevistas realizadas por cada segmento indicando la información obtenida en una pequeña reseña de sus respuestas a las preguntas realizadas en la sección de diseño de entrevista.
 
-<strong>Segmento Cliente</strong><br>
+<strong>Segmento Agencia</strong><br>
 
 
 <table style="undefined;table-layout: fixed; width: 910px">
@@ -3087,7 +3087,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 </tbody>
 </table>
 
-
+<strong>Segmento Turistas</strong><br>
 
 <table style="undefined;table-layout: fixed; width: 910px">
 <colgroup>
@@ -3102,23 +3102,23 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>Anderson</td>
+    <td>Pamela</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>Gamarra</td>
+    <td>Mendoza</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>20 años</td>
+    <td>25 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>Los Olivos</td>
+    <td>Carabayllo</td>
   </tr>
   <tr>
     <td>Aplicaciones Usadas</td>
-    <td>Google Chrome, Zoom</td>
+    <td>Google Chrome, Navegador por defecto de Samsung</td>
   </tr>
   <tr>
     <td>Motivacion</td>
@@ -3142,20 +3142,20 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
   <tr>
     <td>Link</td>
     <td>
-		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919381_upc_edu_pe/EePdyu8GWOFBhtKoSoDuBlUBJVrNndBvgfYkTqO5FvwlhA?e=naeF9m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19" title="Title">Microsoft Stream</p>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/EWudn6iq5RxFrGvV0LK4j7EBUgSQVy5ETf1WherSzZuKFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=fLsKgJ" title="Title">Microsoft Stream</p>
 		</td>
   </tr>
   <tr>
     <td>Duracion<br></td>
     <td>
-		9:53 min
+		6:43 min
 		</td>
   </tr>
   <tr>
     <td>Resumen</td>
-    <td>Se realizó una entrevista a Anderson Gamarra, estudiante universitario de 20 años que actualmente reside en Lima, Perú. Él nos comenta que la frecuencia con la que viaja es durante sus vacaciones a mitad de año junto a su familia, por lo que busca en internet todo lo relacionado desde el destino hasta las actividades que harán durante su viaje. Además, nos menciona que le toma días, incluso meses realizar esta tarea, ya que no tiene un medio que se lo facilite, y que por lo general la mayoría de las veces que busca en internet solo encuentra los vuelos para el destino elegido, pero no las actividades para dicho destino. Los servicios que suele contratar a menudo en internet son el hospedaje y una guía con las actividades, pero le desagrada que las guías de las actividades a realizar se lo entreguen cuando llega a su destino y no con antelación.
+    <td>Se realizó una entrevista a Pamela Mendoza, de 25 años que actualmente reside en Carabayllo, Perú. Ella nos comenta que la la aplicación le parece totalmente llamativa. Que la primera versión presentada tiene colores atractivos y que la navegación es acorde a una que está vinculada con el turismo. Asimismo, nos comento que no identifica alguna mejora a lo presentado.
 		<br>
-		Por último, considera importante la posibilidad de tener el horario de todas las actividades desde el inicio hasta el final del viaje de forma detallada y que permita a todos los involucrados en el viaje la posibilidad de ver el itinerario y las actividades de la reserva en su dispositivo con su propia cuenta.
+		Por último, considera importante la posibilidad de tener una sección de favoritos, donde pueda agregar los tours que sean llamativos e interesantes para ella.
 </td>
   </tr>
 </tbody>
