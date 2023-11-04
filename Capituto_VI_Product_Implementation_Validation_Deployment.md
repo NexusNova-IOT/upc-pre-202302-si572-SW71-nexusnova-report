@@ -2932,63 +2932,23 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
 
 ## 6.3 Validation Interviews
 ### 6.3.1 Diseño de Entrevistas.
-<strong>Preguntas sobre información personal</strong>
 
-*	¿Cuál es su nombre completo?
-*	¿Qué edad tienes?
-*	¿A qué te dedicas?
-*	¿Cuál es tu estado civil?
-*	¿En qué ciudad resides?
-*	¿Eres extrovertido o calmado?
-*	¿Eres una persona que toma decisiones analizando los hechos o te dejas llevar por tus sentimientos?
-*	¿Qué smartphone posee? ¿Android o IOS?
-*	¿Usas aplicaciones o programas en especial? ¿Cuáles?
-*	Preguntas principales y secundarias para entrevistas (Usuarios VIajeros)
+**Preguntas sobre información personal:**
 
-<strong>Principales: </strong>
+- ¿Cuál es su nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué lugar reside actualmente?
+- ¿Qué ocupación tiene y dónde labora?
 
-*	¿Con qué frecuencia suele realizar un viaje al interior del país? 
-*	¿Tiene problemas para armar su itinerario?¿ Si su respuesta es sí, qué tipo de problemas son?
-*	¿ Qué características positivas debería tener una empresa para que usted pueda contratar su servicio?
-*	¿Qué tipo de información consideran importante previo a elegir su viaje?
-*	¿Cuáles son los servicios que contrata a menudo de las agencias de viaje?
-*	¿Cuál es su presupuesto promedio y cuáles son los principales rubros en los que realiza sus gastos?
-*	¿Cómo organiza sus viajes frecuentemente?
-*	¿ Sigue algún influencer en redes sociales que haya influido en su elección de viaje?
-*	¿ Utiliza alguna App que lo ayude en las reservas de viaje?¿Si su respuesta es sí, que le brinda esta App?
-*	¿ Le sería útil una Aplicación que lo ayude en la planificación y reserva de un viaje?
+**Preguntas principales:**
 
-
-
-<strong>Complementarias:</strong>
-
-*	¿ Alguna vez fue partícipe de una estafa con su reserva de viaje?
-*	¿ La opinión de su entorno social influye para la elección de una aerolínea de viaje?¿ Si es así, cuál fue la más comentada?
-*	¿Alguna vez sufrió un percance con la reserva de su viaje, por un factor externo a este?
-*	¿Se encuentran conformes con las atenciones que le brinda su actual agencia de viaje?
-*	Frente a algún percance con alguna reserva, ¿la agencia actuó de inmediato?
-
-<strong>Preguntas principales y secundarias para entrevistas (Agencias de viajes)</strong>
-<strong>Principales:</strong>
-
-*	¿Con qué frecuencia los suelen contratar para sus servicios?
-*	¿Cómo hacen los procesos de reserva de alojamiento y transporte?
-*	¿Han tenido algún percance con algún cliente? ¿Qué fue lo que ocurrió?
-*	¿Han tenido algún problema con aerolíneas o alojamientos? ¿Qué fue lo que ocurrió?
-*	¿Cómo generan sus ganancias?
-*	¿Cómo organizan las actividades de los destinos?
-*	¿Su empresa cuenta con redes sociales como medio de marketing?
-*	¿El marketing actual que tienen es efectivo?
-*	¿Colaboran con agencias online para mostrar sus servicios?
-*	¿Le sería útil una aplicación que le ayude a mostrar sus servicios, destinos y planes, con el fin de que los clientes tengan más opciones de elección?
-
-<strong>Complementarias:</strong>
-
-*	¿Su empresa es conocida?
-*	¿Cuál es la razón del porqué los clientes los contactan?
-*	¿Cómo es la percepción de los clientes sobre sus servicios?
-*	¿Qué otros destinos piensan incorporar en sus servicios?
-*	¿Qué proyección tienen a futuro?
+- ¿Qué le parece el diseño de la landing page?
+- ¿El contenido mostrado le motiva a registrarse en la aplicación?
+- Desde su punto de vista, ¿la aplicación le muestra una interfaz fácil de usar? ¿Por qué?
+- ¿Qué opina acerca de los mensajes mostrados al cometer un error? Por ejemplo, al iniciar sesión con un correo no registrado.
+- Después de ver la aplicación, ¿qué mejoras o recomendaciones sugiere?
+- ¿Puede mencionar alguna funcionalidad adicional de las que se les mostró en la exposición que le puedan ayudar para la eficiencia de su trabajo?
+- En base a lo mostrado, ¿usted estaría dispuesto a adquirir un plan pagado para obtener mejores funciones en la aplicación?
 
 ### 6.3.2 Registro de Entrevistas
 En esta sección se registrarán las entrevistas realizadas por cada segmento indicando la información obtenida en una pequeña reseña de sus respuestas a las preguntas realizadas en la sección de diseño de entrevista.
