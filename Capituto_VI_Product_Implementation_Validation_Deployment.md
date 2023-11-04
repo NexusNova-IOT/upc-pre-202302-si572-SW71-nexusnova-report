@@ -1104,7 +1104,30 @@ Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Lan
 
 **Back-End:**
 
-Aun no se ha configurado el sistema de despliegue para el back-end. Sin embargo, en las próximas versiones cuando el equipo concluya sobre la herramienta a usar se estará agregando en una nueva versión del documento.
+**1.  Crear un Web App En Azure y configurar el SDK.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-1.png" alt="Branches.">
+</div>
+
+<br>
+
+**2.  Configurar el Repositorio a usar para desplegar con GitHub Actions.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-2.png" alt="Branches.">
+</div>
+
+<br>
+
+**3.  Esperar la compilacion del proyecto en el dashboard.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-2.png" alt="Branches.">
+</div>
+
+<br><br>
+
 
 ## 6.2 Landing Page, Services & Applications Implementation
 ### 6.2.1 Sprint 1
@@ -2819,36 +2842,30 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwW
 
   En este sprint se realizó el deployment con Firebase Hosting, se muestra la evidencia del deployment y el uso de data que se está efectuando día a día. Firebase, nos brinda una url donde se presenta el Web Application de nuestra solución.
   <div align="center">
-  <img src="" alt="contributor-evidence.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Web_Application.png" alt="contributor-evidence.">
   </div>
 
   <strong>Evidence Web Application</strong>
 
   A continuación se presenta una imagen donde se evidencia la url brindada por Firebase y que se muestra el Home de nuestro Web Application, donde mostramos los paquetes turísticos, también hemos implementado el toolbar y navigation bar, search packages por región y un filtrado de paquetes por la región seleccionada.
   <div align="center">
-  <img src="" alt="contributor-evidence.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/Evidence_Web_Application.png" alt="contributor-evidence.">
   </div>
 
   <strong>Evidence Deployment Web Services</strong>
 
   En este sprint se realizó el deployment con Azure, se muestra la evidencia del deployment y el uso de data que se está efectuando día a día. Azure, nos brinda una url donde se extraen los endpoints.
   <div align="center">
-  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Web_Application.png" alt="contributor-evidence.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/Evidence_Deployment_Web_Services.png" alt="contributor-evidence.">
   </div>
 
   <strong>Evidence Web Services</strong>
 
   A continuación se presenta una imagen donde se evidencia el despliegue de nuestro Backend.
   <div align="center">
-  <img src="" alt="contributor-evidence.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/Evidence_Web_Services.png" alt="contributor-evidence.">
   </div>
 
-  <strong>Evidence Web Services</strong>
-
-  A continuación se presenta una imagen donde se evidencia la url del web services desplegado, mostrando Swagger.
-  <div align="center">
-  <img src="" alt="contributor-evidence.">
-  </div>
 
 
 
