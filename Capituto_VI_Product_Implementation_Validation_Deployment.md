@@ -1833,6 +1833,8 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
 
       Ryan Sweden: En mi opinión, el sprint 1 fue exitoso
 
+      Ivan Moran: El Sprint 1 nos sirvio para marcar las bases del desarrollo de nuestro proyecto y en la delegacion de tareas por equipos.
+
       Nicole Price: Uno de los puntos a mejorar en la aplicación web es la sección del listado de paquetes turísticos. Esta podría mejorar en el filtrado por búsqueda de regiones.
 
       Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos mejorar el diseño responsive para ciertos dispositivos. Adicionalmente, la aplicación web debe mejorar su diseño.
