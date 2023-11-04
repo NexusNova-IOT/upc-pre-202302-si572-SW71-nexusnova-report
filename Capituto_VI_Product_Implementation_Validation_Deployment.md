@@ -1104,7 +1104,30 @@ Estos pasos son los que se llevaran a cabo para desplegar automatico nuestro Lan
 
 **Back-End:**
 
-Aun no se ha configurado el sistema de despliegue para el back-end. Sin embargo, en las próximas versiones cuando el equipo concluya sobre la herramienta a usar se estará agregando en una nueva versión del documento.
+**1.  Crear un Web App En Azure y configurar el SDK.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-1.png" alt="Branches.">
+</div>
+
+<br>
+
+**2.  Configurar el Repositorio a usar para desplegar con GitHub Actions.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-2.png" alt="Branches.">
+</div>
+
+<br>
+
+**3.  Esperar la compilacion del proyecto en el dashboard.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/deployment/backend-3.png" alt="Branches.">
+</div>
+
+<br><br>
+
 
 ## 6.2 Landing Page, Services & Applications Implementation
 ### 6.2.1 Sprint 1
@@ -1789,13 +1812,11 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
 
     Comentarios Miembros del Equipo:
 
-      Ryan Sweden: que hicimos?
+      Ryan Sweden: En mi opinión, el sprint 1 fue exitoso, con la Landing Page y la aplicación web cumpliendo con los estándares heurísticos y entregando funcionalidades esenciales con calidad.
 
-      Nicole Price: 
+      Nicole Price: A mi parecer, el avance del sprint 1 fue satisfactorio. Se desarrollaron las funcionalidades principales de la aplicación.y se cumplieron con lo establecido para el Sprint 1.
 
       Dominik Mendoza: Desde mi perspectiva, el avance del sprint 1 fue notable. Por un lado, la Landing Page cumplía con las heurísticas y la aplicación Web constaba de lo básico.
-
-      Ivan Morán: “Buenardo” 
 
       Edgar Malca: En mi opinión, el alcance que se tuvo en el sprint 1 fue satisfactorio. Esto se demuestra en la calificación obtenida y en la calidad de artefactos y productos de software que se entrego. 
 
@@ -1808,17 +1829,16 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 2
     <td>Sprint n -1 Retrospective Summary</td>
     <td>En el sprint anterior, el equipo realizó una primera versión del Landing Page y del Web Application. Se comenzó a desarrollar la parte core de nuestro negocio. A continuación algunos comentarios de que aciertos u oportunidades de mejoras identificaron los integrantes.
     
-   Comentarios Miembros del Equipo:
+    Comentarios Miembros del Equipo:
 
-      Ryan Sweden: que hicimos?
+      Ryan Sweden: En mi opinión, el sprint 1 fue exitoso
 
-      Nicole Price: 
+      Nicole Price: Uno de los puntos a mejorar en la aplicación web es la sección del listado de paquetes turísticos. Esta podría mejorar en el filtrado por búsqueda de regiones.
 
       Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos mejorar el diseño responsive para ciertos dispositivos. Adicionalmente, la aplicación web debe mejorar su diseño.
 
-      Ivan Morán: “Buenardo” 
+      Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar, especialmente la parte del navbar. Asimismo, en el web application identifique que algunas secciones no tenian concordancia con las reglas del negocio planteadas. Por ello, el equipo replanteó mejor la lógica de negocio junto con el Product Owner.  
 
-      Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar, especialmente la parte del navbar. Asimismo, en el web application identifique que algunas secciones no tenian concordancia con las reglas del negocio planteadas. Por ello, el equipo replanteo mejor la logica de negocio junto con el Product Owner.  
    </td>
   </tr>
   <tr>
@@ -1958,7 +1978,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
     <td>Vincular Firebase autenticacion</td>
     <td>2</td>
     <td>Ryan Sweden</td>
-    <td>In Process</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US22-3</td>
@@ -1966,7 +1986,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
     <td>Conectar con Backend para obtener datos del usuario con token</td>
     <td>2</td>
     <td>Ryan Sweden</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td rowspan="2">US09</td>
@@ -2451,7 +2471,16 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
-Para este sprint, no se han realizado las actividades requeridas en la sección de pruebas. Es decir, no se han creado archivos .feature ni se ha identificado la relación con User Stories o clases.
+Para este Sprint-2 se inicio la realizacion de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
+
+Para este entregable se inicio con la realizacion de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicacion.
+
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-1.png" alt="evidence">
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-2.png" alt="evidence">
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-3.png" alt="evidence">
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 
@@ -2819,36 +2848,30 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwW
 
   En este sprint se realizó el deployment con Firebase Hosting, se muestra la evidencia del deployment y el uso de data que se está efectuando día a día. Firebase, nos brinda una url donde se presenta el Web Application de nuestra solución.
   <div align="center">
-  <img src="" alt="contributor-evidence.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Web_Application.png" alt="contributor-evidence.">
   </div>
 
   <strong>Evidence Web Application</strong>
 
   A continuación se presenta una imagen donde se evidencia la url brindada por Firebase y que se muestra el Home de nuestro Web Application, donde mostramos los paquetes turísticos, también hemos implementado el toolbar y navigation bar, search packages por región y un filtrado de paquetes por la región seleccionada.
   <div align="center">
-  <img src="" alt="contributor-evidence.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/Evidence_Web_Application.png" alt="contributor-evidence.">
   </div>
 
   <strong>Evidence Deployment Web Services</strong>
 
   En este sprint se realizó el deployment con Azure, se muestra la evidencia del deployment y el uso de data que se está efectuando día a día. Azure, nos brinda una url donde se extraen los endpoints.
   <div align="center">
-  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Web_Application.png" alt="contributor-evidence.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/Evidence_Deployment_Web_Services.png" alt="contributor-evidence.">
   </div>
 
   <strong>Evidence Web Services</strong>
 
   A continuación se presenta una imagen donde se evidencia el despliegue de nuestro Backend.
   <div align="center">
-  <img src="" alt="contributor-evidence.">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/Evidence_Web_Services.png" alt="contributor-evidence.">
   </div>
 
-  <strong>Evidence Web Services</strong>
-
-  A continuación se presenta una imagen donde se evidencia la url del web services desplegado, mostrando Swagger.
-  <div align="center">
-  <img src="" alt="contributor-evidence.">
-  </div>
 
 
 
@@ -3397,84 +3420,101 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 
 **CURSO   : Desarrollo de Soluciones IoT** 
 
-**SECCIÓN   :** Código de la sección** 
+**SECCIÓN   : SW71** 
 
-**PROFESORES  : Todos** 
+**PROFESORES  : Angel Augusto Velasquez Nuñez** 
 
-**AUDITOR :** Nombre del Grupo que ejecuta la Sesión de evaluación** 
-
-**CLIENTE(S) :** Nombre de las personas que participan en la sesión **![](Aspose.Words.38d78c91-3121-4c29-95f8-fe72ff236128.001.png)**
-
-*NOTA: Los contenidos de este formato (en color plomo) son referidos a un sitio web de ejemplo. Use este formato como referencia de la estructura que tiene que ser entregada y elimine el contenido en plomo. Coloque su contenido con color azul.* 
-
-***SITE o APP A EVALUAR:** Nombre de App* 
-
-***TAREAS A EVALUAR:*** 
-
-*El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:* 
-
-1. *Registro de un usuario nuevo* 
-1. *Publicación de un post* 
-1. *Búsqueda de un paquete turístico* 
-1. *Reserva de un viaje* 
-1. *Cancelación de una reserva* 
-1. *Agregar ítems a un pedido* 
-1. *Pago de un paquete turístico* 
-1. *Etc.* 
-
-*No están incluidas en esta versión de la evaluación las siguientes tareas:* 
-
-1. *Compartir reservas entre usuarios* 
-1. *Presentar ofertas de último minuto* 
-1. *Administrar puntos del programa de fidelización de viajes* 
-1. *Guardar “alerta de paquetes”* 
-1. *Etc.* 
-
-36/37  V1.0 
-
-***ESCALA DE SEVERIDAD:*** 
-
-*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad* 
+**AUDITOR : NexusNova** 
 
 
+**CLIENTE(S): Malca Edgar, Mendoza Dominik, Moran Ivan, Price Nicole, Sweden Ryan.**
 
-|**Nivel** |**Descripción** |
-| - | - |
-|1 |Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-|2 |Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
-|3 |Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-|4 |Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+**SITE o APP A EVALUAR:** LifeTravel
 
-***TABLA RESUMEN:*** 
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Inicio de Sesión.
+2. Publicación de una experiencia turística.
+3. Edición de un paquete turístico.
+4. Búsqueda de un paquete turístico.
+5. Filtrado de paquetes turísticos.
+6. Geolocalización de turistas.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Compartir reservas entre usuarios
+2. Presentar ofertas de último minuto
+3. Administrar puntos del programa de fidelización de viajes
+4. Guardar “alerta de paquetes”
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados teniendo en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+| ----- | ----------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al próximo release. |
+| 3     | Problema mayor: ocurre con frecuencia o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+| #  | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| -- | -------- | ------------------- | ------------------------------- |
+| 1  | La contraseña se muestra como texto plano en lugar de censurada | 2 | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores |
+| 2  | La función de geolocalización es inexacta y muestra información incorrecta | 4 | Usability: Prevención de errores |
+| 3  | No hay un mensaje de confirmación al guardar cambios  | 3 | Usability: Visibilidad del estado del sistema |
 
 
+**DESCRIPCIÓN DE PROBLEMAS:**
 
-|# |Problema |Escala de severidad |Heurística/Principio violada(o) |
-| - | - | - | - |
-|1 |No hay un control que permita regresar a la tienda durante el trámite de compra |3 |Usability: Libertad y control del usuario |
-|2 |Se repiten constantemente algunas opciones  |1 |Usability: Consistencia y estándares |
-|3 |Imágenes sin atributo “alt”  |3 |Inclusive Design: Proporciona experiencias comparables |
-|4 |Incluye un botón “Ver más” pero no existe contenido al que dirigirse |3 |Information Architecture: Is it usable? |
-|5 |No incluye información de los planes de servicio |2 |Information Architecture: Is it findable? |
-|… |…. |||
-Etc. 
+**PROBLEMA #1: La contraseña se muestra como texto plano en lugar de censurada**
 
-***DESCRIPCIÓN DE PROBLEMAS:*** 
+- **Severidad: 2**
+- **Heurística violada: Usabilidad - Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores**
 
-*PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra* 
+**Problema:**
 
-*Severidad: 3* 
+Durante el proceso de inicio de sesión, cuando los usuarios ingresan su contraseña, esta se muestra como texto plano en lugar de ser ocultada con asteriscos u otro carácter. Esto puede plantear preocupaciones de seguridad, ya que otros pueden ver la contraseña mientras se ingresa.
 
-*Heurística violada: Usabilidad - Libertad y control del usuario* 
+![Problema 1](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/heuristics/problem-1.png)
 
-*Problema:* 
+**Recomendación:**
 
-*Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.* 
+Para mejorar la seguridad y la experiencia del usuario, se debe ocultar la contraseña con asteriscos u otro carácter mientras se ingresa. Esto ayudará a proteger la contraseña del usuario de miradas indiscretas y aumentará la seguridad del proceso de inicio de sesión.
 
-*(Incluir además una captura de pantalla ilustrando el problema). Recomendación:* 
+**PROBLEMA #2: La función de geolocalización es inexacta y muestra información incorrecta**
 
-*La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para no perder los cambios realizados en nuestro carrito de compras.*
+- **Severidad: 4**
+- **Heurística violada: Usability - Prevención de errores**
 
+**Problema:**
+
+La función de geolocalización en la aplicación muestra información incorrecta y a menudo no localiza a los usuarios con precisión. Esto puede llevar a confusiones y problemas en la planificación de viajes.
+
+![Problema 2](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/heuristics/problem-2.png)
+
+**Recomendación:**
+
+Es fundamental corregir la inexactitud de la función de geolocalización para proporcionar información precisa a los usuarios. Se deben realizar pruebas exhaustivas para garantizar que esta característica funcione de manera confiable.
+
+**PROBLEMA #3: No hay un mensaje de confirmación al guardar cambios**
+
+- **Severidad: 3**
+- **Heurística violada: Usability - Visibilidad del estado del sistema**
+
+**Problema:**
+
+Cuando los usuarios realizan cambios o actualizaciones en la aplicación, como editar un perfil o modificar un paquete turístico, no reciben un mensaje de confirmación que indique que los cambios se han guardado con éxito. Esto puede generar incertidumbre en los usuarios, ya que no tienen retroalimentación inmediata sobre el estado de sus acciones.
+
+![Problema 3](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/heuristics/problem-3.png)
+
+**Recomendación:**
+
+Para proporcionar una mejor experiencia al usuario, se debe implementar un mensaje de confirmación después de que los cambios se guarden exitosamente. Esto ayudará a los usuarios a tener la seguridad de que sus modificaciones se han realizado con éxito y que sus acciones se han registrado correctamente en la aplicación.
 
 ## 6.4 Video About-the-Product.
 
