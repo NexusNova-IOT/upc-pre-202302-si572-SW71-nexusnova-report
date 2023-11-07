@@ -3522,6 +3522,6 @@ Para proporcionar una mejor experiencia al usuario, se debe implementar un mensa
 
 A continuación, se presenta el video About the Product. En el cúal se hace la promoción de LifeTravel y se utiliza el Landing Page como recurso de apoyo visual.
 
-<img src="" alt="About the Product">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/about%20the%20product.png" alt="About the Product">
 
 Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/ESZQ-tZYQ-5Kv8mA_iNM_oABqH5gUJLjPz3h6uY39SdtZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=QRtCtE
