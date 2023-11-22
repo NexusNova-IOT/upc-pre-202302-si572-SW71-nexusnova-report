@@ -3256,35 +3256,91 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 <tbody>
   <tr>
     <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
-    <td>develop</td>
-    <td>a4cbaf2ebfd56e2f7b89d6e61b8364c104251974</td>
-    <td>initial commit</td>
+    <td>main</td>
+    <td>e820999ad07d58241e81d7fb7806a36250a9e3f9</td>
+    <td>chore: add configuration for platformio</td>
     <td></td>
-    <td>13/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
-    <td>develop</td>
-    <td>7bd7296cb1a028d6b15946baca3033754d73ade2</td>
-    <td>feat: added temperature measure</td>
-    <td></td>
-    <td>14/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
-    <td>develop</td>
-    <td>f08a816faad9593a45c65fb59be98f31c66ba3f0</td>
-    <td>feat: removed unused libraries</td>
-    <td></td>
-    <td>18/10/2023</td>
+    <td>02/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
     <td>main</td>
-    <td>81c00426904a32c583d1b18d247a6f1547428d00</td>
-    <td>Merge pull request #1 from NexusNova-IOT/develop </td>
+    <td>b5e93713edc7e415617acbc4d115902c2ca3a391</td>
+    <td>chore: add wokwi settings</td>
     <td></td>
-    <td>18/10/2023</td>
+    <td>02/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>main</td>
+    <td>64055bd63f37e0337da28a960be299c52c1974cd</td>
+    <td>chore: add http utils from endpoint</td>
+    <td></td>
+    <td>04/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>main</td>
+    <td>472addd6451c8f08f9e4fc7b85cd0760b57b32cc</td>
+    <td>chore: add header files for DHT </td>
+    <td></td>
+    <td>04/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>main</td>
+    <td>472addd6451c8f08f9e4fc7b85cd0760b57b32cc</td>
+    <td>de1b2e83ef1f23c281d03128c8f582d2b69a86cc</td>
+    <td></td>
+    <td>04/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>main</td>
+    <td>045a0c343f997b8c653328ea467f28a44e558177</td>
+    <td>feat: add refactor and IoT intration with backend</td>
+    <td></td>
+    <td>04/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>99bb957212725242838b83d9460c2962399bd8d4</td>
+    <td>feat: update bearer token and Readme</td>
+    <td></td>
+    <td>07/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>ffeba82c31dac3993039f7a60951edd8dc7581c3</td>
+    <td>feat: add authentication on setup</td>
+    <td></td>
+    <td>16/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>f98d6e767f5c8dbffe98ebf23b023519f973d56b</td>
+    <td>feat: fix http request</td>
+    <td></td>
+    <td>18/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>c518c47e9a97e0abc639d449dd3d8e1cddde2d99</td>
+    <td>chore: fix convention</td>
+    <td></td>
+    <td>18/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>3b89dc92030cd2c60eb7a9ce5b9f87980a29a15f</td>
+    <td>feat: authentacion completed</td>
+    <td></td>
+    <td>18/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
@@ -3297,404 +3353,420 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
   <tr>
     <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
     <td>feature/display</td>
-    <td>81ba8561a4b312ab0d3b7e694a7cddb235cec724</td>
-    <td>feat: added wifi connection</td>
+    <td>9ffc40d597674ca0372c5668c86524fa8b534d17</td>
+    <td>chore: add platformio dependency</td>
     <td></td>
-    <td>18/10/2023</td>
+    <td>13/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
     <td>feature/display</td>
-    <td>61ac37ad268e0396c7d6527f126daec69b738d88</td>
-    <td>chore: add libraries for wifi and display management</td>
+    <td>295d3d2e5fd266102cd6dc283ef00b531d690025</td>
+    <td>chore: update picture</td>
     <td></td>
-    <td>26/10/2023</td>
+    <td>13/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
-    <td>feature/display</td>
-    <td>269dd2314fa4521bb673fb648aa39124e7653961</td>
-    <td>chore: add LCD display module</td>
+    <td>develop</td>
+    <td>6669ebc8db10742084bc3e0cb5ae441b770c9b15</td>
+    <td>feat: modules refactor</td>
     <td></td>
-    <td>26/10/2023</td>
+    <td>13/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
-    <td>feature/display</td>
-    <td>56eecdd426021b3acd58df96e09e761021b77387</td>
-    <td>feat: add weight presentation on display</td>
+    <td>develop</td>
+    <td>5a70ab318d4b139b5b3cfa45e7624a7c9888cb9a</td>
+    <td>feat: add backend communication</td>
     <td></td>
-    <td>26/10/2023</td>
+    <td>13/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>develop</td>
+    <td>3c2936d7e13918c2c9a0edbe52285b2254931d72</td>
+    <td>feat: refactor for use sensor id</td>
+    <td></td>
+    <td>16/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>develop</td>
+    <td>abfabb31334272e56905ce91f4729505e7a07d6e</td>
+    <td>feat: add button for server comunication</td>
+    <td></td>
+    <td>18/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>develop</td>
+    <td>269c2b5fc45d9870a1aaf4dae1269ab774dee7c7</td>
+    <td>feat: authentacion completed</td>
+    <td></td>
+    <td>21/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
     <td>feature/authentication</td>
-    <td>a8bd609d71d6ec968b9eeebe81e08bbb63615bfd</td>
-    <td>feat(authentication): added login widget</td>
+    <td>ca6f0f48735aa30281a379ce5f24c505eb88a9c1</td>
+    <td>refactor: login code and add logout button</td>
     <td></td>
-    <td>24/10/2023</td>
+    <td>02/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/authentication</td>
-    <td>73f7ea7712561b68c4fe8db3b313d13f42c47e0d</td>
-    <td>styles(tour-guide-map): updated map styles</td>
+    <td>feature/booking</td>
+    <td>7a5a8e152ce07ba1532497cd21abf2206915184a</td>
+    <td>feat: added tour package detail</td>
     <td></td>
-    <td>24/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/authentication</td>
-    <td>4090a5f925df512cca9aac329caa77eea9a6680c</td>
-    <td>feat (map-visualizer): added app-bar and routing by role</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/authentication</td>
-    <td>cb5937eb1f5c29b1892406e494ab8f0db0d6c72a</td>
-    <td>refactor(map-visualizer): moved files following DDD structure</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/navigation</td>
-    <td>c26d0a0feebb7367f4eb15689a3b7bf9cb7da17a</td>
-    <td>fix(routing): fixed routing functionality</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feat/navigation</td>
-    <td>6aae0ac7acb4bdeca12603ccb859f98e025fb6bb</td>
-    <td>feat: added DDD sample files</td>
-    <td></td>
-    <td>20/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feat/navigation</td>
-    <td>649a63f3342490ea834369c8110ede035a521ac6</td>
-    <td>feat: added DDD sample files for bounded context</td>
-    <td></td>
-    <td>20/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feat/tour-guide-map-visualizer</td>
-    <td>c26d0a0feebb7367f4eb15689a3b7bf9cb7da17a</td>
-    <td>fix(routing): fixed routing functionality</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/profile-management</td>
-    <td>3220ba112b96c6c89e6120a7116c6e156bd2787a</td>
-    <td>feat(profile): added profile widget first version</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/notification</td>
-    <td>eb84a55d392af7d02862fccc7693a301ef48f601</td>
-    <td>Merge branch 'notification' into develop</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/notification</td>
-    <td>42e52681bcdcc9cbc86a99603a3df3f88dcec579</td>
-    <td>feat(notification): added notification structure</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/tour-packages</td>
-    <td>c5ad8f105f7b050183909e197c8ff0ce62a46b39</td>
-    <td>feat(tour_package): added itinerary structure</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/tour-packages</td>
-    <td>bb289c62948a3f566d3c6576c46c04c2ae591a5d</td>
-    <td>fix: fixed pictures reference</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/notification</td>
-    <td>b81d399e5856d713857bfb8e2a88a74e587bda56</td>
-    <td>fix(notification): fixed notification screen</td>
-    <td></td>
-    <td>25/10/2023</td>
+    <td>02/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
     <td>develop</td>
-    <td>6dd78b0f08812da1526dfa20bbd9986a9868f9fd</td>
-    <td>feat: added LifeTravel icon for app</td>
+    <td>25b5b942249a96fe4938728de85a53160686afcb</td>
+    <td>fix: fixed malfunction imports</td>
     <td></td>
-    <td>25/10/2023</td>
+    <td>03/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/weather-information</td>
-    <td>1f816c38c90676fe88c015904d9c1dcb177eb125</td>
-    <td>feat(weather): added tourItem for weather recomendation screen</td>
+    <td>feature/authentication</td>
+    <td>c0878c2837c4c8530c129d2575b99c5ddad08b02</td>
+    <td>feat(authentication): added local storage for role</td>
     <td></td>
-    <td>26/10/2023</td>
+    <td>03/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/weather-information</td>
-    <td>a089581be98a9aefac0cefb1349a2d2f6055720</td>
-    <td>feat(weather): added tour item</td>
+    <td>feature/authentication</td>
+    <td>886d6c474efb70cfb068d8f708d059e445c64397</td>
+    <td>feat(authentication): added ios firebase auth</td>
     <td></td>
-    <td>26/10/2023</td>
+    <td>03/11/2023</td>
+  </tr>
+ <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/booking</td>
+    <td>4501b9baca7239f4ac1ed17572453e1209f5606a</td>
+    <td>feat: added booking files with DDD</td>
+    <td></td>
+    <td>14/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
-    <td>feature/weather-information</td>
-    <td>227b3648af433cffcb097b0b17f45540cfe8bfc9</td>
-    <td>feat: Added weather files</td>
+    <td>feature/booking</td>
+    <td>1a6d4d53a778c9c659b73db4b0a45d4443bbbaf5</td>
+    <td>feat: added tour_packages files with DDD</td>
     <td></td>
-    <td>26/10/2023</td>
+    <td>14/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/booking</td>
+    <td>59c1cdd7d9212bebfef730c0731177ea43951145</td>
+    <td>feat: added upgrades to the code with DDD</td>
+    <td></td>
+    <td>14/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
     <td>develop</td>
-    <td>80752bfcce3a102985c7562bc166279590564b72</td>
-    <td>feat: added google-services json</td>
+    <td>5259786377e5b539780437b69059084db9578e3b</td>
+    <td>feat: added upgrades to the code with DDD</td>
     <td></td>
-    <td>31/10/2023</td>
+    <td>15/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
     <td>develop</td>
-    <td>dcb756aae6d4ae935089d93aa199e28d76a02499</td>
-    <td>feat: Firebase Auth Implemented</td>
+    <td>6315cea7f590bd72bfc1365bce912a73ea125cbc</td>
+    <td>feat(pfm): added dependencies and implemented profile management </td>
     <td></td>
-    <td>31/10/2023</td>
+    <td>15/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>5b238e891d00f42dba43f4faf407f51953258975</td>
+    <td>Update profile_management.dart</td>
+    <td></td>
+    <td>15/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>8cbcc43aebeeb7e239819e693b670fd928707436</td>
+    <td>fix: fixed models of booking and tour package</td>
+    <td></td>
+    <td>15/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>aa0911af7c8e267d6c7e75a7974e78546bd077e5</td>
+    <td>feat: added new import</td>
+    <td></td>
+    <td>15/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>9b12b5624edceea785197e04f835d1617d0504d6</td>
+    <td>feat: added role filter to itinerary screen</td>
+    <td></td>
+    <td>15/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>a05a80a234bd9be4eeef1d1ec49eb800e84d6bef</td>
+    <td>feat(weather): added api and facade service for iot weather sensor</td>
+    <td></td>
+    <td>15/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>cd6c7cb1477f09afce47e338101fe45e0b0d1f9f</td>
+    <td>feat(weather): added screens and widgets with DDD for weather iot</td>
+    <td></td>
+    <td>15/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>42642bccc6c8d3e4b1ce16c9d533fb93bbf16a16</td>
+    <td>feat(weather): added repository, interface and data provider of iot w…
+    </td>
+    <td></td>
+    <td>15/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>2587a27050d9e07db92505c55d7df2677ce3a56f</td>
+    <td>feat(tourItem): update Item information</td>
+    <td></td>
+    <td>15/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>1f18cf2f2c9beeea646d541e3c288de07716b7ba</td>
+    <td>feat(gps-tracking): finished connection with IoT devices and backend</td>
+    <td></td>
+    <td>15/11/2023</td>
+  </tr>
+ <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>7c204d5c6465918f4d2ef03b854a2e79c4091fba</td>
+    <td>refactor: update TourPackage model and related files</td>
+    <td></td>
+    <td>15/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/tourist-location-app</td>
     <td>develop</td>
-    <td>d69eb424b3b0fa8c41817ceb819c6afa89c447a0</td>
-    <td>chore: add dependencies for location retrieve</td>
+    <td>a4c7b5a144f0b8fe288cfc02b9fecaebbd285637</td>
+    <td>chore: add retrofit</td>
     <td></td>
-    <td>30/10/2023</td>
+    <td>15/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/tourist-location-app</td>
-    <td>feature/geolocation</td>
-    <td>66cd5d19b3c93566eefa0f4f5a7d3fb5aa2928c4</td>
-    <td>feat: add functions for retrieve current location</td>
+    <td>develop</td>
+    <td>0d422332dfe5c49b5fe98db9ccf8ed1bfcdda52f</td>
+    <td>feat: put operation request</td>
     <td></td>
-    <td>30/10/2023</td>
+    <td>15/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/tourist-location-app</td>
-    <td>feature/geolocation</td>
-    <td>6b9f168163638a3efa44019caa6acd10b357282a</td>
-    <td>fix: user permissions request</td>
+    <td>develop</td>
+    <td>cd163026914b6dce03298434d876dd9f066f13d6</td>
+    <td>feat: add authentication management</td>
     <td></td>
-    <td>31/10/2023</td>
+    <td>16/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/landing-page</td>
     <td>develop</td>
     <td>dc0ad24878e8b472ee3d674fe6ae2724e1945f2c</td>
-    <td>fix: fixed navigation styles</td>
+    <td>fix: fixed video links</td>
     <td></td>
-    <td>1/11/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/landing-page</td>
-    <td>develop</td>
-    <td>55e7becb4b3997d9116e273048d36a1e227fdbed</td>
-    <td>fix: fixed video styles</td>
-    <td></td>
-    <td>1/11/2023</td>
+    <td>22/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/filter-packages</td>
-    <td>7adf5fd14f91f7d1fc47a701281d5ed2cd93713f</td>
-    <td>feat: Added Filter-packages modal and modified Search places modal</td>
+    <td>feature/tour-packages</td>
+    <td>8a6cdfadb1e54cb43b59090d7d98b1cf31aa215d</td>
+    <td>feat(tour-package-detail): Added booking dates package card</td>
     <td></td>
-    <td>18/10/2023</td>
+    <td>11/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/filter-packages</td>
-    <td>14473a411f4d2e61db2fba5f89e7c6b8e5db3883</td>
-    <td>feat: Added Filter-packages moda</td>
+    <td>feature/tour-packages</td>
+    <td>793b197ced54702eb23ced63e2e67b8905405160</td>
+    <td>feat(tour-package-detail): Added confirmation message component</td>
     <td></td>
-    <td>20/10/2023</td>
+    <td>11/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
     <td>feature/add-tour-packages</td>
-    <td>7cb3ea346b56c184e582d2752c1c2abab093d654</td>
-    <td>feat: Added services of Azure-Blob-Storage to save tour-packages images</td>
+    <td>22d1c2abbb60be58dd3fe9c38167c4e124e11a72</td>
+    <td>refactor(tour-package-detail): Modified order of methods in tour-pack</td>
     <td></td>
-    <td>23/10/2023</td>
+    <td>12/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/packages</td>
-    <td>b92cc1fb9b503077ee68b3e3ed776c15364bb3f5</td>
-    <td>feat: Added tour-experience and vehicle list component</td>
+    <td>feature/authentication</td>
+    <td>0d1b99b3e49cc625ddaede630fe467f17cf3d90d</td>
+    <td>feat(authentication): Added cookie service</td>
     <td></td>
-    <td>24/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>develop</td>
-    <td>7cb3ea346b56c184e582d2752c1c2abab093d654</td>
-    <td>refactor: Renamed BC of tour-experience core files</td>
-    <td></td>
-    <td>24/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/search-experience</td>
-    <td>736b5ea41e910935ae4ff208ec0fc3344d6d7bf6</td>
-    <td>feat: Added map components and modified component of tour package detail</td>
-    <td></td>
-    <td>24/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/search-experience</td>
-    <td>e90ae5c906058988d64a5b643044601a6503af21</td>
-    <td>feat: Modified map visualizer in tour package detail component</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/packages</td>
-    <td>0b4cf09d230dce8d792e868dafa3104504b959ed</td>
-    <td>feat: Added map to Destinations locations in tour package detail</td>
-    <td></td>
-    <td>25/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/packages</td>
-    <td>4a801fbd7ddcea47d8e8a580f60fd88847b06282</td>
-    <td>feat: Added service to modify tour package</td>
-    <td></td>
-    <td>29/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/filter-packages</td>
-    <td>969909125fcac446af579af0db4b7ec62015d5d9</td>
-    <td>feat: Modified schedule component and added time picker component</td>
-    <td></td>
-    <td>1/11/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
-    <td>feature/filter-packages</td>
-    <td>09583c771be930b2d0ac12ccb602607a72e0b5f3</td>
-    <td>feat: Added validations of schedule component</td>
-    <td></td>
-    <td>1/11/2023</td>
+    <td>12/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
     <td>develop</td>
-    <td>072164e0633e0c9e413648e6155bbf1589c7eddc</td>
-    <td>feat: Added assign schedule section</td>
+    <td>8dbda263151266b88a3d64c919eac700413529fa</td>
+    <td>feat(booking): Added tour experience service</td>
     <td></td>
-    <td>1/11/2023</td>
+    <td>13/11/2023</td>
   </tr>
   <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
-    <td>feature/core</td>
-    <td>af111ace7b46c10004e62390fc91cc7e47e2c31b</td>
-    <td>feat: Configuration module implemented & dependencies</td>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>8e866b3beba50a71e7f48300e3fda4b369405c94/td>
+    <td>feat(authentication): Modified user service</td>
     <td></td>
-    <td>28/10/2023</td>
+    <td>13/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>d0eba97ddfa804704fde453e0db28dcc0c0a2b8b</td>
+    <td>feat(tour-package-detail): Modified tour package component</td>
+    <td></td>
+    <td>13/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>9b233466e04e0d3c770bd3347f764f60edaead9d</td>
+    <td>feat(authentication): Modified user service (logout function)</td>
+    <td></td>
+    <td>14/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>6b85d5a50d9ed5c7731df4c2682d5b17b7a88eea</td>
+    <td>feat(menu): Modified menu service</td>
+    <td></td>
+    <td>14/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>e38a82076b9a74465ecb2b89c694cd2b06afd5ba</td>
+    <td>feat(transportation): Added transportation-detail component</td>
+    <td></td>
+    <td>14/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>0e7ed68cdf2d9e7946c217d072f77bde380f040e</td>
+    <td>feat(transportation): Added transportation-detail component</td>
+    <td></td>
+    <td>14/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>c87b1143b668bdfdf685df16c48847d78c5227e3</td>
+    <td>feat(transportation-list): Modified section of assign transport in to</td>
+    <td></td>
+    <td>14/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>2249e20815b818859669c40ee6785ecc853c9052</td>
+    <td>feat(booking): Modified booking model</td>
+    <td></td>
+    <td>15/11/2023</td>
   </tr>
   <tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
-    <td>feature/shared</td>
-    <td>481df46e6e2d69de4cefeb3778486582799b35bd</td>
-    <td>feat: Shared module implemented</td>
+    <td>develop</td>
+    <td>07b45fdbbfc4f84550504596520fbfee9e536d96</td>
+    <td>feat(transportation): Added transportation endpoints, models and repo…</td>
     <td></td>
-    <td>28/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
-    <td>feature/identity</td>
-    <td>6549c1766a664a2475d4558b3af924bc1ea3d2bf</td>
-    <td>feat: Firebase identity module implemented</td>
-    <td></td>
-    <td>28/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
-    <td>feature/core</td>
-    <td>c87db4a8974b2ef3a33557745561914dd0acd351</td>
-    <td>feat: Profile module for tourists and agencies implemented</td>
-    <td></td>
-    <td>28/10/2023</td>
-</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
-    <td>feature/core-endpoints</td>
-    <td>a6a989ca9f06bea08013ecd231a211e18ab772f7</td>
-    <td>feat: Core module implemented with entities</td>
-    <td></td>
-    <td>28/10/2023</td>
-  </tr>
-  <tr>
-    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
-    <td>feature/core</td>
-    <td>478c84b6987856ac210727a2c972d5ffea6bbe3a</td>
-    <td>feat: Tour Package endpoints get, getById, getByRegion, Post done</td>
-    <td></td>
-    <td>29/10/2023</td>
+    <td>18/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
     <td>develop</td>
-    <td>957c1d63df459a605abf3ffe2e6aa6256240e706</td>
-    <td>fix: FechtType from EAGER to LAZY</td>
+    <td>8148af62ba569f29c99da3e698777fee00895f48</td>
+    <td>feat(transportation): Added modify vehicle endpoint</td>
     <td></td>
-    <td>29/10/2023</td>
+    <td>18/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
-    <td>feature/identity</td>
-    <td>e5786dc80602c69caff319826eca655dac512e32</td>
-    <td>Update UserController.java</td>
+    <td>develop</td>
+    <td>474a5d814bb185fe5bb095a095d9b53315fd963b</td>
+    <td>feat(tour-package): Modified Tour Package service</td>
     <td></td>
-    <td>31/10/2023</td>
+    <td>18/11/2023</td>
   </tr>
   <tr>
     <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
-    <td>feature/shared</td>
-    <td>4d6cf24c4439502b9c08ee6e2e04218a1de28222</td>
+    <td>develop</td>
+    <td>96c07d57191b9184541780b9520832de2f03ef5e</td>
+    <td>feat: IOT Token giver</td>
+    <td></td>
+    <td>18/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>develop</td>
+    <td>13fc5b6d5f075eb5b612ca61d534ca284265e64c</td>
+    <td>feat: Balance returns</td>
+    <td></td>
+    <td>18/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>develop</td>
+    <td>90df57868f7ef1d510bc278e8f6d2fa97f898bbe</td>
+    <td>feat(transportation): Modified Vehicle service</td>
+    <td></td>
+    <td>19/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>develop</td>
+    <td>51ef8f7b7203e6180d1e0895a0ae15a5f3e0d4db</td>
     <td>Add or update the Azure App Service build and deployment workflow config</td>
     <td></td>
-    <td>31/10/2023</td>
+    <td>19/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>develop</td>
+    <td>fe3ab9126f0541a98419a20069fa8847dd18fb01</td>
+    <td>feat: Show users</td>
+    <td></td>
+    <td>20/11/2023</td>
   </tr>
 </tbody>
 </table>
