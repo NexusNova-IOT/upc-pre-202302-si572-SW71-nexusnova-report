@@ -2962,6 +2962,1216 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
           </div>
             Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
 
+
+
+
+
+
+
+
+
+
+
+            ### 6.2.3 Sprint 3
+En esta sección, documentaremos y explicaremos el progreso del Sprint 3 en términos de desarrollo del producto y colaboración del equipo. Abordaremos varios aspectos clave, incluyendo la planificación del sprint, el backlog del sprint, la evidencia de desarrollo para la Revisión del Sprint.
+#### 6.2.3.1 Sprint Planning 3
+En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 3. Comenzaremos con una introducción que establecerá el contexto y la importancia de esta reunión. Luego, exploraremos los elementos clave de la reunión, incluyendo la agenda, los objetivos, y cómo se prepara el equipo para el sprint.
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 3</th>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2023-11-10</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>10:00 AM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión en aula de la Universidad</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Mendoza Ramos, Dominik Mendoza</td>
+  </tr>
+  <tr>
+    <td>Attendees</td>
+    <td>Malca Rojas, Edgar Alexander / Mendoza Ramos, Dominik Aldahir / Moran Moreno, Ivan / Price Torrejón, Nicole Areli / Sweden Silva, Ryan Robert</td>
+  </tr>
+  <tr>
+    <td>Sprint n -2 Review Summary</td>
+    <td>Bueno, el sprint anterior fue desarrollado de manera conjunta y organizada entre todos los miembros del equipo. Se logro el sprint goal del sprint 2, esto lo deducimos del seguimiento continuo que hemos realizado a las funcionalidades implementadas tanto para nuestra Landing Page como para nuestra Web Application.
+
+    Comentarios Miembros del Equipo:
+
+      Ryan Sweden: En mi opinión, el sprint 2 fue exitoso, con la aplicación mobile se comenzo la estructura y repasando conceptos de DDD cumpliendo con los estándares heurísticos y entregando funcionalidades esenciales con calidad.
+
+      Nicole Price: A mi parecer, el avance del sprint 2 fue satisfactorio. Se desarrollaron las funcionalidades principales de la aplicación.y se cumplieron con lo establecido para el Sprint 2.
+
+      Dominik Mendoza: Desde mi perspectiva, el avance del sprint 2 fue notable. Por un lado, la web application cumplía con las heurísticas y los embedded application constaban de lo básico.
+
+      Edgar Malca: En mi opinión, el alcance que se tuvo en el sprint 2 fue satisfactorio. Esto se demuestra en la calificación obtenida y en la calidad de artefactos y productos de software que se entrego. 
+
+      Ivan Moran: Desde mi perspectiva el Sprint 2, fue notable y de gran efectividad. Pues, todos los integrantes lograron desarrollar productos acordes al nivel educativo universitario de ingeniería de software.
+
+      
+    Feedback Product Owner - Angel Velasquez: En el sprint 2, el product owner acepto gran parte de las funcionalidades desarrolladas. Cabe destacar que dejo comentarios para una mejora continua. Su mensaje fue el siguiente: Agregar videos about the team a conclusiones y realizar una mejor documentación de evidencia de los embedded apps.
+      
+  </td>
+  </tr>
+  <tr>
+    <td>Sprint n -2 Retrospective Summary</td>
+    <td>En el sprint anterior, el equipo realizaron todos los productos software solicitaods en el enunciado del TF. Se procedió a culminar con el desarrollo de las aplicaciones. A continuación algunos comentarios de que aciertos u oportunidades de mejoras identificaron los integrantes.
+    
+    Comentarios Miembros del Equipo:
+
+      Ryan Sweden: En mi opinión, el sprint 2 fue exitoso
+
+      Ivan Moran: El Sprint 2 nos sirvio para reforzar conceptos de DDD con el desarrollo de nuestro proyecto y en la delegacion de tareas por equipos.
+
+      Nicole Price: Uno de los puntos a mejorar en la aplicación web es la sección del listado de paquetes turísticos. Esta podría mejorar en el filtrado por búsqueda de regiones.
+
+      Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos agregar lso videos de about the product y about the team. Adicionalmente, debe mejorar la documentación de lso embedded apps.
+
+      Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar.Luego, todo lo demás a mi parecer va en caminado.
+
+   </td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint 3 Goal</td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Goal</td>
+    <td>Desarrollar una última versión de la landing page, web application, web services, embedded apps, wearable app, mobile application. Con el desarrollo de estos productos software, nos permitirá ejemplificar nuestra idea de negocio como solución software y compartirla con nuestros segmentos objetivos. <br>
+      Métrica de Cumplimiento: Para evaluar el cumplimiento de este sprint, utilizaremos las siguientes métricas:<br>
+      1. Número de usuarios registrados en nuestro web application: Mediremos cuántos usuarios se han registrado para probar nuestra interfaz durante el período del sprint. El objetivo será atraer al menos 10 usuarios nuevos.<br>
+      2. Funcionalidades implementadas en la web application: Realizaremos un seguimiento de las funcionalidades clave implementadas en la web application y estableceremos un objetivo de que todas funcionalidades deben estar listas al final del sprint.<br>
+      3. Endpoints generados en nuestro Web Services: Realizaremos una documentación completa de los endpoint desarrollados.
+      <br>
+      4. Retroalimentación de los usuarios: Recopilaremos retroalimentación de los usuarios para evaluar su satisfacción con la funcionalidad inicial de la web application y su percepción de la landing page, asi como la mobile application.</td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Velocity</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>17</td>
+  </tr>
+</table>
+
+#### 6.2.2.2 Sprint Backlog 3
+En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esencial de la planificación y ejecución del sprint. Comenzaremos con una introducción que destacará el propósito y la importancia del backlog del sprint en el contexto del Sprint 3.
+<table>
+<thead>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned to</td>
+    <td>Status (To-do / InProcess / ToReview / Done)</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US01</td>
+    <td rowspan="4">Clima del viaje (4)<br></td>
+    <td>US01-1</td>
+    <td>Diseñar widget donde se muestra el clima</td>
+    <td>Implementar el diseño del contenedor donde aparacerá el clima</td>
+    <td>2</td>
+    <td>Edgar Malca</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US01-2</td>
+    <td>Diseñar Widget que muestre las recomendaciones</td>
+    <td>Agregar contenedor y logica para mostrar recomendaciones según clima</td>
+    <td>2</td>
+    <td>Ryan Sweden</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US01-3</td>
+    <td>Obtener Clima</td>
+    <td>Desarrollar logica para obtener clima de Backend</td>
+    <td>1</td>
+    <td>Ivan Moran</td>
+    <td>In Proccess</td>
+  </tr>
+  <tr>
+    <td>US01-4</td>
+    <td>Recepciòn de data</td>
+    <td>Programar lògica para obtener y enviar temperatura al backend desde un dispositivo IOT</td>
+    <td>2</td>
+    <td>Dominik Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US02</td>
+    <td rowspan="2">Geolocalización como medida de seguridad (2)</td>
+    <td>US02-1</td>
+    <td>Diseño Widget</td>
+    <td>Diseñar interfaz donde se muestra mapa para guía turístico</td>
+    <td>1</td>
+    <td>Dominik Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02-2</td>
+    <td>IoT Logic</td>
+    <td>Desarrollar logica para obtener ubicación geográfica de pulseras IoT </td>
+    <td>1</td>
+    <td>Ivan Moran</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US19</td>
+    <td rowspan="3">Configuración de notificaciones (3)</td>
+    <td>US19-1</td>
+    <td>Diseño Notificaciones</td>
+    <td>Diseñar widget donde se muestran notificaciones</td>
+    <td>1</td>
+    <td>Edgar Malca</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US19-2</td>
+    <td>Integrar Firebase</td>
+    <td>Crear sistema de notificaciones en Firebase</td>
+    <td>3</td>
+    <td>Nicole Price</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>US19-3</td>
+    <td>Permisos de Notificación</td>
+    <td>Implementar lógica para permisos de notificaciones</td>
+    <td>3</td>
+    <td>Nicole Price</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US22</td>
+    <td rowspan="3">Inicio de Sesión (2)</td>
+    <td>US22-1</td>
+    <td>Diseñar widget de Log In</td>
+    <td>Diseñar widget de Log In</td>
+    <td>1</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US22-2</td>
+    <td>Vincular Firebase autenticacion</td>
+    <td>Vincular Firebase autenticacion</td>
+    <td>2</td>
+    <td>Ryan Sweden</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US22-3</td>
+    <td>Integrar backend</td>
+    <td>Conectar con Backend para obtener datos del usuario con token</td>
+    <td>2</td>
+    <td>Ryan Sweden</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US09</td>
+    <td rowspan="2">Filtrado de destinos turísticos (4)</td>
+    <td>US09-1</td>
+    <td>Diseño de la sección de filtrado</td>
+    <td>Diseñar la sección que permite filtrar destinos turísticos</td>
+    <td>2</td>
+    <td>Nicole Price</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09-2</td>
+    <td>Implementar opciones de filtrado</td>
+    <td>Agregar opciones de filtrado y conectarlas con la base de datos</td>
+    <td>4</td>
+    <td>Dominik Mendoza</td>
+    <td>Done</td>
+  </tr>
+</tbody>
+</table>
+
+#### 6.2.2.3. Development Evidence for Sprint Review.
+A continuación, se brinda una visión general de las contribuciones realizadas en dos repositorios del proyecto, incluyendo detalles como la rama empleada, el identificador del commit, el mensaje del commit y su cuerpo, además de la fecha en que se llevaron dichos commits. 
+
+<table>
+<thead>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>a4cbaf2ebfd56e2f7b89d6e61b8364c104251974</td>
+    <td>initial commit</td>
+    <td></td>
+    <td>13/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>7bd7296cb1a028d6b15946baca3033754d73ade2</td>
+    <td>feat: added temperature measure</td>
+    <td></td>
+    <td>14/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>develop</td>
+    <td>f08a816faad9593a45c65fb59be98f31c66ba3f0</td>
+    <td>feat: removed unused libraries</td>
+    <td></td>
+    <td>18/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-temperature</td>
+    <td>main</td>
+    <td>81c00426904a32c583d1b18d247a6f1547428d00</td>
+    <td>Merge pull request #1 from NexusNova-IOT/develop </td>
+    <td></td>
+    <td>18/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>6c4ae7a7264daa83b9dc2608c5507a868e6e3320</td>
+    <td>chore: added project screenshot</td>
+    <td></td>
+    <td>18/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>81ba8561a4b312ab0d3b7e694a7cddb235cec724</td>
+    <td>feat: added wifi connection</td>
+    <td></td>
+    <td>18/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>61ac37ad268e0396c7d6527f126daec69b738d88</td>
+    <td>chore: add libraries for wifi and display management</td>
+    <td></td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>269dd2314fa4521bb673fb648aa39124e7653961</td>
+    <td>chore: add LCD display module</td>
+    <td></td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/embedded-system-scale</td>
+    <td>feature/display</td>
+    <td>56eecdd426021b3acd58df96e09e761021b77387</td>
+    <td>feat: add weight presentation on display</td>
+    <td></td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/authentication</td>
+    <td>a8bd609d71d6ec968b9eeebe81e08bbb63615bfd</td>
+    <td>feat(authentication): added login widget</td>
+    <td></td>
+    <td>24/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/authentication</td>
+    <td>73f7ea7712561b68c4fe8db3b313d13f42c47e0d</td>
+    <td>styles(tour-guide-map): updated map styles</td>
+    <td></td>
+    <td>24/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/authentication</td>
+    <td>4090a5f925df512cca9aac329caa77eea9a6680c</td>
+    <td>feat (map-visualizer): added app-bar and routing by role</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/authentication</td>
+    <td>cb5937eb1f5c29b1892406e494ab8f0db0d6c72a</td>
+    <td>refactor(map-visualizer): moved files following DDD structure</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/navigation</td>
+    <td>c26d0a0feebb7367f4eb15689a3b7bf9cb7da17a</td>
+    <td>fix(routing): fixed routing functionality</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feat/navigation</td>
+    <td>6aae0ac7acb4bdeca12603ccb859f98e025fb6bb</td>
+    <td>feat: added DDD sample files</td>
+    <td></td>
+    <td>20/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feat/navigation</td>
+    <td>649a63f3342490ea834369c8110ede035a521ac6</td>
+    <td>feat: added DDD sample files for bounded context</td>
+    <td></td>
+    <td>20/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feat/tour-guide-map-visualizer</td>
+    <td>c26d0a0feebb7367f4eb15689a3b7bf9cb7da17a</td>
+    <td>fix(routing): fixed routing functionality</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/profile-management</td>
+    <td>3220ba112b96c6c89e6120a7116c6e156bd2787a</td>
+    <td>feat(profile): added profile widget first version</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/notification</td>
+    <td>eb84a55d392af7d02862fccc7693a301ef48f601</td>
+    <td>Merge branch 'notification' into develop</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/notification</td>
+    <td>42e52681bcdcc9cbc86a99603a3df3f88dcec579</td>
+    <td>feat(notification): added notification structure</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/tour-packages</td>
+    <td>c5ad8f105f7b050183909e197c8ff0ce62a46b39</td>
+    <td>feat(tour_package): added itinerary structure</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/tour-packages</td>
+    <td>bb289c62948a3f566d3c6576c46c04c2ae591a5d</td>
+    <td>fix: fixed pictures reference</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/notification</td>
+    <td>b81d399e5856d713857bfb8e2a88a74e587bda56</td>
+    <td>fix(notification): fixed notification screen</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>6dd78b0f08812da1526dfa20bbd9986a9868f9fd</td>
+    <td>feat: added LifeTravel icon for app</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/weather-information</td>
+    <td>1f816c38c90676fe88c015904d9c1dcb177eb125</td>
+    <td>feat(weather): added tourItem for weather recomendation screen</td>
+    <td></td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/weather-information</td>
+    <td>a089581be98a9aefac0cefb1349a2d2f6055720</td>
+    <td>feat(weather): added tour item</td>
+    <td></td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>feature/weather-information</td>
+    <td>227b3648af433cffcb097b0b17f45540cfe8bfc9</td>
+    <td>feat: Added weather files</td>
+    <td></td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>80752bfcce3a102985c7562bc166279590564b72</td>
+    <td>feat: added google-services json</td>
+    <td></td>
+    <td>31/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/cross-platform-mobile-application</td>
+    <td>develop</td>
+    <td>dcb756aae6d4ae935089d93aa199e28d76a02499</td>
+    <td>feat: Firebase Auth Implemented</td>
+    <td></td>
+    <td>31/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/tourist-location-app</td>
+    <td>develop</td>
+    <td>d69eb424b3b0fa8c41817ceb819c6afa89c447a0</td>
+    <td>chore: add dependencies for location retrieve</td>
+    <td></td>
+    <td>30/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/tourist-location-app</td>
+    <td>feature/geolocation</td>
+    <td>66cd5d19b3c93566eefa0f4f5a7d3fb5aa2928c4</td>
+    <td>feat: add functions for retrieve current location</td>
+    <td></td>
+    <td>30/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/tourist-location-app</td>
+    <td>feature/geolocation</td>
+    <td>6b9f168163638a3efa44019caa6acd10b357282a</td>
+    <td>fix: user permissions request</td>
+    <td></td>
+    <td>31/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>develop</td>
+    <td>dc0ad24878e8b472ee3d674fe6ae2724e1945f2c</td>
+    <td>fix: fixed navigation styles</td>
+    <td></td>
+    <td>1/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/landing-page</td>
+    <td>develop</td>
+    <td>55e7becb4b3997d9116e273048d36a1e227fdbed</td>
+    <td>fix: fixed video styles</td>
+    <td></td>
+    <td>1/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/filter-packages</td>
+    <td>7adf5fd14f91f7d1fc47a701281d5ed2cd93713f</td>
+    <td>feat: Added Filter-packages modal and modified Search places modal</td>
+    <td></td>
+    <td>18/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/filter-packages</td>
+    <td>14473a411f4d2e61db2fba5f89e7c6b8e5db3883</td>
+    <td>feat: Added Filter-packages moda</td>
+    <td></td>
+    <td>20/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/add-tour-packages</td>
+    <td>7cb3ea346b56c184e582d2752c1c2abab093d654</td>
+    <td>feat: Added services of Azure-Blob-Storage to save tour-packages images</td>
+    <td></td>
+    <td>23/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/packages</td>
+    <td>b92cc1fb9b503077ee68b3e3ed776c15364bb3f5</td>
+    <td>feat: Added tour-experience and vehicle list component</td>
+    <td></td>
+    <td>24/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>7cb3ea346b56c184e582d2752c1c2abab093d654</td>
+    <td>refactor: Renamed BC of tour-experience core files</td>
+    <td></td>
+    <td>24/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/search-experience</td>
+    <td>736b5ea41e910935ae4ff208ec0fc3344d6d7bf6</td>
+    <td>feat: Added map components and modified component of tour package detail</td>
+    <td></td>
+    <td>24/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/search-experience</td>
+    <td>e90ae5c906058988d64a5b643044601a6503af21</td>
+    <td>feat: Modified map visualizer in tour package detail component</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/packages</td>
+    <td>0b4cf09d230dce8d792e868dafa3104504b959ed</td>
+    <td>feat: Added map to Destinations locations in tour package detail</td>
+    <td></td>
+    <td>25/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/packages</td>
+    <td>4a801fbd7ddcea47d8e8a580f60fd88847b06282</td>
+    <td>feat: Added service to modify tour package</td>
+    <td></td>
+    <td>29/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/filter-packages</td>
+    <td>969909125fcac446af579af0db4b7ec62015d5d9</td>
+    <td>feat: Modified schedule component and added time picker component</td>
+    <td></td>
+    <td>1/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>feature/filter-packages</td>
+    <td>09583c771be930b2d0ac12ccb602607a72e0b5f3</td>
+    <td>feat: Added validations of schedule component</td>
+    <td></td>
+    <td>1/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel-App</td>
+    <td>develop</td>
+    <td>072164e0633e0c9e413648e6155bbf1589c7eddc</td>
+    <td>feat: Added assign schedule section</td>
+    <td></td>
+    <td>1/11/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>feature/core</td>
+    <td>af111ace7b46c10004e62390fc91cc7e47e2c31b</td>
+    <td>feat: Configuration module implemented & dependencies</td>
+    <td></td>
+    <td>28/10/2023</td>
+  </tr>
+  <tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>feature/shared</td>
+    <td>481df46e6e2d69de4cefeb3778486582799b35bd</td>
+    <td>feat: Shared module implemented</td>
+    <td></td>
+    <td>28/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>feature/identity</td>
+    <td>6549c1766a664a2475d4558b3af924bc1ea3d2bf</td>
+    <td>feat: Firebase identity module implemented</td>
+    <td></td>
+    <td>28/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>feature/core</td>
+    <td>c87db4a8974b2ef3a33557745561914dd0acd351</td>
+    <td>feat: Profile module for tourists and agencies implemented</td>
+    <td></td>
+    <td>28/10/2023</td>
+</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>feature/core-endpoints</td>
+    <td>a6a989ca9f06bea08013ecd231a211e18ab772f7</td>
+    <td>feat: Core module implemented with entities</td>
+    <td></td>
+    <td>28/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>feature/core</td>
+    <td>478c84b6987856ac210727a2c972d5ffea6bbe3a</td>
+    <td>feat: Tour Package endpoints get, getById, getByRegion, Post done</td>
+    <td></td>
+    <td>29/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>develop</td>
+    <td>957c1d63df459a605abf3ffe2e6aa6256240e706</td>
+    <td>fix: FechtType from EAGER to LAZY</td>
+    <td></td>
+    <td>29/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>feature/identity</td>
+    <td>e5786dc80602c69caff319826eca655dac512e32</td>
+    <td>Update UserController.java</td>
+    <td></td>
+    <td>31/10/2023</td>
+  </tr>
+  <tr>
+    <td>https://github.com/NexusNova-IOT/LifeTravel.API</td>
+    <td>feature/shared</td>
+    <td>4d6cf24c4439502b9c08ee6e2e04218a1de28222</td>
+    <td>Add or update the Azure App Service build and deployment workflow config</td>
+    <td></td>
+    <td>31/10/2023</td>
+  </tr>
+</tbody>
+</table>
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+
+Para este Sprint-2 se inicio la realizacion de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
+
+Para este entregable se inicio con la realizacion de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicacion.
+
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-1.png" alt="evidence">
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-2.png" alt="evidence">
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-3.png" alt="evidence">
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+
+Para este sprint, se realizaron las secciones para la gestión de Paquetes Turísticos y las vistas generales que tendrán los usuarios de tipo de segmento TURISTA.
+
+La siguiente imagen refleja los paquetes turísticos con estado visible para los turistas.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/home.png" alt="home">
+
+Se añadieron los filtros de precio, por tipo de actividad e idioma. Estos filtrarán y mostrarán los paquetes turísticos que cumplan con las características.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/filter.png" alt="filter-in-home">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/filter-2.png" alt="filter-2-in-home">
+
+Los usuarios de tipo AGENCIA podrán visualizar y filtrar por el estado del paquete turísticos HIDDEN o VISIBLE. En esta sección podrán agregar y editar.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/agency-packages.png" alt="agency-packages">
+
+Este tipo de segmento solo podrá agregar los paquetes turísticos que agregaron previamente.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/add-tour.png" alt="add-tour">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/add-tour2.png" alt="add-tour2">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/add-tour3.png" alt="add-tour3">
+
+Este tipo de segmento solo podrá editar los paquetes turísticos que agregaron previamente.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour.png" alt="edit-tour">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour2.png" alt="edit-tour2">
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour3.png" alt="edit-tour3">
+
+Se realizó un video explicando las funcionalidades realizadas en el web application para este Sprint 2.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/execution-evidence.png" alt="execution-evidence">
+
+Link del Video: 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwWpKRGuJYeHWhxHT8BZNBY3MCf8RqCACfYZSpuWQ?e=pzrhjp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19 
+
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+  A continuación, se presentan los endpoints realizados para el entregable TB2 acorde con el Sprint 2.  Pero antes, cabe mencionar que se logró desarrollar los endpoint principales relacionados a la funcionalidad core de nuestra web application y mobile application.
+
+<table>
+<thead>
+  <tr>
+    <th>Endpoint</th>
+    <th>Acción</th>
+    <th>Descripción</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/register/tourist">https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/register/tourist</a></td>
+    <td>POST</td>
+    <td>
+        El presente endpoint sirve para registrar a un usuario turista.
+        <br></br>
+        La acción que permite es un post y el request body es el siguiente:
+        <br></br>
+        {
+          "id": "string",
+          "name": "string",
+          "email": "string",
+          "photoUrl": "string"
+        }
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_1.png">
+        </div>
+        <br></br>
+        Response, cuando se hace la acción correctamente:
+        {
+          "id": "1",
+          "name": "TuristaPrueba",
+          "role": "ROLE_TOURIST"
+        }
+        <br></br>
+        Emplea el UserSummaryDTO:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_2.png">
+        </div>
+  </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/swagger-ui/index.html#/User%20Controller/registerAgency">https://lifetravel-iot-backend.azurewebsites.net/swagger-ui/index.html#/User%20Controller/registerAgency</a></td>
+    <td>POST</td>
+    <td>
+     El presente endpoint sirve para registrar a una agencia.
+        <br></br>
+        La acción que permite es un post y el request body es el siguiente:
+        <br></br>
+        {
+          "id": "string",
+          "name": "string",
+          "email": "string",
+          "photoUrl": "string"
+        }
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_1.png">
+        </div>
+        <br></br>
+        Response, cuando se hace la acción correctamente:
+        {
+          "id": "1",
+          "name": "AgenciaPrueba",
+          "role": "ROLE_AGENCY"
+        }
+        <br></br>
+        Emplea el UserSummaryDTO:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_2.png">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/login/{id}">https://lifetravel-iot-backend.azurewebsites.net/api/v1/users/login/{id}</a></td>
+    <td>GET</td>
+    <td>
+    La acción que permite es un get y se precisa del id.
+        <br></br>
+        La acción que permite es un post y el request body es el siguiente:
+        <br></br>
+        En el response, nos dará la data del usuario:
+        {
+          "id": "1",
+          "name": "TuristaPrueba",
+          "role": "ROLE_TOURIST"
+        }
+        <br></br>
+        Emplea el UserSummaryDTO:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_2.png">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages</a></td>
+    <td>GET</td>
+    <td>
+    El presente endpoint sirve para obtener todos los paquetes turísticos.
+        <br></br>
+        La acción que permite es un get, no cuenta con parámetros.
+        <br></br>
+        El Response, cuando se hace la acción correctamente:
+        [
+          {
+            "id": "string",
+            "title": "string",
+            "departmentName": "string",
+            "description": "string",
+            "price": 0,
+            "rating": 0,
+            "imgUrl": "string",
+            "visible": true
+          }
+        ]
+        <br></br>
+        Emplea el TourPackageSummaryDto:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_3.png">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages</a></td>
+    <td>POST</td>
+    <td>
+    Este endpoint se encarga de publicar paquetes turísticos.
+        <br></br>
+        La acción que acepta es Post y su Request Body es el siguiente:
+        <br></br>
+        {
+          "agencyId": "string",
+          "title": "string",
+          "description": "string",
+          "imgUrl": "string",
+          "departmentName": "string",
+          "price": 0,
+          "meetingPoint": {
+            "latitude": 0,
+            "longitude": 0
+          },
+          "activities": [
+            {
+              "id": 0
+            }
+          ],
+          "activitiesMeetingPoints": [
+            {
+              "latitude": 0,
+              "longitude": 0
+            }
+          ]
+        }
+        <br></br>
+        El response si se da el codigo 201:
+        {
+          "id": "string",
+          "title": "string",
+          "departmentName": "string",
+          "description": "string",
+          "price": 0,
+          "rating": 0,
+          "imgUrl": "string",
+          "visible": true
+        }
+        <br></br>
+        Emplea el TourPackageRequestDto:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_4.png">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/{id}">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/{id}</a></td>
+    <td>GET</td>
+    <td>
+    Este endpoint se utiliza para acceder a un paquete turístico por id.
+        <br></br>
+        Acepta la acción get y solo requiere el id.
+        <br></br>
+        El response si se da el codigo 201:
+          {
+            "id": 0,
+            "title": "string",
+            "departmentName": "string",
+            "description": "string",
+            "imgUrl": "string",
+            "rating": 0,
+            "meetintPointLatitude": 0,
+            "meetintPointLongitude": 0
+          }
+        <br></br>
+        Emplea el TourPackageDetailDto:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_5.png">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/region/{id}">https://lifetravel-iot-backend.azurewebsites.net/api/v1/tour-packages/region/{id}</a></td>
+    <td>GET</td>
+    <td>
+    Este endpoint se utiliza para encontrar paquetes turísticos por región.
+        <br></br>
+        Acepta la acción get y solo requiere del id de la región a buscar.
+        <br></br>
+        El response si se da el codigo 201:
+          [
+            {
+              "id": "string",
+              "title": "string",
+              "departmentName": "string",
+              "description": "string",
+              "price": 0,
+              "rating": 0,
+              "imgUrl": "string",
+              "visible": true
+            }
+          ]
+        <br></br>
+        Utiliza:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_6.png">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking</a></td>
+    <td>POST</td>
+    <td>
+     Se emplea para registrar un booking.
+        <br></br>
+        Acepta la opción POST y requiere del siguiente request Body:
+        <br></br>
+        El response si se da el codigo 201:
+          {
+            "id": 0,
+            "tourPackageId": 0,
+            "tourExperienceDate": "2023-11-03T18:43:36.881Z",
+            "tourPackageTitle": "string",
+            "agencyName": "string",
+            "imgUrl": "string"
+          }
+        <br></br>
+        Utiliza:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_7.png">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/tourist/1">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/tourist/1</a></td>
+    <td>GET</td>
+    <td>
+    Este endpoint nos ayuda a obtener los bookings de un turista por su id.
+        <br></br>
+        Acepta la acción get y solo se requiere el id del turista.
+        <br></br>
+        El response si se da el codigo 201:
+          {
+            "id": 0,
+            "tourPackageId": 0,
+            "tourExperienceDate": "2023-11-03T18:43:36.881Z",
+            "tourPackageTitle": "string",
+            "agencyName": "string",
+            "imgUrl": "string"
+          }
+        <br></br>
+        Utiliza:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_7.png">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities</a></td>
+    <td>GET</td>
+    <td>
+      Se emplea para que las agencias turísticas al momento de crear sus paquetes puedan colocar actividades ya predispuestas en nuestra base de datos. Con este endpoint se muestran todas las actividades disponibles.
+        <br></br>
+        Acepta la acción get, no tiene parámetros.
+        <br></br>
+        El response si se da el codigo 201:
+          [
+            {
+              "id": "string",
+              "title": "string",
+              "imgUrl": "string"
+            }
+          ]
+        <br></br>
+        Utiliza:
+        <br></br>
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/service_8.png">
+        </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+  En este Sprint, se llevaron a cabo una serie de actividades relacionadas con el despliegue de Landing Page, Web Application, Web Services. Estas actividades abarcaron la creación de la página a la cuál pueden acceder los visitantes para que pueden conocer Life Travel y luego si desean convertirse en usuarios. Por otro lado, se desarrolló la segunda versión del Web Application y primera versión de Web Services.. 
+
+  <strong>Evidence Deployment Landing Page</strong>
+  
+  En este sprint, se puede evidenciar el cuadro de acciones en nuestro repositorio de Landing Page en GitHub. Esto está relacionado a GitHub Pages, donde estamos hosteando nuestro Landing Page.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/landing_deployment_sprint2.png" alt="contributor-evidence.">
+  </div>
+  
+  <strong>Evidence Landing Page</strong>
+
+  En nuestro deployment de Landing Page, se ha realizado una mejora del navbar y de algunas secciones para que sean responsives.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/landing_evidence.png">
+  </div>
+
+  
+  <strong>Evidence Deployment Web Application</strong>
+
+  En este sprint se realizó el deployment con Firebase Hosting, se muestra la evidencia del deployment y el uso de data que se está efectuando día a día. Firebase, nos brinda una url donde se presenta el Web Application de nuestra solución.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Evidence_Deployment_Web_Application.png" alt="contributor-evidence.">
+  </div>
+
+  <strong>Evidence Web Application</strong>
+
+  A continuación se presenta una imagen donde se evidencia la url brindada por Firebase y que se muestra el Home de nuestro Web Application, donde mostramos los paquetes turísticos, también hemos implementado el toolbar y navigation bar, search packages por región y un filtrado de paquetes por la región seleccionada.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/Evidence_Web_Application.png" alt="contributor-evidence.">
+  </div>
+
+  <strong>Evidence Deployment Web Services</strong>
+
+  En este sprint se realizó el deployment con Azure, se muestra la evidencia del deployment y el uso de data que se está efectuando día a día. Azure, nos brinda una url donde se extraen los endpoints.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/Evidence_Deployment_Web_Services.png" alt="contributor-evidence.">
+  </div>
+
+  <strong>Evidence Web Services</strong>
+
+  A continuación se presenta una imagen donde se evidencia el despliegue de nuestro Backend.
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/Evidence_Web_Services.png" alt="contributor-evidence.">
+  </div>
+
+
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
+A continuación, se presenta la colaboración en equipo que se ha registrado en GitHub tanto en la seccion de analíticos como en los commits. Se presentará quiénes son los alumnos que participarón y algunos de los commits que realizaron.
+
+<strong>Analíticos de GitHub</strong>
+
+  + Landing Page
+      + Contributors
+          <div align="center">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/landing_sprint_2_insight_1.png" alt="contributor-evidence.">
+        </div>
+        En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Landing Page. Se evidencia que todo el equipo ha participado.
+      + Traffic
+            <div align="center">
+          <img src="" alt="Traffic-evidence.">
+          </div>
+          En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Landing Page. 
+      + Traffic
+          <div align="center">
+          <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/traffic_landing_sprint2_2.png" alt="Commit-evidence.">
+        </div>
+          En esta imagen se evidencia el trafico realizado por día en el repositorio de nuestro Landing Page. Evidencia que los integrantes han realizado sus commits en base a su desarrollo, visitantes y clones.
+      + Network
+          <div align="center">
+          <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_Sprint2_landing.png" alt="Network-evidence.">
+        </div>
+        Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones. 
+
+
+      + Web Application
+          + Pulse 
+              <div align="center">
+              <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/pulse_web_sprint_2_1.png" alt="Branches.">
+            </div>
+            En esta imagen, se evidencia que todos los integrantes del equipo han trabajado en el actual Sprint que va desde el 19 de Septiembre al 26 de Septiembre.
+          + Traffic
+              <div align="center">
+              <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/traffic_web_sprint_2_2.png" alt="Branches.">
+            </div>
+            En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Web Application. 
+          + Commit
+              <div align="center">
+              <img src="" alt="Branches.">
+            </div>
+            En esta imagen se evidencia el flujo de la cantidad de commits realizados por día en el repositorio de nuestro Web Applciation. Evidencia que los integrantes han realizado sus commits en base a su desarrollo.
+          + Network
+            <div align="center">
+            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_web_sprint%202.png" alt="Branches.">
+          </div>
+            Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
+
+      + Web Service
+          + Contributors
+              <div align="center">
+              <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/contributors_backend_sprint2.png" alt="Branches.">
+            </div>
+            En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Mobile Application. Se evidencia que todo el equipo ha participado.
+          + Traffic
+              <div align="center">
+              <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/traffic_backend_sprint2.png" alt="Branches.">
+            </div>
+            En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Mobile Application. 
+          + Network
+            <div align="center">
+            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_backend_sprint2.png" alt="Branches.">
+          </div>
+            Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
+
+      + Mobile Application
+          + Contributors
+              <div align="center">
+              <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/contributors_sprint_2_mobile.png" alt="Branches.">
+            </div>
+            En esta imagen, se evidencia los integrantes que han contribuido en el desarrollo del Web Services. Se evidencia que todo el equipo ha participado.
+          + Traffic
+              <div align="center">
+              <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/traffic_sprint_2_mobile.png" alt="Branches.">
+            </div>
+            En esta imagen se muestra los git clones del repositorio y los visitantes a nuestro Web Services. 
+          + Network
+            <div align="center">
+            <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_sprint2_mobile.png" alt="Branches.">
+          </div>
+            Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
+
+
+
+
+
+
+
+
+
+
+
 ## 6.3 Validation Interviews
 ### 6.3.1 Diseño de Entrevistas.
 
