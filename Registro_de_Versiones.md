@@ -212,6 +212,36 @@
     <td>Edgar Malca</td>
     <td>Se corrigieron typos. Asimismo, se editaron versiones, conclusiones, student outcome, etc.</td>
   </tr>
+  <tr>
+    <td>1.7</td>
+    <td>22/11/2023</td>
+    <td>Edgar Malca</td>
+    <td>Se agrego estructura para el Sprint 3.</td>
+  </tr>
+  <tr>
+    <td>1.8</td>
+    <td>22/11/2023</td>
+    <td>Ryan Sweden</td>
+    <td>Se agrego contenido como el Sprint Baklog.</td>
+  </tr>
+  <tr>
+    <td>1.9</td>
+    <td>22/11/2023</td>
+    <td>Dominik Mendoza</td>
+    <td>Se agrego contenido relacionado a la mejora continua de la TB2.</td>
+  </tr>
+  <tr>
+    <td>2.0</td>
+    <td>22/11/2023</td>
+    <td>Nicole Price</td>
+    <td>Se agrego contenido relacionado a la documentación del sprint review.</td>
+  </tr>
+  <tr>
+    <td>2.1</td>
+    <td>22/11/2023</td>
+    <td>Ivan Moran</td>
+    <td>Se agrego microservices documentation.</td>
+  </tr>
 </tbody>
 </table>
 

@@ -28,3 +28,10 @@ Enlace de video de Development Evidence for Sprint 1: [Development Evidence for 
 
 
 Enlace de video de Execution Evidence for Sprint 2: [Execution Evidence for Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwWpKRGuJYeHWhxHT8BZNBY3MCf8RqCACfYZSpuWQ?e=pzrhjp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)
+
+## Sprint 3
+
+[![Exposure video Tb1](imagen)](link video)
+
+
+Enlace de video de Execution Evidence for Sprint 2: [Execution Evidence for Sprint 2](link video)
