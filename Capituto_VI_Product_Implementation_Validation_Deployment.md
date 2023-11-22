@@ -3110,7 +3110,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
     <td>Desarrollar logica para obtener clima de Backend</td>
     <td>1</td>
     <td>Ivan Moran</td>
-    <td>In Proccess</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US01-4</td>
@@ -3139,30 +3139,32 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
     <td>Done</td>
   </tr>
   <tr>
-    <td rowspan="3">US19</td>
-    <td rowspan="3">Configuración de notificaciones (3)</td>
-    <td>US19-1</td>
-    <td>Diseño Notificaciones</td>
-    <td>Diseñar widget donde se muestran notificaciones</td>
+    <td rowspan="2">US08</td>
+    <td rowspan="2">Envio de ubicación mediante wearable(2)</td>
+    <td>US08-1</td>
+    <td>Desarrollar wearable app</td>
+    <td>Diseñar wearable app donde obtiene ubicación del usuario</td>
     <td>1</td>
-    <td>Edgar Malca</td>
+    <td>Dominik Mendoza</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>US19-2</td>
-    <td>Integrar Firebase</td>
-    <td>Crear sistema de notificaciones en Firebase</td>
+    <td>US08-2</td>
+    <td>Hacer logica de envío de ubicación al backend</td>
+    <td>Crear endpoint de backend para recepcionar data</td>
     <td>3</td>
-    <td>Nicole Price</td>
-    <td>In Process</td>
+    <td>Ivan Moran</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td>US19-3</td>
-    <td>Permisos de Notificación</td>
-    <td>Implementar lógica para permisos de notificaciones</td>
-    <td>3</td>
+    <td rowspan="1">US04</td>
+    <td rowspan="1">Visualización de planes y precios (1)</td>
+    <td>US04-1</td>
+    <td>Visualizarm plan</td>
+    <td>Diseñar screen donde se muestran los planes</td>
+    <td>1</td>
     <td>Nicole Price</td>
-    <td>In Process</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td rowspan="3">US22</td>
@@ -3206,6 +3208,32 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
     <td>Agregar opciones de filtrado y conectarlas con la base de datos</td>
     <td>4</td>
     <td>Dominik Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US10</td>
+    <td rowspan="3">Control del peso de equipaje (3)</td>
+    <td>US10-1</td>
+    <td>Diseño de embedded app para obtner peso</td>
+    <td>Diseñar el dispositivo iot en wokwi</td>
+    <td>2</td>
+    <td>Edgar Malca</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US10-2</td>
+    <td>Implementar http dependenci en wokwi</td>
+    <td>Agregar logica http para conexion con backend</td>
+    <td>4</td>
+    <td>Dominik Mendoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US10-2</td>
+    <td>Implementar endpoint para put la data</td>
+    <td>Agregar logica al backend para recibir data</td>
+    <td>4</td>
+    <td>Ivan Moran</td>
     <td>Done</td>
   </tr>
 </tbody>
