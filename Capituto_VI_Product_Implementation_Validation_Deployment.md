@@ -3818,6 +3818,30 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwW
 
 
 * **Aplicación Móvil**
+  * **Para la sección orientada a lois turistas,** el turista podrá acceder a la aplicación móvil para visualizar lo siguiente:
+    * **Home :** En esta vista, podrá ver el clima actual, la experiencia turística que le toque en el día actual.
+
+    <p align="center">
+      <img src="https://i.postimg.cc/MpjPqTc8/imagen-2023-11-22-170140295.png" alt='home-agency' width="300px">
+    </p>
+
+   * **Itinerary:** En esta vista, podrá observar las experiencias turíticas que tenga reservados que sean del día de hoy y futuros.
+
+    <p align="center">
+      <img src="https://i.postimg.cc/xTjcbxMs/imagen-2023-11-22-170710457.png" alt='home-agency' width="300px">
+    </p>
+
+    * **Itinerary Information:** En esta vista, podrá observar la información detallada de las experiencias turíticas que tenga reservados.
+
+    <p align="center">
+      <img src="https://i.postimg.cc/xTjcbxMs/imagen-2023-11-22-170710457.png" alt='home-agency' width="300px">
+    </p>
+
+  * **Profile:** En esta sección, podrá visualizar la información de su perfil.
+
+    <p align="center">
+      <img src="https://i.postimg.cc/xC0SF70h/imagen-2023-11-22-171049490.png" alt='home-agency' width="300px">
+    </p>
   * **Para la sección orientada a las agencias turísticas,** el guía turístico podrá acceder a la aplicación móvil para visualizar lo siguiente:
     * **Home / Itinerary:** En esta vista, podrá observar los paquetes turísticos disponibles.
 
