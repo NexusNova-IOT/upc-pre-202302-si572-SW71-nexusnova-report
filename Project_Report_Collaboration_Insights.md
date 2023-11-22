@@ -204,18 +204,18 @@ https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tree
 
         + Pulse Image of Github Insights
         <div style="display: flex; align-items: center;">
-        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/develop/Resources/team-collaboration-evidences/insight%20-%20TB2/evidencia1.png" style="margin-right: 20px; border: 2px solid lightblue;">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-3/insight%20collaboration%20contributors%20sprint%203.png" style="margin-right: 20px; border: 2px solid lightblue;">
         </div><br>
 
         + Code Frequency Image of Github Insights
         <div style="display: flex; align-items: center;">
-        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/develop/Resources/team-collaboration-evidences/insight%20-%20TB2/evidencia%203.png" style="margin-right: 20px; border: 2px solid lightblue;">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-3/traffic%20ingishts%20collaboration.png" style="margin-right: 20px; border: 2px solid lightblue;">
         </div>
         <br>
         
         + Network Image of Github Insights
         <div style="display: flex; align-items: center;">
-        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/develop/Resources/team-collaboration-evidences/insight%20-%20TB2/evidencia2.png" style="margin-right: 20px; border: 2px solid lightblue;">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-3/network%20collaboration.png" style="margin-right: 20px; border: 2px solid lightblue;">
             </div>
 
 + Evidencias de colaboración - otras herramientas: 
@@ -223,12 +223,12 @@ https://github.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/tree
      + Discord:
         Se evidencia una de las múltiples reuniones que hemos realizado a travéz de discord, para el presente entregable.
          <div style="display: flex; align-items: center;">
-        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/develop/Resources/team-collaboration-evidences/insight%20-%20TB2/evidencia%20discord.png" style="margin-right: 20px; border: 2px solid lightblue;">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-3/discord%20evidence.png" style="margin-right: 20px; border: 2px solid lightblue;">
         </div>
 
     + To-Do:
         En este entregable, empleamos To-Do para poder verificar las tareas pendientes a desarrollar y tener un mejor control.
          <div style="display: flex; align-items: center;">
-        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/develop/Resources/team-collaboration-evidences/insight%20-%20TB2/evidencia%20todo.png" style="margin-right: 20px; border: 2px solid lightblue;">
+        <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-3/todo%20sprint3.png" style="margin-right: 20px; border: 2px solid lightblue;">
         </div>
 
