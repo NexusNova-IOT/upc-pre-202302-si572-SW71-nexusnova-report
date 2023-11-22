@@ -14,4 +14,14 @@
   + Seguir con las convenciones del style guidelines y convenciones de código nos permite colaborar de manera conjunta. 
 
   + Se desarrollo el Sprint 2, en el cúal abarco mejoras de Web Application, Landing Page y una primera versión de embedded applications, backend y mobile application. Con el desarrollo de este sprint, el equipo logró conocer mejor la lógica de negocio y mejorar algunos puntos que no estaban validados para la implementación.
+
+  + Con el desarrollo del sprint 3, en el cuál terminamos los productos software específicados en nuestro documento. El equipo se siente con alegría de poder desarrollador una solución que se adapte al mercado al cuál pertenece el domain de l aplicación. Asimismo, implementar una solución software con DDD, pues te hace reflexionar al evaluar las diferentes arquitecturas y enfoques que un proyecto pueda tener.
 <div>
+
+## About the Team
+
+[![Sprint 1 development evidence](imagen del video)](video link)
+
+
+Link del video: 
+

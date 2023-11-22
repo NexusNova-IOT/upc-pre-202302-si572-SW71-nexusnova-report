@@ -3773,7 +3773,7 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
-Para este Sprint-2 se inicio la realizacion de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
+Para este Sprint-3 se inicio la realizacion de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
 
 Para este entregable se inicio con la realizacion de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicacion.
 
