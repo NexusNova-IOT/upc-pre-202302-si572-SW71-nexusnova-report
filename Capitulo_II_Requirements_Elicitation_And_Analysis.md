@@ -14,7 +14,7 @@ Con presencia en más de 21 países en el mundo, Despegar.com es una agencia de 
 Tripadvisor está disponible en 49 países, esta aplicación móvil te ofrece la compra paquetes de viajes, donde incluye pasaje, alojamiento, restaurantes, tours, etc.
 
 
-### 2.1.1 Analisis Competitivo
+### 2.1.1 Análisis Competitivo
 
 En esta sección se realizará el análisis competitivo de los competidores identificados en la sección inicial con el objetivo de tener una idea más clara sobre nuestro producto frente a los competidores y aprender para mejorar nuestro producto.
 
@@ -116,7 +116,7 @@ En esta sección se realizará el análisis competitivo de los competidores iden
     <td>Web y móvil</td>
   </tr>
   <tr>
-    <td rowspan="4">Analisis SWOT</td>
+    <td rowspan="4">Análisis SWOT</td>
     <td>Fortalezas</td>
     <td>Servicio intuitivo.<br>Amplía opciones de elección.<br>Opciones personalizadas.<br>Automatizacion e innovacion</td>
     <td>Servicio intuitivo.<br>Variedad de opciones de elección</td>

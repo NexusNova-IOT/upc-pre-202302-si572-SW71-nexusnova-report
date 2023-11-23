@@ -7,7 +7,7 @@ A continuación, se presentará un repositorio central y organizado que servirá
 
 ### 6.1.1 Software Development Environment Configuration
 
-En esta sección se incluye los links de las aplicaciones, productos de software realizadas durante el ciclo del proyecto en los programas que se utilizaron. <br>
+En esta sección se incluye los links de las aplicaciónes, productos de software realizadas durante el ciclo del proyecto en los programas que se utilizaron. <br>
 Para ello se clasificará en las siguientes secciones:
 *	Project Management
 *	Requirements Management
@@ -71,7 +71,7 @@ https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion
 * <strong>JavaScript:</strong><br> Es un lenguaje de programación que es analizado por otros programas. Este trabaja en POO (programación orientada en objetos) para prototipos sin implementación con clases. Este programa permite realizar dinámicas para el usuario a través de la lógica de la programación. Se utilizará para la elaboración de las dinámicas de la plataforma web.<br>
 https://www.jetbrains.com/help/webstorm/javascript-specific-guidelines.html 
 
-* <strong>Java:</strong><br> Es un lenguaje de programación que es analizado por otros programas. Este es ampliamente utilizado para codificar aplicaciones web. Este programa permite realizar dinámicas para el usuario a través de la lógica de la programación. Se utilizará para la elaboración de las dinámicas de la plataforma web.<br>
+* <strong>Java:</strong><br> Es un lenguaje de programación que es analizado por otros programas. Este es ampliamente utilizado para codificar aplicaciónes web. Este programa permite realizar dinámicas para el usuario a través de la lógica de la programación. Se utilizará para la elaboración de las dinámicas de la plataforma web.<br>
 https://www.java.com/es/download/ie_manual.jsp 
 
 * <strong>TypeScript:</strong><br> Es un superset de JavaScript. Este lenguaje nos permite aplicar programas de javaScript, pero cabe resaltar que no funciona al revés. Su principal funcionalidad es que pone a disposición del desarrollador librerías y frameworks que existen para JavaScript.<br>
@@ -1899,7 +1899,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
   <tr>
     <td>US01-2</td>
     <td>Diseñar Widget que muestre las recomendaciones</td>
-    <td>Agregar contenedor y logica para mostrar recomendaciones según clima</td>
+    <td>Agregar contenedor y lógica para mostrar recomendaciones según clima</td>
     <td>2</td>
     <td>Ryan Sweden</td>
     <td>Done</td>
@@ -1907,7 +1907,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
   <tr>
     <td>US01-3</td>
     <td>Obtener Clima</td>
-    <td>Desarrollar logica para obtener clima de Backend</td>
+    <td>Desarrollar lógica para obtener clima de Backend</td>
     <td>1</td>
     <td>Ivan Moran</td>
     <td>In Proccess</td>
@@ -1933,7 +1933,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
   <tr>
     <td>US02-2</td>
     <td>IoT Logic</td>
-    <td>Desarrollar logica para obtener ubicación geográfica de pulseras IoT </td>
+    <td>Desarrollar lógica para obtener ubicación geográfica de pulseras IoT </td>
     <td>1</td>
     <td>Ivan Moran</td>
     <td>Done</td>
@@ -2473,9 +2473,9 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
-Para este Sprint-2 se inicio la realizacion de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
+Para este Sprint-2 se inicio la realización de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
 
-Para este entregable se inicio con la realizacion de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicacion.
+Para este entregable se inicio con la realización de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicación.
 
 
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-1.png" alt="evidence">
@@ -3027,7 +3027,7 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 3
   </tr>
   <tr>
     <td>Sprint n -2 Retrospective Summary</td>
-    <td>En el sprint anterior, el equipo realizaron todos los productos software solicitaods en el enunciado del TF. Se procedió a culminar con el desarrollo de las aplicaciones. A continuación algunos comentarios de que aciertos u oportunidades de mejoras identificaron los integrantes.
+    <td>En el sprint anterior, el equipo realizaron todos los productos software solicitaods en el enunciado del TF. Se procedió a culminar con el desarrollo de las aplicaciónes. A continuación algunos comentarios de que aciertos u oportunidades de mejoras identificaron los integrantes.
     
     Comentarios Miembros del Equipo:
 
@@ -3099,7 +3099,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US01-2</td>
     <td>Diseñar Widget que muestre las recomendaciones</td>
-    <td>Agregar contenedor y logica para mostrar recomendaciones según clima</td>
+    <td>Agregar contenedor y lógica para mostrar recomendaciones según clima</td>
     <td>2</td>
     <td>Ryan Sweden</td>
     <td>Done</td>
@@ -3107,7 +3107,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US01-3</td>
     <td>Obtener Clima</td>
-    <td>Desarrollar logica para obtener clima de Backend</td>
+    <td>Desarrollar lógica para obtener clima de Backend</td>
     <td>1</td>
     <td>Ivan Moran</td>
     <td>Done</td>
@@ -3133,7 +3133,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US02-2</td>
     <td>IoT Logic</td>
-    <td>Desarrollar logica para obtener ubicación geográfica de pulseras IoT </td>
+    <td>Desarrollar lógica para obtener ubicación geográfica de pulseras IoT </td>
     <td>1</td>
     <td>Ivan Moran</td>
     <td>Done</td>
@@ -3150,7 +3150,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   </tr>
   <tr>
     <td>US08-2</td>
-    <td>Hacer logica de envío de ubicación al backend</td>
+    <td>Hacer lógica de envío de ubicación al backend</td>
     <td>Crear endpoint de backend para recepcionar data</td>
     <td>3</td>
     <td>Ivan Moran</td>
@@ -3223,7 +3223,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US10-2</td>
     <td>Implementar http dependenci en wokwi</td>
-    <td>Agregar logica http para conexion con backend</td>
+    <td>Agregar lógica http para conexion con backend</td>
     <td>4</td>
     <td>Dominik Mendoza</td>
     <td>Done</td>
@@ -3231,7 +3231,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US10-2</td>
     <td>Implementar endpoint para put la data</td>
-    <td>Agregar logica al backend para recibir data</td>
+    <td>Agregar lógica al backend para recibir data</td>
     <td>4</td>
     <td>Ivan Moran</td>
     <td>Done</td>
@@ -3773,9 +3773,9 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review.
 
-Para este Sprint-3 se inicio la realizacion de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
+Para este Sprint-3 se inicio la realización de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
 
-Para este entregable se inicio con la realizacion de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicacion.
+Para este entregable se inicio con la realización de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicación.
 
 
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-1.png" alt="evidence">
@@ -4239,7 +4239,7 @@ Estos dispositivos están diseñados para enriquecer la experiencia turística m
 		<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/{id}</a></td>
 		<td>GET</td>
 		<td>
-			Se emplea para obenter la informacion de un vehiculo especifico.
+			Se emplea para obenter la información de un vehículo especifico.
 				<br></br>
 				Acepta la acción get, id como parametro.
 				<br></br>
@@ -4272,7 +4272,7 @@ Estos dispositivos están diseñados para enriquecer la experiencia turística m
 			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/remove-vehicle-to-tour-package/{packageId}</a></td>
 			<td>PUT</td>
 			<td>
-				Se emplea para eliminar un vehiculo de un paquete.
+				Se emplea para eliminar un vehículo de un paquete.
 					<br></br>
 					Acepta la acción delete, packageId y vehicleId como parametro.
 					<br></br>
@@ -4377,7 +4377,7 @@ Estos dispositivos están diseñados para enriquecer la experiencia turística m
 			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/modify/{vehicleId}</a></td>
 			<td>PUT</td>
 			<td>
-				Se emplea para actualizar la informacion de un vehiculo.
+				Se emplea para actualizar la información de un vehículo.
 					<br></br>
 					Acepta la acción put, vehicleId parametro.
 					<br></br>
@@ -4406,7 +4406,7 @@ Estos dispositivos están diseñados para enriquecer la experiencia turística m
 			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/img/{vehicleId}</a></td>
 			<td>PUT</td>
 			<td>
-				Se emplea para actualizar la imagen de un vehiculo.
+				Se emplea para actualizar la imagen de un vehículo.
 					<br></br>
 					Acepta la acción put, vehicleId parametro.
 					<br></br>
@@ -4435,7 +4435,7 @@ Estos dispositivos están diseñados para enriquecer la experiencia turística m
 			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/assign-vehicle-to-tour-package/{vehicleId}/{packageId}</a></td>
 			<td>PUT</td>
 			<td>
-				Se emplea para asignar un vehiculo a un tour.
+				Se emplea para asignar un vehículo a un tour.
 					<br></br>
 					Acepta la acción put, vehicleId y packageId parametro.
 					<br></br>
@@ -5099,8 +5099,8 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
     <td>Resumen</td>
     <td>
 		Diego Cabrera Zelada es un estudiante de ingeniería industrial que suele viajar mucho dentro del país por los proyectos que posee con la empresa con la que trabaja, pero suele vacacionar 2 veces al año con su familia. Se le complica viajar en familia. Para él una empresa de viajes debería ofrecer transporte puntual y buenos precios con gente capacitada en el turismo.
-		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciones que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
-		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciones anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
+		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciónes que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
+		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciónes anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
 
 </td>
   </tr>
@@ -5173,8 +5173,8 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
     <td>Resumen</td>
     <td>
 				Diego Cabrera Zelada es un estudiante de ingeniería industrial que suele viajar mucho dentro del país por los proyectos que posee con la empresa con la que trabaja, pero suele vacacionar 2 veces al año con su familia. Se le complica viajar en familia. Para él una empresa de viajes debería ofrecer transporte puntual y buenos precios con gente capacitada en el turismo.
-		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciones que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
-		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciones anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
+		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciónes que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
+		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciónes anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
 
 </td>
   </tr>
