@@ -2960,19 +2960,16 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
             <div align="center">
             <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_sprint2_mobile.png" alt="Branches.">
           </div>
-            Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
+
+Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
 
 
 
 
 
 
+### 6.2.3 Sprint 3
 
-
-
-
-
-            ### 6.2.3 Sprint 3
 En esta sección, documentaremos y explicaremos el progreso del Sprint 3 en términos de desarrollo del producto y colaboración del equipo. Abordaremos varios aspectos clave, incluyendo la planificación del sprint, el backlog del sprint, la evidencia de desarrollo para la Revisión del Sprint.
 #### 6.2.3.1 Sprint Planning 3
 En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 3. Comenzaremos con una introducción que establecerá el contexto y la importancia de esta reunión. Luego, exploraremos los elementos clave de la reunión, incluyendo la agenda, los objetivos, y cómo se prepara el equipo para el sprint.
@@ -3010,15 +3007,15 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 3
 
     Comentarios Miembros del Equipo:
 
-      Ryan Sweden: En mi opinión, el sprint 2 fue exitoso, con la aplicación mobile se comenzo la estructura y repasando conceptos de DDD cumpliendo con los estándares heurísticos y entregando funcionalidades esenciales con calidad.
+    Ryan Sweden: En mi opinión, el sprint 2 fue exitoso, con la aplicación mobile se comenzo la estructura y repasando conceptos de DDD cumpliendo con los estándares heurísticos y entregando funcionalidades esenciales con calidad.
 
-      Nicole Price: A mi parecer, el avance del sprint 2 fue satisfactorio. Se desarrollaron las funcionalidades principales de la aplicación.y se cumplieron con lo establecido para el Sprint 2.
+    Nicole Price: A mi parecer, el avance del sprint 2 fue satisfactorio. Se desarrollaron las funcionalidades principales de la aplicación.y se cumplieron con lo establecido para el Sprint 2.
 
-      Dominik Mendoza: Desde mi perspectiva, el avance del sprint 2 fue notable. Por un lado, la web application cumplía con las heurísticas y los embedded application constaban de lo básico.
+    Dominik Mendoza: Desde mi perspectiva, el avance del sprint 2 fue notable. Por un lado, la web application cumplía con las heurísticas y los embedded application constaban de lo básico.
 
-      Edgar Malca: En mi opinión, el alcance que se tuvo en el sprint 2 fue satisfactorio. Esto se demuestra en la calificación obtenida y en la calidad de artefactos y productos de software que se entrego. 
+    Edgar Malca: En mi opinión, el alcance que se tuvo en el sprint 2 fue satisfactorio. Esto se demuestra en la calificación obtenida y en la calidad de artefactos y productos de software que se entrego. 
 
-      Ivan Moran: Desde mi perspectiva el Sprint 2, fue notable y de gran efectividad. Pues, todos los integrantes lograron desarrollar productos acordes al nivel educativo universitario de ingeniería de software.
+    Ivan Moran: Desde mi perspectiva el Sprint 2, fue notable y de gran efectividad. Pues, todos los integrantes lograron desarrollar productos acordes al nivel educativo universitario de ingeniería de software.
 
       
     Feedback Product Owner - Angel Velasquez: En el sprint 2, el product owner acepto gran parte de las funcionalidades desarrolladas. Cabe destacar que dejo comentarios para una mejora continua. Su mensaje fue el siguiente: Agregar videos about the team a conclusiones y realizar una mejor documentación de evidencia de los embedded apps.
@@ -3031,15 +3028,15 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 3
     
     Comentarios Miembros del Equipo:
 
-      Ryan Sweden: En mi opinión, el sprint 2 fue exitoso
+    Ryan Sweden: En mi opinión, el sprint 2 fue exitoso
 
-      Ivan Moran: El Sprint 2 nos sirvio para reforzar conceptos de DDD con el desarrollo de nuestro proyecto y en la delegacion de tareas por equipos.
+    Ivan Moran: El Sprint 2 nos sirvio para reforzar conceptos de DDD con el desarrollo de nuestro proyecto y en la delegacion de tareas por equipos.
 
-      Nicole Price: Uno de los puntos a mejorar en la aplicación web es la sección del listado de paquetes turísticos. Esta podría mejorar en el filtrado por búsqueda de regiones.
+    Nicole Price: Uno de los puntos a mejorar en la aplicación web es la sección del listado de paquetes turísticos. Esta podría mejorar en el filtrado por búsqueda de regiones.
 
-      Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos agregar lso videos de about the product y about the team. Adicionalmente, debe mejorar la documentación de lso embedded apps.
+    Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos agregar lso videos de about the product y about the team. Adicionalmente, debe mejorar la documentación de lso embedded apps.
 
-      Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar.Luego, todo lo demás a mi parecer va en caminado.
+    Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar.Luego, todo lo demás a mi parecer va en caminado.
 
    </td>
   </tr>
