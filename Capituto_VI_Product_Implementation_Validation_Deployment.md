@@ -3066,7 +3066,7 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 3
   </tr>
 </table>
 
-#### 6.2.2.2 Sprint Backlog 3
+#### 6.2.3.2 Sprint Backlog 3
 En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esencial de la planificación y ejecución del sprint. Comenzaremos con una introducción que destacará el propósito y la importancia del backlog del sprint en el contexto del Sprint 3.
 <table>
 <thead>
@@ -3239,7 +3239,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
 </tbody>
 </table>
 
-#### 6.2.2.3. Development Evidence for Sprint Review.
+#### 6.2.3.3. Development Evidence for Sprint Review.
 A continuación, se brinda una visión general de las contribuciones realizadas en dos repositorios del proyecto, incluyendo detalles como la rama empleada, el identificador del commit, el mensaje del commit y su cuerpo, además de la fecha en que se llevaron dichos commits. 
 
 <table>
@@ -3771,7 +3771,7 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 </tbody>
 </table>
 
-#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review.
 
 Para este Sprint-3 se inicio la realizacion de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
 
@@ -3784,7 +3784,7 @@ Para este entregable se inicio con la realizacion de tests para el servicio de I
 
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-3.png" alt="evidence">
 
-#### 6.2.2.5. Execution Evidence for Sprint Review.
+#### 6.2.3.5. Execution Evidence for Sprint Review.
 
 Para este sprint, se realizaron las secciones para la gestión de Paquetes Turísticos y las vistas generales que tendrán los usuarios de tipo de segmento TURISTA.
 
@@ -4171,10 +4171,406 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwW
         </div>
     </td>
   </tr>
+	<tr>
+		<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/{id}</a></td>
+		<td>GET</td>
+		<td>
+			Se emplea para obenter la informacion de un vehiculo especifico.
+				<br></br>
+				Acepta la acción get, id como parametro.
+				<br></br>
+				El response si se da el codigo 201:
+					[
+						{
+							"id": 0,
+							"createdDate": "2023-11-22T23:41:29.050Z",
+							"updatedDate": "2023-11-22T23:41:29.050Z",
+							"get_deleted": true,
+							"brand": "string",
+							"model": "string",
+							"plate": "string",
+							"capacity": 0,
+							"driverName": "string",
+							"weight": 0,
+							"img": "string",
+							"status": "OPERATIONAL"
+						}
+					]
+				<br></br>
+				Utiliza:
+				<br></br>
+				<div align="center">
+				<img src="https://iot202302.blob.core.windows.net/imgs/report/vechiclesumamry.png">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/remove-vehicle-to-tour-package/{packageId}</a></td>
+			<td>PUT</td>
+			<td>
+				Se emplea para eliminar un vehiculo de un paquete.
+					<br></br>
+					Acepta la acción delete, packageId y vehicleId como parametro.
+					<br></br>
+					El response si se da el codigo 201:
+						[
+							{
+								"id": 0,
+								"createdDate": "2023-11-22T23:41:29.050Z",
+								"updatedDate": "2023-11-22T23:41:29.050Z",
+								"get_deleted": true,
+								"brand": "string",
+								"model": "string",
+								"plate": "string",
+								"capacity": 0,
+								"driverName": "string",
+								"weight": 0,
+								"img": "string",
+								"status": "OPERATIONAL"
+							}
+						]
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/vechiclesumamry.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/weight-balances/update-weight</a></td>
+			<td>PUT</td>
+			<td>
+				Se emplea para actualizar un peso.
+					<br></br>
+					Acepta la acción put, packageId y vehicleId como parametro.
+					<br></br>
+					El response si se da el codigo 200:
+						[
+							{
+  							"weight": 0
+							}
+						]
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/peso.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/weather-sensor/update-weather/{id}</a></td>
+			<td>PUT</td>
+			<td>
+				Se emplea para actualizar la temperatura.
+					<br></br>
+					Acepta la acción put, sensorId parametro.
+					<br></br>
+					El response si se da el codigo 200:
+						[
+							{
+  							"temperature": 0,
+  							"humidity": 0
+							}
+						]
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/temp.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/weather-sensor/update-weather/{touristId}</a></td>
+			<td>GET</td>
+			<td>
+				Se emplea para obtner la temperatura para el turista.
+					<br></br>
+					Acepta la acción get, touristId parametro.
+					<br></br>
+					El response si se da el codigo 200:
+						{
+							"temperature": 0,
+							"humidity": 0,
+							"clothes": [
+								"string"
+							],
+							"objects": [
+								"string"
+							]
+						}
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/tempres.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/modify/{vehicleId}</a></td>
+			<td>PUT</td>
+			<td>
+				Se emplea para actualizar la informacion de un vehiculo.
+					<br></br>
+					Acepta la acción put, vehicleId parametro.
+					<br></br>
+					El response si se da el codigo 200:
+						{
+							"id": 0,
+							"brand": "string",
+							"model": "string",
+							"plate": "string",
+							"capacity": 0,
+							"driverName": "string",
+							"img": "string",
+							"weight": 0,
+							"agencyId": "string",
+							"status": "OPERATIONAL"
+						}
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/vechiclesumamry.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/img/{vehicleId}</a></td>
+			<td>PUT</td>
+			<td>
+				Se emplea para actualizar la imagen de un vehiculo.
+					<br></br>
+					Acepta la acción put, vehicleId parametro.
+					<br></br>
+					El response si se da el codigo 200:
+						{
+							"id": 0,
+							"brand": "string",
+							"model": "string",
+							"plate": "string",
+							"capacity": 0,
+							"driverName": "string",
+							"img": "string",
+							"weight": 0,
+							"agencyId": "string",
+							"status": "OPERATIONAL"
+						}
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/vechiclesumamry.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/assign-vehicle-to-tour-package/{vehicleId}/{packageId}</a></td>
+			<td>PUT</td>
+			<td>
+				Se emplea para asignar un vehiculo a un tour.
+					<br></br>
+					Acepta la acción put, vehicleId y packageId parametro.
+					<br></br>
+					El response si se da el codigo 200:
+						{
+							"id": 0,
+							"brand": "string",
+							"model": "string",
+							"plate": "string",
+							"capacity": 0,
+							"driverName": "string",
+							"img": "string",
+							"weight": 0,
+							"agencyId": "string",
+							"status": "OPERATIONAL"
+						}
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/vechiclesumamry.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking</a></td>
+			<td>POST</td>
+			<td>
+				Se emplea para crear un booking.
+					<br></br>
+					Acepta la acción post.
+					<br></br>
+					El response si se da el codigo 200:
+						{
+							"tourPackageId": 0,
+							"touristUserId": "string",
+							"selectedDate": "2023-11-23T00:33:52.985Z",
+							"hourRange": {
+								"start": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								},
+								"end": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								}
+							}
+						}
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/bookingre.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/tourist/{touristId}</a></td>
+			<td>GET</td>
+			<td>
+				Se emplea para obtner un booking.
+					<br></br>
+					Acepta la acción get , y touristId como parametro.
+					<br></br>
+					El response si se da el codigo 200:
+						{
+							"tourPackageId": 0,
+							"touristUserId": "string",
+							"selectedDate": "2023-11-23T00:33:52.985Z",
+							"hourRange": {
+								"start": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								},
+								"end": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								}
+							}
+						}
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/bookingsum.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/package/{pacakgeId}/tourist/{touristId}</a></td>
+			<td>GET</td>
+			<td>
+				Se emplea para obtener un booking.
+					<br></br>
+					Acepta la acción get, packageId y touristId como parametro.
+					<br></br>
+					El response si se da el codigo 200:
+						{
+							"tourPackageId": 0,
+							"touristUserId": "string",
+							"selectedDate": "2023-11-23T00:33:52.985Z",
+							"hourRange": {
+								"start": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								},
+								"end": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								}
+							}
+						}
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/bookingsum.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/package/{packageId}/date{date}</a></td>
+			<td>GET</td>
+			<td>
+				Se emplea para obtener un booking por fecha.
+					<br></br>
+					Acepta la acción get, packageId y date como parameto.
+					<br></br>
+					El response si se da el codigo 200:
+						{
+							"tourPackageId": 0,
+							"touristUserId": "string",
+							"selectedDate": "2023-11-23T00:33:52.985Z",
+							"hourRange": {
+								"start": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								},
+								"end": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								}
+							}
+						}
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/bookingsum.png">
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/booking/agency/{agencyId}</a></td>
+			<td>GET</td>
+			<td>
+				Se emplea para obtener un booking por fecha.
+					<br></br>
+					Acepta la acción get, agencyId como parameto.
+					<br></br>
+					El response si se da el codigo 200:
+						{
+							"tourPackageId": 0,
+							"touristUserId": "string",
+							"selectedDate": "2023-11-23T00:33:52.985Z",
+							"hourRange": {
+								"start": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								},
+								"end": {
+									"hour": "string",
+									"minute": "string",
+									"dayTime": "string"
+								}
+							}
+						}
+					<br></br>
+					Utiliza:
+					<br></br>
+					<div align="center">
+					<img src="https://iot202302.blob.core.windows.net/imgs/report/bookingsum.png">
+					</div>
+			</td>
+		</tr>
+		
 </tbody>
 </table>
 
-#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review.
   En este Sprint, se llevaron a cabo una serie de actividades relacionadas con el despliegue de Landing Page, Web Application, Web Services. Estas actividades abarcaron la creación de la página a la cuál pueden acceder los visitantes para que pueden conocer Life Travel y luego si desean convertirse en usuarios. Por otro lado, se desarrolló la segunda versión del Web Application y primera versión de Web Services.. 
 
   <strong>Evidence Deployment Landing Page</strong>
@@ -4223,7 +4619,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwW
 
 
 
-#### 6.2.2.8. Team Collaboration Insights during Sprint
+#### 6.2.3.8. Team Collaboration Insights during Sprint
 
 A continuación, se presenta la colaboración en equipo que se ha registrado en GitHub tanto en la seccion de analíticos como en los commits. Se presentará quiénes son los alumnos que participarón y algunos de los commits que realizaron.
 
