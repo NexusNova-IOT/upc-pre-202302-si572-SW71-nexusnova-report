@@ -35,3 +35,14 @@ Enlace de video de Execution Evidence for Sprint 2: [Execution Evidence for Spri
 
 
 Enlace de video de Execution Evidence for Sprint 2: [Execution Evidence for Sprint 2](link video)
+
+### Embedded Weight Control System
+<h1 align="center"> <img src="https://raw.githubusercontent.com/NexusNova-IOT/embedded-system-scale/develop/assets/screenshot.png" alt="Project Screenshot" height="350"> </h1>
+
+[Simulate this project on Wokwi](https://wokwi.com/projects/378947977794716673)
+
+### Embedded Temperature Monitoring System
+
+<h1 align="center"> <img src="https://raw.githubusercontent.com/NexusNova-IOT/embedded-system-temperature/develop/assets/screenshot.png" alt="Project Screenshot" height="350"> </h1>
+
+[Simulate this project on Wokwi](https://wokwi.com/projects/378478876178319361)
