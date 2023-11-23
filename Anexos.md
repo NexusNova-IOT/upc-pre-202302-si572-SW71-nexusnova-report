@@ -46,3 +46,9 @@ Enlace de video de Execution Evidence for Sprint 2: [Execution Evidence for Spri
 <h1 align="center"> <img src="https://raw.githubusercontent.com/NexusNova-IOT/embedded-system-temperature/develop/assets/screenshot.png" alt="Project Screenshot" height="350"> </h1>
 
 [Simulate this project on Wokwi](https://wokwi.com/projects/378478876178319361)
+
+## Exposure video TF
+
+[![Exposure video TF](https://iot202302.blob.core.windows.net/imgs/report/tf.png)](https://upcedupe-my.sharepoint.com/personal/u20201b980_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b980%5Fupc%5Fedu%5Fpe%2FDocuments%2FUPC%2FSemester%207%2FDesarrollo%20de%20Soluciones%20IOT%2Fshared%2FTF%2Fupc%2Dpre%2D202302%2D%20si572%2Dsw71%2Dnexusnova%2Dexpo%2Dtf1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
+
+Enlace: [Exposure video TF](https://upcedupe-my.sharepoint.com/personal/u20201b980_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b980%5Fupc%5Fedu%5Fpe%2FDocuments%2FUPC%2FSemester%207%2FDesarrollo%20de%20Soluciones%20IOT%2Fshared%2FTF%2Fupc%2Dpre%2D202302%2D%20si572%2Dsw71%2Dnexusnova%2Dexpo%2Dtf1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
