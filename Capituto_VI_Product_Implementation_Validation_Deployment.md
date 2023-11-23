@@ -3867,6 +3867,53 @@ Se realizo una mejora continua y se agregaron los videos de about the product y 
     <p align="center">
       <img src="https://i.postimg.cc/xC0SF70h/imagen-2023-11-22-171049490.png" alt='home-agency' width="300px">
     </p>
+  
+---
+
+**Dispositivos IoT para Experiencia Turística:**
+
+Estos dispositivos están diseñados para enriquecer la experiencia turística mediante la recopilación y presentación de información relevante. La interconexión de estos dispositivos con una aplicación móvil permite a los turistas acceder a datos en tiempo real y detalles específicos de sus itinerarios. A continuación, se describen las funciones clave de estos dispositivos:
+
+1. **Sensor de Clima y Turismo:**
+   - **Propósito:** Proporciona información actualizada sobre el clima y la experiencia turística del día.
+   - **Funciones:**
+     - **Clima Actual:** Mide y transmite datos en tiempo real sobre las condiciones climáticas actuales.
+     - **Experiencia del Día:** Ofrece detalles sobre la experiencia turística programada para el día, brindando anticipación y preparación al turista.
+    
+    ![Weather sensor](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/weather_sensor.png)
+
+
+2. **Sensor de Peso y Balance:**
+   - **Propósito:** Contribuye a la gestión eficiente de las actividades turísticas y garantiza la seguridad.
+   - **Funciones:**
+     - **Medición de Peso:** Permite la medición del peso total, proporcionando información esencial para mantener un equilibrio seguro durante las experiencias turísticas.
+     - **Actualización en Tiempo Real:** Transmite datos de peso actualizados a la aplicación móvil, brindando a los turistas visibilidad en tiempo real.
+
+    ![Scale sensor](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/scale_sensor.png)
+
+3. **Pantalla LCD Interactiva:**
+   - **Propósito:** Proporciona información detallada sobre itinerarios y experiencias turísticas.
+   - **Funciones:**
+     - **Itinerario:** Muestra de manera interactiva los itinerarios reservados para el día actual y futuros.
+     - **Detalles de la Experiencia:** Permite a los turistas explorar información detallada sobre las experiencias turísticas reservadas, incluyendo descripciones, horarios y ubicaciones.
+
+    ![Display 1 screenshot](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/display_1.png)
+
+    ![Display 2 screenshot](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/display_2.png)
+    
+    ![Display 3 screenshot](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/display_3.png)
+
+    ![Display 4 screenshot](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/display_4.png)
+
+4. **Módulo de Comunicación:**
+   - **Propósito:** Facilita la conexión entre los dispositivos IoT y la aplicación móvil.
+   - **Funciones:**
+     - **Transferencia de Datos:** Permite la transmisión de datos entre los dispositivos y la aplicación móvil.
+     - **Sincronización de Itinerario:** Garantiza que la información sobre itinerarios y experiencias sea siempre actualizada en tiempo real.
+
+    ![Function communication](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/function_communication.png)
+
+---
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
   A continuación, se presentan los endpoints realizados para el entregable TB2 acorde con el Sprint 2.  Pero antes, cabe mencionar que se logró desarrollar los endpoint principales relacionados a la funcionalidad core de nuestra web application y mobile application.
