@@ -20,8 +20,8 @@
 
 ## About the Team
 
-[![Sprint 1 development evidence](imagen del video)](video link)
+[![Sprint 1 development evidence](https://i.postimg.cc/SxF79dn5/Screenshot-2023-11-22-204541.png)](https://youtu.be/o7JfGp6JWC4)
 
 
-Link del video: 
+Link del video: https://youtu.be/o7JfGp6JWC4 
 

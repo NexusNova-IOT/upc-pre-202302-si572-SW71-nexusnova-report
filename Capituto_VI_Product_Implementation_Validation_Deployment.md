@@ -3810,11 +3810,18 @@ Este tipo de segmento solo podrá editar los paquetes turísticos que agregaron 
 
 
 
-Se realizó un video explicando las funcionalidades realizadas en el web application para el Sprint 2.
+Se realizó un video explicando las funcionalidades realizadas en el web application para el Sprint 3.
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/execution-evidence.png" alt="execution-evidence">
 
 Link del Video: 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b980_upc_edu_pe/Ede7zRwWpKRGuJYeHWhxHT8BZNBY3MCf8RqCACfYZSpuWQ?e=pzrhjp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19 
+
+
+
+* **Landing Page**
+Se realizo una mejora continua y se agregaron los videos de about the product y about the team
+<img src="https://i.postimg.cc/sgTYLr6F/Screenshot-2023-11-22-204834.png" alt="execution-evidence">
+
 
 
 * **Aplicación Móvil**
