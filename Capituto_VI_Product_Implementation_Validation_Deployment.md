@@ -3808,7 +3808,17 @@ Este tipo de segmento solo podrá editar los paquetes turísticos que agregaron 
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour2.png" alt="edit-tour2">
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour3.png" alt="edit-tour3">
 
+Los usuarios AGENCIA podrán gestionar la información de vehículos registrados por ellos. En esta sección, ellos podrán ingresar la información básica del vehículo, tal como número de placa, marca y modelo del automóvil y el nombre del chofer asociado.
 
+La siguiente imgen refleja la vista principal de los vehículos registrados, según el tipo de vehículo.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/vehicle-list.png" alt="vehicle-list">
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/in-use-vehicle.png" alt="in-use-vehicle">
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/out-vehicle.png" alt="out-vehicle">
+
+En esta sección la AGENCIA podrá registrar el vehículo con a información correspondiente.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/vehicle-add.png" alt="vehicle-add">
 
 Se realizó un video explicando las funcionalidades realizadas en el web application para el Sprint 3.
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/execution-evidence.png" alt="execution-evidence">
@@ -4866,7 +4876,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		8:54 min
 		</td>
@@ -4933,7 +4943,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		6:52 min
 		</td>
@@ -5007,7 +5017,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		6:43 min
 		</td>
@@ -5080,7 +5090,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		8:48 min
 		</td>
@@ -5154,7 +5164,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		8:48 min
 		</td>
@@ -5228,7 +5238,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		9:53 min
 		</td>
