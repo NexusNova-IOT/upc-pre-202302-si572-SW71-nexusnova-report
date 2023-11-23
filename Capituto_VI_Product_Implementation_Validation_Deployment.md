@@ -7,7 +7,7 @@ A continuación, se presentará un repositorio central y organizado que servirá
 
 ### 6.1.1 Software Development Environment Configuration
 
-En esta sección se incluye los links de las aplicaciones, productos de software realizadas durante el ciclo del proyecto en los programas que se utilizaron. <br>
+En esta sección se incluye los links de las aplicaciónes, productos de software realizadas durante el ciclo del proyecto en los programas que se utilizaron. <br>
 Para ello se clasificará en las siguientes secciones:
 *	Project Management
 *	Requirements Management
@@ -71,7 +71,7 @@ https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion
 * <strong>JavaScript:</strong><br> Es un lenguaje de programación que es analizado por otros programas. Este trabaja en POO (programación orientada en objetos) para prototipos sin implementación con clases. Este programa permite realizar dinámicas para el usuario a través de la lógica de la programación. Se utilizará para la elaboración de las dinámicas de la plataforma web.<br>
 https://www.jetbrains.com/help/webstorm/javascript-specific-guidelines.html 
 
-* <strong>Java:</strong><br> Es un lenguaje de programación que es analizado por otros programas. Este es ampliamente utilizado para codificar aplicaciones web. Este programa permite realizar dinámicas para el usuario a través de la lógica de la programación. Se utilizará para la elaboración de las dinámicas de la plataforma web.<br>
+* <strong>Java:</strong><br> Es un lenguaje de programación que es analizado por otros programas. Este es ampliamente utilizado para codificar aplicaciónes web. Este programa permite realizar dinámicas para el usuario a través de la lógica de la programación. Se utilizará para la elaboración de las dinámicas de la plataforma web.<br>
 https://www.java.com/es/download/ie_manual.jsp 
 
 * <strong>TypeScript:</strong><br> Es un superset de JavaScript. Este lenguaje nos permite aplicar programas de javaScript, pero cabe resaltar que no funciona al revés. Su principal funcionalidad es que pone a disposición del desarrollador librerías y frameworks que existen para JavaScript.<br>
@@ -1899,7 +1899,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
   <tr>
     <td>US01-2</td>
     <td>Diseñar Widget que muestre las recomendaciones</td>
-    <td>Agregar contenedor y logica para mostrar recomendaciones según clima</td>
+    <td>Agregar contenedor y lógica para mostrar recomendaciones según clima</td>
     <td>2</td>
     <td>Ryan Sweden</td>
     <td>Done</td>
@@ -1907,7 +1907,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
   <tr>
     <td>US01-3</td>
     <td>Obtener Clima</td>
-    <td>Desarrollar logica para obtener clima de Backend</td>
+    <td>Desarrollar lógica para obtener clima de Backend</td>
     <td>1</td>
     <td>Ivan Moran</td>
     <td>In Proccess</td>
@@ -1933,7 +1933,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 2, que es una parte esen
   <tr>
     <td>US02-2</td>
     <td>IoT Logic</td>
-    <td>Desarrollar logica para obtener ubicación geográfica de pulseras IoT </td>
+    <td>Desarrollar lógica para obtener ubicación geográfica de pulseras IoT </td>
     <td>1</td>
     <td>Ivan Moran</td>
     <td>Done</td>
@@ -2473,9 +2473,9 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
-Para este Sprint-2 se inicio la realizacion de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
+Para este Sprint-2 se inicio la realización de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
 
-Para este entregable se inicio con la realizacion de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicacion.
+Para este entregable se inicio con la realización de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicación.
 
 
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-1.png" alt="evidence">
@@ -2960,19 +2960,16 @@ A continuación, se presenta la colaboración en equipo que se ha registrado en 
             <div align="center">
             <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/network_sprint2_mobile.png" alt="Branches.">
           </div>
-            Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
+
+Finalmente se presenta el Network de nuestro repositorio, evidenciando el uso de GitFlow y el manejo de ramas con sus respectivas convenciones.
 
 
 
 
 
 
+### 6.2.3 Sprint 3
 
-
-
-
-
-            ### 6.2.3 Sprint 3
 En esta sección, documentaremos y explicaremos el progreso del Sprint 3 en términos de desarrollo del producto y colaboración del equipo. Abordaremos varios aspectos clave, incluyendo la planificación del sprint, el backlog del sprint, la evidencia de desarrollo para la Revisión del Sprint.
 #### 6.2.3.1 Sprint Planning 3
 En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 3. Comenzaremos con una introducción que establecerá el contexto y la importancia de esta reunión. Luego, exploraremos los elementos clave de la reunión, incluyendo la agenda, los objetivos, y cómo se prepara el equipo para el sprint.
@@ -3010,15 +3007,15 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 3
 
     Comentarios Miembros del Equipo:
 
-      Ryan Sweden: En mi opinión, el sprint 2 fue exitoso, con la aplicación mobile se comenzo la estructura y repasando conceptos de DDD cumpliendo con los estándares heurísticos y entregando funcionalidades esenciales con calidad.
+    Ryan Sweden: En mi opinión, el sprint 2 fue exitoso, con la aplicación mobile se comenzo la estructura y repasando conceptos de DDD cumpliendo con los estándares heurísticos y entregando funcionalidades esenciales con calidad.
 
-      Nicole Price: A mi parecer, el avance del sprint 2 fue satisfactorio. Se desarrollaron las funcionalidades principales de la aplicación.y se cumplieron con lo establecido para el Sprint 2.
+    Nicole Price: A mi parecer, el avance del sprint 2 fue satisfactorio. Se desarrollaron las funcionalidades principales de la aplicación.y se cumplieron con lo establecido para el Sprint 2.
 
-      Dominik Mendoza: Desde mi perspectiva, el avance del sprint 2 fue notable. Por un lado, la web application cumplía con las heurísticas y los embedded application constaban de lo básico.
+    Dominik Mendoza: Desde mi perspectiva, el avance del sprint 2 fue notable. Por un lado, la web application cumplía con las heurísticas y los embedded application constaban de lo básico.
 
-      Edgar Malca: En mi opinión, el alcance que se tuvo en el sprint 2 fue satisfactorio. Esto se demuestra en la calificación obtenida y en la calidad de artefactos y productos de software que se entrego. 
+    Edgar Malca: En mi opinión, el alcance que se tuvo en el sprint 2 fue satisfactorio. Esto se demuestra en la calificación obtenida y en la calidad de artefactos y productos de software que se entrego. 
 
-      Ivan Moran: Desde mi perspectiva el Sprint 2, fue notable y de gran efectividad. Pues, todos los integrantes lograron desarrollar productos acordes al nivel educativo universitario de ingeniería de software.
+    Ivan Moran: Desde mi perspectiva el Sprint 2, fue notable y de gran efectividad. Pues, todos los integrantes lograron desarrollar productos acordes al nivel educativo universitario de ingeniería de software.
 
       
     Feedback Product Owner - Angel Velasquez: En el sprint 2, el product owner acepto gran parte de las funcionalidades desarrolladas. Cabe destacar que dejo comentarios para una mejora continua. Su mensaje fue el siguiente: Agregar videos about the team a conclusiones y realizar una mejor documentación de evidencia de los embedded apps.
@@ -3027,19 +3024,19 @@ En esta sección, nos sumergiremos en los detalles del Sprint Planning Meeting 3
   </tr>
   <tr>
     <td>Sprint n -2 Retrospective Summary</td>
-    <td>En el sprint anterior, el equipo realizaron todos los productos software solicitaods en el enunciado del TF. Se procedió a culminar con el desarrollo de las aplicaciones. A continuación algunos comentarios de que aciertos u oportunidades de mejoras identificaron los integrantes.
+    <td>En el sprint anterior, el equipo realizaron todos los productos software solicitaods en el enunciado del TF. Se procedió a culminar con el desarrollo de las aplicaciónes. A continuación algunos comentarios de que aciertos u oportunidades de mejoras identificaron los integrantes.
     
     Comentarios Miembros del Equipo:
 
-      Ryan Sweden: En mi opinión, el sprint 2 fue exitoso
+    Ryan Sweden: En mi opinión, el sprint 2 fue exitoso
 
-      Ivan Moran: El Sprint 2 nos sirvio para reforzar conceptos de DDD con el desarrollo de nuestro proyecto y en la delegacion de tareas por equipos.
+    Ivan Moran: El Sprint 2 nos sirvio para reforzar conceptos de DDD con el desarrollo de nuestro proyecto y en la delegacion de tareas por equipos.
 
-      Nicole Price: Uno de los puntos a mejorar en la aplicación web es la sección del listado de paquetes turísticos. Esta podría mejorar en el filtrado por búsqueda de regiones.
+    Nicole Price: Uno de los puntos a mejorar en la aplicación web es la sección del listado de paquetes turísticos. Esta podría mejorar en el filtrado por búsqueda de regiones.
 
-      Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos agregar lso videos de about the product y about the team. Adicionalmente, debe mejorar la documentación de lso embedded apps.
+    Dominik Mendoza: Desde mi punto de vista, nuestros artefactos están sujetos a margen de mejora. En cuanto a la landing page, debemos agregar lso videos de about the product y about the team. Adicionalmente, debe mejorar la documentación de lso embedded apps.
 
-      Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar.Luego, todo lo demás a mi parecer va en caminado.
+    Edgar Malca: En mi opinión, el producto Landing Page se puede mejorar.Luego, todo lo demás a mi parecer va en caminado.
 
    </td>
   </tr>
@@ -3099,7 +3096,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US01-2</td>
     <td>Diseñar Widget que muestre las recomendaciones</td>
-    <td>Agregar contenedor y logica para mostrar recomendaciones según clima</td>
+    <td>Agregar contenedor y lógica para mostrar recomendaciones según clima</td>
     <td>2</td>
     <td>Ryan Sweden</td>
     <td>Done</td>
@@ -3107,7 +3104,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US01-3</td>
     <td>Obtener Clima</td>
-    <td>Desarrollar logica para obtener clima de Backend</td>
+    <td>Desarrollar lógica para obtener clima de Backend</td>
     <td>1</td>
     <td>Ivan Moran</td>
     <td>Done</td>
@@ -3133,7 +3130,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US02-2</td>
     <td>IoT Logic</td>
-    <td>Desarrollar logica para obtener ubicación geográfica de pulseras IoT </td>
+    <td>Desarrollar lógica para obtener ubicación geográfica de pulseras IoT </td>
     <td>1</td>
     <td>Ivan Moran</td>
     <td>Done</td>
@@ -3150,7 +3147,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   </tr>
   <tr>
     <td>US08-2</td>
-    <td>Hacer logica de envío de ubicación al backend</td>
+    <td>Hacer lógica de envío de ubicación al backend</td>
     <td>Crear endpoint de backend para recepcionar data</td>
     <td>3</td>
     <td>Ivan Moran</td>
@@ -3223,7 +3220,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US10-2</td>
     <td>Implementar http dependenci en wokwi</td>
-    <td>Agregar logica http para conexion con backend</td>
+    <td>Agregar lógica http para conexion con backend</td>
     <td>4</td>
     <td>Dominik Mendoza</td>
     <td>Done</td>
@@ -3231,7 +3228,7 @@ En esta sección, nos sumergiremos en el Sprint Backlog 3, que es una parte esen
   <tr>
     <td>US10-2</td>
     <td>Implementar endpoint para put la data</td>
-    <td>Agregar logica al backend para recibir data</td>
+    <td>Agregar lógica al backend para recibir data</td>
     <td>4</td>
     <td>Ivan Moran</td>
     <td>Done</td>
@@ -3773,9 +3770,9 @@ A continuación, se brinda una visión general de las contribuciones realizadas 
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review.
 
-Para este Sprint-3 se inicio la realizacion de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
+Para este Sprint-3 se inicio la realización de tests para validar el correcto funcionamiento de los commands, services y queries de los distintos servicios y controllers. 
 
-Para este entregable se inicio con la realizacion de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicacion.
+Para este entregable se inicio con la realización de tests para el servicio de IOT Devices, el cual es el servicio principal de la aplicación.
 
 
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/team-collaboration-evidences/Sprint-2/test-evidence-1.png" alt="evidence">
@@ -3808,7 +3805,17 @@ Este tipo de segmento solo podrá editar los paquetes turísticos que agregaron 
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour2.png" alt="edit-tour2">
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/edit-tour3.png" alt="edit-tour3">
 
+Los usuarios AGENCIA podrán gestionar la información de vehículos registrados por ellos. En esta sección, ellos podrán ingresar la información básica del vehículo, tal como número de placa, marca y modelo del automóvil y el nombre del chofer asociado.
 
+La siguiente imgen refleja la vista principal de los vehículos registrados, según el tipo de vehículo.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/vehicle-list.png" alt="vehicle-list">
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/in-use-vehicle.png" alt="in-use-vehicle">
+
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/web-app/out-vehicle.png" alt="out-vehicle">
+
+En esta sección la AGENCIA podrá registrar el vehículo con a información correspondiente.
+<img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/vehicle-add.png" alt="vehicle-add">
 
 Se realizó un video explicando las funcionalidades realizadas en el web application para el Sprint 3.
 <img src="https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/sprint2/execution-evidence.png" alt="execution-evidence">
@@ -3867,6 +3874,53 @@ Se realizo una mejora continua y se agregaron los videos de about the product y 
     <p align="center">
       <img src="https://i.postimg.cc/xC0SF70h/imagen-2023-11-22-171049490.png" alt='home-agency' width="300px">
     </p>
+  
+---
+
+**Dispositivos IoT para Experiencia Turística:**
+
+Estos dispositivos están diseñados para enriquecer la experiencia turística mediante la recopilación y presentación de información relevante. La interconexión de estos dispositivos con una aplicación móvil permite a los turistas acceder a datos en tiempo real y detalles específicos de sus itinerarios. A continuación, se describen las funciones clave de estos dispositivos:
+
+1. **Sensor de Clima y Turismo:**
+   - **Propósito:** Proporciona información actualizada sobre el clima y la experiencia turística del día.
+   - **Funciones:**
+     - **Clima Actual:** Mide y transmite datos en tiempo real sobre las condiciones climáticas actuales.
+     - **Experiencia del Día:** Ofrece detalles sobre la experiencia turística programada para el día, brindando anticipación y preparación al turista.
+    
+    ![Weather sensor](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/weather_sensor.png)
+
+
+2. **Sensor de Peso y Balance:**
+   - **Propósito:** Contribuye a la gestión eficiente de las actividades turísticas y garantiza la seguridad.
+   - **Funciones:**
+     - **Medición de Peso:** Permite la medición del peso total, proporcionando información esencial para mantener un equilibrio seguro durante las experiencias turísticas.
+     - **Actualización en Tiempo Real:** Transmite datos de peso actualizados a la aplicación móvil, brindando a los turistas visibilidad en tiempo real.
+
+    ![Scale sensor](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/scale_sensor.png)
+
+3. **Pantalla LCD Interactiva:**
+   - **Propósito:** Proporciona información detallada sobre itinerarios y experiencias turísticas.
+   - **Funciones:**
+     - **Itinerario:** Muestra de manera interactiva los itinerarios reservados para el día actual y futuros.
+     - **Detalles de la Experiencia:** Permite a los turistas explorar información detallada sobre las experiencias turísticas reservadas, incluyendo descripciones, horarios y ubicaciones.
+
+    ![Display 1 screenshot](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/display_1.png)
+
+    ![Display 2 screenshot](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/display_2.png)
+    
+    ![Display 3 screenshot](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/display_3.png)
+
+    ![Display 4 screenshot](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/display_4.png)
+
+4. **Módulo de Comunicación:**
+   - **Propósito:** Facilita la conexión entre los dispositivos IoT y la aplicación móvil.
+   - **Funciones:**
+     - **Transferencia de Datos:** Permite la transmisión de datos entre los dispositivos y la aplicación móvil.
+     - **Sincronización de Itinerario:** Garantiza que la información sobre itinerarios y experiencias sea siempre actualizada en tiempo real.
+
+    ![Function communication](https://raw.githubusercontent.com/NexusNova-IOT/upc-pre-202302-si572-SW71-nexusnova-report/feature/chapter-6/Resources/execution-evidence/iot/function_communication.png)
+
+---
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
   A continuación, se presentan los endpoints realizados para el entregable TB2 acorde con el Sprint 2.  Pero antes, cabe mencionar que se logró desarrollar los endpoint principales relacionados a la funcionalidad core de nuestra web application y mobile application.
@@ -4182,7 +4236,7 @@ Se realizo una mejora continua y se agregaron los videos de about the product y 
 		<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/{id}</a></td>
 		<td>GET</td>
 		<td>
-			Se emplea para obenter la informacion de un vehiculo especifico.
+			Se emplea para obenter la información de un vehículo especifico.
 				<br></br>
 				Acepta la acción get, id como parametro.
 				<br></br>
@@ -4215,7 +4269,7 @@ Se realizo una mejora continua y se agregaron los videos de about the product y 
 			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/remove-vehicle-to-tour-package/{packageId}</a></td>
 			<td>PUT</td>
 			<td>
-				Se emplea para eliminar un vehiculo de un paquete.
+				Se emplea para eliminar un vehículo de un paquete.
 					<br></br>
 					Acepta la acción delete, packageId y vehicleId como parametro.
 					<br></br>
@@ -4320,7 +4374,7 @@ Se realizo una mejora continua y se agregaron los videos de about the product y 
 			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/modify/{vehicleId}</a></td>
 			<td>PUT</td>
 			<td>
-				Se emplea para actualizar la informacion de un vehiculo.
+				Se emplea para actualizar la información de un vehículo.
 					<br></br>
 					Acepta la acción put, vehicleId parametro.
 					<br></br>
@@ -4349,7 +4403,7 @@ Se realizo una mejora continua y se agregaron los videos de about the product y 
 			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/img/{vehicleId}</a></td>
 			<td>PUT</td>
 			<td>
-				Se emplea para actualizar la imagen de un vehiculo.
+				Se emplea para actualizar la imagen de un vehículo.
 					<br></br>
 					Acepta la acción put, vehicleId parametro.
 					<br></br>
@@ -4378,7 +4432,7 @@ Se realizo una mejora continua y se agregaron los videos de about the product y 
 			<td><a href="https://lifetravel-iot-backend.azurewebsites.net/api/v1/activities">https://lifetravel-iot-backend.azurewebsites.net/api/v1/vehicles/assign-vehicle-to-tour-package/{vehicleId}/{packageId}</a></td>
 			<td>PUT</td>
 			<td>
-				Se emplea para asignar un vehiculo a un tour.
+				Se emplea para asignar un vehículo a un tour.
 					<br></br>
 					Acepta la acción put, vehicleId y packageId parametro.
 					<br></br>
@@ -4809,7 +4863,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		8:54 min
 		</td>
@@ -4876,7 +4930,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		6:52 min
 		</td>
@@ -4950,7 +5004,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		6:43 min
 		</td>
@@ -5023,7 +5077,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		8:48 min
 		</td>
@@ -5032,8 +5086,8 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
     <td>Resumen</td>
     <td>
 		Diego Cabrera Zelada es un estudiante de ingeniería industrial que suele viajar mucho dentro del país por los proyectos que posee con la empresa con la que trabaja, pero suele vacacionar 2 veces al año con su familia. Se le complica viajar en familia. Para él una empresa de viajes debería ofrecer transporte puntual y buenos precios con gente capacitada en el turismo.
-		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciones que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
-		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciones anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
+		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciónes que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
+		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciónes anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
 
 </td>
   </tr>
@@ -5097,7 +5151,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		8:48 min
 		</td>
@@ -5106,8 +5160,8 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
     <td>Resumen</td>
     <td>
 				Diego Cabrera Zelada es un estudiante de ingeniería industrial que suele viajar mucho dentro del país por los proyectos que posee con la empresa con la que trabaja, pero suele vacacionar 2 veces al año con su familia. Se le complica viajar en familia. Para él una empresa de viajes debería ofrecer transporte puntual y buenos precios con gente capacitada en el turismo.
-		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciones que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
-		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciones anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
+		<br> Se le complica vacacionar fuera del país por temas como el pasaporte, leyes, visa, hospedaje, entre otras. En las agencias de viaje suele contratar paquetes que incluyan alojamiento, vuelo y un vehículo para su movilización. Vacacionando con su familia dentro del país ha gastado un aproximado de 4000-5000 soles en un fin de semana junto con su familia, gastando gran parte de su presupuesto en el alojamiento. Suele organizar sus viajes en un itinerario en la agenda de su celular. Las aplicaciónes que más usa al momento de realizar viajes son: para el alojamiento Airbnb y Kayak. Y Hooper, para vuelos baratos. 
+		<br>Nos comenta que le gustaría una aplicación para mejorar su organización combinando las funcionalidades y opciones de las aplicaciónes anteriores, para poder comparar mejor los precios y ofertas disponibles. Y también poder registrar y organizar su itinerario para una mejor planificación.  
 
 </td>
   </tr>
@@ -5171,7 +5225,7 @@ En esta sección se registrarán las entrevistas realizadas por cada segmento in
 		</td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>
 		9:53 min
 		</td>
